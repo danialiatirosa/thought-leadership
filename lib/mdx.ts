@@ -4,6 +4,7 @@ import { SectionHeader } from '@/components/SectionHeader';
 import { PullQuote } from '@/components/exhibits/PullQuote';
 import { KpiStrip } from '@/components/exhibits/KpiStrip';
 import { Findings } from '@/components/exhibits/Findings';
+import { Finding } from '@/components/exhibits/Finding';
 import { Heatmap } from '@/components/exhibits/Heatmap';
 import { VolatilityChart } from '@/components/exhibits/VolatilityChart';
 import { DataTable } from '@/components/exhibits/DataTable';
@@ -30,6 +31,7 @@ export const articleComponents: MDXComponents = {
   PullQuote,
   KpiStrip,
   Findings,
+  Finding,
   Heatmap,
   VolatilityChart,
   DataTable,

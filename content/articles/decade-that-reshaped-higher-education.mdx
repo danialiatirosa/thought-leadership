@@ -49,47 +49,21 @@ import { ArticleSection } from '@/components/ArticleLayout';
 Asia rose. The US slipped at the elite tier. Western Europe held its position. The 2024 methodology shifts were tectonic. Across the 2016 to 2026 decade, QS and Times Higher Education rank the same world differently and reset their methodologies on different cadences, yet the two systems converge on a single thesis: aggregate ranking composition has shifted faster than the headlines on individual institutions suggest, and the largest single-year movements of the decade are driven less by institutional performance than by the methodology rewrites both publishers shipped in 2024. The implication for decision-makers is uncomfortable but actionable: pillar-level diagnostics, the structural disagreement between the two systems, and the timing of methodology breaks now matter more than the year-on-year position of any single institution.
 </p>
 
-<KpiStrip
-  kpis={[
-    { num: '+11', unit: 'pp', label: "Asia's THE Top 100 share", desc: 'Share of THE Top 100 institutions in Asia, from 9% in 2016 to 20% in 2026.', trend: 'up' },
-    { num: '3x', label: 'Greater China Top 100', desc: 'From 4 institutions in 2016 to 12 in 2026, the single biggest source of compositional change.', trend: 'up' },
-    { num: '−4 / −6', label: 'US Top 100 institutions lost', desc: 'THE: 39 to 35. QS: 32 to 26. Concentrated in mid-Top-100 publics, not Ivy-tier privates.', tone: 'neg', trend: 'down' },
-    { num: '9', label: 'Median annual rank shift', desc: 'QS Top 500, integer-ranked. Top-10 institutions move a median of 1 rank per year; Top-500 institutions move 9.', trend: 'flat' },
-  ]}
-/>
-
 <h3 style={{ marginTop: 54, marginBottom: 8 }}>Seven findings the data will not let you dismiss</h3>
 <p style={{ fontStyle: 'italic', color: 'var(--color-ink-mid)', maxWidth: 'none', marginBottom: 24, fontSize: 16 }}>
-  Distilled from the full analysis. Each item is supported by a numbered exhibit in the detailed report below.
+  Distilled from the full analysis. Each is stated once here, several are shown alongside their exhibit; the detailed report below unpacks the rest.
 </p>
-
-<Findings
-  items={[
-    { title: "Asia's THE Top 100 share more than doubled", body: 'From 9% in 2016 to 20% in 2026. QS shows a smaller shift (20% to 21%) reflecting QS’s heavier reputation-survey weighting, which mean-reverts slowly.' },
-    { title: 'Greater China tripled its THE Top 100 footprint', body: 'From 4 institutions in 2016 to 12 in 2026: the single biggest source of compositional change at the elite tier, tracking the timing and intensity of China’s Double First-Class initiative.' },
-    { title: 'The US lost ground, but only mildly at the elite tier', body: '39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates.' },
-    { title: 'Top-500 churn is high; the elite is sticky', body: '154 institutions entered the QS Top 500 across the decade and 126 entered the THE Top 500. Yet the median annual rank movement of integer-ranked Top 10 institutions is one place; for the QS Top 500 it is nine.' },
-    { title: 'The 2024 methodology shifts were tectonic', body: "THE’s WUR 3.0 split Research into Research Environment and Research Quality, dropping the standalone Citations pillar. QS introduced Sustainability, Employment Outcomes, and International Research Network indicators (each 5%) and lifted Employer Reputation to 15%. Read 2023-to-2024 movement methodology-first." },
-    { title: 'Country research-funding intensity tracks citation gains', body: 'The China and South Korea pairing (high R&D-as-share-of-GDP, large gains in mean THE citation/research-quality score) anchors a positive correlation. Israel sits at the high-investment, modest-gain end. Russia is the only major country with a negative score change.' },
-    { title: 'QS and THE disagree more than commentators acknowledge', body: 'For institutions present in both 2026 lists, the absolute rank gap exceeds 100 places for a non-trivial subset. The disagreement is structural, reflecting how the two systems weigh reputation, research output, and internationalisation differently.' },
-  ]}
-/>
 
 <Callout label="Five-minute reading guide">
   If you only have time for four sections, read this executive brief, the methodology in section 02, the institutional case studies surfaced in section 07, and the UAE deep-dive in section 06. The exhibits do most of the work; the prose points at what each chart says rather than restate it.
 </Callout>
 
-<Exhibit
-  number="Exhibit A · Watch the decade"
-  title="The Top 20, played out year by year."
-  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
->
-  <BarRace years={top20ByYear} />
-</Exhibit>
+<Finding index={1} num="+11" unit="pp" trend="up" title="Asia's THE Top 100 share more than doubled">
+From 9% in 2016 to 20% in 2026. QS shows a smaller shift (20% to 21%) reflecting QS’s heavier reputation-survey weighting, which mean-reverts slowly.
+</Finding>
 
 <Exhibit
-  number="Exhibit B · The decade in one chart"
+  number="Exhibit A · The decade in one chart"
   title="Asia rose, the US slipped, Europe held."
   sub="Composition of the Times Higher Education Top 100 by region, 2016 to 2026 (% share). The chart reveals year by year as you scroll."
   source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Greater China = China + Hong Kong + Macao + Taiwan, included in East Asia."
@@ -106,6 +80,23 @@ Asia rose. The US slipped at the elite tier. Western Europe held its position. T
   </ScrollReveal2DChart>
 </Exhibit>
 
+<Finding index={2} num="3x" trend="up" title="Greater China tripled its THE Top 100 footprint">
+From 4 institutions in 2016 to 12 in 2026: the single biggest source of compositional change at the elite tier, tracking the timing and intensity of China’s Double First-Class initiative.
+</Finding>
+
+<Exhibit
+  number="Exhibit B · Watch the decade"
+  title="The Top 20, played out year by year."
+  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
+>
+  <BarRace years={top20ByYear} />
+</Exhibit>
+
+<Finding index={3} num="−4 / −6" tone="neg" trend="down" title="The US lost ground, but only mildly at the elite tier">
+39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates.
+</Finding>
+
 <Exhibit
   number="Exhibit C · Country movement"
   title="China is the biggest gainer; the US is the biggest decliner."
@@ -115,6 +106,10 @@ Asia rose. The US slipped at the elite tier. Western Europe held its position. T
   <SVGGainersDecliners gainers={gainers} decliners={decliners} highlightName="United Arab Emirates" />
 </Exhibit>
 
+<Finding index={4} num="9" trend="flat" title="Top-500 churn is high; the elite is sticky">
+154 institutions entered the QS Top 500 across the decade and 126 entered the THE Top 500. Yet the median annual rank movement of integer-ranked Top 10 institutions is one place; for the QS Top 500 it is nine.
+</Finding>
+
 <Exhibit
   number="Exhibit D · Volatility"
   title="The elite is sticky; the Top 500 churns."
@@ -123,6 +118,18 @@ Asia rose. The US slipped at the elite tier. Western Europe held its position. T
 >
   <VolatilityChart tiers={volatilityTiers} caveat="Banded ranks (e.g., THE 401–500) excluded to avoid artefactual ties." />
 </Exhibit>
+
+<Finding index={5} num="2024" title="The 2024 methodology shifts were tectonic">
+THE’s WUR 3.0 split Research into Research Environment and Research Quality, dropping the standalone Citations pillar. QS introduced Sustainability, Employment Outcomes, and International Research Network indicators (each 5%) and lifted Employer Reputation to 15%. Read 2023-to-2024 movement methodology-first.
+</Finding>
+
+<Finding index={6} title="Country research-funding intensity tracks citation gains">
+The China and South Korea pairing (high R&D-as-share-of-GDP, large gains in mean THE citation/research-quality score) anchors a positive correlation. Israel sits at the high-investment, modest-gain end. Russia is the only major country with a negative score change.
+</Finding>
+
+<Finding index={7} num=">100" unit="places" title="QS and THE disagree more than commentators acknowledge">
+For institutions present in both 2026 lists, the absolute rank gap exceeds 100 places for a non-trivial subset. The disagreement is structural, reflecting how the two systems weigh reputation, research output, and internationalisation differently.
+</Finding>
 
 <PullQuote cite="From the analysis">
   The rank number, on its own, is the least informative part of the rankings dataset.
