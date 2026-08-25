@@ -45,9 +45,13 @@ export function Finding({ index, num, unit, tone, trend, title, children }: Find
         )}
       </div>
       <div>
-        <h4 className="m-0 mb-2 font-serif text-[19px] font-semibold normal-case tracking-[-0.1px] text-green leading-[1.3]">
+        <div
+          role="heading"
+          aria-level={4}
+          className="m-0 mb-2 font-serif text-[22px] font-semibold normal-case tracking-[-0.1px] text-green leading-[1.05]"
+        >
           {title}
-        </h4>
+        </div>
         <div className="[&>p]:m-0 text-[15px] leading-[1.55] text-ink/85 max-w-none">{children}</div>
       </div>
     </div>
