@@ -54,41 +54,8 @@ Three things happened to the global higher-education league tables between 2016 
 From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a smaller shift (20% to 21%), because QS leans more on reputation surveys, and reputation moves slowly. It takes years for the surveys to catch up with what universities are actually doing.
 </Finding>
 
-<Finding index={2} num="4 → 12" trend="up" title="Greater China tripled its THE Top 100 footprint">
-From 4 institutions in 2016 to 12 in 2026. This is the single biggest source of change in the elite tier of either ranking. The timing lines up with China's Double First-Class programme, announced in 2015 and rolled out with sustained five-year funding cycles from 2017.
-</Finding>
-
-<Finding index={3} num="−4 / −6" tone="neg" trend="down" title="The US lost ground, but only mildly at the elite tier">
-39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates.
-</Finding>
-
-<Finding index={4} num="1 vs 20" trend="flat" title="The top doesn't move. The middle does.">
-154 universities entered the QS Top 500 across the decade; 126 entered the Times Higher Education Top 500. But the Top 10 barely moves: a typical Top-10 university shifts about one place a year. By the time you get to the bottom of the Top 500, that number is nine on QS and five on Times Higher Education. A reader trying to spot trends should look at who entered or exited the Top 500, not at small year-to-year rank changes.
-</Finding>
-
-<Finding index={5} num="2024" title="In 2024, both publishers rewrote the rules">
-Times Higher Education replaced its long-standing Citations score with two new categories (Research Environment and Research Quality). QS added three new factors (Sustainability, Employment Outcomes, International Research Network) and increased the weight of Employer Reputation. Any rank change between 2023 and 2024 should be read as a rule change first, and an institutional change second.
-</Finding>
-
-<Finding index={6} title="Countries that fund research see their universities climb">
-Where a country spent more of its GDP on research, its universities gained ground on the citation-based parts of the rankings. China and South Korea are the clearest cases. Israel is an outlier: high R&D spend, modest ranking gains. Russia is the only major country whose universities went backwards, consistent with its post-2022 isolation from international research networks.
-</Finding>
-
-<Finding index={7} num=">100" unit="places" title="QS and THE often disagree by 100 places or more, and that's the system working, not breaking">
-For dozens of universities in 2026, the QS rank and the Times Higher Education rank are more than 100 places apart. This is not random noise. QS rewards reputation; THE rewards research output. A university that looks elite on one list and middling on the other isn't being graded inconsistently. The two graders are answering different questions. The right response to a 100-place gap is to look at which factors drove it, not to dismiss either rank.
-</Finding>
-
 <Exhibit
-  number="Exhibit 01 · Watch the decade"
-  title="The Top 20, played out year by year."
-  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
->
-  <BarRace years={top20ByYear} />
-</Exhibit>
-
-<Exhibit
-  number="Exhibit 02 · The decade in one chart"
+  number="Exhibit 01 · The decade in one chart"
   title="Asia rose, the US slipped, Europe held."
   sub="Composition of the Times Higher Education Top 100 by region, 2016 to 2026 (% share). The chart reveals year by year as you scroll."
   source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Greater China = China + Hong Kong + Macao + Taiwan, included in East Asia."
@@ -105,6 +72,23 @@ For dozens of universities in 2026, the QS rank and the Times Higher Education r
   </ScrollReveal2DChart>
 </Exhibit>
 
+<Finding index={2} num="4 → 12" trend="up" title="Greater China tripled its THE Top 100 footprint">
+From 4 institutions in 2016 to 12 in 2026. This is the single biggest source of change in the elite tier of either ranking. The timing lines up with China's Double First-Class programme, announced in 2015 and rolled out with sustained five-year funding cycles from 2017.
+</Finding>
+
+<Exhibit
+  number="Exhibit 02 · Watch the decade"
+  title="The Top 20, played out year by year."
+  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
+>
+  <BarRace years={top20ByYear} />
+</Exhibit>
+
+<Finding index={3} num="−4 / −6" tone="neg" trend="down" title="The US lost ground, but only mildly at the elite tier">
+39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates.
+</Finding>
+
 <Exhibit
   number="Exhibit 03 · Country movement"
   title="China is the biggest gainer; the US is the biggest decliner."
@@ -114,6 +98,10 @@ For dozens of universities in 2026, the QS rank and the Times Higher Education r
   <SVGGainersDecliners gainers={gainers} decliners={decliners} highlightName="United Arab Emirates" />
 </Exhibit>
 
+<Finding index={4} num="1 vs 20" trend="flat" title="The top doesn't move. The middle does.">
+154 universities entered the QS Top 500 across the decade; 126 entered the Times Higher Education Top 500. But the Top 10 barely moves: a typical Top-10 university shifts about one place a year. By the time you get to the bottom of the Top 500, that number is nine on QS and five on Times Higher Education. A reader trying to spot trends should look at who entered or exited the Top 500, not at small year-to-year rank changes.
+</Finding>
+
 <Exhibit
   number="Exhibit 04 · Volatility"
   title="The elite is sticky; the Top 500 churns."
@@ -122,6 +110,18 @@ For dozens of universities in 2026, the QS rank and the Times Higher Education r
 >
   <VolatilityChart tiers={volatilityTiers} caveat="Banded ranks (e.g., THE 401–500) excluded to avoid artefactual ties." />
 </Exhibit>
+
+<Finding index={5} num="2024" title="In 2024, both publishers rewrote the rules">
+Times Higher Education replaced its long-standing Citations score with two new categories (Research Environment and Research Quality). QS added three new factors (Sustainability, Employment Outcomes, International Research Network) and increased the weight of Employer Reputation. Any rank change between 2023 and 2024 should be read as a rule change first, and an institutional change second.
+</Finding>
+
+<Finding index={6} title="Countries that fund research see their universities climb">
+Where a country spent more of its GDP on research, its universities gained ground on the citation-based parts of the rankings. China and South Korea are the clearest cases. Israel is an outlier: high R&D spend, modest ranking gains. Russia is the only major country whose universities went backwards, consistent with its post-2022 isolation from international research networks.
+</Finding>
+
+<Finding index={7} num=">100" unit="places" title="QS and THE often disagree by 100 places or more, and that's the system working, not breaking">
+For dozens of universities in 2026, the QS rank and the Times Higher Education rank are more than 100 places apart. This is not random noise. QS rewards reputation; THE rewards research output. A university that looks elite on one list and middling on the other isn't being graded inconsistently. The two graders are answering different questions. The right response to a 100-place gap is to look at which factors drove it, not to dismiss either rank.
+</Finding>
 
 <Handoff href="#systems">The detailed analysis</Handoff>
 
