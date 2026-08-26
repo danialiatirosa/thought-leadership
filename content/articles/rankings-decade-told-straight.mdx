@@ -25,8 +25,6 @@ import {
   heatmapRows,
   heatmapCols,
   risers,
-  gerdBubbles,
-  gerdAnnotations,
   scatterPoints,
   scatterOutliers,
   countryTableRows,
@@ -153,18 +151,6 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
   ]}
   rows={countryTableRows}
 />
-
-<p style={{ marginTop: 32 }}>
-<strong>One pattern explains most country-level movement: countries that spent more of their GDP on research saw their universities cited more, and more-cited universities climb both rankings.</strong> China and South Korea are the clearest examples. Israel is an outlier: it spent heavily on research but saw only modest ranking gains, a case worth more analysis than the rankings provide.
-</p>
-
-<Exhibit
-  title="Research-funding intensity tracks citation gains, but with notable outliers."
-  sub="Country-level R&D expenditure as % of GDP (latest year) vs decade change in mean citation score; bubble size = number of Top-500 universities in 2026."
-  source="Source: World Bank indicator GB.XPD.RSDV.GD.ZS (R&D expenditure as % of GDP, latest available year per country); Times Higher Education World University Rankings 2016 to 2026; authors’ analysis."
->
-  <SVGGerdScatter bubbles={gerdBubbles} annotations={gerdAnnotations} />
-</Exhibit>
 
 </ArticleSection>
 
