@@ -52,10 +52,8 @@ Three things happened to the global higher-education league tables between 2016 
 
 <Finding index={1} num="2×" trend="up" title="Asia's THE Top 100 share more than doubled">
 From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a smaller shift (20% to 21%), because QS leans more on reputation surveys, and reputation moves slowly. It takes years for the surveys to catch up with what universities are actually doing.
-</Finding>
 
 <Exhibit
-  number="Exhibit 01 · The decade in one chart"
   title="Asia rose, the US slipped, Europe held."
   sub="Composition of the Times Higher Education Top 100 by region, 2016 to 2026 (% share). The chart reveals year by year as you scroll."
   source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Greater China = China + Hong Kong + Macao + Taiwan, included in East Asia."
@@ -71,45 +69,43 @@ From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a sm
     />
   </ScrollReveal2DChart>
 </Exhibit>
+</Finding>
 
 <Finding index={2} num="4 → 12" trend="up" title="Greater China tripled its THE Top 100 footprint">
 From 4 institutions in 2016 to 12 in 2026. This is the single biggest source of change in the elite tier of either ranking. The timing lines up with China's Double First-Class programme, announced in 2015 and rolled out with sustained five-year funding cycles from 2017.
-</Finding>
 
 <Exhibit
-  number="Exhibit 02 · Watch the decade"
   title="The Top 20, played out year by year."
   sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
   source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
 >
   <BarRace years={top20ByYear} />
 </Exhibit>
+</Finding>
 
 <Finding index={3} num="−4 / −6" tone="neg" trend="down" title="The US lost ground, but only mildly at the elite tier">
 39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates.
-</Finding>
 
 <Exhibit
-  number="Exhibit 03 · Country movement"
   title="China is the biggest gainer; the US is the biggest decliner."
   sub="Net change in THE Top 500 institution count, 2016 to 2026. Top eight gainers and decliners."
   source="Source: THE World University Rankings 2016 vs 2026; authors’ analysis. China +24 leads; Saudi Arabia and the UAE join the top movers on the back of Vision-2030/2071 funding programmes."
 >
   <SVGGainersDecliners gainers={gainers} decliners={decliners} highlightName="United Arab Emirates" />
 </Exhibit>
-
-<Finding index={4} num="1 vs 20" trend="flat" title="The top doesn't move. The middle does.">
-154 universities entered the QS Top 500 across the decade; 126 entered the Times Higher Education Top 500. But the Top 10 barely moves: a typical Top-10 university shifts about one place a year. By the time you get to the bottom of the Top 500, that number is nine on QS and five on Times Higher Education. A reader trying to spot trends should look at who entered or exited the Top 500, not at small year-to-year rank changes.
 </Finding>
 
+<Finding index={4} num="1 vs 20" trend="flat" title="The top doesn't move. The middle does.">
+A university in the global Top 10 moves about one place a year. A university near rank 400 on QS moves about 20. 154 universities entered the QS Top 500 across the decade, and 126 entered the Times Higher Education Top 500 — a reader trying to spot trends should look at who entered or exited the Top 500, not at small year-to-year rank changes.
+
 <Exhibit
-  number="Exhibit 04 · Volatility"
   title="The elite is sticky; the Top 500 churns."
   sub="Median absolute year-over-year rank change, integer-ranked institutions only, by tier and system."
   source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2016 to 2026; authors’ analysis."
 >
   <VolatilityChart tiers={volatilityTiers} caveat="Banded ranks (e.g., THE 401–500) excluded to avoid artefactual ties." />
 </Exhibit>
+</Finding>
 
 <Finding index={5} num="2024" title="In 2024, both publishers rewrote the rules">
 Times Higher Education replaced its long-standing Citations score with two new categories (Research Environment and Research Quality). QS added three new factors (Sustainability, Employment Outcomes, International Research Network) and increased the weight of Employer Reputation. Any rank change between 2023 and 2024 should be read as a rule change first, and an institutional change second.
