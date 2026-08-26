@@ -2,7 +2,8 @@ import type { ReactNode } from 'react';
 import { ScrollReveal } from '@/components/ScrollReveal';
 
 interface ExhibitProps {
-  number: string;
+  /** Small tracked label above the title (e.g. "Exhibit 01 · ..."). Omit to skip it. */
+  number?: string;
   title: string;
   sub?: string;
   source?: string;
@@ -21,9 +22,11 @@ interface ExhibitProps {
 export function Exhibit({ number, title, sub, source, children }: ExhibitProps) {
   return (
     <figure className="my-14 max-w-none">
-      <ScrollReveal className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium mb-2">
-        {number}
-      </ScrollReveal>
+      {number ? (
+        <ScrollReveal className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium mb-2">
+          {number}
+        </ScrollReveal>
+      ) : null}
       <ScrollReveal
         as="h3"
         delayMs={80}

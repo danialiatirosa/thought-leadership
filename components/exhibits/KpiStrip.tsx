@@ -12,7 +12,7 @@ interface KpiStripProps {
   kpis: KPI[];
 }
 
-function TrendArrow({ direction }: { direction: 'up' | 'down' | 'flat' }) {
+export function TrendArrow({ direction }: { direction: 'up' | 'down' | 'flat' }) {
   const symbol = direction === 'up' ? '▲' : direction === 'down' ? '▼' : '–';
   const colour =
     direction === 'up' ? 'text-green' : direction === 'down' ? 'text-ink' : 'text-mute';
