@@ -8,52 +8,49 @@ export const featuredKpis = [
   { num: '18', label: 'Median rank shift, Top 500', desc: 'Top 10 moves a median of 1 place per year.' },
 ];
 
+/**
+ * Region groupings collapsed from the original 6 to 4, recomputed directly
+ * from content/data/regional-composition.json (THE Top 100 by region) so
+ * the merge is exact, not eyeballed: Europe = Western Europe + Eastern
+ * Europe (the latter is a single-institution, single-year blip); Asia =
+ * East Asia + South & Southeast Asia (the latter is flat at 2% every year
+ * and was never called out separately in the prose). The four bands sum
+ * to ~100% every year, so "Other regions" is no longer needed.
+ */
 export const stackedAreaPaths = [
   // North America
   {
-    d: 'M0,300 L0,171 L82,168 L164,168 L246,168 L328,168 L410,174 L492,180 L574,186 L656,189 L738,189 L820,195 L820,300 Z',
+    d: 'M0,300 L82,300 L164,300 L246,300 L328,300 L410,300 L492,300 L574,300 L656,300 L738,300 L820,300 L820,186 L738,177 L656,183 L574,186 L492,171 L410,174 L328,165 L246,162 L164,159 L82,168 L0,171 Z',
     fill: '#1D383F',
   },
-  // Western Europe
+  // Europe
   {
-    d: 'M0,171 L82,168 L164,168 L246,168 L328,168 L410,174 L492,180 L574,186 L656,189 L738,189 L820,195 L820,99 L738,93 L656,93 L574,87 L492,75 L410,69 L328,57 L246,57 L164,54 L82,51 L0,45 Z',
+    d: 'M0,171 L82,168 L164,159 L246,162 L328,165 L410,174 L492,171 L574,186 L656,183 L738,177 L820,186 L820,78 L738,69 L656,75 L574,78 L492,66 L410,66 L328,54 L246,54 L164,45 L82,51 L0,45 Z',
     fill: '#6B8B8E',
   },
-  // East Asia
+  // Asia
   {
-    d: 'M0,45 L82,51 L164,54 L246,57 L328,57 L410,69 L492,75 L574,87 L656,93 L738,93 L820,99 L820,39 L738,39 L656,39 L574,33 L492,27 L410,27 L328,21 L246,24 L164,24 L82,24 L0,24 Z',
+    d: 'M0,45 L82,51 L164,45 L246,54 L328,54 L410,66 L492,66 L574,78 L656,75 L738,69 L820,78 L820,18 L738,15 L656,18 L574,21 L492,18 L410,18 L328,18 L246,18 L164,12 L82,18 L0,18 Z',
     fill: '#A7B241',
   },
   // Oceania
   {
-    d: 'M0,24 L82,24 L164,24 L246,24 L328,21 L410,27 L492,27 L574,33 L656,39 L738,39 L820,39 L820,21 L738,21 L656,21 L574,15 L492,9 L410,9 L328,3 L246,6 L164,6 L82,6 L0,6 Z',
+    d: 'M0,18 L82,18 L164,12 L246,18 L328,18 L410,18 L492,18 L574,21 L656,18 L738,15 L820,18 L820,0 L738,-3 L656,0 L574,0 L492,0 L410,0 L328,0 L246,0 L164,-6 L82,0 L0,0 Z',
     fill: '#6C6864',
-  },
-  // S. & SE Asia
-  {
-    d: 'M0,6 L82,6 L164,6 L246,6 L328,3 L410,9 L492,9 L574,15 L656,21 L738,21 L820,21 L820,12 L738,12 L656,12 L574,9 L492,3 L410,3 L328,0 L246,0 L164,0 L82,0 L0,0 Z',
-    fill: '#B9B8AF',
-  },
-  // Other regions
-  {
-    d: 'M0,0 L82,0 L164,0 L246,0 L328,0 L410,3 L492,3 L574,9 L656,12 L738,12 L820,12 L820,0 L0,0 Z',
-    fill: '#A7A9A7',
   },
 ];
 
 export const stackedAreaLegend = [
   { label: 'North America', color: '#1D383F' },
-  { label: 'Western Europe', color: '#6B8B8E' },
-  { label: 'East Asia', color: '#A7B241' },
+  { label: 'Europe', color: '#6B8B8E' },
+  { label: 'Asia', color: '#A7B241' },
   { label: 'Oceania', color: '#6C6864' },
-  { label: 'S. & SE Asia', color: '#B9B8AF' },
-  { label: 'Other regions', color: '#A7A9A7' },
 ];
 
 export const stackedAreaInlineLabels = [
-  { x: 20, y: 240, text: 'North America' },
-  { x: 20, y: 120, text: 'Western Europe' },
-  { x: 710, y: 64, text: 'East Asia' },
+  { x: 20, y: 236, text: 'North America' },
+  { x: 20, y: 108, text: 'Europe' },
+  { x: 738, y: 42, text: 'Asia' },
 ];
 
 export const stackedAreaYears = [

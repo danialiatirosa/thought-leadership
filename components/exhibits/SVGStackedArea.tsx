@@ -32,7 +32,7 @@ export function SVGStackedArea({
   const xStep = 820 / (years.length - 1);
   return (
     <svg
-      viewBox="0 0 1000 410"
+      viewBox="0 0 1000 422"
       preserveAspectRatio="xMidYMid meet"
       role="img"
       aria-label={title}
@@ -49,7 +49,7 @@ export function SVGStackedArea({
           <line x1={0} y1={240} x2={820} y2={240} />
           <line x1={0} y1={300} x2={820} y2={300} />
         </g>
-        <g fontSize={13} fill="var(--color-ink-soft)">
+        <g fontSize={16} fill="var(--color-ink-soft)">
           {yTicks.map((t) => (
             <text key={t.y} x={-12} y={t.y} textAnchor="end">
               {t.label}
@@ -75,7 +75,7 @@ export function SVGStackedArea({
             <text
               x={breakLine.x + 4}
               y={-8}
-              fontSize={12.5}
+              fontSize={15}
               fill="#A0342A"
               fontStyle="italic"
             >
@@ -85,12 +85,12 @@ export function SVGStackedArea({
         ) : null}
 
         {inlineLabels.map((l, i) => (
-          <text key={i} x={l.x} y={l.y} fontSize={15} fontWeight={600} fill="var(--color-paper)">
+          <text key={i} x={l.x} y={l.y} fontSize={18} fontWeight={600} fill="var(--color-paper)">
             {l.text}
           </text>
         ))}
 
-        <g fill="var(--color-ink-soft)" fontSize={13}>
+        <g fill="var(--color-ink-soft)" fontSize={16}>
           <line
             x1={0}
             y1={300}
@@ -100,20 +100,20 @@ export function SVGStackedArea({
             strokeWidth={1}
           />
           {years.map((y, i) => (
-            <text key={y} x={i * xStep} y={320} textAnchor="middle">
+            <text key={y} x={i * xStep} y={324} textAnchor="middle">
               {y}
             </text>
           ))}
         </g>
       </g>
 
-      <g transform="translate(70,396)" fontSize={13} fontFamily="Inter, sans-serif">
+      <g transform="translate(70,408)" fontSize={16} fontFamily="Inter, sans-serif">
         {legend.map((l, i) => {
-          const x = i * 145;
+          const x = i * 180;
           return (
             <g key={l.label}>
-              <rect x={x} y={-11} width={13} height={13} fill={l.color} />
-              <text x={x + 20} y={0} fill="var(--color-ink-soft)">
+              <rect x={x} y={-13} width={15} height={15} fill={l.color} />
+              <text x={x + 22} y={0} fill="var(--color-ink-soft)">
                 {l.label}
               </text>
             </g>
