@@ -44,15 +44,15 @@ import { ArticleSection } from '@/components/ArticleLayout';
   number="01"
   kicker="The brief"
   title="The numbers that move; the rule change that explains the rest."
+  hideMarker
 />
 
 <Finding index={1} num="2×" trend="up" title="Asia's THE Top 100 share more than doubled">
 From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a smaller shift (20% to 21%), because QS leans more on reputation surveys, and reputation moves slowly. It takes years for the surveys to catch up with what universities are actually doing.
 
 <Exhibit
-  title="Asia rose, the US slipped, Europe held."
   sub="Composition of the Times Higher Education Top 100 by region, 2016 to 2026 (% share). The chart reveals year by year as you scroll."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Greater China = China + Hong Kong + Macao + Taiwan, included in Asia."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis."
 >
   <ScrollReveal2DChart ariaLabel="Stacked area chart of THE Top 100 region composition 2016 to 2026, revealed as you scroll.">
     <SVGStackedArea
@@ -61,7 +61,6 @@ From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a sm
       legend={stackedAreaLegend}
       years={stackedAreaYears}
       inlineLabels={stackedAreaInlineLabels}
-      breakLine={{ x: 656, label: '2024 rule change (WUR 3.0 / QS revision)' }}
     />
   </ScrollReveal2DChart>
 </Exhibit>

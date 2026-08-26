@@ -32,7 +32,7 @@ export function SVGStackedArea({
   const xStep = 820 / (years.length - 1);
   return (
     <svg
-      viewBox="0 0 1000 422"
+      viewBox="0 0 1000 434"
       preserveAspectRatio="xMidYMid meet"
       role="img"
       aria-label={title}
@@ -49,7 +49,7 @@ export function SVGStackedArea({
           <line x1={0} y1={240} x2={820} y2={240} />
           <line x1={0} y1={300} x2={820} y2={300} />
         </g>
-        <g fontSize={16} fill="var(--color-ink-soft)">
+        <g fontSize={19} fill="var(--color-ink-soft)">
           {yTicks.map((t) => (
             <text key={t.y} x={-12} y={t.y} textAnchor="end">
               {t.label}
@@ -90,7 +90,7 @@ export function SVGStackedArea({
           </text>
         ))}
 
-        <g fill="var(--color-ink-soft)" fontSize={16}>
+        <g fill="var(--color-ink-soft)" fontSize={19}>
           <line
             x1={0}
             y1={300}
@@ -100,20 +100,20 @@ export function SVGStackedArea({
             strokeWidth={1}
           />
           {years.map((y, i) => (
-            <text key={y} x={i * xStep} y={324} textAnchor="middle">
+            <text key={y} x={i * xStep} y={330} textAnchor="middle">
               {y}
             </text>
           ))}
         </g>
       </g>
 
-      <g transform="translate(70,408)" fontSize={16} fontFamily="Inter, sans-serif">
+      <g transform="translate(70,420)" fontSize={19} fontFamily="Inter, sans-serif">
         {legend.map((l, i) => {
-          const x = i * 180;
+          const x = i * 195;
           return (
             <g key={l.label}>
-              <rect x={x} y={-13} width={15} height={15} fill={l.color} />
-              <text x={x + 22} y={0} fill="var(--color-ink-soft)">
+              <rect x={x} y={-15} width={17} height={17} fill={l.color} />
+              <text x={x + 25} y={0} fill="var(--color-ink-soft)">
                 {l.label}
               </text>
             </g>
