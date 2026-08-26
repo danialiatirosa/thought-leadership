@@ -289,7 +289,7 @@ button {
 
 .prose-article p {
   margin: 0 0 24px;
-  max-width: 68ch;
+  max-width: none;
   font-size: 18px;
   line-height: 1.65;
   color: var(--color-ink);
@@ -388,7 +388,7 @@ button {
   line-height: 1.55;
   margin: 0 0 22px;
   padding-left: 24px;
-  max-width: 68ch;
+  max-width: none;
 }
 .prose-article ul li,
 .prose-article ol li {
