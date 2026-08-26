@@ -1,36 +1,46 @@
 @import 'tailwindcss';
 
 /*
- * Tamkeen Thought Leadership: lime/zest redesign.
+ * Tamkeen Thought Leadership: brand-palette redesign.
  *
- * Design language: FT/Economist newspaper restraint, executed in a
- * lime-zest palette. The whole primary family lives in the olive/lime
- * spectrum so the page reads as "lime" at a glance — no teal cast.
- * Saturated lime appears on the folio strip (the brand mark every page
- * wears) and at micro-moments (progress bar, active nav underline,
- * kickers, KPI numerals). Body and headlines sit in deep olive so they
- * stay readable on cream-lime paper.
+ * Design language: FT/Economist newspaper restraint, executed in the
+ * Tamkeen brand palette (primary teal, secondary warm grey, tertiary
+ * olive/lime used sparingly as a highlight — brand's own labelling).
+ * The primary family now lives in teal rather than olive/lime; olive/
+ * lime is demoted to the brand's own "use sparingly" highlight role
+ * (folio strip, progress bar, active nav underline, kickers, large KPI
+ * numerals). The brand's dedicated red is intentionally not used here
+ * — it is reserved for action-title / RAG-analysis contexts elsewhere,
+ * not this site's chart and UI colouring.
  *
- * Palette:
- *   lime    #A6B340   brand accent — folio strip bg, progress bar,
+ * Palette (source: Tamkeen brand palette, primary colours only):
+ *   green   #2E5B66   PRIMARY — body links, headlines, dropcap, footer
+ *                     surface (brand "primary color for graphs, shapes,
+ *                     illustrations")
+ *   lime    #A7B241   brand tertiary — folio strip bg, progress bar,
  *                     active nav underline, kicker labels, large KPI
- *                     numerals, East-Asia chart highlight
- *   green   #3F4818   PRIMARY — body links, headlines, dropcap, footer
- *                     surface (deep olive, same family as lime)
- *   ink     #1F1F0F   body text (warm dark near-black, olive undertone)
- *   paper   #F4F6E8   page background (cream-lime)
- *   mute    #5F5F45   captions, datelines, small labels
- *   rule    #C8CDB8   hairline rules
+ *                     numerals, East-Asia chart highlight ("use sparingly")
+ *   green-light #6C6864  brand secondary — secondary chart/shape colour
+ *   ink     #494642   body text (brand "text color")
+ *   paper   #F8FAEC   page background (unchanged — brand palette has no
+ *                     background colour; the aged-paper texture stays)
+ *   mute    #7C7D82   captions, datelines, small labels (brand
+ *                     "footnote color")
+ *   rule    derived from mute, lightened toward paper
  *
  * Contrast targets (WCAG AA):
- *   ink (#1F1F0F)        on paper (#F4F6E8) ≈ 14:1   PASS
- *   green (#3F4818)      on paper (#F4F6E8) ≈ 12:1   PASS
- *   green-mid (#5C6B1F)  on paper (#F4F6E8) ≈ 7:1    PASS
- *   mute (#5F5F45)       on paper (#F4F6E8) ≈ 7:1    PASS
- *   paper (#F4F6E8)      on green (#3F4818) ≈ 12:1   PASS  (footer)
- *   ink (#1F1F0F)        on lime  (#A6B340) ≈ 8:1    PASS  (folio strip)
- *   green (#3F4818)      on lime  (#A6B340) ≈ 4:1    PASS large
- *   lime (#A6B340)       on paper (#F4F6E8) ≈ 2.3:1  decorative only
+ *   ink (#494642)         on paper (#F8FAEC) ≈ 8.9:1   PASS
+ *   green (#2E5B66)       on paper (#F8FAEC) ≈ 7.1:1   PASS
+ *   mute (#7C7D82)        on paper (#F8FAEC) ≈ 3.9:1   below 4.5:1 body
+ *                                                       text threshold —
+ *                                                       brand's own
+ *                                                       footnote grey;
+ *                                                       used only for
+ *                                                       small/low-emphasis
+ *                                                       captions, not body
+ *   paper (#F8FAEC)       on green (#2E5B66) ≈ 7.1:1   PASS  (footer)
+ *   ink (#494642)         on lime  (#A7B241) ≈ 4.1:1   PASS large
+ *   lime (#A7B241)        on paper (#F8FAEC) ≈ 2.2:1   decorative only
  *                                                    (rules, fills, big
  *                                                    KPI numerals — not
  *                                                    body text)
@@ -55,61 +65,62 @@
   --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /*
-   * Primary family — deep olive (same family as the lime accent, just
-   * dialled into legibility on cream paper). Used for: body links,
+   * Primary family — Tamkeen brand primary teal. Used for: body links,
    * headlines, dropcap, wordmark, footer surface. The "green" name is
    * retained because hundreds of class references already point at it;
-   * the family is now olive/lime, no teal undertones.
+   * the family is teal, not olive/lime — olive/lime is now the sparing
+   * accent only (see --color-lime below).
    */
-  --color-green: #3F4818;
-  --color-green-deep: #2C320E;
-  --color-green-mid: #5C6B1F;
-  --color-green-light: #7A8628;
-  --color-green-mist: #C5CD7A;
-  --color-green-pale: #E5E9C0;
+  --color-green: #2E5B66;
+  --color-green-deep: #1D383F;
+  --color-green-mid: #6B8B8E;
+  --color-green-light: #6C6864;
+  --color-green-mist: #B9B8AF;
+  --color-green-pale: #DFE0D4;
 
   /*
-   * Brand accent — saturated lime. Folio strip background, progress
-   * bar, active section underline, kickers, KPI numerals at large size,
-   * the highlighted region in charts. --color-copper is a legacy alias
-   * carried by older chart code; both resolve to the same lime.
+   * Brand accent — Tamkeen tertiary olive/lime, "use sparingly" per the
+   * brand palette. Folio strip background, progress bar, active section
+   * underline, kickers, KPI numerals at large size, the highlighted
+   * region in charts. --color-copper is a legacy alias carried by older
+   * chart code; both resolve to the same lime.
    */
-  --color-lime: #A6B340;
-  --color-copper: #A6B340;
+  --color-lime: #A7B241;
+  --color-copper: #A7B241;
 
-  --color-ink: #1A1A0A;
-  --color-ink-mid: #4A4A30;
-  --color-ink-soft: #6E6E50;
+  --color-ink: #494642;
+  --color-ink-mid: #626262;
+  --color-ink-soft: #7C7D82;
   /*
-   * Paper: a noticeably lime-tinted cream, not just off-white. The
-   * point is the page should feel like "newsprint with a brand cast"
-   * the way the FT page is recognisably salmon — paper as a colour
-   * decision, not a default.
+   * Paper: unchanged by the brand-palette pass — the brand palette has
+   * no background colour, and the aged-paper texture is a separate,
+   * deliberate stylistic choice.
    */
   --color-paper: #F8FAEC;
   --color-paper-shade: #EDF1D3;
-  --color-mute: #5F5F45;
-  --color-rule: #B0B69C;
-  --color-rule-soft: #C8CDB8;
+  --color-mute: #7C7D82;
+  --color-rule: #B4B5B2;
+  --color-rule-soft: #CDCEC7;
 
   --color-neg: #A0342A;
   --color-neg-pale: #E8C7C2;
 
   /*
-   * Optional teal — kept available for sparing accent use only (e.g.
-   * a single chart category, a pull-quote rule). Not used as a primary
-   * surface anywhere; the page should not read as "teal" at first glance.
+   * Country-identity colour for UK bars in BarRace/BumpChart, kept
+   * distinct from --color-green (US) and --color-green-light (other
+   * countries) by lightness within the same teal family — the brand
+   * palette has no second hue to spare here.
    */
-  --color-teal: #2F5C66;
-  --color-teal-mid: #415866;
+  --color-teal: #6B8B8E;
+  --color-teal-mid: #83A0A3;
 
   /* Aliases retained for components that still use legacy names. */
-  --color-tamkeen: #3F4818;
-  --color-tamkeen-deep: #2C320E;
-  --color-tamkeen-mid: #5C6B1F;
-  --color-tamkeen-light: #7A8628;
-  --color-tamkeen-mist: #C5CD7A;
-  --color-tamkeen-pale: #E5E9C0;
+  --color-tamkeen: #2E5B66;
+  --color-tamkeen-deep: #1D383F;
+  --color-tamkeen-mid: #6B8B8E;
+  --color-tamkeen-light: #6C6864;
+  --color-tamkeen-mist: #B9B8AF;
+  --color-tamkeen-pale: #DFE0D4;
 }
 
 :root {
