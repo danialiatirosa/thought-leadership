@@ -4,7 +4,7 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 interface ExhibitProps {
   /** Small tracked label above the title (e.g. "Exhibit 01 · ..."). Omit to skip it. */
   number?: string;
-  title: string;
+  title?: string;
   sub?: string;
   source?: string;
   /** Retained for backward compatibility, ignored visually. */
@@ -27,13 +27,15 @@ export function Exhibit({ number, title, sub, source, children }: ExhibitProps) 
           {number}
         </ScrollReveal>
       ) : null}
-      <ScrollReveal
-        as="h3"
-        delayMs={80}
-        className="font-serif text-[22px] font-medium leading-[1.3] -tracking-[0.2px] m-0 mb-1.5 text-green"
-      >
-        {title}
-      </ScrollReveal>
+      {title ? (
+        <ScrollReveal
+          as="h3"
+          delayMs={80}
+          className="font-serif text-[22px] font-medium leading-[1.3] -tracking-[0.2px] m-0 mb-1.5 text-green"
+        >
+          {title}
+        </ScrollReveal>
+      ) : null}
       {sub ? (
         <ScrollReveal
           as="p"
