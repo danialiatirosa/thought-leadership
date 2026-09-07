@@ -28,6 +28,7 @@ import {
   scatterPoints,
   scatterOutliers,
   countryTableRows,
+  countryFlags,
   lessonsTableRows,
 } from './decade-that-reshaped-higher-education.data';
 
@@ -136,16 +137,37 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
 
 <DataTable
   caption="Top-15 countries by 2026 Top-500 count, both ranking systems"
+  groupHeader={[
+    { label: '', span: 1 },
+    { label: 'QS', span: 3 },
+    { label: 'THE', span: 3 },
+  ]}
   columns={[
-    { key: 'country', label: 'Country' },
-    { key: 'qs17', label: "QS '17", numeric: true },
-    { key: 'qs26', label: "QS '26", numeric: true },
-    { key: 'qsD', label: 'QS Δ', numeric: true },
-    { key: 'the16', label: "THE '16", numeric: true },
-    { key: 'the26', label: "THE '26", numeric: true },
-    { key: 'theD', label: 'THE Δ', numeric: true },
+    { key: 'country', label: 'Country', width: '210px' },
+    { key: 'qs17', label: "'17", numeric: true },
+    { key: 'qs26', label: "'26", numeric: true },
+    { key: 'qsD', label: 'Δ', numeric: true, shaded: true },
+    { key: 'the16', label: "'16", numeric: true },
+    { key: 'the26', label: "'26", numeric: true },
+    { key: 'theD', label: 'Δ', numeric: true, shaded: true },
   ]}
   rows={countryTableRows}
+  cellRender={(col, row) => {
+    if (col.key === 'country') {
+      return (
+        <>
+          <span aria-hidden style={{ marginRight: 8 }}>{countryFlags[String(row.country)]}</span>
+          {String(row.country)}
+        </>
+      );
+    }
+    const v = row[col.key];
+    if (v && typeof v === 'object') {
+      const cls = v.tone === 'pos' ? 'text-green font-semibold' : v.tone === 'neg' ? 'text-neg font-semibold' : '';
+      return <span className={cls}>{v.value}</span>;
+    }
+    return String(v ?? '–');
+  }}
 />
 
 </ArticleSection>

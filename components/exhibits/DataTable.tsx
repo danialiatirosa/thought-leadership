@@ -6,14 +6,25 @@ export interface Column {
   align?: 'left' | 'right';
   numeric?: boolean;
   width?: string;
+  /** Tint this column's header + body cells with a light grey background. */
+  shaded?: boolean;
 }
 
 export interface DataTableRow {
   [k: string]: string | number | { value: string; tone?: 'pos' | 'neg' | 'flat' } | undefined;
 }
 
+interface GroupHeader {
+  /** Group label, e.g. "QS". Omit (or use '') for a spacer over unlabelled leading columns. */
+  label: string;
+  /** How many of the columns array's entries, in order, this group spans. */
+  span: number;
+}
+
 interface DataTableProps {
   caption?: string;
+  /** Optional row of grouped labels above the column headers, e.g. "QS" spanning 3 sub-columns. Spans must sum to columns.length. */
+  groupHeader?: GroupHeader[];
   columns: Column[];
   rows: DataTableRow[];
   cellRender?: (col: Column, row: DataTableRow) => ReactNode;
@@ -39,12 +50,12 @@ function renderCell(col: Column, row: DataTableRow): ReactNode {
  * bottom of table. No vertical rules. No zebra striping. Tabular numerals.
  * Numerics right-aligned, labels left-aligned.
  */
-export function DataTable({ caption, columns, rows, cellRender }: DataTableProps) {
+export function DataTable({ caption, groupHeader, columns, rows, cellRender }: DataTableProps) {
   return (
-    <div className="my-10 -mx-2 overflow-x-auto">
+    <div className="my-10">
       <table
-        className="w-full border-collapse font-sans text-[16px] mx-2 max-[640px]:text-[13.5px]"
-        style={{ fontVariantNumeric: 'tabular-nums' }}
+        className="w-full border-collapse font-sans text-[16px] max-[640px]:text-[13.5px]"
+        style={{ fontVariantNumeric: 'tabular-nums', tableLayout: 'fixed' }}
       >
         {caption ? (
           <caption className="text-left font-serif font-medium text-[20px] mb-4 text-ink caption-top max-[640px]:text-[17px]">
@@ -52,6 +63,22 @@ export function DataTable({ caption, columns, rows, cellRender }: DataTableProps
           </caption>
         ) : null}
         <thead>
+          {groupHeader ? (
+            <tr>
+              {groupHeader.map((g, i) => (
+                <th
+                  key={i}
+                  colSpan={g.span}
+                  scope="colgroup"
+                  className={`px-2.5 pt-2 font-sans font-semibold text-[10.5px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[9px] ${
+                    g.label ? 'border-b border-rule-soft' : ''
+                  }`}
+                >
+                  {g.label}
+                </th>
+              ))}
+            </tr>
+          ) : null}
           <tr className="border-y border-ink">
             {columns.map((c) => (
               <th
@@ -59,7 +86,7 @@ export function DataTable({ caption, columns, rows, cellRender }: DataTableProps
                 scope="col"
                 className={`px-2.5 py-3 font-sans font-semibold text-[11.5px] tracking-[1.2px] uppercase text-ink align-bottom max-[640px]:px-1.5 max-[640px]:py-2 max-[640px]:text-[10px] max-[640px]:tracking-[1px] ${
                   c.numeric || c.align === 'right' ? 'text-right' : 'text-left'
-                }`}
+                } ${c.shaded ? 'bg-ink/[0.05]' : ''}`}
                 style={c.width ? { width: c.width } : undefined}
               >
                 {c.label}
@@ -79,7 +106,7 @@ export function DataTable({ caption, columns, rows, cellRender }: DataTableProps
                       : c.align === 'right'
                         ? 'text-right'
                         : ''
-                  }`}
+                  } ${c.shaded ? 'bg-ink/[0.05]' : ''}`}
                   style={c.numeric ? { fontVariantNumeric: 'tabular-nums' } : undefined}
                 >
                   {cellRender ? cellRender(c, r) : renderCell(c, r)}

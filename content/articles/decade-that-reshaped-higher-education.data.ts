@@ -288,6 +288,24 @@ export const countryTableRows = [
   { country: 'United Arab Emirates', qs17: 3, qs26: 6, qsD: { value: '+3', tone: 'pos' as const }, the16: 0, the26: 7, theD: { value: '+7', tone: 'pos' as const } },
 ];
 
+export const countryFlags: Record<string, string> = {
+  'United States': '🇺🇸',
+  'United Kingdom': '🇬🇧',
+  China: '🇨🇳',
+  Germany: '🇩🇪',
+  Australia: '🇦🇺',
+  Italy: '🇮🇹',
+  Spain: '🇪🇸',
+  France: '🇫🇷',
+  Canada: '🇨🇦',
+  'Korea, Republic of': '🇰🇷',
+  Japan: '🇯🇵',
+  Netherlands: '🇳🇱',
+  'Saudi Arabia': '🇸🇦',
+  Malaysia: '🇲🇾',
+  'United Arab Emirates': '🇦🇪',
+};
+
 export const lessonsTableRows = [
   {
     country: 'Greater China',
