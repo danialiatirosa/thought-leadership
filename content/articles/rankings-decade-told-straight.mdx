@@ -170,6 +170,32 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
   }}
 />
 
+<h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
+
+<DataTable
+  columns={[
+    { key: 'country', label: 'Country', width: '140px' },
+    { key: 'data', label: "What the decade's data shows" },
+    { key: 'lesson', label: 'Key lesson' },
+  ]}
+  rows={lessonsTableRows}
+  cellRender={(col, row) => {
+    const v = row[col.key];
+    if (col.key === 'lesson' || col.key === 'data') {
+      return (
+        <span
+          style={{ fontSize: 13.5, lineHeight: 1.55, color: col.key === 'data' ? 'var(--color-ink-mid)' : undefined, fontFamily: 'var(--font-serif)' }}
+          dangerouslySetInnerHTML={{ __html: String(v) }}
+        />
+      );
+    }
+    if (col.key === 'country') {
+      return <span style={{ fontWeight: 600 }}>{String(v)}</span>;
+    }
+    return String(v);
+  }}
+/>
+
 </ArticleSection>
 
 <ArticleSection id="uae" variant="alt">
@@ -228,32 +254,6 @@ The model is what makes the case worth attention. The UAE merged two specialist 
 <p>
 Compare the three Gulf strategies. The UAE concentrated investment in one flagship. Saudi Arabia spread investment across a broader base of institutions. Qatar concentrated investment in one historic university with limited consolidation. Each produces different results on different timelines. Khalifa moved faster than the Saudi cohort because it was built on existing research infrastructure; consolidation always compounds faster than spreading. The Saudi cohort grew larger in absolute count because the country was working from a wider starting base. <strong>Both approaches are valid. The choice depends on what timeline a funder is willing to hold.</strong>
 </p>
-
-<h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
-
-<DataTable
-  columns={[
-    { key: 'country', label: 'Country', width: '140px' },
-    { key: 'data', label: "What the decade's data shows" },
-    { key: 'lesson', label: 'Key lesson' },
-  ]}
-  rows={lessonsTableRows}
-  cellRender={(col, row) => {
-    const v = row[col.key];
-    if (col.key === 'lesson' || col.key === 'data') {
-      return (
-        <span
-          style={{ fontSize: 13.5, lineHeight: 1.55, color: col.key === 'data' ? 'var(--color-ink-mid)' : undefined, fontFamily: 'var(--font-serif)' }}
-          dangerouslySetInnerHTML={{ __html: String(v) }}
-        />
-      );
-    }
-    if (col.key === 'country') {
-      return <span style={{ fontWeight: 600 }}>{String(v)}</span>;
-    }
-    return String(v);
-  }}
-/>
 
 <h3>An action quartet for UAE leadership.</h3>
 
