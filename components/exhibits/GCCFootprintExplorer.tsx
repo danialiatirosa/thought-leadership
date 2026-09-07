@@ -137,7 +137,7 @@ export function GCCFootprintExplorer({ rows, defaultIndex = 1 }: GCCFootprintExp
                 <div>
                   <div className="text-[13px] font-serif text-ink mb-1.5">{inst.name}</div>
                   <div className="relative h-[7px] rounded-sm bg-rule-soft/50 overflow-hidden">
-                    <div className="absolute left-0 top-0 h-full bg-green rounded-sm" style={{ width: `${pct}%` }} />
+                    <div className="absolute left-0 top-0 h-full bg-lime rounded-sm" style={{ width: `${pct}%` }} />
                   </div>
                 </div>
                 <div className="text-right font-sans text-[13px] font-semibold text-green tabular-nums">
