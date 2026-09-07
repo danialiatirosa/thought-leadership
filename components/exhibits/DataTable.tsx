@@ -15,10 +15,12 @@ export interface DataTableRow {
 }
 
 interface GroupHeader {
-  /** Group label, e.g. "QS". Omit (or use '') for a spacer over unlabelled leading columns. */
+  /** Group label, e.g. "QS". Omit (or use '') for a spacer over unlabelled leading columns. Used as alt text when logo is set. */
   label: string;
   /** How many of the columns array's entries, in order, this group spans. */
   span: number;
+  /** Optional logo image src shown instead of the text label. */
+  logo?: string;
 }
 
 interface DataTableProps {
@@ -70,11 +72,22 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
                   key={i}
                   colSpan={g.span}
                   scope="colgroup"
-                  className={`px-2.5 pt-2 font-sans font-semibold text-[13px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[11px] ${
+                  className={`px-2.5 pt-2 pb-2 font-sans font-semibold text-[13px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[11px] ${
                     g.label ? 'border-b border-rule-soft' : ''
                   }`}
                 >
-                  {g.label}
+                  {g.logo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={g.logo}
+                      alt={g.label}
+                      width={24}
+                      height={24}
+                      className="inline-block h-6 w-6 rounded-[5px] align-middle max-[640px]:h-5 max-[640px]:w-5"
+                    />
+                  ) : (
+                    g.label
+                  )}
                 </th>
               ))}
             </tr>
