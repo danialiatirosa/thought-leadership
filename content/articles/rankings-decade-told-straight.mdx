@@ -113,7 +113,7 @@ For dozens of universities in 2026, the QS rank and the Times Higher Education r
 
 </ArticleSection>
 
-<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 09</FullDivider>
+<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 08</FullDivider>
 
 <ArticleSection id="landscape">
 
@@ -195,6 +195,34 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
     return String(v);
   }}
 />
+
+<h3 style={{ marginTop: 32 }}>The narrative is not "Asia rose." It is "specific Asian institutions in specific funding programmes rose."</h3>
+
+<Exhibit
+  number="Exhibit 06 · The cohort, year by year"
+  title="The 2016 elite tracked through 2026."
+  sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Cohort = the Times Higher Education Top 20 in 2016, tracked through every subsequent year."
+>
+  <BumpChart data={theBumpCohort} />
+</Exhibit>
+
+<Exhibit
+  number="Exhibit 07 · Top 15 risers"
+  title="THE: top 15 risers across the decade."
+  sub="First-appearance rank to most-recent rank. Institutions present at least 4 years; sorted by magnitude."
+  source="Source: THE World University Rankings, annual editions 2016 to 2026; authors’ analysis. Integer-ranked endpoints only."
+>
+  <SVGRisers rows={risers} />
+</Exhibit>
+
+<p style={{ marginTop: 32 }}>
+The list of biggest risers is, in effect, a list of national funding programmes. Five of the top ten are mainland Chinese universities funded under the Double First-Class scheme. Two more are Hong Kong universities (Hong Kong Polytechnic and the Chinese University of Hong Kong) compounding on a separate funding base. Two are Korean universities (Yonsei and KAIST) funded by Brain Korea 21, which has been running since 1999. The remaining one is Berlin's Charité, funded by Germany's Excellence Strategy.
+</p>
+
+<p>
+<strong>One pattern holds across the entire risers list: universities that climbed are universities whose governments committed to sustained research funding, and the climb showed up five to seven years after the funding started.</strong> No country has produced a riser without that commitment. No university has produced a riser without that funding.
+</p>
 
 </ArticleSection>
 
@@ -301,47 +329,10 @@ Compare the three Gulf strategies. The UAE concentrated investment in one flagsh
 
 </ArticleSection>
 
-<ArticleSection id="movers">
-
-<SectionHeader
-  number="04"
-  kicker="Movers and shakers"
-  title="The narrative is not 'Asia rose.' It is 'specific Asian institutions in specific funding programmes rose.'"
-  italic="specific funding programmes"
-/>
-
-<Exhibit
-  number="Exhibit 06 · The cohort, year by year"
-  title="The 2016 elite tracked through 2026."
-  sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Cohort = the Times Higher Education Top 20 in 2016, tracked through every subsequent year."
->
-  <BumpChart data={theBumpCohort} />
-</Exhibit>
-
-<Exhibit
-  number="Exhibit 07 · Top 15 risers"
-  title="THE: top 15 risers across the decade."
-  sub="First-appearance rank to most-recent rank. Institutions present at least 4 years; sorted by magnitude."
-  source="Source: THE World University Rankings, annual editions 2016 to 2026; authors’ analysis. Integer-ranked endpoints only."
->
-  <SVGRisers rows={risers} />
-</Exhibit>
-
-<p style={{ marginTop: 32 }}>
-The list of biggest risers is, in effect, a list of national funding programmes. Five of the top ten are mainland Chinese universities funded under the Double First-Class scheme. Two more are Hong Kong universities (Hong Kong Polytechnic and the Chinese University of Hong Kong) compounding on a separate funding base. Two are Korean universities (Yonsei and KAIST) funded by Brain Korea 21, which has been running since 1999. The remaining one is Berlin's Charité, funded by Germany's Excellence Strategy.
-</p>
-
-<p>
-<strong>One pattern holds across the entire risers list: universities that climbed are universities whose governments committed to sustained research funding, and the climb showed up five to seven years after the funding started.</strong> No country has produced a riser without that commitment. No university has produced a riser without that funding.
-</p>
-
-</ArticleSection>
-
 <ArticleSection id="pillars">
 
 <SectionHeader
-  number="05"
+  number="04"
   kicker="Inside the scores"
   title="Citations are doing most of the work. Teaching is doing almost none."
   italic="Teaching is doing almost none."
@@ -375,7 +366,7 @@ The overall rank number hides what's actually happening. Inside it sits a set of
 <ArticleSection id="systems" variant="alt">
 
 <SectionHeader
-  number="06"
+  number="05"
   kicker="Why the systems disagree"
   title="QS and THE measure different things. A 100-place gap is usually signal, not noise."
   italic="signal, not noise"
@@ -481,7 +472,7 @@ Between 2023 and 2024, universities moved on the rankings about three times as m
 <ArticleSection id="implications" variant="alt">
 
 <SectionHeader
-  number="07"
+  number="06"
   kicker="Implications"
   title="A single set of findings, six agendas."
   italic="six"
@@ -552,7 +543,7 @@ The same dataset reads differently depending on the chair you sit in. What the d
 <ArticleSection id="outlook" variant="dark">
 
 <SectionHeader
-  number="08"
+  number="07"
   kicker="Outlook to 2030"
   title="Three forces will reshape the league tables before 2030."
   italic="reshape"
@@ -591,7 +582,7 @@ The single most important fact about the next five years is that another rule ch
 <ArticleSection id="methodology" variant="alt">
 
 <SectionHeader
-  number="09"
+  number="08"
   kicker="Methodology & sources"
   title="How we built the dataset."
 />
