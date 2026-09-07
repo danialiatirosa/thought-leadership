@@ -12,6 +12,8 @@ interface Institution {
 
 interface FootprintRow {
   label: string;
+  /** Flag emoji shown before the label. */
+  flag?: string;
   start: number;
   end: number;
   startYear: string;
@@ -20,6 +22,8 @@ interface FootprintRow {
   scaleMax: number;
   scaleNote: string;
   institutions: Institution[];
+  /** Set on the first row of a new country group to add a little extra space above it. */
+  newGroup?: boolean;
 }
 
 interface GCCFootprintExplorerProps {
@@ -60,9 +64,12 @@ export function GCCFootprintExplorer({ rows, defaultIndex = 1 }: GCCFootprintExp
                 onClick={() => setActive(i)}
                 className={`block w-full text-left relative py-4 px-2 -mx-2 rounded-[4px] transition-colors cursor-pointer border-0 bg-transparent ${
                   isActive ? 'bg-green/[0.07]' : 'hover:bg-green/[0.04]'
-                }`}
+                } ${r.newGroup ? 'mt-3 border-t border-rule-soft' : ''}`}
               >
-                <div className="text-[13px] font-serif text-ink mb-5">{r.label}</div>
+                <div className="text-[13px] font-serif text-ink mb-5 mt-1">
+                  {r.flag ? <span aria-hidden className="mr-1.5">{r.flag}</span> : null}
+                  {r.label}
+                </div>
                 <div className="relative h-4">
                   <div className="absolute top-1/2 left-0 right-0 h-px bg-rule-soft -translate-y-1/2" />
                   <div
