@@ -306,6 +306,14 @@ export const countryFlags: Record<string, string> = {
   'United Arab Emirates': '🇦🇪',
 };
 
+/** Short display labels for the country table, where the full name doesn't fit on one line. */
+export const countryShortNames: Record<string, string> = {
+  'United States': 'USA',
+  'United Kingdom': 'UK',
+  'Korea, Republic of': 'Korea',
+  'United Arab Emirates': 'UAE',
+};
+
 export const lessonsTableRows = [
   {
     country: 'Greater China',

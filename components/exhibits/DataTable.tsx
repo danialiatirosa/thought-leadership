@@ -70,7 +70,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
                   key={i}
                   colSpan={g.span}
                   scope="colgroup"
-                  className={`px-2.5 pt-2 font-sans font-semibold text-[10.5px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[9px] ${
+                  className={`px-2.5 pt-2 font-sans font-semibold text-[13px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[11px] ${
                     g.label ? 'border-b border-rule-soft' : ''
                   }`}
                 >
@@ -84,7 +84,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
               <th
                 key={c.key}
                 scope="col"
-                className={`px-2.5 py-3 font-sans font-semibold text-[11.5px] tracking-[1.2px] uppercase text-ink align-bottom max-[640px]:px-1.5 max-[640px]:py-2 max-[640px]:text-[10px] max-[640px]:tracking-[1px] ${
+                className={`px-2.5 py-3 font-sans font-semibold text-[14px] tracking-[1.2px] uppercase text-ink align-bottom max-[640px]:px-1.5 max-[640px]:py-2 max-[640px]:text-[12px] max-[640px]:tracking-[1px] ${
                   c.numeric || c.align === 'right' ? 'text-right' : 'text-left'
                 } ${c.shaded ? 'bg-ink/[0.05]' : ''}`}
                 style={c.width ? { width: c.width } : undefined}

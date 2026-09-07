@@ -29,6 +29,7 @@ import {
   scatterOutliers,
   countryTableRows,
   countryFlags,
+  countryShortNames,
   lessonsTableRows,
 } from './decade-that-reshaped-higher-education.data';
 
@@ -143,7 +144,7 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
     { label: 'THE', span: 3 },
   ]}
   columns={[
-    { key: 'country', label: 'Country', width: '210px' },
+    { key: 'country', label: 'Country', width: '230px' },
     { key: 'qs17', label: "'17", numeric: true },
     { key: 'qs26', label: "'26", numeric: true },
     { key: 'qsD', label: 'Δ', numeric: true, shaded: true },
@@ -154,11 +155,12 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
   rows={countryTableRows}
   cellRender={(col, row) => {
     if (col.key === 'country') {
+      const name = String(row.country);
       return (
-        <>
-          <span aria-hidden style={{ marginRight: 8 }}>{countryFlags[String(row.country)]}</span>
-          {String(row.country)}
-        </>
+        <span className="whitespace-nowrap max-[640px]:whitespace-normal">
+          <span aria-hidden style={{ marginRight: 8 }}>{countryFlags[name]}</span>
+          {countryShortNames[name] ?? name}
+        </span>
       );
     }
     const v = row[col.key];
