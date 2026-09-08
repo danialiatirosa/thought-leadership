@@ -25,6 +25,7 @@ import { PillarGrid } from '@/components/exhibits/PillarGrid';
 import { ScenarioGrid } from '@/components/exhibits/ScenarioGrid';
 import { UAEFootprint } from '@/components/exhibits/UAEFootprint';
 import { GCCFootprintExplorer } from '@/components/exhibits/GCCFootprintExplorer';
+import { RankTrajectory } from '@/components/exhibits/RankTrajectory';
 
 export const articleComponents: MDXComponents = {
   Eyebrow,
@@ -53,6 +54,7 @@ export const articleComponents: MDXComponents = {
   ScenarioGrid,
   UAEFootprint,
   GCCFootprintExplorer,
+  RankTrajectory,
 };
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {

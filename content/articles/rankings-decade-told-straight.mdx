@@ -349,6 +349,15 @@ Abu Dhabi University's rise runs on a different engine. Chancellor Ghassan Aouad
 The model is what makes the case worth attention. The UAE merged two specialist institutions, the Petroleum Institute and the Masdar Institute, into Khalifa University, then funded the consolidated flagship as a Vision 2071 priority. This is the Singapore approach (one or two world-class flagships, sustained over decades) at a one-flagship scale.
 </p>
 
+<KpiStrip
+  kpis={[
+    { num: '405 → 177', label: 'Khalifa, QS rank', desc: 'Largest decade-long rise of any Gulf university in either ranking.', trend: 'up' },
+    { num: '191', label: 'Abu Dhabi Univ., THE 2025', desc: "The only UAE institution to post an outright, non-banded THE rank this decade.", trend: 'up' },
+    { num: '1 → 9', label: 'Saudi Arabia, THE Top 500', desc: 'Institutions in the Times Higher Education Top 500, 2016 to 2026.', trend: 'up' },
+    { num: '101 → 375', label: 'King Abdulaziz, THE rank', desc: '2023 peak to 2025 band midpoint, after the citation-methodology correction.', tone: 'neg', trend: 'down' },
+  ]}
+/>
+
 <p>
 Saudi Arabia took a different route to a bigger outcome. Vision 2030 set an explicit, time-bound target ("at least five institutions in the global Top 200") and funded a broader base of universities rather than a single flagship: nine Saudi institutions now sit in the Times Higher Education Top 500, up from one in 2016, and five in the QS Top 500, up from three in 2017. King Fahd University of Petroleum and Minerals leads the cohort at QS 67, but the growth is spread across public universities in Riyadh, Jeddah and the Eastern Province, not concentrated in one campus.
 </p>
@@ -357,6 +366,25 @@ Saudi Arabia took a different route to a bigger outcome. Vision 2030 set an expl
 That broad base isn't uniformly durable, though, and King Abdulaziz University is the cautionary case inside it. King Abdulaziz reached an outright Times Higher Education rank of 101 in 2023 (within reach of the global Top 100), then fell to the 251-300 band in 2024 and the 351-400 band by 2025, where it remains in 2026. Part of that rise was built on paying prominent international researchers to add King Abdulaziz as a secondary affiliation, a practice reported on Saudi universities generally since the early 2010s, which inflated highly-cited-researcher counts and citation-impact scores without a matching gain in research capacity on the ground. When Times Higher Education cut the weight of raw citation impact from 30 percent to 15 percent of the overall score in its 2024 methodology overhaul (see Section 04, Inside the scores, for the fuller rule change), King Abdulaziz's rank fell with it. King Fahd's climb held up across the same rule change. A rank built on research and industry ties survives a methodology rewrite; a rank built on citation engineering does not.
 </p>
 
+<Exhibit
+  title="A spike, and a correction."
+  sub="King Abdulaziz University, Times Higher Education rank by year. 2023's outright rank of 101 was the peak; the fall since tracks THE's 2024 citation-methodology overhaul."
+  source="Source: Times Higher Education World University Rankings, annual editions 2021 to 2026; authors' analysis."
+>
+  <RankTrajectory
+    peakIndex={2}
+    peakLabel="Peak, pre-methodology change"
+    points={[
+      { year: '2021', value: 225.5, display: '201–250', banded: true },
+      { year: '2022', value: 190, display: '190', banded: false },
+      { year: '2023', value: 101, display: '101', banded: false },
+      { year: '2024', value: 275.5, display: '251–300', banded: true },
+      { year: '2025', value: 375.5, display: '351–400', banded: true },
+      { year: '2026', value: 375.5, display: '351–400', banded: true },
+    ]}
+  />
+</Exhibit>
+
 <p>
 Qatar's footprint tells the opposite story: small, and largely unchanged, though two structural factors flatter the comparison rather less than they should. Qatar's population is under three million, the smallest base of any GCC system in this report by a wide margin, and its most visible higher-education investment doesn't register in a country count at all: the Education City branch campuses of Georgetown, Northwestern, Cornell, Texas A&M, Carnegie Mellon, VCU and HEC Paris are ranked under their home institutions, not as Qatari entries. What the count actually captures is the two homegrown universities: Qatar University has held a single Times Higher Education Top 500 place since 2018 (zero in 2016), and Qatar's QS count moved from one institution to two as Hamad Bin Khalifa University joined the list at rank 244. Qatar's bet was neither the UAE's single-flagship consolidation nor Saudi Arabia's broad-base funding, but importing prestige through branch campuses rather than building it into a rankable local one. That's a strategy this decade's rankings data structurally cannot see.
 </p>
@@ -364,6 +392,10 @@ Qatar's footprint tells the opposite story: small, and largely unchanged, though
 <p>
 Khalifa moved faster than the Saudi cohort because it was built on existing research infrastructure; consolidation always compounds faster than spreading a similar amount of funding across many institutions. The Saudi cohort grew larger in absolute count because the country was working from a wider starting base of universities. <strong>Both approaches are valid. The choice depends on what timeline a funder is willing to hold, and how many institutions a system already has to build from.</strong>
 </p>
+
+<PullQuote cite="On the Gulf's three ranking strategies">
+Consolidation, broad-base funding, and citation engineering all move a rank. Only the first two survive a methodology rewrite.
+</PullQuote>
 
 <p style={{ marginTop: 32 }}>
 Two goals matter from here for the UAE: get more of its universities into the rankings, and push the ones already in further up them. The Khalifa case, and the Gulf comparison above, point to different levers for each stakeholder in that system.
