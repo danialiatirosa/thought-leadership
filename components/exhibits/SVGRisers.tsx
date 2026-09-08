@@ -2,6 +2,8 @@ interface RiserRow {
   label: string;
   fromRank: number;
   toRank: number;
+  /** Flag emoji shown before the institution name. */
+  flag?: string;
 }
 
 interface SVGRisersProps {
@@ -54,6 +56,7 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
                 fontWeight={600}
                 fill="var(--color-ink)"
               >
+                {r.flag ? `${r.flag} ` : ''}
                 {r.label}
               </text>
               <line x1={startX} y1={0} x2={endX - 36} y2={0} stroke="#2E5B66" strokeWidth={2} />
@@ -62,19 +65,21 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
               <circle cx={endX - 36} cy={0} r={4} fill="var(--color-ink-soft)" />
               <text
                 x={startX - 5}
-                y={-7}
+                y={-10}
                 textAnchor="end"
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
-                fontSize={10}
+                fontSize={14}
+                fontWeight={600}
                 fill="#2E5B66"
               >
                 {r.fromRank}
               </text>
               <text
                 x={endX - 31}
-                y={-7}
+                y={-10}
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
-                fontSize={10}
+                fontSize={14}
+                fontWeight={600}
                 fill="var(--color-ink-soft)"
               >
                 {r.toRank}

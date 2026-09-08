@@ -159,21 +159,21 @@ export const heatmapCols = [
 ];
 
 export const risers = [
-  { label: 'Shanghai Jiao Tong U.', fromRank: 40, toRank: 188 },
-  { label: 'Zhejiang University', fromRank: 39, toRank: 177 },
-  { label: 'Fudan University', fromRank: 36, toRank: 155 },
-  { label: 'Hong Kong Polytechnic U.', fromRank: 80, toRank: 192 },
-  { label: 'Yonsei University', fromRank: 86, toRank: 197 },
-  { label: 'Nanjing University', fromRank: 62, toRank: 169 },
-  { label: 'Charité Berlin', fromRank: 91, toRank: 195 },
-  { label: 'U. Sci. & Tech. of China', fromRank: 51, toRank: 153 },
-  { label: 'Chinese U. of Hong Kong', fromRank: 41, toRank: 138 },
-  { label: 'KAIST', fromRank: 70, toRank: 148 },
-  { label: 'Sungkyunkwan University', fromRank: 87, toRank: 153 },
-  { label: 'KTH Royal Inst. of Tech.', fromRank: 98, toRank: 155 },
-  { label: 'University of Hamburg', fromRank: 125, toRank: 180 },
-  { label: 'Newcastle University', fromRank: 144, toRank: 196 },
-  { label: 'U. of Technology Sydney', fromRank: 145, toRank: 196 },
+  { label: 'Shanghai Jiao Tong U.', fromRank: 40, toRank: 188, flag: '🇨🇳' },
+  { label: 'Zhejiang University', fromRank: 39, toRank: 177, flag: '🇨🇳' },
+  { label: 'Fudan University', fromRank: 36, toRank: 155, flag: '🇨🇳' },
+  { label: 'Hong Kong Polytechnic U.', fromRank: 80, toRank: 192, flag: '🇭🇰' },
+  { label: 'Yonsei University', fromRank: 86, toRank: 197, flag: '🇰🇷' },
+  { label: 'Nanjing University', fromRank: 62, toRank: 169, flag: '🇨🇳' },
+  { label: 'Charité Berlin', fromRank: 91, toRank: 195, flag: '🇩🇪' },
+  { label: 'U. Sci. & Tech. of China', fromRank: 51, toRank: 153, flag: '🇨🇳' },
+  { label: 'Chinese U. of Hong Kong', fromRank: 41, toRank: 138, flag: '🇭🇰' },
+  { label: 'KAIST', fromRank: 70, toRank: 148, flag: '🇰🇷' },
+  { label: 'Sungkyunkwan University', fromRank: 87, toRank: 153, flag: '🇰🇷' },
+  { label: 'KTH Royal Inst. of Tech.', fromRank: 98, toRank: 155, flag: '🇸🇪' },
+  { label: 'University of Hamburg', fromRank: 125, toRank: 180, flag: '🇩🇪' },
+  { label: 'Newcastle University', fromRank: 144, toRank: 196, flag: '🇬🇧' },
+  { label: 'U. of Technology Sydney', fromRank: 145, toRank: 196, flag: '🇦🇺' },
 ];
 
 export const gerdBubbles = [
