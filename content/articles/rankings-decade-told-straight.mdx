@@ -172,32 +172,6 @@ Greater China is the engine. The Gulf is the second-tier story. The US has slipp
   }}
 />
 
-<h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
-
-<DataTable
-  columns={[
-    { key: 'country', label: 'Country', width: '140px' },
-    { key: 'data', label: "What the decade's data shows" },
-    { key: 'lesson', label: 'Key lesson' },
-  ]}
-  rows={lessonsTableRows}
-  cellRender={(col, row) => {
-    const v = row[col.key];
-    if (col.key === 'lesson' || col.key === 'data') {
-      return (
-        <span
-          style={{ fontSize: 13.5, lineHeight: 1.55, color: col.key === 'data' ? 'var(--color-ink-mid)' : undefined, fontFamily: 'var(--font-serif)' }}
-          dangerouslySetInnerHTML={{ __html: String(v) }}
-        />
-      );
-    }
-    if (col.key === 'country') {
-      return <span style={{ fontWeight: 600 }}>{String(v)}</span>;
-    }
-    return String(v);
-  }}
-/>
-
 <h3 style={{ marginTop: 32 }}>The narrative is not "Asia rose." It is "specific Asian institutions in specific funding programmes rose."</h3>
 
 <Exhibit
@@ -559,7 +533,7 @@ Between 2023 and 2024, universities moved on the rankings about three times as m
 
 <SectionHeader
   number="06"
-  kicker="Implications"
+  kicker="Lessons & Implications"
   title="A single set of findings, six agendas."
   italic="six"
 />
@@ -567,6 +541,34 @@ Between 2023 and 2024, universities moved on the rankings about three times as m
 <p className="lead">
 The same dataset reads differently depending on the chair you sit in. What the decade should change for each major stakeholder.
 </p>
+
+<h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
+
+<DataTable
+  columns={[
+    { key: 'country', label: 'Country', width: '140px' },
+    { key: 'data', label: "What the decade's data shows" },
+    { key: 'lesson', label: 'Key lesson' },
+  ]}
+  rows={lessonsTableRows}
+  cellRender={(col, row) => {
+    const v = row[col.key];
+    if (col.key === 'lesson' || col.key === 'data') {
+      return (
+        <span
+          style={{ fontSize: 13.5, lineHeight: 1.55, color: col.key === 'data' ? 'var(--color-ink-mid)' : undefined, fontFamily: 'var(--font-serif)' }}
+          dangerouslySetInnerHTML={{ __html: String(v) }}
+        />
+      );
+    }
+    if (col.key === 'country') {
+      return <span style={{ fontWeight: 600 }}>{String(v)}</span>;
+    }
+    return String(v);
+  }}
+/>
+
+<h3 style={{ marginTop: 32 }}>Six agendas, one dataset.</h3>
 
 <StakeholderGrid
   cols={2}
