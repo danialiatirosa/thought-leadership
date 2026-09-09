@@ -96,6 +96,20 @@ const NAME_HARD_ALIASES: Record<string, string> = {
   'university of california, berkeley': 'university of california berkeley',
 };
 
+/**
+ * Display-name overrides: the raw source spreadsheets sometimes use a
+ * short-form or acronym that reads fine in a table but is unclear as a
+ * standalone chart label. Applied to every output row's `university`
+ * field (identity matching above is unaffected).
+ */
+const DISPLAY_NAME_OVERRIDES: Record<string, string> = {
+  UCL: 'University College London',
+};
+
+function displayName(raw: string): string {
+  return DISPLAY_NAME_OVERRIDES[raw] ?? raw;
+}
+
 function normName(raw: string): string {
   let s = String(raw ?? '').toLowerCase().trim();
   // hard alias
@@ -506,7 +520,7 @@ const masterRows = allRaw.map((r) => ({
   rank: r.rank,
   rankNumeric: r.rankNumeric,
   isBanded: r.isBanded,
-  university: r.university,
+  university: displayName(r.university),
   country: r.country,
   region: regionOf(r.country),
   greaterChina: GREATER_CHINA.has(r.country),
@@ -524,7 +538,7 @@ const top20ByYear = theYears.map((year) => ({
     .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0))
     .map((r) => ({
       rank: r.rank!,
-      university: r.university,
+      university: displayName(r.university),
       country: r.country,
       region: regionOf(r.country),
       greaterChina: GREATER_CHINA.has(r.country),
@@ -556,7 +570,7 @@ const cohortLines = seedCohort.map((seed) => {
     }
   }
   return {
-    university: seed.university,
+    university: displayName(seed.university),
     country: seed.country,
     region: regionOf(seed.country),
     greaterChina: GREATER_CHINA.has(seed.country),
