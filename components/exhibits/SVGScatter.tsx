@@ -72,7 +72,7 @@ export function SVGScatter({
               strokeDasharray="4,4"
             />
             {diagonalLabel ? (
-              <text x={700} y={278} fontSize={10.5} fill="var(--color-ink-soft)" fontStyle="italic">
+              <text x={700} y={274} fontSize={13} fill="var(--color-ink-soft)" fontStyle="italic">
                 {diagonalLabel}
               </text>
             ) : null}
@@ -100,14 +100,14 @@ export function SVGScatter({
             key={`t${i}`}
             x={o.labelX ?? o.x + 14}
             y={o.labelY ?? o.y - 4}
-            fontSize={10.5}
+            fontSize={13}
             fill="var(--color-ink)"
           >
             {o.label}
           </text>
         ))}
 
-        <g stroke="var(--color-rule)" strokeWidth={1} fill="var(--color-ink-soft)" fontSize={11}>
+        <g stroke="var(--color-rule)" strokeWidth={1} fill="var(--color-ink-soft)" fontSize={13}>
           <line x1={0} y1={320} x2={820} y2={320} />
           <line x1={0} y1={0} x2={0} y2={320} />
           {(
@@ -139,15 +139,15 @@ export function SVGScatter({
           ))}
         </g>
         {xAxisLabel ? (
-          <text x={410} y={370} textAnchor="middle" fontSize={12} fontWeight={600} fill="var(--color-ink)">
+          <text x={410} y={378} textAnchor="middle" fontSize={15} fontWeight={600} fill="var(--color-ink)">
             {xAxisLabel}
           </text>
         ) : null}
         {yAxisLabel ? (
           <text
-            transform="translate(-50,160) rotate(-90)"
+            transform="translate(-58,160) rotate(-90)"
             textAnchor="middle"
-            fontSize={12}
+            fontSize={15}
             fontWeight={600}
             fill="var(--color-ink)"
           >
