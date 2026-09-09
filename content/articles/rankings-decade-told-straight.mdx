@@ -34,6 +34,7 @@ import {
 import top20ByYear from '@/content/data/the-top20-by-year.json';
 import theBumpCohort from '@/content/data/the-bump-cohort.json';
 import qsTheScatter2026 from '@/content/data/qs-the-scatter-2026.json';
+import qsTheYoyMovement2026 from '@/content/data/qs-the-yoy-movement-2026.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
 
@@ -584,6 +585,14 @@ Both publishers shipped material rewrites for the 2024 edition. The largest sing
     },
   ]}
 />
+
+<Exhibit
+  title="The 2023-to-2024 transition moved rankings further than any other year of the decade."
+  sub="Median absolute year-over-year rank change, both systems, 2017 to 2026. Includes banded ranks (mapped to band midpoints): much of the 2023–2024 spike is institutions moving into or out of a band, which is itself a signature of the rule change, not something a strictly integer-ranks-only view would fully show."
+  source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2016 to 2026; authors’ analysis."
+>
+  <VolatilityChart tiers={qsTheYoyMovement2026} caveat="THE's 2016–2017 transition is excluded: QS coverage starts in 2017, so there is no paired year to compare it against." />
+</Exhibit>
 
 <p style={{ marginTop: 32 }}>
 Between 2023 and 2024, universities moved on the rankings about three times as much as they did in any other year of the decade. That is too big to come from anything the universities themselves did. Almost all of it is the rule change. <strong>Treat 2024 movement as a rule-change event first, and an institutional event second, or you'll draw the wrong conclusion.</strong>
