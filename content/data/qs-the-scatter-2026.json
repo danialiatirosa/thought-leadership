@@ -1913,12 +1913,6 @@
       "y": 317.4,
       "banded": false,
       "title": "Harvard University \u2014 QS 5, THE 5"
-    },
-    {
-      "x": 24.6,
-      "y": 309.1,
-      "banded": false,
-      "title": "Cornell University \u2014 QS 16, THE 18"
     }
   ],
   "outliers": [
@@ -1962,6 +1956,15 @@
       "banded": false,
       "title": "University of Science and Technology of China \u2014 QS 132, THE 51",
       "label": "University of Science and Technology of China"
+    },
+    {
+      "x": 24.6,
+      "y": 309.1,
+      "banded": false,
+      "title": "Cornell University \u2014 QS 16, THE 18",
+      "label": "Cornell University",
+      "labelX": 95,
+      "labelY": 275
     }
   ]
 }
