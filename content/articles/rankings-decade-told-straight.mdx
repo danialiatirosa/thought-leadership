@@ -481,21 +481,29 @@ The overall rank number hides what's actually happening. Inside it sits a set of
   cards={[
     {
       tag: 'QS · 2024 scoring',
-      title: 'Reputation-led, with internationalisation overlay.',
-      body: 'QS combines two reputation surveys (45% of the score together), citations per faculty (20%), faculty-to-student ratio (10%), and four newer indicators each at 5%: sustainability, employment outcomes, international research network, and international student diversity.',
+      title: 'Reputation-led, with a 15% internationalisation layer.',
+      body: 'QS combines two reputation surveys (45% of the score together), citations per faculty (20%), and faculty-to-student ratio (10%). The remaining 25% splits into five indicators at 5% each, only three of which are actually about internationalisation: international faculty ratio, international student ratio, and international research network sum to 15% of the total score. The other two, employment outcomes and sustainability, are not about internationalisation at all.',
       segments: [
         { label: 'Academic Rep', weight: 30, color: '#1D383F' },
         { label: 'Employer Rep', weight: 15, color: '#2E5B66' },
         { label: 'Citations / Fac', weight: 20, color: '#A7B241' },
         { label: 'Fac/Stu', weight: 10, color: '#6C6864' },
-        { label: 'Intl & Outcomes', weight: 25, color: '#6B8B8E', textLight: true },
+        { label: 'Intl Faculty', weight: 5, color: '#3F6367', textLight: true, hideLabel: true },
+        { label: 'Intl Students', weight: 5, color: '#557E82', textLight: true, hideLabel: true },
+        { label: 'Intl Research', weight: 5, color: '#6B8B8E', textLight: true, hideLabel: true },
+        { label: 'Employment', weight: 5, color: '#83A0A3', textLight: false, hideLabel: true },
+        { label: 'Sustainability', weight: 5, color: '#9DB6B8', textLight: false, hideLabel: true },
       ],
       legend: [
         { label: 'Academic Reputation', color: '#1D383F' },
         { label: 'Employer Reputation', color: '#2E5B66' },
         { label: 'Citations per Faculty', color: '#A7B241' },
         { label: 'Faculty/Student', color: '#6C6864' },
-        { label: 'Intl Faculty / Intl Students / Intl Research Network / Sustainability / Employment Outcomes (each 5%)', color: '#6B8B8E', full: true },
+        { label: 'Intl Faculty Ratio (5%)', color: '#3F6367' },
+        { label: 'Intl Student Ratio (5%)', color: '#557E82' },
+        { label: 'Intl Research Network (5%)', color: '#6B8B8E' },
+        { label: 'Employment Outcomes (5%)', color: '#83A0A3' },
+        { label: 'Sustainability (5%)', color: '#9DB6B8' },
       ],
     },
     {
@@ -520,13 +528,13 @@ The overall rank number hides what's actually happening. Inside it sits a set of
   ]}
 />
 
-<p style={{ marginTop: 8, marginBottom: 8 }}><strong>Four things explain almost every rank-gap surprise.</strong></p>
+<p style={{ marginTop: 8, marginBottom: 8 }}><strong>Two mechanisms explain almost every rank-gap surprise.</strong></p>
 
 <ul>
   <li><strong>Reputation lags reality, on both sides.</strong> QS asks tens of thousands of academics and employers what they think of universities, 45% of its score. THE runs its own academic reputation survey too, folded into the Teaching and Research Environment pillars for 33% of its score. Either way, reputation views update slowly: a university that improved five years ago is still being judged on its older work, on either list. A university that slipped five years ago still benefits from its old reputation. The lag runs in both directions, and it is long.</li>
-  <li><strong>Research output moves faster.</strong> A university that publishes more, and is cited more, climbs the research-output side of the rankings in three to five years. Times Higher Education rewards this more than QS does.</li>
-  <li><strong>The same university sits in two different places, by design.</strong> A Chinese research university that rose on citation output, like USTC (QS 132, THE 51), typically ranks higher on Times Higher Education. A long-established American university with a deep reputation footprint, like Cornell (QS 16, THE 18), typically ranks higher on QS. Neither ranking is wrong; they are weighing different things.</li>
-  <li><strong>When QS and THE disagree on a university by 100 places or more, the disagreement almost always follows one of these two patterns.</strong> A university that looks like a star on one list and middling on the other is almost never a fluke. Look at which side of the gap it sits on; that tells you what kind of university it is.</li>
+  <li><strong>Research output moves faster.</strong> A university that publishes more, and is cited more, climbs the research-output side of the rankings in three to five years. Times Higher Education rewards this more than QS does (30% of the THE score sits in purely bibliometric Research Quality indicators, against 20% in QS's Citations per Faculty).</li>
+  <li><strong>Together, they sort universities into two types.</strong> A Chinese research university that rose on citation output, like USTC (QS 132, THE 51), typically ranks higher on Times Higher Education, the research-speed mechanism. A long-established American university with a deep reputation footprint, like Cornell (QS 16, THE 18), typically ranks higher on QS, the reputation-lag mechanism. Neither ranking is wrong; they are weighing different things.</li>
+  <li><strong>Use this to read any 100-place gap.</strong> A university that looks like a star on one list and middling on the other is almost never a fluke. Check which of the two patterns above it matches; that tells you what kind of university it is.</li>
 </ul>
 
 <Exhibit

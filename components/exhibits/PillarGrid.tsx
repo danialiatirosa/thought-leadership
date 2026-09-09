@@ -3,6 +3,8 @@ interface PillarSegment {
   weight: number;
   color: string;
   textLight?: boolean;
+  /** Hide the inline "N%" text, for clusters of narrow adjacent segments where it would blur together; the legend still spells out the exact weight. */
+  hideLabel?: boolean;
 }
 
 interface PillarCardData {
@@ -47,10 +49,11 @@ export function PillarGrid({ cards }: PillarGridProps) {
             {c.segments.map((s, j) => (
               <div
                 key={j}
-                className="flex items-center justify-center text-paper text-[10px] font-medium text-center px-1 leading-[1.2] border-r last:border-r-0 border-paper/30 font-sans"
-                style={{ width: `${s.weight}%`, background: s.color }}
+                className="flex items-center justify-center text-[10px] font-medium text-center px-1 leading-[1.2] border-r last:border-r-0 border-paper/30 font-sans"
+                style={{ width: `${s.weight}%`, background: s.color, color: s.textLight === false ? 'var(--color-ink)' : 'var(--color-paper)' }}
+                title={`${s.label}: ${s.weight}%`}
               >
-                {s.weight}%
+                {s.hideLabel ? null : `${s.weight}%`}
               </div>
             ))}
           </div>
