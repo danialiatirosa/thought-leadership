@@ -34,9 +34,14 @@ export function StakeholderGrid({ items, cols = 3 }: StakeholderGridProps) {
     <div className={`my-12 grid ${colsClass} gap-x-10 gap-y-10`}>
       {items.map((it, i) => (
         <div key={i} className="pt-5 border-t border-green/25 max-[600px]:first:border-t-0 max-[600px]:first:pt-0">
-          <h4 className="m-0 mb-3 font-sans text-[11px] tracking-[1.6px] uppercase font-semibold text-ink">
+          <div
+            role="heading"
+            aria-level={4}
+            className="ui-caps m-0 mb-3 font-sans tracking-[1.6px] uppercase font-semibold text-ink"
+            style={{ fontSize: 13, textTransform: 'uppercase', letterSpacing: '1.6px', color: 'var(--color-ink)' }}
+          >
             {it.title}
-          </h4>
+          </div>
           {it.body ? (
             <p className="text-[15px] leading-[1.55] m-0 max-w-none font-serif text-ink/85">
               {it.body}

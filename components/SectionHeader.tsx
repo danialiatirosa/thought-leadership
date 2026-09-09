@@ -31,13 +31,13 @@ export function SectionHeader({ id, number, kicker, title, italic, children, hid
       {hideMarker ? null : (
         <ScrollReveal className="flex items-center gap-3 mb-4">
           <span aria-hidden className="block h-px w-8 bg-lime" />
-          <div className="ui-caps font-sans text-[11px] tracking-[2px] uppercase font-semibold text-green">
+          <div className="ui-caps font-sans text-[13px] tracking-[2px] uppercase font-semibold text-green">
             Section {number}
           </div>
           {kicker ? (
             <>
               <span aria-hidden className="block h-px w-3 bg-lime/70" />
-              <div className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium">
+              <div className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-medium">
                 {kicker}
               </div>
             </>

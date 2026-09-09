@@ -39,7 +39,7 @@ export function Finding({ index, num, unit, tone, trend, title, children }: Find
             {trend ? <TrendArrow direction={trend} /> : null}
           </div>
         ) : (
-          <div className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-green font-semibold">
+          <div className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-green font-semibold">
             Finding {String(index).padStart(2, '0')}
           </div>
         )}

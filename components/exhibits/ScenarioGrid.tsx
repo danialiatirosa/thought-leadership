@@ -20,7 +20,7 @@ export function ScenarioGrid({ scenarios }: ScenarioGridProps) {
           <div className="font-serif text-[40px] font-medium text-green leading-none mb-3 -tracking-[0.5px] max-[640px]:text-[32px]">
             {s.prob}
           </div>
-          <div className="font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium mb-3">
+          <div className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-medium mb-3">
             {s.name}
           </div>
           <p className="text-[15px] text-ink/85 m-0 leading-[1.55] max-w-none font-serif">{s.body}</p>

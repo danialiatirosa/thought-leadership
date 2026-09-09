@@ -308,7 +308,7 @@ export function BumpChart({ data }: BumpChartProps) {
       </svg>
 
       <div className="mt-4 flex items-center gap-4 flex-wrap">
-        <label className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-semibold flex items-center">
+        <label className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-semibold flex items-center">
           Highlight
           <select
             value={selectedKey ?? ''}
@@ -331,13 +331,13 @@ export function BumpChart({ data }: BumpChartProps) {
           <button
             type="button"
             onClick={() => setSelectedKey(null)}
-            className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute hover:text-green border-none bg-transparent cursor-pointer p-0"
+            className="ui-caps font-sans text-[13px] tracking-[1.5px] uppercase text-mute hover:text-green border-none bg-transparent cursor-pointer p-0"
           >
             Clear
           </button>
         ) : null}
       </div>
-      <div className="ui-caps font-sans text-[10px] tracking-[1.5px] uppercase text-mute mt-3">
+      <div className="ui-caps font-sans text-[12px] tracking-[1.5px] uppercase text-mute mt-3">
         Click a line, click the right-edge label, or pick from the menu to highlight a trajectory.
       </div>
     </div>

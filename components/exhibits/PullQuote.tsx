@@ -19,7 +19,7 @@ export function PullQuote({ children, cite }: PullQuoteProps) {
         {children}
       </blockquote>
       {cite ? (
-        <figcaption className="not-italic font-sans text-[11px] tracking-[1.5px] uppercase text-mute font-medium mt-4">
+        <figcaption className="not-italic font-sans text-[13px] tracking-[1.5px] uppercase text-mute font-medium mt-4">
           {cite}
         </figcaption>
       ) : null}

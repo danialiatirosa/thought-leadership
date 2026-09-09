@@ -29,7 +29,7 @@ export function PillarGrid({ cards }: PillarGridProps) {
           key={i}
           className="grid row-span-5 [grid-template-rows:subgrid] pt-5 border-t border-green/25 max-[760px]:first:border-t-0 max-[760px]:first:pt-0 max-[760px]:pb-8 max-[760px]:last:pb-0"
         >
-          <div className="font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-semibold mb-2.5">
+          <div className="ui-caps font-sans text-[14px] tracking-[1.6px] uppercase text-mute font-semibold mb-2.5">
             {c.tag}
           </div>
           <div

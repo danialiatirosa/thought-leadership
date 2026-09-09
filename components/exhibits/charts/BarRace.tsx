@@ -315,7 +315,7 @@ export function BarRace({ years, topN = 20, msPerYear = 700 }: BarRaceProps) {
               className="block w-3.5 h-2"
               style={{ background: k.color }}
             />
-            <span className="ui-caps font-sans text-[10px] tracking-[1.5px] uppercase text-mute font-medium">
+            <span className="ui-caps font-sans text-[12px] tracking-[1.5px] uppercase text-mute font-medium">
               {k.label}
             </span>
           </div>
@@ -328,7 +328,7 @@ export function BarRace({ years, topN = 20, msPerYear = 700 }: BarRaceProps) {
           type="button"
           onClick={togglePlay}
           aria-label={playing ? 'Pause' : 'Play'}
-          className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase font-semibold text-paper bg-green px-4 py-2 hover:bg-green-deep transition-colors border-none"
+          className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase font-semibold text-paper bg-green px-4 py-2 hover:bg-green-deep transition-colors border-none"
         >
           {playing ? 'Pause' : yearIdx >= yearList.length - 1 && t > 0.99 ? 'Replay' : 'Play'}
         </button>
@@ -342,11 +342,11 @@ export function BarRace({ years, topN = 20, msPerYear = 700 }: BarRaceProps) {
           aria-label="Year scrubber"
           className="flex-1 max-w-[480px] accent-[var(--color-lime)]"
         />
-        <div className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase font-semibold text-mute tabular-nums" style={{ fontVariantNumeric: 'tabular-nums' }}>
+        <div className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase font-semibold text-mute tabular-nums" style={{ fontVariantNumeric: 'tabular-nums' }}>
           {yearLabel}
         </div>
       </div>
-      <div className="ui-caps font-sans text-[10px] tracking-[1.5px] uppercase text-mute mt-3">
+      <div className="ui-caps font-sans text-[12px] tracking-[1.5px] uppercase text-mute mt-3">
         Press Space to play or pause. Arrow keys step year by year.
       </div>
     </div>

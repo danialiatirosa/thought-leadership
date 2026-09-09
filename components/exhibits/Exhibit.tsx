@@ -23,7 +23,7 @@ export function Exhibit({ number, title, sub, source, children }: ExhibitProps) 
   return (
     <figure className="my-14 max-w-none">
       {number ? (
-        <ScrollReveal className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium mb-2">
+        <ScrollReveal className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-medium mb-2">
           {number}
         </ScrollReveal>
       ) : null}
