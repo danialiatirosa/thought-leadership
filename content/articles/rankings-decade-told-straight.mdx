@@ -532,22 +532,27 @@ The overall rank number hides what's actually happening. Inside it sits a set of
 <Exhibit
   title="QS and THE often disagree, and the disagreement is structural."
   sub="Institution-level QS rank vs THE rank, 2026 edition: real data, all 325 institutions that appear in both Top 500 lists. Hollow dots are banded on one axis (e.g., THE's 401–500 tier) and are spread across their true band range rather than stacked at the midpoint; hover any dot for the institution and both ranks. Outliers labelled."
-  source="Source: QS World University Rankings 2026; THE World University Rankings 2026; authors’ analysis. 319 unlabelled institutions plus 6 labelled outliers, matched by canonicalised name across both systems."
+  source="Source: QS World University Rankings 2026; THE World University Rankings 2026; authors’ analysis. 320 unlabelled institutions plus 5 labelled outliers, matched by canonicalised name across both systems."
 >
   <SVGScatter
     points={qsTheScatter2026.points}
     outliers={qsTheScatter2026.outliers}
+    pointRadius={2.25}
+    pointOpacity={0.4}
+    bandedPointOpacity={0.5}
     diagonal
     diagonalLabel="QS rank = THE rank (perfect agreement)"
+    diagonalLabelX={520}
+    diagonalLabelY={70}
     xAxisLabel="QS rank (lower is better)"
     yAxisLabel="THE rank (lower is better)"
     yTicks={[
-      { y: 0, label: '1' },
-      { y: 64, label: '100' },
-      { y: 128, label: '200' },
-      { y: 192, label: '300' },
-      { y: 256, label: '400' },
-      { y: 320, label: '500' },
+      { y: 320, label: '1' },
+      { y: 256, label: '100' },
+      { y: 192, label: '200' },
+      { y: 128, label: '300' },
+      { y: 64, label: '400' },
+      { y: 0, label: '500' },
     ]}
   />
 </Exhibit>

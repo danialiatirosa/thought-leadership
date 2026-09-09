@@ -24,10 +24,18 @@ interface SVGScatterProps {
   outliers?: ScatterOutlier[];
   diagonal?: boolean;
   diagonalLabel?: string;
+  diagonalLabelX?: number;
+  diagonalLabelY?: number;
   xAxisLabel?: string;
   yAxisLabel?: string;
   xTicks?: { x: number; label: string }[];
   yTicks?: { y: number; label: string }[];
+  /** Radius for background points (not outliers). Default 3. */
+  pointRadius?: number;
+  /** Opacity for non-banded background points. Default 0.6. */
+  pointOpacity?: number;
+  /** Opacity for banded (hollow) background points. Default 0.75. */
+  bandedPointOpacity?: number;
 }
 
 const DEFAULT_X_TICKS = [
@@ -53,10 +61,15 @@ export function SVGScatter({
   outliers = [],
   diagonal = false,
   diagonalLabel,
+  diagonalLabelX,
+  diagonalLabelY,
   xAxisLabel,
   yAxisLabel,
   xTicks,
   yTicks,
+  pointRadius = 3,
+  pointOpacity = 0.6,
+  bandedPointOpacity = 0.75,
 }: SVGScatterProps) {
   const resolvedXTicks = xTicks ?? DEFAULT_X_TICKS;
   const resolvedYTicks = yTicks ?? DEFAULT_Y_TICKS;
@@ -83,16 +96,22 @@ export function SVGScatter({
         {diagonal ? (
           <>
             <line
-              x1={0}
-              y1={0}
-              x2={820}
-              y2={320}
+              x1={resolvedXTicks[0].x}
+              y1={resolvedYTicks[0].y}
+              x2={resolvedXTicks[resolvedXTicks.length - 1].x}
+              y2={resolvedYTicks[resolvedYTicks.length - 1].y}
               stroke="var(--color-ink-soft)"
               strokeWidth={1}
               strokeDasharray="4,4"
             />
             {diagonalLabel ? (
-              <text x={700} y={274} fontSize={13} fill="var(--color-ink-soft)" fontStyle="italic">
+              <text
+                x={diagonalLabelX ?? 700}
+                y={diagonalLabelY ?? 274}
+                fontSize={13}
+                fill="var(--color-ink-soft)"
+                fontStyle="italic"
+              >
                 {diagonalLabel}
               </text>
             ) : null}
@@ -106,16 +125,16 @@ export function SVGScatter({
                 key={i}
                 cx={p.x}
                 cy={p.y}
-                r={p.r ?? 3}
+                r={p.r ?? pointRadius}
                 fill="var(--color-paper)"
                 stroke="var(--color-tamkeen-mid)"
-                strokeWidth={1}
-                opacity={0.75}
+                strokeWidth={0.75}
+                opacity={bandedPointOpacity}
               >
                 {p.title ? <title>{p.title}</title> : null}
               </circle>
             ) : (
-              <circle key={i} cx={p.x} cy={p.y} r={p.r ?? 3} fill="var(--color-tamkeen-mid)" opacity={0.6}>
+              <circle key={i} cx={p.x} cy={p.y} r={p.r ?? pointRadius} fill="var(--color-tamkeen-mid)" opacity={pointOpacity}>
                 {p.title ? <title>{p.title}</title> : null}
               </circle>
             ),
