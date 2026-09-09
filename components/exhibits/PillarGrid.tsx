@@ -42,7 +42,7 @@ export function PillarGrid({ cards }: PillarGridProps) {
             {c.title}
           </div>
           <div
-            className="flex h-7 mb-5 overflow-hidden border border-rule self-start"
+            className="flex h-7 mb-3 overflow-hidden border border-rule self-start"
             title="Pillar weights"
           >
             {c.segments.map((s, j) => (
@@ -56,8 +56,7 @@ export function PillarGrid({ cards }: PillarGridProps) {
               </div>
             ))}
           </div>
-          <p className="font-serif text-[15px] text-ink/85 m-0 mb-3 max-w-none self-start">{c.body}</p>
-          <div className="grid grid-cols-2 gap-y-1 gap-x-3 text-[12px] font-sans self-start">
+          <div className="grid grid-cols-2 gap-y-1 gap-x-3 text-[12px] font-sans self-start mb-5">
             {c.legend.map((l, j) => (
               <div
                 key={j}
@@ -74,6 +73,7 @@ export function PillarGrid({ cards }: PillarGridProps) {
               </div>
             ))}
           </div>
+          <p className="font-serif text-[15px] text-ink/85 m-0 max-w-none self-start">{c.body}</p>
         </div>
       ))}
     </div>
