@@ -59,19 +59,19 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
     <div className="my-2 grid grid-cols-[1.15fr_1fr] gap-x-10 max-[760px]:grid-cols-1 max-[760px]:gap-y-8">
       <div className="pt-5 border-t border-green/25">
         <div className="m-0 mb-1 font-sans text-[15px] font-semibold text-ink normal-case tracking-normal" style={{ fontSize: 15, textTransform: 'none', letterSpacing: 'normal', color: 'var(--color-ink)' }}>
-          Footprint: number of universities in the Top 500, 2016 to {toYear}
+          Footprint: number of universities in the WUR Top 500, 2016 to {toYear}
         </div>
         <p className="m-0 mb-4 font-sans text-[11px] italic text-mute">Hover or tap a row to see its institutions</p>
 
         <div className="flex items-center justify-between mb-2 px-1">
-          <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">From year ↓</span>
+          <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">From 2016/2017 ↓</span>
           <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">→ To {toYear}</span>
         </div>
 
-        <div>
+        <div className="space-y-3">
           {groups.map((g, groupIndex) => (
-            <div key={groupIndex} className={groupIndex > 0 ? 'mt-4 pt-3 border-t border-rule-soft' : ''}>
-              <div className="flex items-center gap-2 mb-1 px-2">
+            <div key={groupIndex} className="border border-rule rounded-[6px] bg-green/[0.03] px-3 pt-3 pb-1">
+              <div className="flex items-center gap-2 mb-1">
                 {g.flag ? <Flag country={g.flag} width={18} /> : null}
                 <span className="font-sans text-[13px] font-semibold tracking-[0.3px] text-ink uppercase">
                   {g.country}
@@ -95,61 +95,47 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
                       isActive ? 'bg-green/[0.07]' : 'hover:bg-green/[0.04]'
                     }`}
                   >
-                    <div className="text-[13px] font-serif text-ink mb-5 mt-1">{r.system}</div>
-                    <div className="relative h-4">
-                      <div className="absolute top-1/2 left-0 right-0 h-px bg-rule-soft -translate-y-1/2" />
-                      <div
-                        className="absolute top-1/2 h-[1.5px] bg-green -translate-y-1/2"
-                        style={{ left: `${startPct}%`, width: `${endPct - startPct}%` }}
-                      />
-                      <span
-                        className="absolute bottom-[9px] font-sans text-[11px] text-mute -translate-x-1/2 tabular-nums"
-                        style={{ left: `${startPct}%` }}
-                      >
-                        {r.start}
-                      </span>
-                      <span
-                        className="absolute top-1/2 block w-[7px] h-[7px] rounded-full bg-mute -translate-x-1/2 -translate-y-1/2"
-                        style={{ left: `${startPct}%` }}
-                      />
-                      <span
-                        className="absolute bottom-[9px] font-sans text-[12px] font-semibold text-green -translate-x-1/2 tabular-nums"
-                        style={{ left: `${endPct}%` }}
-                      >
-                        {r.end}
-                      </span>
-                      <svg
-                        className="absolute top-1/2 -translate-y-1/2"
-                        style={{ left: `${endPct}%` }}
-                        width="11"
-                        height="11"
-                        viewBox="0 0 11 11"
-                        aria-hidden
-                      >
-                        <polygon points="0,1 0,10 11,5.5" fill="var(--color-green)" />
-                      </svg>
+                    <div className="pl-4">
+                      <div className="text-[13px] font-serif text-ink mb-5 mt-1">{r.system}</div>
+                      <div className="relative h-4">
+                        <div className="absolute top-1/2 left-0 right-0 h-px bg-rule-soft -translate-y-1/2" />
+                        <div
+                          className="absolute top-1/2 h-[1.5px] bg-green -translate-y-1/2"
+                          style={{ left: `${startPct}%`, width: `${endPct - startPct}%` }}
+                        />
+                        <span
+                          className="absolute bottom-[9px] font-sans text-[11px] text-mute -translate-x-1/2 tabular-nums"
+                          style={{ left: `${startPct}%` }}
+                        >
+                          {r.start}
+                        </span>
+                        <span
+                          className="absolute top-1/2 block w-[7px] h-[7px] rounded-full bg-mute -translate-x-1/2 -translate-y-1/2"
+                          style={{ left: `${startPct}%` }}
+                        />
+                        <span
+                          className="absolute bottom-[9px] font-sans text-[12px] font-semibold text-green -translate-x-1/2 tabular-nums"
+                          style={{ left: `${endPct}%` }}
+                        >
+                          {r.end}
+                        </span>
+                        <svg
+                          className="absolute top-1/2 -translate-y-1/2"
+                          style={{ left: `${endPct}%` }}
+                          width="11"
+                          height="11"
+                          viewBox="0 0 11 11"
+                          aria-hidden
+                        >
+                          <polygon points="0,1 0,10 11,5.5" fill="var(--color-green)" />
+                        </svg>
+                      </div>
                     </div>
                   </button>
                 );
               })}
             </div>
           ))}
-        </div>
-
-        <div className="flex items-center justify-between mt-2 px-1 text-[12px] font-sans text-mute italic">
-          <span>higher = better</span>
-          <span>higher = better</span>
-        </div>
-
-        <div className="flex items-center gap-4 mt-4 text-[12.5px] font-sans text-mute">
-          <span className="flex items-center gap-1.5">
-            <span className="block w-[7px] h-[7px] rounded-full bg-mute" />
-            2016, or first year on the list
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="block w-[8px] h-[8px] rounded-full bg-green" />
-            {toYear}
-          </span>
         </div>
       </div>
 
