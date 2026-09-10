@@ -136,11 +136,6 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
           ))}
         </div>
 
-        <div className="flex items-center justify-between mt-2 px-1 text-[12px] font-sans text-mute italic">
-          <span>higher = better</span>
-          <span>higher = better</span>
-        </div>
-
         <div className="flex items-center gap-4 mt-4 text-[12.5px] font-sans text-mute">
           <span className="flex items-center gap-1.5">
             <span className="block w-[7px] h-[7px] rounded-full bg-mute" />
