@@ -118,19 +118,15 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
                       >
                         {r.end}
                       </span>
-                      <span
-                        className="absolute top-1/2 block w-[8px] h-[8px] rounded-full bg-green -translate-x-1/2 -translate-y-1/2"
-                        style={{ left: `${endPct}%` }}
-                      />
                       <svg
                         className="absolute top-1/2 -translate-y-1/2"
-                        style={{ left: `calc(${endPct}% - 2px)` }}
-                        width="9"
-                        height="8"
-                        viewBox="0 0 9 8"
+                        style={{ left: `${endPct}%` }}
+                        width="11"
+                        height="11"
+                        viewBox="0 0 11 11"
                         aria-hidden
                       >
-                        <path d="M0,4 L7,0.5 L7,7.5 Z" fill="var(--color-green)" />
+                        <polygon points="0,1 0,10 11,5.5" fill="var(--color-green)" />
                       </svg>
                     </div>
                   </button>

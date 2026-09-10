@@ -89,8 +89,8 @@ const BODIES: Record<string, React.ReactNode> = {
   'Korea, Republic of': (
     <>
       <rect x={0} y={0} width={30} height={20} fill="#FFFFFF" />
-      <path d="M15,4.5 A5.5,5.5 0 0 1 15,15.5 A2.75,2.75 0 0 1 15,10 A2.75,2.75 0 0 0 15,4.5 Z" fill="#CD2E3A" />
-      <path d="M15,4.5 A5.5,5.5 0 0 0 15,15.5 A2.75,2.75 0 0 0 15,10 A2.75,2.75 0 0 1 15,4.5 Z" fill="#0047A0" />
+      <path d="M9.5,10 A5.5,5.5 0 0 0 20.5,10 Z" fill="#CD2E3A" />
+      <path d="M9.5,10 A5.5,5.5 0 0 1 20.5,10 Z" fill="#0047A0" />
     </>
   ),
   Germany: (
