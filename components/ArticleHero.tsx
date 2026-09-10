@@ -28,10 +28,18 @@ export function ArticleHero({ article }: ArticleHeroProps) {
     <header className="border-b border-green/20">
       <div className="mx-auto max-w-[1240px] px-8 pt-16 pb-14 max-[640px]:px-5 max-[640px]:pt-10 max-[640px]:pb-9">
         <div className="max-w-[820px] mx-auto">
-          {/* Hairline + small-caps line: date, reading time. No category. */}
-          <ScrollReveal className="flex items-center gap-4 mb-9">
+          {/* Hairline + small-caps line: lead section, date, reading time. */}
+          <ScrollReveal className="flex items-center gap-4 mb-9 flex-wrap">
             <span aria-hidden className="block h-px w-10 bg-green-light" />
             <div className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium">
+              {article.sections?.[0] ? (
+                <>
+                  <span className="text-green font-semibold tracking-[2px]">
+                    Section {article.sections[0].number} — {article.sections[0].label}
+                  </span>
+                  <span className="text-mute/60 mx-2.5">·</span>
+                </>
+              ) : null}
               {formatLongDate(article.publishedAt)}
               <span className="text-mute/60 mx-2.5">·</span>
               {article.readingTimeMinutes} min read

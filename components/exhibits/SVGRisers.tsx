@@ -2,6 +2,8 @@ interface RiserRow {
   label: string;
   fromRank: number;
   toRank: number;
+  /** Flag emoji shown before the institution name. */
+  flag?: string;
 }
 
 interface SVGRisersProps {
@@ -54,27 +56,30 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
                 fontWeight={600}
                 fill="var(--color-ink)"
               >
+                {r.flag ? `${r.flag} ` : ''}
                 {r.label}
               </text>
-              <line x1={startX} y1={0} x2={endX - 36} y2={0} stroke="#3F4818" strokeWidth={2} />
-              <polygon points={`${startX},0 ${startX + 10},-5 ${startX + 10},5`} fill="#3F4818" />
-              <circle cx={startX} cy={0} r={4} fill="#3F4818" />
+              <line x1={startX} y1={0} x2={endX - 36} y2={0} stroke="#2E5B66" strokeWidth={2} />
+              <polygon points={`${startX},0 ${startX + 10},-5 ${startX + 10},5`} fill="#2E5B66" />
+              <circle cx={startX} cy={0} r={4} fill="#2E5B66" />
               <circle cx={endX - 36} cy={0} r={4} fill="var(--color-ink-soft)" />
               <text
                 x={startX - 5}
-                y={-7}
+                y={-10}
                 textAnchor="end"
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
-                fontSize={10}
-                fill="#3F4818"
+                fontSize={14}
+                fontWeight={600}
+                fill="#2E5B66"
               >
                 {r.fromRank}
               </text>
               <text
                 x={endX - 31}
-                y={-7}
+                y={-10}
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
-                fontSize={10}
+                fontSize={14}
+                fontWeight={600}
                 fill="var(--color-ink-soft)"
               >
                 {r.toRank}
@@ -88,7 +93,7 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
           <text x={10} y={4} fontSize={10} fill="var(--color-ink-soft)">
             First appearance (decade-start rank)
           </text>
-          <circle cx={220} cy={0} r={4} fill="#3F4818" />
+          <circle cx={220} cy={0} r={4} fill="#2E5B66" />
           <text x={230} y={4} fontSize={10} fill="var(--color-ink-soft)">
             Most recent rank (2026)
           </text>

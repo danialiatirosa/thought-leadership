@@ -5,12 +5,12 @@ emphasis: "decade"
 slug: "rankings-decade-told-straight"
 category: "rankings"
 categoryNumber: 2
-publishedAt: "2026-05-08"
+publishedAt: "2026-09-15"
 filedFrom: "Abu Dhabi"
 authors: ["tamkeen-research"]
 heroExhibit: "regional-composition"
 tags: ["higher education", "rankings", "QS", "THE", "UAE"]
-readingTime: 23
+readingTime: 12
 status: "published"
 ---
 
@@ -25,16 +25,16 @@ import {
   heatmapRows,
   heatmapCols,
   risers,
-  gerdBubbles,
-  gerdAnnotations,
-  scatterPoints,
-  scatterOutliers,
   countryTableRows,
+  countryFlags,
+  countryShortNames,
   lessonsTableRows,
 } from './decade-that-reshaped-higher-education.data';
 
 import top20ByYear from '@/content/data/the-top20-by-year.json';
 import theBumpCohort from '@/content/data/the-bump-cohort.json';
+import qsTheScatter2026 from '@/content/data/qs-the-scatter-2026.json';
+import qsTheYoyMovement2026 from '@/content/data/qs-the-yoy-movement-2026.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
 
@@ -44,19 +44,15 @@ import { ArticleSection } from '@/components/ArticleLayout';
   number="01"
   kicker="The brief"
   title="The numbers that move; the rule change that explains the rest."
+  hideMarker
 />
-
-<p className="dropcap wide" style={{ fontSize: '19px', lineHeight: 1.7, maxWidth: 'none', columnCount: 1 }}>
-Three things happened to the global higher-education league tables between 2016 and 2026, and one of them was not what most people think.
-</p>
 
 <Finding index={1} num="2×" trend="up" title="Asia's THE Top 100 share more than doubled">
 From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a smaller shift (20% to 21%), because QS leans more on reputation surveys, and reputation moves slowly. It takes years for the surveys to catch up with what universities are actually doing.
 
 <Exhibit
-  title="Asia rose, the US slipped, Europe held."
   sub="Composition of the Times Higher Education Top 100 by region, 2016 to 2026 (% share). The chart reveals year by year as you scroll."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Greater China = China + Hong Kong + Macao + Taiwan, included in East Asia."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis."
 >
   <ScrollReveal2DChart ariaLabel="Stacked area chart of THE Top 100 region composition 2016 to 2026, revealed as you scroll.">
     <SVGStackedArea
@@ -65,7 +61,6 @@ From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a sm
       legend={stackedAreaLegend}
       years={stackedAreaYears}
       inlineLabels={stackedAreaInlineLabels}
-      breakLine={{ x: 656, label: '2024 rule change (WUR 3.0 / QS revision)' }}
     />
   </ScrollReveal2DChart>
 </Exhibit>
@@ -84,7 +79,7 @@ From 4 institutions in 2016 to 12 in 2026. This is the single biggest source of 
 </Finding>
 
 <Finding index={3} num="−4 / −6" tone="neg" trend="down" title="The US lost ground, but only mildly at the elite tier">
-39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates.
+39 to 35 (THE) and 32 to 26 (QS). The US still holds the largest single-country cohort in both systems. The decline is concentrated in mid-Top-100 publics, not Ivy-tier privates. Widen the lens to the Top 500, a much larger cohort, and the erosion is sharper: the US posts the decade's largest net decline of any country (see chart).
 
 <Exhibit
   title="China is the biggest gainer; the US is the biggest decliner."
@@ -96,7 +91,7 @@ From 4 institutions in 2016 to 12 in 2026. This is the single biggest source of 
 </Finding>
 
 <Finding index={4} num="1 vs 20" trend="flat" title="The top doesn't move. The middle does.">
-A university in the global Top 10 moves about one place a year. A university near rank 400 on QS moves about 20. 154 universities entered the QS Top 500 across the decade, and 126 entered the Times Higher Education Top 500 — a reader trying to spot trends should look at who entered or exited the Top 500, not at small year-to-year rank changes.
+A university in the global Top 10 moves about one place a year. A university near rank 400 on QS moves about 20. 154 universities entered the QS Top 500 across the decade, and 126 entered the Times Higher Education Top 500. A reader trying to spot trends should look at who entered or exited the Top 500, not at small year-to-year rank changes.
 
 <Exhibit
   title="The elite is sticky; the Top 500 churns."
@@ -111,196 +106,339 @@ A university in the global Top 10 moves about one place a year. A university nea
 Times Higher Education replaced its long-standing Citations score with two new categories (Research Environment and Research Quality). QS added three new factors (Sustainability, Employment Outcomes, International Research Network) and increased the weight of Employer Reputation. Any rank change between 2023 and 2024 should be read as a rule change first, and an institutional change second.
 </Finding>
 
-<Finding index={6} title="Countries that fund research see their universities climb">
-Where a country spent more of its GDP on research, its universities gained ground on the citation-based parts of the rankings. China and South Korea are the clearest cases. Israel is an outlier: high R&D spend, modest ranking gains. Russia is the only major country whose universities went backwards, consistent with its post-2022 isolation from international research networks.
+<Finding index={6} num=">100" unit="places" title="QS and THE often disagree by 100 places or more, and that's the system working, not breaking">
+For dozens of universities in 2026, the QS rank and the Times Higher Education rank are more than 100 places apart, and that gap is structural rather than random. QS rewards reputation; THE rewards research output. A university that looks elite on one list and middling on the other is being measured by two different yardsticks. The right response to a 100-place gap is to look at which factors drove it, not to dismiss either rank.
 </Finding>
 
-<Finding index={7} num=">100" unit="places" title="QS and THE often disagree by 100 places or more, and that's the system working, not breaking">
-For dozens of universities in 2026, the QS rank and the Times Higher Education rank are more than 100 places apart. This is not random noise. QS rewards reputation; THE rewards research output. A university that looks elite on one list and middling on the other isn't being graded inconsistently. The two graders are answering different questions. The right response to a 100-place gap is to look at which factors drove it, not to dismiss either rank.
-</Finding>
-
-<Handoff href="#systems">The detailed analysis</Handoff>
+<Handoff href="#landscape">The detailed analysis</Handoff>
 
 </ArticleSection>
 
-<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 10</FullDivider>
-
-<ArticleSection id="systems" variant="alt">
-
-<SectionHeader
-  number="02"
-  kicker="Why the systems disagree"
-  title="QS and THE measure different things. A 100-place gap is usually signal, not noise."
-  italic="signal, not noise"
-/>
-
-<PillarGrid
-  cards={[
-    {
-      tag: 'QS · 2024 scoring',
-      title: 'Reputation-led, with internationalisation overlay.',
-      body: 'QS combines two reputation surveys (45% of the score together), citations per faculty (20%), faculty-to-student ratio (10%), and four newer indicators each at 5%: sustainability, employment outcomes, international research network, and international student diversity.',
-      segments: [
-        { label: 'Academic Rep', weight: 30, color: '#3F4818' },
-        { label: 'Employer Rep', weight: 15, color: '#5C6B1F' },
-        { label: 'Citations / Fac', weight: 20, color: '#A6B340' },
-        { label: 'Fac/Stu', weight: 10, color: '#7A8628' },
-        { label: 'Intl & Outcomes', weight: 25, color: '#2F5C66', textLight: true },
-      ],
-      legend: [
-        { label: 'Academic Reputation 30%', color: '#3F4818' },
-        { label: 'Employer Reputation 15%', color: '#5C6B1F' },
-        { label: 'Citations per Faculty 20%', color: '#A6B340' },
-        { label: 'Faculty/Student 10%', color: '#7A8628' },
-        { label: 'Intl Faculty / Intl Students / Intl Research Network / Sustainability / Employment Outcomes (each 5%)', color: '#2F5C66', full: true },
-      ],
-    },
-    {
-      tag: 'THE · WUR 3.0 (2024)',
-      title: 'Research-quality led, with bibliometric depth.',
-      body: "THE’s overall score uses 18 indicators across five pillars. The 2024 edition split Research into Research Environment and Research Quality, dropping the standalone Citations indicator that had defined THE since 2010.",
-      segments: [
-        { label: 'Teaching', weight: 29.5, color: '#3F4818' },
-        { label: 'Research Env', weight: 29, color: '#5C6B1F' },
-        { label: 'Research Qual', weight: 30, color: '#A6B340' },
-        { label: 'Ind', weight: 4, color: '#7A8628' },
-        { label: 'Intl', weight: 7.5, color: '#2F5C66', textLight: true },
-      ],
-      legend: [
-        { label: 'Teaching 29.5%', color: '#3F4818' },
-        { label: 'Research Environment 29%', color: '#5C6B1F' },
-        { label: 'Research Quality 30%', color: '#A6B340' },
-        { label: 'Industry 4%', color: '#7A8628' },
-        { label: 'International Outlook 7.5%', color: '#2F5C66' },
-      ],
-    },
-  ]}
-/>
-
-<p style={{ marginTop: 8, marginBottom: 8 }}><strong>Four things explain almost every rank-gap surprise.</strong></p>
-
-<ul>
-  <li><strong>Reputation lags reality.</strong> QS asks tens of thousands of academics and employers what they think of universities. Their views update slowly: a university that improved five years ago is still being judged on its older work. A university that slipped five years ago still benefits from its old reputation. The lag runs in both directions, and it is long.</li>
-  <li><strong>Research output moves faster.</strong> A university that publishes more, and is cited more, climbs the research-output side of the rankings in three to five years. Times Higher Education rewards this more than QS does.</li>
-  <li><strong>The same university sits in two different places, by design.</strong> A Chinese research university that rose on citation output, like USTC (QS 132, THE 51), typically ranks higher on Times Higher Education. A long-established American university with a deep reputation footprint, like Cornell (QS 16, THE 18), typically ranks higher on QS. Neither ranking is wrong; they are weighing different things.</li>
-  <li><strong>When QS and THE disagree on a university by 100 places or more, the disagreement almost always follows one of these two patterns.</strong> A university that looks like a star on one list and middling on the other is almost never a fluke. Look at which side of the gap it sits on; that tells you what kind of university it is.</li>
-</ul>
-
-<Exhibit
-  number="Exhibit 05 · Structural disagreement"
-  title="QS and THE often disagree, and the disagreement is structural."
-  sub="Institution-level QS rank vs THE rank, 2026 edition. Each dot is one institution; outliers labelled."
-  source="Source: QS World University Rankings 2026; THE World University Rankings 2026; authors’ analysis. Outliers reflect actual divergences identified in 2026 data."
->
-  <SVGScatter
-    points={scatterPoints}
-    outliers={scatterOutliers}
-    diagonal
-    diagonalLabel="QS rank = THE rank (perfect agreement)"
-    xAxisLabel="QS rank (better →)"
-    yAxisLabel="THE rank (better →)"
-  />
-</Exhibit>
-
-<PullQuote cite="From the analysis">
-  Reading rank movement as a quality signal, independent of how the rankings are scored, is the most common decision-maker error. It rarely tells you anything about the university itself.
-</PullQuote>
-
-</ArticleSection>
+<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 08</FullDivider>
 
 <ArticleSection id="landscape">
 
 <SectionHeader
-  number="03"
+  number="02"
   kicker="The global landscape"
   title="One region accounts for almost all the change."
   italic="almost all"
 />
 
 <p className="lead">
-Greater China is the engine. The Gulf is the second-tier story. The US has slipped at the band where its mid-tier publics live, not at the elite.
+Greater China accounts for most of the shift this section's title describes. The Gulf is a real but secondary growth story by comparison, and the US hasn't collapsed so much as thinned in the middle, at the band where its mid-tier publics live, not at the elite.
+</p>
+
+<p style={{ marginTop: 24 }}>
+Four countries account for nearly all of the movement below the very top. Three of them are growth stories built on sustained funding; the fourth is where the erosion is concentrated.
 </p>
 
 <ul>
   <li><strong>China added 24 universities to the Times Higher Education Top 500</strong> across the decade, and tripled its Top 100 cohort from 4 to 12. Six universities account for most of the elite-tier gain: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China.</li>
   <li><strong>Saudi Arabia went from one university in the Top 500 to nine.</strong> Vision 2030 named an explicit target ("at least five institutions in the global Top 200") and turned rank movement into a ministerial KPI. The Top-500 cohort grew accordingly, from one institution to nine, though the Top-200 line has not yet been crossed at scale.</li>
-  <li><strong>The UAE went from zero universities in the Times Higher Education Top 500 to seven.</strong> The fastest percentage growth of any Gulf country. Khalifa University did most of the work; details in Section 06.</li>
+  <li><strong>The UAE went from zero universities in the Times Higher Education Top 500 to seven.</strong> The fastest percentage growth of any Gulf country. Khalifa University did most of the work; details in Section 03.</li>
   <li><strong>The United States is still the largest single-country cohort in both rankings.</strong> It lost ground, but the lost ground is in the 200-to-500 band, not at the top. Harvard, MIT and Stanford are exactly where they were. Princeton drifted a few places on QS but holds its top-five position on Times Higher Education. The mid-tier public flagships are where the erosion is.</li>
 </ul>
 
+<p style={{ marginTop: 24 }}>
+The table below extends that same four-country pattern across the full Top 15.
+</p>
+
 <DataTable
   caption="Top-15 countries by 2026 Top-500 count, both ranking systems"
+  groupHeader={[
+    { label: '', span: 1 },
+    { label: 'QS', span: 3, logo: '/logo-qs.svg' },
+    { label: 'THE', span: 3, logo: '/logo-the.svg' },
+  ]}
   columns={[
-    { key: 'country', label: 'Country' },
-    { key: 'qs17', label: "QS '17", numeric: true },
-    { key: 'qs26', label: "QS '26", numeric: true },
-    { key: 'qsD', label: 'QS Δ', numeric: true },
-    { key: 'the16', label: "THE '16", numeric: true },
-    { key: 'the26', label: "THE '26", numeric: true },
-    { key: 'theD', label: 'THE Δ', numeric: true },
+    { key: 'country', label: 'Country', width: '230px' },
+    { key: 'qs17', label: "'17", numeric: true },
+    { key: 'qs26', label: "'26", numeric: true },
+    { key: 'qsD', label: 'Δ', numeric: true, shaded: true },
+    { key: 'the16', label: "'16", numeric: true },
+    { key: 'the26', label: "'26", numeric: true },
+    { key: 'theD', label: 'Δ', numeric: true, shaded: true },
   ]}
   rows={countryTableRows}
+  cellRender={(col, row) => {
+    if (col.key === 'country') {
+      const name = String(row.country);
+      return (
+        <span className="whitespace-nowrap max-[640px]:whitespace-normal">
+          <span aria-hidden style={{ marginRight: 8 }}>{countryFlags[name]}</span>
+          {countryShortNames[name] ?? name}
+        </span>
+      );
+    }
+    const v = row[col.key];
+    if (v && typeof v === 'object') {
+      const cls = v.tone === 'pos' ? 'text-green font-semibold' : v.tone === 'neg' ? 'text-neg font-semibold' : '';
+      return <span className={cls}>{v.value}</span>;
+    }
+    return String(v ?? '–');
+  }}
 />
 
 <p style={{ marginTop: 32 }}>
-<strong>One pattern explains most country-level movement: countries that spent more of their GDP on research saw their universities cited more, and more-cited universities climb both rankings.</strong> China and South Korea are the clearest examples. Israel is an outlier: it spent heavily on research but saw only modest ranking gains, a case worth more analysis than the rankings provide.
+"Region" is doing a lot of work in that framing. Zoom into which universities actually accounted for the gain, and the picture sharpens.
+</p>
+
+<h3 style={{ marginTop: 32 }}>Which institutions actually moved.</h3>
+
+<p className="lead">
+Asia didn't rise as a bloc; specific Asian institutions in specific funding programmes did.
 </p>
 
 <Exhibit
-  number="Exhibit 07 · Research funding vs citation gains"
-  numberTone="copper"
-  title="Research-funding intensity tracks citation gains, but with notable outliers."
-  sub="Country-level R&D expenditure as % of GDP (latest year) vs decade change in mean citation score; bubble size = number of Top-500 universities in 2026."
-  source="Source: World Bank indicator GB.XPD.RSDV.GD.ZS (R&D expenditure as % of GDP, latest available year per country); Times Higher Education World University Rankings 2016 to 2026; authors’ analysis."
+  number="Exhibit 06 · The cohort, year by year"
+  title="The 2016 elite tracked through 2026."
+  sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Cohort = the Times Higher Education Top 20 in 2016, tracked through every subsequent year."
 >
-  <SVGGerdScatter bubbles={gerdBubbles} annotations={gerdAnnotations} />
+  <BumpChart data={theBumpCohort} />
 </Exhibit>
+
+<p style={{ marginTop: 32 }}>
+The 2016 elite barely moves: 17 of these 20 institutions are still in the Top 20 a decade later, and the average drift is three places. The real movement in this decade's data is happening below this cohort, among institutions that weren't elite in 2016 at all. Isolating the fastest of those newcomers makes the funding pattern explicit.
+</p>
+
+<Exhibit
+  number="Exhibit 07 · Top 15 risers"
+  title="THE: top 15 risers across the decade."
+  sub="First-appearance rank to most-recent rank. Institutions present at least 4 years; sorted by magnitude."
+  source="Source: THE World University Rankings, annual editions 2016 to 2026; authors’ analysis. Integer-ranked endpoints only."
+>
+  <SVGRisers rows={risers} />
+</Exhibit>
+
+<p style={{ marginTop: 32 }}>
+The list of biggest risers is, in effect, a list of national funding programmes. Five of the top ten are mainland Chinese universities funded under the Double First-Class scheme. Two more are Hong Kong universities (Hong Kong Polytechnic and the Chinese University of Hong Kong) compounding on a separate funding base. Two are Korean universities (Yonsei and KAIST) funded by Brain Korea 21, which has been running since 1999. The remaining one is Berlin's Charité, funded by Germany's Excellence Strategy.
+</p>
+
+<p>
+<strong>One pattern holds across the entire risers list: universities that climbed are universities whose governments committed to sustained research funding, and the climb showed up five to seven years after the funding started.</strong> No riser in this list got there without that combination: sustained government funding, and a university able to convert it into research output.
+</p>
+
+<p style={{ marginTop: 32 }}>
+That funding-to-climb mechanism is the substance behind this section's regional framing: national commitment shows up in the rankings five to seven years later, consistently, regardless of region. Section 03, GCC Spotlight, works through exactly that mechanism for the Gulf specifically.
+</p>
 
 </ArticleSection>
 
-<ArticleSection id="break" variant="dark">
+<ArticleSection id="uae" variant="alt">
 
 <SectionHeader
-  number="04"
-  kicker="The 2024 break"
-  title="The most consequential year of the decade was a rule-change year."
-  italic="rule-change"
-  dark
+  number="03"
+  kicker="GCC Spotlight"
+  title="The Gulf is no longer the periphery; it is part of the story."
+  italic="part of the story"
 />
 
 <p className="lead">
-Both publishers shipped material rewrites for the 2024 edition. The largest single-year movements of the decade are concentrated in the 2023-to-2024 transition.
+The UAE went from <strong>zero institutions in the Times Higher Education Top 500 in 2016 to seven in 2026</strong>, and from three to six in the QS Top 500 over the same decade. That's the fastest QS growth in percentage terms of any GCC peer, and the second-fastest THE growth by raw count, behind Saudi Arabia's +8. Khalifa University is the flagship that compounded across both rankings, and the UAE story is a working test case for the patterns this report describes.
 </p>
 
-<StakeholderGrid
-  cols={2}
-  dark
-  items={[
+<GCCFootprintExplorer
+  defaultIndex={1}
+  toYear="2026"
+  groups={[
     {
-      title: 'THE: WUR 3.0',
-      body: 'Research split into Research Environment (29%) and Research Quality (30%). The standalone Citations indicator that had defined THE since 2010 was dropped. Universities whose previous strength was citations now see that score split across two new categories; reordering at the margin was non-trivial.',
+      country: 'UAE',
+      flag: '🇦🇪',
+      rows: [
+        {
+          system: 'THE Top 500',
+          start: 0,
+          end: 7,
+          startYear: '2016',
+          detailTitle: 'The 7 UAE institutions in THE',
+          scaleMax: 500,
+          scaleNote: '0–500 scale',
+          institutions: [
+            { name: 'Abu Dhabi University', display: '201–250', sortValue: 225.5 },
+            { name: 'Khalifa University', display: '201–250', sortValue: 225.5 },
+            { name: 'United Arab Emirates University', display: '201–250', sortValue: 225.5 },
+            { name: 'University of Sharjah', display: '301–350', sortValue: 325.5 },
+            { name: 'Ajman University', display: '401–500', sortValue: 450.5 },
+            { name: 'Al Ain University', display: '401–500', sortValue: 450.5 },
+            { name: 'Zayed University', display: '401–500', sortValue: 450.5 },
+          ],
+        },
+        {
+          system: 'QS Top 500',
+          start: 3,
+          end: 6,
+          startYear: '2017',
+          detailTitle: 'The 6 UAE institutions in QS',
+          scaleMax: 500,
+          scaleNote: '0–500 scale',
+          institutions: [
+            { name: 'Khalifa University', display: '177', sortValue: 177 },
+            { name: 'United Arab Emirates University', display: '229', sortValue: 229 },
+            { name: 'American University of Sharjah', display: '272', sortValue: 272 },
+            { name: 'University of Sharjah', display: '328', sortValue: 328 },
+            { name: 'Abu Dhabi University', display: '391', sortValue: 391 },
+            { name: 'Ajman University', display: '440', sortValue: 440 },
+          ],
+        },
+      ],
     },
     {
-      title: 'QS: 2024 revision',
-      body: 'Three new indicators (Sustainability, Employment Outcomes, International Research Network), each at 5%. Employer Reputation lifted from 10% to 15%. Universities with strong employer reputations benefited. Universities that had been climbing on citations-per-faculty saw less of that gain translate into rank movement.',
+      country: 'Saudi Arabia',
+      flag: '🇸🇦',
+      rows: [
+        {
+          system: 'THE Top 500',
+          start: 1,
+          end: 9,
+          startYear: '2016',
+          detailTitle: 'The 9 Saudi institutions in THE',
+          scaleMax: 500,
+          scaleNote: '0–500 scale',
+          institutions: [
+            { name: 'King Fahd University of Petroleum and Minerals', display: '184', sortValue: 184 },
+            { name: 'King Khalid University', display: '251–300', sortValue: 275.5 },
+            { name: 'King Saud University', display: '251–300', sortValue: 275.5 },
+            { name: 'Prince Mohammad Bin Fahd University', display: '301–350', sortValue: 325.5 },
+            { name: 'King Abdulaziz University', display: '351–400', sortValue: 375.5 },
+            { name: 'Prince Sultan University', display: '351–400', sortValue: 375.5 },
+            { name: 'Prince Sattam Bin Abdulaziz University', display: '401–500', sortValue: 450.5 },
+            { name: 'Princess Nourah bint Abdulrahman University', display: '401–500', sortValue: 450.5 },
+            { name: 'Umm Al-Qura University', display: '401–500', sortValue: 450.5 },
+          ],
+        },
+        {
+          system: 'QS Top 500',
+          start: 3,
+          end: 5,
+          startYear: '2017',
+          detailTitle: 'The 5 Saudi institutions in QS',
+          scaleMax: 500,
+          scaleNote: '0–500 scale',
+          institutions: [
+            { name: 'King Fahd University of Petroleum and Minerals', display: '67', sortValue: 67 },
+            { name: 'King Saud University', display: '143', sortValue: 143 },
+            { name: 'King Abdulaziz University', display: '163', sortValue: 163 },
+            { name: 'Prince Mohammad Bin Fahd University', display: '436', sortValue: 436 },
+            { name: 'Imam Abdulrahman Bin Faisal University', display: '491', sortValue: 491 },
+          ],
+        },
+      ],
+    },
+    {
+      country: 'Qatar',
+      flag: '🇶🇦',
+      rows: [
+        {
+          system: 'THE Top 500',
+          start: 0,
+          end: 1,
+          startYear: '2016',
+          detailTitle: "Qatar's 1 institution in THE",
+          scaleMax: 500,
+          scaleNote: '0–500 scale',
+          institutions: [
+            { name: 'Qatar University', display: '201–250', sortValue: 225.5 },
+          ],
+        },
+        {
+          system: 'QS Top 500',
+          start: 1,
+          end: 2,
+          startYear: '2017',
+          detailTitle: "Qatar's 2 institutions in QS",
+          scaleMax: 500,
+          scaleNote: '0–500 scale',
+          institutions: [
+            { name: 'Qatar University', display: '112', sortValue: 112 },
+            { name: 'Hamad Bin Khalifa University', display: '244', sortValue: 244 },
+          ],
+        },
+      ],
     },
   ]}
 />
 
 <p style={{ marginTop: 32 }}>
-Between 2023 and 2024, universities moved on the rankings about three times as much as they did in any other year of the decade. That is too big to come from anything the universities themselves did. Almost all of it is the rule change. <strong>Treat 2024 movement as a rule-change event first, and an institutional event second, or you'll draw the wrong conclusion.</strong>
+Khalifa moved from the QS 401-410 band in 2017 to integer rank 177 in 2026, a roughly 228-place gain and the largest decade-long rise of any Gulf university in either ranking. On Times Higher Education, Khalifa entered the rankings in 2018 in the 301-350 band and now sits in the 201-250 band, just outside the integer-ranked tier. Abu Dhabi University moved faster still on Times Higher Education: entering the Top 500 in 2023 already in the 301-350 band, it reached an outright rank of 191 by 2025 (the only UAE institution to escape THE's banding entirely this decade) before settling back into the 201-250 tier alongside Khalifa in 2026.
 </p>
 
-<PullQuote dark cite="Analyst note">
-  Read every 2023-to-2024 rank change as a rule change first, an institutional change second. Read every other year-on-year movement the other way round.
+<p>
+The structural explanation is the 2017 consolidation that brought Khalifa University, the Petroleum Institute and the Masdar Institute together into a single research-intensive flagship. The pattern in the underlying scores is what makes the case instructive: <strong>Khalifa's research-output scores moved more than its reputation scores. The gain came from doing more research, not from being better known for it, and reputation typically catches up a few years later.</strong>
+</p>
+
+<p>
+Abu Dhabi University's rise runs on a different engine. Chancellor Ghassan Aouad took over in January 2023 (the same year the university first entered the Times Higher Education Top 500) and has since pushed research output, citations and industry engagement broadly rather than through a single merger. Abu Dhabi University now ranks first in the UAE for citations per paper, and its International Outlook score, built on international faculty and student recruitment, ranks 13th globally. It is a second UAE institution running a research-led strategy, reached without Khalifa's consolidation story.
+</p>
+
+<p>
+The model is what makes the case worth attention. The UAE merged two specialist institutions, the Petroleum Institute and the Masdar Institute, into Khalifa University, then funded the consolidated flagship as a Vision 2071 priority. This is the Singapore approach (one or two world-class flagships, sustained over decades) at a one-flagship scale.
+</p>
+
+<KpiStrip
+  cols={2}
+  kpis={[
+    { num: '405 → 177', label: 'Khalifa, QS rank', desc: 'Largest decade-long rise of any Gulf university in either ranking.', trend: 'up' },
+    { num: '191', label: 'Abu Dhabi Univ., THE 2025', desc: "The only UAE institution to post an outright, non-banded THE rank this decade.", trend: 'up' },
+  ]}
+/>
+
+<p>
+Saudi Arabia took a different route to a bigger outcome. Vision 2030 set an explicit, time-bound target ("at least five institutions in the global Top 200") and funded a broader base of universities rather than a single flagship: nine Saudi institutions now sit in the Times Higher Education Top 500, up from one in 2016, and five in the QS Top 500, up from three in 2017. King Fahd University of Petroleum and Minerals leads the cohort at QS 67, but the growth is spread across public universities in Riyadh, Jeddah and the Eastern Province, not concentrated in one campus.
+</p>
+
+<p>
+That broad base isn't uniformly durable, though, and King Abdulaziz University is the cautionary case inside it. King Abdulaziz reached an outright Times Higher Education rank of 101 in 2023 (within reach of the global Top 100), then fell to the 251-300 band in 2024 and the 351-400 band by 2025, where it remains in 2026. Part of that rise was built on paying prominent international researchers to add King Abdulaziz as a secondary affiliation, a practice reported on Saudi universities generally since the early 2010s, which inflated highly-cited-researcher counts and citation-impact scores without a matching gain in research capacity on the ground. When Times Higher Education cut the weight of raw citation impact from 30 percent to 15 percent of the overall score in its 2024 methodology overhaul (see Section 04, Inside the scores, for the fuller rule change), King Abdulaziz's rank fell with it. King Fahd's climb held up across the same rule change. A rank built on research and industry ties survives a methodology rewrite; a rank built on citation engineering does not.
+</p>
+
+<Exhibit
+  title="A spike, and a correction."
+  sub="King Abdulaziz University, Times Higher Education rank by year. 2023's outright rank of 101 was the peak; the fall since tracks THE's 2024 citation-methodology overhaul."
+  source="Source: Times Higher Education World University Rankings, annual editions 2021 to 2026; authors' analysis."
+>
+  <RankTrajectory
+    peakIndex={2}
+    peakLabel="Peak, pre-methodology change"
+    points={[
+      { year: '2021', value: 225.5, display: '201–250', banded: true },
+      { year: '2022', value: 190, display: '190', banded: false },
+      { year: '2023', value: 101, display: '101', banded: false },
+      { year: '2024', value: 275.5, display: '251–300', banded: true },
+      { year: '2025', value: 375.5, display: '351–400', banded: true },
+      { year: '2026', value: 375.5, display: '351–400', banded: true },
+    ]}
+  />
+</Exhibit>
+
+<p>
+Qatar's footprint tells the opposite story: small, and largely unchanged, though two structural factors flatter the comparison rather less than they should. Qatar's population is under three million, the smallest base of any GCC system in this report by a wide margin, and its most visible higher-education investment doesn't register in a country count at all: the Education City branch campuses of Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, VCU and HEC Paris are ranked under their home institutions, not as Qatari entries. What the count actually captures is the two homegrown universities: Qatar University has held a single Times Higher Education Top 500 place since 2018 (zero in 2016), and Qatar's QS count moved from one institution to two as Hamad Bin Khalifa University joined the list at rank 244. Qatar's bet was neither the UAE's single-flagship consolidation nor Saudi Arabia's broad-base funding, but importing prestige through branch campuses rather than building it into a rankable local one. That's a strategy this decade's rankings data structurally cannot see.
+</p>
+
+<p>
+Khalifa moved faster than the Saudi cohort because it was built on existing research infrastructure; consolidation always compounds faster than spreading a similar amount of funding across many institutions. The Saudi cohort grew larger in absolute count because the country was working from a wider starting base of universities. <strong>Both approaches are valid. The choice depends on what timeline a funder is willing to hold, and how many institutions a system already has to build from.</strong>
+</p>
+
+<PullQuote cite="On the Gulf's three ranking strategies">
+Consolidation, broad-base funding, and citation engineering all move a rank. Only the first two survive a methodology rewrite.
 </PullQuote>
+
+<p style={{ marginTop: 32 }}>
+Two goals matter from here for the UAE: get more of its universities into the rankings, and push the ones already in further up them. The Khalifa case, and the Gulf comparison above, point to different levers for each stakeholder in that system; generalised, those levers run through the six-agenda framework in Section 06, Lessons & Implications.
+</p>
+
+<hr className="rule-thin" style={{ marginTop: 40 }} />
+
+<p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: 12 }}>
+† Texas A&M University at Qatar: the Texas A&M University System Board of Regents voted in February 2024 to close the Qatar campus by 2028, teaching out currently enrolled students but admitting no further incoming classes.
+</p>
 
 </ArticleSection>
 
 <ArticleSection id="pillars">
 
 <SectionHeader
-  number="05"
+  number="04"
   kicker="Inside the scores"
   title="Citations are doing most of the work. Teaching is doing almost none."
   italic="Teaching is doing almost none."
@@ -311,7 +449,6 @@ The overall rank number hides what's actually happening. Inside it sits a set of
 </p>
 
 <Exhibit
-  number="Exhibit 06 · Score divergence"
   title="Where the convergence is, and isn't: change in median scores by region."
   sub="Δ median THE scoring-category value, 2016 to 2026, Top 500 institutions. Higher = stronger gain."
   source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. 2024 onwards Research uses Research Quality (post WUR 3.0); the comparison is conceptual, normalised across the rule change."
@@ -332,66 +469,149 @@ The overall rank number hides what's actually happening. Inside it sits a set of
 
 </ArticleSection>
 
-<ArticleSection id="uae" variant="alt">
+<ArticleSection id="systems" variant="alt">
 
 <SectionHeader
-  number="06"
-  kicker="Spotlight · United Arab Emirates"
-  title="The Gulf is no longer the periphery; it is part of the story."
-  italic="part of the story"
+  number="05"
+  kicker="Why the systems disagree"
+  title="QS and THE measure different things. A 100-place gap is usually signal, not noise."
+  italic="signal, not noise"
 />
 
-<p className="lead">
-The UAE went from <strong>zero institutions in the Times Higher Education Top 500 in 2016 to seven in 2026</strong>, the fastest percentage growth of any GCC peer. Khalifa University is the flagship that compounded across both rankings. The UAE story is a working test case for the patterns this report describes.
-</p>
-
-
-
-<UAEFootprint
+<PillarGrid
   cards={[
     {
-      title: 'Footprint, 2016 to 2026',
-      body: "UAE in the Times Higher Education Top 500 grew from no institutions in 2016 to seven in 2026 (+7, the fastest growth among GCC peers behind Saudi Arabia's +8). UAE in the QS Top 500 grew from three institutions in 2017 to six in 2026. The trajectory is faster in percentage terms than any named GCC peer.",
-      rows: [
-        { name: 'UAE in THE Top 500', value: '0 → 7' },
-        { name: 'UAE in QS Top 500', value: '3 → 6' },
-        { name: 'Saudi Arabia, THE (peer)', value: '1 → 9' },
-        { name: 'Qatar, THE (peer)', value: '1 → 2' },
+      tag: 'QS · 2024 scoring',
+      title: 'Reputation-led, with a 15% internationalisation layer.',
+      body: 'QS combines two reputation surveys (45% of the score together), citations per faculty (20%), and faculty-to-student ratio (10%). The remaining 25% splits into five indicators at 5% each, only three of which are actually about internationalisation: international faculty ratio, international student ratio, and international research network sum to 15% of the total score.',
+      segments: [
+        { label: 'Academic Rep', weight: 30, color: '#1D383F' },
+        { label: 'Employer Rep', weight: 15, color: '#2E5B66' },
+        { label: 'Citations / Fac', weight: 20, color: '#A7B241' },
+        { label: 'Fac/Stu', weight: 10, color: '#6C6864' },
+        { label: 'Intl Faculty', weight: 5, color: '#3F6367', textLight: true, hideLabel: true },
+        { label: 'Intl Students', weight: 5, color: '#557E82', textLight: true, hideLabel: true },
+        { label: 'Intl Research', weight: 5, color: '#6B8B8E', textLight: true, hideLabel: true },
+        { label: 'Employment', weight: 5, color: '#83A0A3', textLight: false, hideLabel: true },
+        { label: 'Sustainability', weight: 5, color: '#9DB6B8', textLight: false, hideLabel: true },
+      ],
+      legend: [
+        { label: 'Academic Reputation', color: '#1D383F' },
+        { label: 'Employer Reputation', color: '#2E5B66' },
+        { label: 'Citations per Faculty', color: '#A7B241' },
+        { label: 'Faculty/Student', color: '#6C6864' },
+        { label: 'Intl Faculty Ratio (5%)', color: '#3F6367' },
+        { label: 'Intl Student Ratio (5%)', color: '#557E82' },
+        { label: 'Intl Research Network (5%)', color: '#6B8B8E' },
+        { label: 'Employment Outcomes (5%)', color: '#83A0A3' },
+        { label: 'Sustainability (5%)', color: '#9DB6B8' },
       ],
     },
     {
-      title: 'UAE institutions in QS 2026 Top 500',
-      rows: [
-        { name: 'Khalifa University', value: '177' },
-        { name: 'United Arab Emirates University', value: '229' },
-        { name: 'American University of Sharjah', value: '272' },
-        { name: 'University of Sharjah', value: '328' },
-        { name: 'Abu Dhabi University', value: '391' },
-        { name: 'Ajman University', value: '440' },
+      tag: 'THE · WUR 3.0 (2024)',
+      title: 'Research-quality led, but a third is reputation too.',
+      body: "THE's overall score uses 18 indicators across five pillars. Two of those are reputation surveys, Teaching Reputation (15%) and Research Reputation (18%), folded into the Teaching and Research Environment pillars rather than shown as their own line: 33% of the total score, against QS's 45%. Only Research Quality (30%) is purely bibliometric; the 2024 edition split it out from a single Citations indicator that had defined THE since 2010.",
+      segments: [
+        { label: 'Teaching', weight: 29.5, color: '#1D383F' },
+        { label: 'Research Env', weight: 29, color: '#2E5B66' },
+        { label: 'Research Qual', weight: 30, color: '#A7B241' },
+        { label: 'Ind', weight: 4, color: '#6C6864' },
+        { label: 'Intl', weight: 7.5, color: '#6B8B8E', textLight: true },
+      ],
+      legend: [
+        { label: 'Teaching', color: '#1D383F' },
+        { label: 'Research Environment', color: '#2E5B66' },
+        { label: 'Research Quality', color: '#A7B241' },
+        { label: 'Industry', color: '#6C6864' },
+        { label: 'International Outlook', color: '#6B8B8E' },
       ],
     },
   ]}
 />
 
+<p style={{ marginTop: 8, marginBottom: 8 }}><strong>Two mechanisms explain almost every rank-gap surprise.</strong></p>
+
+<ul>
+  <li><strong>Reputation lags reality, on both sides.</strong> QS asks tens of thousands of academics and employers what they think of universities, 45% of its score. THE runs its own academic reputation survey too, folded into the Teaching and Research Environment pillars for 33% of its score. Either way, reputation views update slowly: a university that improved five years ago is still being judged on its older work, on either list. A university that slipped five years ago still benefits from its old reputation. The lag runs in both directions, and it is long.</li>
+  <li><strong>Research output moves faster.</strong> A university that publishes more, and is cited more, climbs the research-output side of the rankings in three to five years. Times Higher Education rewards this more than QS does (30% of the THE score sits in purely bibliometric Research Quality indicators, against 20% in QS's Citations per Faculty).</li>
+  <li><strong>Together, they sort universities into two types.</strong> A Chinese research university that rose on citation output, like USTC (QS 132, THE 51), typically ranks higher on Times Higher Education: the research-speed mechanism, since 30% of THE's score sits in a research-quality pillar that rewards bibliometric output more directly than QS's structure does. A long-established American university with a deep reputation footprint, like Cornell (QS 16, THE 18), typically ranks higher on QS: the reputation-lag mechanism, since 45% of QS's score is two reputation surveys, a weight THE's equivalent surveys (33% combined) don't match. The same two mechanisms explain wider gaps too. King Abdulaziz University (QS 163, THE 351–400 band) is a reputation-and-citations story taken further: strong enough on the indicators QS weights most (its two reputation surveys plus citations per faculty, 65% of the QS score combined) to rank well there, without a matching standing on THE's differently-normalised research-quality and teaching pillars. University of California, Santa Cruz (QS 458, THE 181) runs the opposite way: a public research campus with a research profile that shows up well across THE's broader pillar structure, but without the global reputation-survey visibility or the strong faculty-to-student ratio that QS's heavier 55% reputation-plus-ratio weighting rewards. Neither ranking is wrong; they are weighing different things.</li>
+  <li><strong>Use this to read any 100-place gap.</strong> A university that looks like a star on one list and middling on the other is almost never a fluke. Check which of the two patterns above it matches; that tells you what kind of university it is.</li>
+</ul>
+
+<Exhibit
+  title="QS and THE often disagree, and the disagreement is structural."
+  sub="Institution-level QS rank vs THE rank, 2026 edition: real data, all 325 institutions that appear in both Top 500 lists. Hollow dots are banded on one axis (e.g., THE's 401–500 tier) and are spread across their true band range rather than stacked at the midpoint; hover any dot for the institution and both ranks. Outliers labelled."
+  source="Source: QS World University Rankings 2026; THE World University Rankings 2026; authors’ analysis. 319 unlabelled institutions plus 6 labelled outliers, matched by canonicalised name across both systems."
+>
+  <SVGScatter
+    points={qsTheScatter2026.points}
+    outliers={qsTheScatter2026.outliers}
+    pointRadius={2.25}
+    pointOpacity={0.4}
+    bandedPointOpacity={0.5}
+    diagonal
+    diagonalLabel="QS rank = THE rank (perfect agreement)"
+    diagonalLabelX={520}
+    diagonalLabelY={70}
+    xAxisLabel="QS rank (lower is better)"
+    yAxisLabel="THE rank (lower is better)"
+    yTicks={[
+      { y: 320, label: '1' },
+      { y: 256, label: '100' },
+      { y: 192, label: '200' },
+      { y: 128, label: '300' },
+      { y: 64, label: '400' },
+      { y: 0, label: '500' },
+    ]}
+  />
+</Exhibit>
+
+<h3 style={{ marginTop: 32 }}>The 2024 rule change reset both systems at once.</h3>
+
+<p className="lead">
+Both publishers shipped material rewrites for the 2024 edition. The largest single-year movements of the decade are concentrated in the 2023-to-2024 transition.
+</p>
+
+<StakeholderGrid
+  cols={2}
+  items={[
+    {
+      title: 'THE: WUR 3.0',
+      body: 'Research split into Research Environment (29%) and Research Quality (30%). The standalone Citations indicator that had defined THE since 2010 was dropped. Universities whose previous strength was citations now see that score split across two new categories; reordering at the margin was non-trivial.',
+    },
+    {
+      title: 'QS: 2024 revision',
+      body: 'Three new indicators (Sustainability, Employment Outcomes, International Research Network), each at 5%. Employer Reputation lifted from 10% to 15%. Universities with strong employer reputations benefited. Universities that had been climbing on citations-per-faculty saw less of that gain translate into rank movement.',
+    },
+  ]}
+/>
+
+<Exhibit
+  title="The 2023-to-2024 transition moved rankings further than any other year of the decade."
+  sub="Median absolute year-over-year rank change, both systems, 2017 to 2026. Includes banded ranks (mapped to band midpoints): much of the 2023–2024 spike is institutions moving into or out of a band, which is itself a signature of the rule change, not something a strictly integer-ranks-only view would fully show."
+  source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2016 to 2026; authors’ analysis."
+>
+  <VolatilityChart tiers={qsTheYoyMovement2026} caveat="THE's 2016–2017 transition is excluded: QS coverage starts in 2017, so there is no paired year to compare it against." />
+</Exhibit>
+
 <p style={{ marginTop: 32 }}>
-Khalifa moved from the QS 401-410 band in 2017 to integer rank 177 in 2026, a roughly 228-place gain and the largest decade-long rise of any Gulf university in either ranking. On Times Higher Education, Khalifa entered the rankings in 2018 in the 301-350 band and now sits in the 201-250 band, just outside the integer-ranked tier.
+Between 2023 and 2024, universities moved on the rankings about three times as much as they did in any other year of the decade. That is too big to come from anything the universities themselves did. Almost all of it is the rule change. <strong>Treat 2024 movement as a rule-change event first, and an institutional event second, or you'll draw the wrong conclusion.</strong>
 </p>
 
-<p>
-The structural explanation is the 2017 consolidation that brought Khalifa University, the Petroleum Institute and the Masdar Institute together into a single research-intensive flagship. The pattern in the underlying scores is what makes the case instructive: <strong>Khalifa's research-output scores moved more than its reputation scores. The gain came from doing more research, not from being better known for it. Reputation will catch up; it always does, slowly.</strong>
-</p>
+</ArticleSection>
 
-<p>
-The model is what makes the case worth attention. The UAE merged two specialist institutions, the Petroleum Institute and the Masdar Institute, into Khalifa University, then funded the consolidated flagship as a Vision 2071 priority. This is the Singapore approach (one or two world-class flagships, sustained over decades) at a one-flagship scale.
-</p>
+<ArticleSection id="implications" variant="alt">
 
-<p>
-Compare the three Gulf strategies. The UAE concentrated investment in one flagship. Saudi Arabia spread investment across a broader base of institutions. Qatar concentrated investment in one historic university with limited consolidation. Each produces different results on different timelines. Khalifa moved faster than the Saudi cohort because it was built on existing research infrastructure; consolidation always compounds faster than spreading. The Saudi cohort grew larger in absolute count because the country was working from a wider starting base. <strong>Both approaches are valid. The choice depends on what timeline a funder is willing to hold.</strong>
-</p>
+<SectionHeader
+  number="06"
+  kicker="Lessons & Implications"
+  title="A single set of findings, six agendas."
+  italic="six"
+/>
 
-<PullQuote cite="Source: THE World University Rankings, 2016 to 2026; authors’ analysis">
-  The UAE's THE Top-500 footprint has grown faster than any named GCC peer over the decade.
-</PullQuote>
+<p className="lead">
+The same dataset reads differently depending on the chair you sit in. What the decade should change for each major stakeholder.
+</p>
 
 <h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
 
@@ -419,111 +639,19 @@ Compare the three Gulf strategies. The UAE concentrated investment in one flagsh
   }}
 />
 
-<h3>An action quartet for UAE leadership.</h3>
+<h3 style={{ marginTop: 32 }}>Six agendas, one dataset.</h3>
 
 <StakeholderGrid
   cols={2}
   items={[
     {
-      title: 'Government & Ministry of Education',
-      bullets: [
-        '<strong>Publish a numbered, time-bound 2030 target.</strong> "Two universities in the global Top 100, eight in the Top 500 by 2030." Report against it annually.',
-        '<strong>Fund disciplines on 10-year cycles, not three-year budgets.</strong> Pick three or four fields where the UAE can credibly lead globally.',
-        '<strong>Treat the Golden Visa as a citation-score instrument.</strong> Retained international graduates produce co-authored citations that compound over five to ten years.',
-        'Continue the dual-track: domestic flagships (Khalifa, UAEU, MBZUAI) plus international branch campuses (NYUAD, Sorbonne Abu Dhabi).',
-      ],
-    },
-    {
-      title: 'University leaders',
-      bullets: [
-        '<strong>Concentrate on three scoring categories:</strong> International Research Network, Citations / Research Quality, and Industry.',
-        '<strong>Take the 2024 rule changes seriously.</strong> The underlying scores now matter more than the overall rank.',
-        'The volatility of the Top 200 to 500 band rewards focus on three or four scoring categories more than balanced effort across all of them.',
-        '<strong>Build co-authorship density.</strong> It is the indicator most resistant to policy and rule shocks, and the cheapest to scale.',
-      ],
-    },
-    {
-      title: 'International branch campuses',
-      bullets: [
-        '<strong>Use branch campuses as international-score accelerators</strong>, not as standalone Top-500 entrants.',
-        "NYU's score profile (top-quartile International Research Network and International Outlook) is what NYUAD inherits and adds back to UAE national-system statistics.",
-        'Branch campuses add national-level scoring value through co-authorship and visiting-faculty networks, even when not separately ranked.',
-        'Evaluate each branch campus on the indicators it uniquely strengthens.',
-      ],
-    },
-    {
-      title: 'Sovereign funders',
-      bullets: [
-        '<strong>Fund the scoring categories, not the banner rank.</strong> Rank movement is the lagging output, not the leading input.',
-        '<strong>Pick the timeline before the model.</strong> Greenfield (KAUST, MBZUAI) buys decades to compound; acceleration (Double First-Class, Khalifa post-merger) compounds in five to seven years.',
-        'Most rankings investment shows up five to seven years after deployment. Hold for the cycle.',
-        '<strong>Mid-cycle reorganisation resets the lag clock.</strong> Political patience is the cheapest input and the rarest.',
-      ],
-    },
-  ]}
-/>
-
-</ArticleSection>
-
-<ArticleSection id="movers">
-
-<SectionHeader
-  number="07"
-  kicker="Movers and shakers"
-  title="The narrative is not 'Asia rose.' It is 'specific Asian institutions in specific funding programmes rose.'"
-  italic="specific funding programmes"
-/>
-
-<Exhibit
-  number="Exhibit 08 · The cohort, year by year"
-  title="The 2016 elite tracked through 2026."
-  sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Cohort = the Times Higher Education Top 20 in 2016, tracked through every subsequent year."
->
-  <BumpChart data={theBumpCohort} />
-</Exhibit>
-
-<Exhibit
-  number="Exhibit 09 · Top 15 risers"
-  title="THE: top 15 risers across the decade."
-  sub="First-appearance rank to most-recent rank. Institutions present at least 4 years; sorted by magnitude."
-  source="Source: THE World University Rankings, annual editions 2016 to 2026; authors’ analysis. Integer-ranked endpoints only."
->
-  <SVGRisers rows={risers} />
-</Exhibit>
-
-<p style={{ marginTop: 32 }}>
-The list of biggest risers is, in effect, a list of national funding programmes. Five of the top ten are mainland Chinese universities funded under the Double First-Class scheme. Two more are Hong Kong universities (Hong Kong Polytechnic and the Chinese University of Hong Kong) compounding on a separate funding base. Two are Korean universities (Yonsei and KAIST) funded by Brain Korea 21, which has been running since 1999. The remaining one is Berlin's Charité, funded by Germany's Excellence Strategy.
-</p>
-
-<p>
-<strong>One pattern holds across the entire risers list: universities that climbed are universities whose governments committed to sustained research funding, and the climb showed up five to seven years after the funding started.</strong> No country has produced a riser without that commitment. No university has produced a riser without that funding.
-</p>
-
-</ArticleSection>
-
-<ArticleSection id="implications" variant="alt">
-
-<SectionHeader
-  number="08"
-  kicker="Implications"
-  title="A single set of findings, six agendas."
-  italic="six"
-/>
-
-<p className="lead">
-The same dataset reads differently depending on the chair you sit in. What the decade should change for each major stakeholder.
-</p>
-
-<StakeholderGrid
-  cols={3}
-  items={[
-    {
       title: 'Governments',
       bullets: [
         '<strong>Decide what you want from rankings before you fund for them.</strong> Rankings reward research quality, internationalisation and employment outcomes. They do not measure teaching quality, social mobility, or regional impact. Funding the rankings is a choice to fund the things they measure.',
-        '<strong>Set a numbered, time-bound target.</strong> Saudi Arabia did this. The UAE has not formally. "At least five institutions in the Top 200 by 2030" is the kind of target that focuses ministerial effort and creates accountability.',
+        '<strong>Set a numbered, time-bound target, and report against it annually.</strong> Saudi Arabia did this. "At least five institutions in the Top 200 by 2030" is the kind of target that focuses ministerial effort and creates accountability.',
         '<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay co-author papers that compound into citation scores over five to ten years. The UAE Golden Visa, the UK Graduate Route, the German Blue Card and the Singapore TechPass are all, in effect, citation-score instruments.',
+        '<strong>Fund a small number of disciplines on ten-year cycles, not three-year budgets.</strong> Pick three or four fields where the country can credibly lead globally, and hold the funding line through a full ranking cycle rather than a political one.',
+        '<strong>Pair domestic flagship-building with international branch campuses.</strong> The two levers work on different parts of the score: flagships build citation and reputation depth over a decade or more, while hosting branch campuses imports international-outlook and co-authorship strength immediately, even for campuses that are never separately ranked.',
       ],
     },
     {
@@ -532,6 +660,7 @@ The same dataset reads differently depending on the chair you sit in. What the d
         "<strong>Pick a tier and play that game.</strong> Top-50 and Top-200 are different competitions. Top-50 requires sustained research funding, international faculty, and a citation density that takes a decade to build. Top-200 is reachable through focused, sustained effort on three or four scoring categories, but only those three or four. Trying to be balanced everywhere is the most reliable way to move nowhere.",
         "<strong>After the 2024 rule change, look under the hood.</strong> The overall rank number hides what's actually moving. A university's research-output score, industry score, and international-outlook score will each tell you more about its real trajectory than its rank will.",
         '<strong>Build co-authorship volume, deliberately.</strong> Co-authored papers feed into the research-output score and are the cheapest indicator to scale. They are also the most resistant to rule changes, which means they keep paying off even when the next rule rewrite arrives.',
+        "<strong>Where a system includes international branch campuses, evaluate them as accelerators, not standalone entrants.</strong> A branch campus's home-institution strength feeds national-level co-authorship and international-network scores well before, or even without, any separate rank of its own.",
       ],
     },
     {
@@ -576,7 +705,7 @@ The same dataset reads differently depending on the chair you sit in. What the d
 <ArticleSection id="outlook" variant="dark">
 
 <SectionHeader
-  number="09"
+  number="07"
   kicker="Outlook to 2030"
   title="Three forces will reshape the league tables before 2030."
   italic="reshape"
@@ -603,19 +732,15 @@ The shrinking 18-year-old populations of North America, Western Europe, and East
 </p>
 
 <p style={{ marginTop: 32 }}>
-The single most important fact about the next five years is that another rule change is plausible and probably coming. The 2024 rewrites were not the end of the publishers' adjustments. <strong>Any university or funder making a five-year ranking strategy that does not include "the rules may change again" as a planning assumption is making a fragile bet.</strong>
+The clearest planning fact for the next five years is that another rule change is plausible, and probably coming. The 2024 rewrites were not the end of the publishers' adjustments. <strong>Any university or funder making a five-year ranking strategy that does not include "the rules may change again" as a planning assumption is making a fragile bet.</strong>
 </p>
-
-<PullQuote dark cite="Concluding analyst note">
-  The 2024 rule change reshaped the rankings more than anything universities did. The next change is already coming.
-</PullQuote>
 
 </ArticleSection>
 
 <ArticleSection id="methodology" variant="alt">
 
 <SectionHeader
-  number="10"
+  number="08"
   kicker="Methodology & sources"
   title="How we built the dataset."
 />

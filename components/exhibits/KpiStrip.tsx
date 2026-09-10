@@ -10,6 +10,7 @@ interface KPI {
 
 interface KpiStripProps {
   kpis: KPI[];
+  cols?: 2 | 3 | 4;
 }
 
 export function TrendArrow({ direction }: { direction: 'up' | 'down' | 'flat' }) {
@@ -36,9 +37,15 @@ export function TrendArrow({ direction }: { direction: 'up' | 'down' | 'flat' })
  * widths (~159px usable per column). whitespace-nowrap prevents intra-
  * number wrapping.
  */
-export function KpiStrip({ kpis }: KpiStripProps) {
+export function KpiStrip({ kpis, cols = 4 }: KpiStripProps) {
+  const colsClass =
+    cols === 2
+      ? 'grid-cols-2 max-[540px]:grid-cols-1'
+      : cols === 3
+        ? 'grid-cols-3 max-[760px]:grid-cols-2 max-[540px]:grid-cols-1'
+        : 'grid-cols-4 max-[920px]:grid-cols-2 max-[540px]:grid-cols-1';
   return (
-    <div className="my-12 border-t border-green/30 border-b border-rule pt-7 pb-7 grid grid-cols-4 gap-x-8 gap-y-8 max-[920px]:grid-cols-2 max-[540px]:grid-cols-1">
+    <div className={`my-12 border-t border-green/30 border-b border-rule pt-7 pb-7 grid ${colsClass} gap-x-8 gap-y-8`}>
       {kpis.map((k, i) => (
         <div key={i} className="min-w-0">
           <div
@@ -54,7 +61,7 @@ export function KpiStrip({ kpis }: KpiStripProps) {
             {k.unit ? <span className="text-[0.5em] tracking-normal font-normal text-mute ml-1">{k.unit}</span> : null}
             {k.trend ? <TrendArrow direction={k.trend} /> : null}
           </div>
-          <div className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase font-semibold text-ink mb-2 leading-[1.35] min-h-[2.7em] max-[540px]:text-[10.5px] max-[540px]:tracking-[1.3px] max-[540px]:min-h-0">
+          <div className="ui-caps font-sans text-[13px] tracking-[1.5px] uppercase font-semibold text-ink mb-2 leading-[1.35] min-h-[2.7em] max-[540px]:text-[12px] max-[540px]:tracking-[1.3px] max-[540px]:min-h-0">
             {k.label}
           </div>
           <div className="font-serif text-[14px] text-mute leading-[1.5]">{k.desc}</div>

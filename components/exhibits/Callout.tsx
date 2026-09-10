@@ -17,7 +17,7 @@ export function Callout({ label, children }: CalloutProps) {
   return (
     <aside className="my-12 ml-0 pl-6 py-3 border-l-2 border-green-light bg-green-pale/30 max-[640px]:pl-5">
       {label ? (
-        <div className="ui-caps font-sans text-[10.5px] tracking-[1.8px] uppercase font-semibold text-green mb-2">
+        <div className="ui-caps font-sans text-[13px] tracking-[1.8px] uppercase font-semibold text-green mb-2">
           {label}
         </div>
       ) : null}

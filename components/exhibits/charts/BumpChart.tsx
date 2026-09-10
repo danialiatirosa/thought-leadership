@@ -31,7 +31,14 @@ interface BumpChartProps {
 
 const W = 1000;
 const H = 720;
-const M = { top: 24, right: 220, bottom: 40, left: 40 };
+const M = { top: 24, right: 230, bottom: 40, left: 40 };
+
+const COUNTRY_FLAGS: Record<string, string> = {
+  'United States': '🇺🇸',
+  'United Kingdom': '🇬🇧',
+  Switzerland: '🇨🇭',
+  Canada: '🇨🇦',
+};
 
 function colourFor(line: CohortLine): string {
   if (line.greaterChina) return 'var(--color-lime)';
@@ -83,6 +90,29 @@ export function BumpChart({ data }: BumpChartProps) {
     () => [...data.lines].sort((a, b) => a.university.localeCompare(b.university)),
     [data.lines],
   );
+
+  // Right-edge labels: several institutions tie on the same final rank (e.g.
+  // Stanford/Harvard both at 5), which would otherwise draw on top of each
+  // other. Sort by natural position and push down any label that's too
+  // close to the one above it, so every name stays legible.
+  const rightLabels = useMemo(() => {
+    const MIN_GAP = 16;
+    const positioned = data.lines
+      .map((line) => {
+        const lastPoint = line.ranks[line.ranks.length - 1];
+        if (!lastPoint) return null;
+        return { line, key: keyFor(line), naturalY: yScale(Math.min(rankCap, lastPoint.rankNumeric)) };
+      })
+      .filter((x): x is { line: CohortLine; key: string; naturalY: number } => x !== null)
+      .sort((a, b) => a.naturalY - b.naturalY);
+
+    let prevY = -Infinity;
+    return positioned.map((item) => {
+      const y = Math.max(item.naturalY, prevY + MIN_GAP);
+      prevY = y;
+      return { ...item, y };
+    });
+  }, [data.lines, yScale]);
 
   const toggleSelected = (key: string) =>
     setSelectedKey((prev) => (prev === key ? null : key));
@@ -232,42 +262,53 @@ export function BumpChart({ data }: BumpChartProps) {
           : null}
 
         {/* Right-edge institution labels at the latest year */}
-        {data.lines.map((line) => {
-          const lastPoint = line.ranks[line.ranks.length - 1];
-          if (!lastPoint) return null;
-          const y = yScale(Math.min(rankCap, lastPoint.rankNumeric));
-          const key = keyFor(line);
+        {rightLabels.map(({ line, key, naturalY, y }) => {
           const isActive = activeKey === key;
           const dim = activeKey != null && !isActive;
-          const label =
-            line.university.length > 28 ? `${line.university.slice(0, 26)}…` : line.university;
+          const flag = COUNTRY_FLAGS[line.country] ?? '';
+          const name =
+            line.university.length > 25 ? `${line.university.slice(0, 23)}…` : line.university;
+          const label = flag ? `${flag} ${name}` : name;
+          const nudged = Math.abs(y - naturalY) > 3;
           return (
-            <text
-              key={key}
-              x={W - M.right + 8}
-              y={y + 4}
-              fontSize={11}
-              fill={isActive ? 'var(--color-ink)' : 'var(--color-mute)'}
-              opacity={dim ? 0.3 : 1}
-              style={{
-                transition: 'opacity 0.18s ease, fill 0.18s ease',
-                cursor: 'pointer',
-              }}
-              onMouseEnter={() => setHoveredKey(key)}
-              onMouseLeave={() => setHoveredKey(null)}
-              onClick={(e) => {
-                e.stopPropagation();
-                toggleSelected(key);
-              }}
-            >
-              {label}
-            </text>
+            <g key={key}>
+              {nudged ? (
+                <line
+                  x1={W - M.right}
+                  y1={naturalY}
+                  x2={W - M.right + 6}
+                  y2={y}
+                  stroke="var(--color-rule)"
+                  strokeWidth={1}
+                  opacity={dim ? 0.2 : 0.6}
+                />
+              ) : null}
+              <text
+                x={W - M.right + 8}
+                y={y + 4}
+                fontSize={13}
+                fill={isActive ? 'var(--color-ink)' : 'var(--color-mute)'}
+                opacity={dim ? 0.3 : 1}
+                style={{
+                  transition: 'opacity 0.18s ease, fill 0.18s ease',
+                  cursor: 'pointer',
+                }}
+                onMouseEnter={() => setHoveredKey(key)}
+                onMouseLeave={() => setHoveredKey(null)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleSelected(key);
+                }}
+              >
+                {label}
+              </text>
+            </g>
           );
         })}
       </svg>
 
       <div className="mt-4 flex items-center gap-4 flex-wrap">
-        <label className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-semibold flex items-center">
+        <label className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-semibold flex items-center">
           Highlight
           <select
             value={selectedKey ?? ''}
@@ -290,13 +331,13 @@ export function BumpChart({ data }: BumpChartProps) {
           <button
             type="button"
             onClick={() => setSelectedKey(null)}
-            className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute hover:text-green border-none bg-transparent cursor-pointer p-0"
+            className="ui-caps font-sans text-[13px] tracking-[1.5px] uppercase text-mute hover:text-green border-none bg-transparent cursor-pointer p-0"
           >
             Clear
           </button>
         ) : null}
       </div>
-      <div className="ui-caps font-sans text-[10px] tracking-[1.5px] uppercase text-mute mt-3">
+      <div className="ui-caps font-sans text-[12px] tracking-[1.5px] uppercase text-mute mt-3">
         Click a line, click the right-edge label, or pick from the menu to highlight a trajectory.
       </div>
     </div>

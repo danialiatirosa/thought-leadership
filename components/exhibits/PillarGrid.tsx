@@ -3,6 +3,8 @@ interface PillarSegment {
   weight: number;
   color: string;
   textLight?: boolean;
+  /** Hide the inline "N%" text, for clusters of narrow adjacent segments where it would blur together; the legend still spells out the exact weight. */
+  hideLabel?: boolean;
 }
 
 interface PillarCardData {
@@ -23,31 +25,38 @@ interface PillarGridProps {
  */
 export function PillarGrid({ cards }: PillarGridProps) {
   return (
-    <div className="my-12 grid grid-cols-2 gap-x-10 gap-y-10 max-[760px]:grid-cols-1">
+    <div className="my-12 grid grid-cols-2 grid-rows-[repeat(5,auto)] gap-x-10 max-[760px]:grid-cols-1">
       {cards.map((c, i) => (
-        <div key={i} className="pt-5 border-t border-green/25 max-[760px]:first:border-t-0 max-[760px]:first:pt-0">
-          <div className="font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium mb-2">
+        <div
+          key={i}
+          className="grid row-span-5 [grid-template-rows:subgrid] pt-5 border-t border-green/25 max-[760px]:first:border-t-0 max-[760px]:first:pt-0 max-[760px]:pb-8 max-[760px]:last:pb-0"
+        >
+          <div className="ui-caps font-sans text-[14px] tracking-[1.6px] uppercase text-mute font-semibold mb-2.5">
             {c.tag}
           </div>
-          <h4 className="font-serif text-[20px] font-medium text-ink mt-0 mb-3 leading-[1.3] -tracking-[0.1px]">
-            {c.title}
-          </h4>
-          <p className="font-serif text-[15px] text-ink/85 m-0 mb-5 max-w-none">{c.body}</p>
           <div
-            className="flex h-7 mb-3 overflow-hidden border border-rule"
+            role="heading"
+            aria-level={4}
+            className="font-serif text-[23px] font-medium normal-case text-ink mt-0 mb-3 leading-[1.3] -tracking-[0.1px]"
+          >
+            {c.title}
+          </div>
+          <div
+            className="flex h-7 mb-3 overflow-hidden border border-rule self-start"
             title="Pillar weights"
           >
             {c.segments.map((s, j) => (
               <div
                 key={j}
-                className="flex items-center justify-center text-paper text-[10px] font-medium text-center px-1 leading-[1.2] border-r last:border-r-0 border-paper/30 font-sans"
-                style={{ width: `${s.weight}%`, background: s.color }}
+                className="flex items-center justify-center text-[10px] font-medium text-center px-1 leading-[1.2] border-r last:border-r-0 border-paper/30 font-sans"
+                style={{ width: `${s.weight}%`, background: s.color, color: s.textLight === false ? 'var(--color-ink)' : 'var(--color-paper)' }}
+                title={`${s.label}: ${s.weight}%`}
               >
-                {s.weight}%
+                {s.hideLabel ? null : `${s.weight}%`}
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-2 gap-y-1 gap-x-3 text-[12px] font-sans">
+          <div className="grid grid-cols-2 gap-y-1 gap-x-3 text-[12px] font-sans self-start mb-5">
             {c.legend.map((l, j) => (
               <div
                 key={j}
@@ -64,6 +73,7 @@ export function PillarGrid({ cards }: PillarGridProps) {
               </div>
             ))}
           </div>
+          <p className="font-serif text-[15px] text-ink/85 m-0 max-w-none self-start">{c.body}</p>
         </div>
       ))}
     </div>
