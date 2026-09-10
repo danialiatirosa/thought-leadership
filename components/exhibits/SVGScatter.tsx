@@ -36,6 +36,12 @@ interface SVGScatterProps {
   pointOpacity?: number;
   /** Opacity for banded (hollow) background points. Default 0.75. */
   bandedPointOpacity?: number;
+  /** Show an in-chart legend explaining filled vs. hollow (banded) dots. Default false. */
+  legend?: boolean;
+  legendX?: number;
+  legendY?: number;
+  legendSolidLabel?: string;
+  legendBandedLabel?: string;
 }
 
 const DEFAULT_X_TICKS = [
@@ -70,6 +76,11 @@ export function SVGScatter({
   pointRadius = 3,
   pointOpacity = 0.6,
   bandedPointOpacity = 0.75,
+  legend = false,
+  legendX = 520,
+  legendY = 20,
+  legendSolidLabel = 'Exact rank on both systems',
+  legendBandedLabel = 'One rank estimated from a THE band',
 }: SVGScatterProps) {
   const resolvedXTicks = xTicks ?? DEFAULT_X_TICKS;
   const resolvedYTicks = yTicks ?? DEFAULT_Y_TICKS;
@@ -118,6 +129,26 @@ export function SVGScatter({
           </>
         ) : null}
 
+        {legend ? (
+          <g fontSize={12} fill="var(--color-ink-soft)">
+            <circle cx={legendX} cy={legendY} r={4.5} fill="var(--color-tamkeen-deep)" />
+            <text x={legendX + 12} y={legendY + 4}>
+              {legendSolidLabel}
+            </text>
+            <circle
+              cx={legendX}
+              cy={legendY + 20}
+              r={4.5}
+              fill="var(--color-paper)"
+              stroke="var(--color-tamkeen-deep)"
+              strokeWidth={1}
+            />
+            <text x={legendX + 12} y={legendY + 24}>
+              {legendBandedLabel}
+            </text>
+          </g>
+        ) : null}
+
         <g>
           {points.map((p, i) =>
             p.banded ? (
@@ -127,14 +158,14 @@ export function SVGScatter({
                 cy={p.y}
                 r={p.r ?? pointRadius}
                 fill="var(--color-paper)"
-                stroke="var(--color-tamkeen-mid)"
-                strokeWidth={0.75}
+                stroke="var(--color-tamkeen-deep)"
+                strokeWidth={1}
                 opacity={bandedPointOpacity}
               >
                 {p.title ? <title>{p.title}</title> : null}
               </circle>
             ) : (
-              <circle key={i} cx={p.x} cy={p.y} r={p.r ?? pointRadius} fill="var(--color-tamkeen-mid)" opacity={pointOpacity}>
+              <circle key={i} cx={p.x} cy={p.y} r={p.r ?? pointRadius} fill="var(--color-tamkeen-deep)" opacity={pointOpacity}>
                 {p.title ? <title>{p.title}</title> : null}
               </circle>
             ),
