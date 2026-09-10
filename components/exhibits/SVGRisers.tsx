@@ -2,7 +2,13 @@ import { Flag } from './Flag';
 
 interface RiserRow {
   label: string;
+  /**
+   * Plotted by raw value (smaller = further left), not by chronology. For a
+   * "risers" list this field ends up holding the most-recent (2026) rank,
+   * since it is always smaller than fromRank's counterpart for a riser.
+   */
   fromRank: number;
+  /** Plotted by raw value (larger = further right); ends up holding the first-appearance rank for a riser. */
   toRank: number;
   /** Country name for the vector flag shown before the institution name, e.g. "China". */
   flag?: string;
@@ -32,10 +38,10 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
         <line x1={FROM_X} y1={0} x2={FROM_X} y2={490} stroke="var(--color-rule)" />
         <line x1={TO_X} y1={0} x2={TO_X} y2={490} stroke="var(--color-rule)" />
         <text x={FROM_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
-          From rank ↓
+          Most recent (2026) ↓
         </text>
         <text x={TO_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
-          → To rank
+          → First appearance
         </text>
         <text x={FROM_X} y={512} fontSize={12} textAnchor="middle" fill="var(--color-ink-soft)">
           low number = better
