@@ -68,9 +68,9 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
           <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">→ To {toYear}</span>
         </div>
 
-        <div>
+        <div className="space-y-3">
           {groups.map((g, groupIndex) => (
-            <div key={groupIndex} className={groupIndex > 0 ? 'mt-4 pt-3 border-t border-rule-soft' : ''}>
+            <div key={groupIndex} className="border border-rule rounded-[6px] bg-green/[0.03] px-3 pt-3 pb-1">
               <div className="flex items-center gap-2 mb-1 px-2">
                 {g.flag ? <Flag country={g.flag} width={18} /> : null}
                 <span className="font-sans text-[13px] font-semibold tracking-[0.3px] text-ink uppercase">
