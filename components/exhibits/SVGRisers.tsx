@@ -1,8 +1,10 @@
+import { Flag } from './Flag';
+
 interface RiserRow {
   label: string;
   fromRank: number;
   toRank: number;
-  /** Flag emoji shown before the institution name. */
+  /** Country name for the vector flag shown before the institution name, e.g. "China". */
   flag?: string;
 }
 
@@ -46,17 +48,18 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
           const y = 10 + i * 30;
           const startX = FROM_X + r.fromRank * RANK_TO_PX;
           const endX = FROM_X + r.toRank * RANK_TO_PX;
+          const textX = r.flag ? -32 : -10;
           return (
             <g key={i} transform={`translate(0,${y})`}>
+              {r.flag ? <Flag country={r.flag} x={-28} y={-6} width={16} /> : null}
               <text
-                x={-10}
+                x={textX}
                 y={4}
                 textAnchor="end"
                 fontSize={12}
                 fontWeight={600}
                 fill="var(--color-ink)"
               >
-                {r.flag ? `${r.flag} ` : ''}
                 {r.label}
               </text>
               <line x1={startX} y1={0} x2={endX - 36} y2={0} stroke="#2E5B66" strokeWidth={2} />

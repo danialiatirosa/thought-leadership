@@ -26,7 +26,6 @@ import {
   heatmapCols,
   risers,
   countryTableRows,
-  countryFlags,
   countryShortNames,
   lessonsTableRows,
 } from './decade-that-reshaped-higher-education.data';
@@ -166,7 +165,7 @@ The table below extends that same four-country pattern across the full Top 15.
       const name = String(row.country);
       return (
         <span className="whitespace-nowrap max-[640px]:whitespace-normal">
-          <span aria-hidden style={{ marginRight: 8 }}>{countryFlags[name]}</span>
+          <Flag country={name} width={16} className="inline-block align-middle" style={{ marginRight: 8 }} />
           {countryShortNames[name] ?? name}
         </span>
       );
@@ -245,7 +244,7 @@ The UAE went from <strong>zero institutions in the Times Higher Education Top 50
   groups={[
     {
       country: 'UAE',
-      flag: '🇦🇪',
+      flag: 'United Arab Emirates',
       rows: [
         {
           system: 'THE Top 500',
@@ -286,7 +285,7 @@ The UAE went from <strong>zero institutions in the Times Higher Education Top 50
     },
     {
       country: 'Saudi Arabia',
-      flag: '🇸🇦',
+      flag: 'Saudi Arabia',
       rows: [
         {
           system: 'THE Top 500',
@@ -328,7 +327,7 @@ The UAE went from <strong>zero institutions in the Times Higher Education Top 50
     },
     {
       country: 'Qatar',
-      flag: '🇶🇦',
+      flag: 'Qatar',
       rows: [
         {
           system: 'THE Top 500',

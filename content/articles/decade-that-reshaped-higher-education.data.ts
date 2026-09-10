@@ -159,21 +159,21 @@ export const heatmapCols = [
 ];
 
 export const risers = [
-  { label: 'Shanghai Jiao Tong U.', fromRank: 40, toRank: 188, flag: '🇨🇳' },
-  { label: 'Zhejiang University', fromRank: 39, toRank: 177, flag: '🇨🇳' },
-  { label: 'Fudan University', fromRank: 36, toRank: 155, flag: '🇨🇳' },
-  { label: 'Hong Kong Polytechnic U.', fromRank: 80, toRank: 192, flag: '🇭🇰' },
-  { label: 'Yonsei University', fromRank: 86, toRank: 197, flag: '🇰🇷' },
-  { label: 'Nanjing University', fromRank: 62, toRank: 169, flag: '🇨🇳' },
-  { label: 'Charité Berlin', fromRank: 91, toRank: 195, flag: '🇩🇪' },
-  { label: 'U. Sci. & Tech. of China', fromRank: 51, toRank: 153, flag: '🇨🇳' },
-  { label: 'Chinese U. of Hong Kong', fromRank: 41, toRank: 138, flag: '🇭🇰' },
-  { label: 'KAIST', fromRank: 70, toRank: 148, flag: '🇰🇷' },
-  { label: 'Sungkyunkwan University', fromRank: 87, toRank: 153, flag: '🇰🇷' },
-  { label: 'KTH Royal Inst. of Tech.', fromRank: 98, toRank: 155, flag: '🇸🇪' },
-  { label: 'University of Hamburg', fromRank: 125, toRank: 180, flag: '🇩🇪' },
-  { label: 'Newcastle University', fromRank: 144, toRank: 196, flag: '🇬🇧' },
-  { label: 'U. of Technology Sydney', fromRank: 145, toRank: 196, flag: '🇦🇺' },
+  { label: 'Shanghai Jiao Tong U.', fromRank: 40, toRank: 188, flag: 'China' },
+  { label: 'Zhejiang University', fromRank: 39, toRank: 177, flag: 'China' },
+  { label: 'Fudan University', fromRank: 36, toRank: 155, flag: 'China' },
+  { label: 'Hong Kong Polytechnic U.', fromRank: 80, toRank: 192, flag: 'Hong Kong' },
+  { label: 'Yonsei University', fromRank: 86, toRank: 197, flag: 'Korea, Republic of' },
+  { label: 'Nanjing University', fromRank: 62, toRank: 169, flag: 'China' },
+  { label: 'Charité Berlin', fromRank: 91, toRank: 195, flag: 'Germany' },
+  { label: 'U. Sci. & Tech. of China', fromRank: 51, toRank: 153, flag: 'China' },
+  { label: 'Chinese U. of Hong Kong', fromRank: 41, toRank: 138, flag: 'Hong Kong' },
+  { label: 'KAIST', fromRank: 70, toRank: 148, flag: 'Korea, Republic of' },
+  { label: 'Sungkyunkwan University', fromRank: 87, toRank: 153, flag: 'Korea, Republic of' },
+  { label: 'KTH Royal Inst. of Tech.', fromRank: 98, toRank: 155, flag: 'Sweden' },
+  { label: 'University of Hamburg', fromRank: 125, toRank: 180, flag: 'Germany' },
+  { label: 'Newcastle University', fromRank: 144, toRank: 196, flag: 'United Kingdom' },
+  { label: 'U. of Technology Sydney', fromRank: 145, toRank: 196, flag: 'Australia' },
 ];
 
 export const gerdBubbles = [
@@ -287,24 +287,6 @@ export const countryTableRows = [
   { country: 'Malaysia', qs17: 5, qs26: 10, qsD: { value: '+5', tone: 'pos' as const }, the16: 1, the26: 7, theD: { value: '+6', tone: 'pos' as const } },
   { country: 'United Arab Emirates', qs17: 3, qs26: 6, qsD: { value: '+3', tone: 'pos' as const }, the16: 0, the26: 7, theD: { value: '+7', tone: 'pos' as const } },
 ];
-
-export const countryFlags: Record<string, string> = {
-  'United States': '🇺🇸',
-  'United Kingdom': '🇬🇧',
-  China: '🇨🇳',
-  Germany: '🇩🇪',
-  Australia: '🇦🇺',
-  Italy: '🇮🇹',
-  Spain: '🇪🇸',
-  France: '🇫🇷',
-  Canada: '🇨🇦',
-  'Korea, Republic of': '🇰🇷',
-  Japan: '🇯🇵',
-  Netherlands: '🇳🇱',
-  'Saudi Arabia': '🇸🇦',
-  Malaysia: '🇲🇾',
-  'United Arab Emirates': '🇦🇪',
-};
 
 /** Short display labels for the country table, where the full name doesn't fit on one line. */
 export const countryShortNames: Record<string, string> = {

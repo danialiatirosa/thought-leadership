@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { Flag } from './Flag';
 
 interface Institution {
   name: string;
@@ -25,7 +26,7 @@ interface FootprintRow {
 
 interface FootprintGroup {
   country: string;
-  /** Flag emoji shown in the group header. */
+  /** Country name for the vector flag shown in the group header, e.g. "United Arab Emirates". */
   flag?: string;
   rows: FootprintRow[];
 }
@@ -71,7 +72,7 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
           {groups.map((g, groupIndex) => (
             <div key={groupIndex} className={groupIndex > 0 ? 'mt-4 pt-3 border-t border-rule-soft' : ''}>
               <div className="flex items-center gap-2 mb-1 px-2">
-                {g.flag ? <span aria-hidden className="text-[15px]">{g.flag}</span> : null}
+                {g.flag ? <Flag country={g.flag} width={18} /> : null}
                 <span className="font-sans text-[13px] font-semibold tracking-[0.3px] text-ink uppercase">
                   {g.country}
                 </span>
@@ -157,9 +158,12 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
       </div>
 
       <div className="pt-5 border-t-2 border-green">
-        <div className="font-sans text-[12px] tracking-[0.5px] uppercase text-green font-semibold mb-1">
-          ↳ Detail: {row.flag ? `${row.flag} ` : ''}
-          {row.country} · {row.system} · {toYear}
+        <div className="flex items-center gap-1.5 font-sans text-[12px] tracking-[0.5px] uppercase text-green font-semibold mb-1">
+          <span>↳ Detail:</span>
+          {row.flag ? <Flag country={row.flag} width={14} /> : null}
+          <span>
+            {row.country} · {row.system} · {toYear}
+          </span>
         </div>
         <div className="m-0 mb-4 font-sans font-semibold" style={{ fontSize: 15, textTransform: 'none', letterSpacing: 'normal', color: 'var(--color-ink)' }}>
           {row.detailTitle}

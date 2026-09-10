@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { line as d3line, curveMonotoneX } from 'd3-shape';
+import { Flag, hasFlag } from '../Flag';
 
 interface RankPoint {
   year: number;
@@ -32,13 +33,6 @@ interface BumpChartProps {
 const W = 1000;
 const H = 720;
 const M = { top: 24, right: 230, bottom: 40, left: 40 };
-
-const COUNTRY_FLAGS: Record<string, string> = {
-  'United States': '🇺🇸',
-  'United Kingdom': '🇬🇧',
-  Switzerland: '🇨🇭',
-  Canada: '🇨🇦',
-};
 
 function colourFor(line: CohortLine): string {
   if (line.greaterChina) return 'var(--color-lime)';
@@ -265,10 +259,10 @@ export function BumpChart({ data }: BumpChartProps) {
         {rightLabels.map(({ line, key, naturalY, y }) => {
           const isActive = activeKey === key;
           const dim = activeKey != null && !isActive;
-          const flag = COUNTRY_FLAGS[line.country] ?? '';
+          const showFlag = hasFlag(line.country);
           const name =
             line.university.length > 25 ? `${line.university.slice(0, 23)}…` : line.university;
-          const label = flag ? `${flag} ${name}` : name;
+          const textX = W - M.right + 8 + (showFlag ? 18 : 0);
           const nudged = Math.abs(y - naturalY) > 3;
           return (
             <g key={key}>
@@ -283,8 +277,23 @@ export function BumpChart({ data }: BumpChartProps) {
                   opacity={dim ? 0.2 : 0.6}
                 />
               ) : null}
+              {showFlag ? (
+                <Flag
+                  country={line.country}
+                  x={W - M.right + 8}
+                  y={y - 6}
+                  width={14}
+                  className="cursor-pointer"
+                  onMouseEnter={() => setHoveredKey(key)}
+                  onMouseLeave={() => setHoveredKey(null)}
+                  onClick={(e: React.MouseEvent) => {
+                    e.stopPropagation();
+                    toggleSelected(key);
+                  }}
+                />
+              ) : null}
               <text
-                x={W - M.right + 8}
+                x={textX}
                 y={y + 4}
                 fontSize={13}
                 fill={isActive ? 'var(--color-ink)' : 'var(--color-mute)'}
@@ -300,7 +309,7 @@ export function BumpChart({ data }: BumpChartProps) {
                   toggleSelected(key);
                 }}
               >
-                {label}
+                {name}
               </text>
             </g>
           );
