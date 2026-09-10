@@ -31,21 +31,21 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
       <g transform="translate(280,30)">
         <line x1={FROM_X} y1={0} x2={FROM_X} y2={490} stroke="var(--color-rule)" />
         <line x1={TO_X} y1={0} x2={TO_X} y2={490} stroke="var(--color-rule)" />
-        <text x={FROM_X} y={-12} fontSize={11} fill="var(--color-ink)" textAnchor="middle">
+        <text x={FROM_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
           From rank ↓
         </text>
-        <text x={TO_X} y={-12} fontSize={11} fill="var(--color-ink)" textAnchor="middle">
+        <text x={TO_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
           → To rank
         </text>
-        <text x={FROM_X} y={510} fontSize={10} textAnchor="middle" fill="var(--color-ink-soft)">
+        <text x={FROM_X} y={512} fontSize={12} textAnchor="middle" fill="var(--color-ink-soft)">
           low number = better
         </text>
-        <text x={TO_X} y={510} fontSize={10} textAnchor="middle" fill="var(--color-ink-soft)">
+        <text x={TO_X} y={512} fontSize={12} textAnchor="middle" fill="var(--color-ink-soft)">
           low number = better
         </text>
 
         {rows.map((r, i) => {
-          const y = 10 + i * 30;
+          const y = 20 + i * 30;
           const startX = FROM_X + r.fromRank * RANK_TO_PX;
           const endX = FROM_X + r.toRank * RANK_TO_PX;
           const textX = r.flag ? -32 : -10;
@@ -56,7 +56,7 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
                 x={textX}
                 y={4}
                 textAnchor="end"
-                fontSize={12}
+                fontSize={15}
                 fontWeight={600}
                 fill="var(--color-ink)"
               >
@@ -71,21 +71,21 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
                 y={-10}
                 textAnchor="end"
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
-                fontSize={14}
+                fontSize={17}
                 fontWeight={600}
                 fill="#2E5B66"
               >
-                {r.fromRank}
+                #{r.fromRank}
               </text>
               <text
                 x={endX - 31}
                 y={-10}
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
-                fontSize={14}
+                fontSize={17}
                 fontWeight={600}
                 fill="var(--color-ink-soft)"
               >
-                {r.toRank}
+                #{r.toRank}
               </text>
             </g>
           );
@@ -93,11 +93,11 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
 
         <g transform="translate(0,470)">
           <circle cx={0} cy={0} r={4} fill="var(--color-ink-soft)" />
-          <text x={10} y={4} fontSize={10} fill="var(--color-ink-soft)">
+          <text x={10} y={4} fontSize={13} fill="var(--color-ink-soft)">
             First appearance (decade-start rank)
           </text>
-          <circle cx={220} cy={0} r={4} fill="#2E5B66" />
-          <text x={230} y={4} fontSize={10} fill="var(--color-ink-soft)">
+          <circle cx={260} cy={0} r={4} fill="#2E5B66" />
+          <text x={270} y={4} fontSize={13} fill="var(--color-ink-soft)">
             Most recent rank (2026)
           </text>
         </g>
