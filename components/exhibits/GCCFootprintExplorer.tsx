@@ -64,7 +64,7 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
         <p className="m-0 mb-4 font-sans text-[11px] italic text-mute">Hover or tap a row to see its institutions</p>
 
         <div className="flex items-center justify-between mb-2 px-1">
-          <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">From year ↓</span>
+          <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">From 2016/2017 ↓</span>
           <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">→ To {toYear}</span>
         </div>
 
@@ -134,17 +134,6 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
               })}
             </div>
           ))}
-        </div>
-
-        <div className="flex items-center gap-4 mt-4 text-[12.5px] font-sans text-mute">
-          <span className="flex items-center gap-1.5">
-            <span className="block w-[7px] h-[7px] rounded-full bg-mute" />
-            2016, or first year on the list
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="block w-[8px] h-[8px] rounded-full bg-green" />
-            {toYear}
-          </span>
         </div>
       </div>
 
