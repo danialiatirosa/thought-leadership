@@ -22,16 +22,16 @@ export function VolatilityChart({ tiers, caveat }: VolatilityChartProps) {
         const qsPct = Math.max(3, (t.qs / MAX) * 100);
         const thePct = Math.max(3, (t.the / MAX) * 100);
         return (
-          <div key={i} className="grid grid-cols-[92px_1fr_72px] gap-3.5 items-center py-3 max-[480px]:grid-cols-[76px_1fr_56px] max-[480px]:gap-2.5">
+          <div key={i} className="grid grid-cols-[92px_1fr_72px] gap-3.5 items-center py-2 max-[480px]:grid-cols-[76px_1fr_56px] max-[480px]:gap-2.5">
             <div className="text-[16px] text-ink font-serif leading-tight">{t.label}</div>
-            <div className="relative h-8 border-b border-rule">
+            <div className="relative h-7 border-b border-rule">
               <div
-                className="absolute left-0 top-[5px] h-3"
+                className="absolute left-0 top-1 h-2.5"
                 style={{ width: `${qsPct}%`, background: 'var(--color-green)' }}
                 aria-label={`QS ${t.qs}`}
               />
               <div
-                className="absolute left-0 top-[17px] h-3"
+                className="absolute left-0 top-4 h-2.5"
                 style={{ width: `${thePct}%`, background: 'var(--color-lime)' }}
                 aria-label={`THE ${t.the}`}
               />
