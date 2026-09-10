@@ -47,7 +47,7 @@ export function Exhibit({ number, title, sub, source, children }: ExhibitProps) 
       ) : null}
       <div className="my-2">{children}</div>
       {source ? (
-        <figcaption className="font-sans text-[11.5px] text-mute mt-5 leading-[1.55] max-w-[68ch]">
+        <figcaption className="font-sans text-[11.5px] text-mute mt-5 leading-[1.55]">
           {source}
         </figcaption>
       ) : null}

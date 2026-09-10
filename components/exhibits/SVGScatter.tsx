@@ -36,10 +36,8 @@ interface SVGScatterProps {
   pointOpacity?: number;
   /** Opacity for banded (hollow) background points. Default 0.75. */
   bandedPointOpacity?: number;
-  /** Show an in-chart legend explaining filled vs. hollow (banded) dots. Default false. */
+  /** Show a legend below the chart explaining filled vs. hollow (banded) dots. Default false. */
   legend?: boolean;
-  legendX?: number;
-  legendY?: number;
   legendSolidLabel?: string;
   legendBandedLabel?: string;
 }
@@ -77,156 +75,154 @@ export function SVGScatter({
   pointOpacity = 0.6,
   bandedPointOpacity = 0.75,
   legend = false,
-  legendX = 520,
-  legendY = 20,
   legendSolidLabel = 'Exact rank on both systems',
   legendBandedLabel = 'One rank estimated from a THE band',
 }: SVGScatterProps) {
   const resolvedXTicks = xTicks ?? DEFAULT_X_TICKS;
   const resolvedYTicks = yTicks ?? DEFAULT_Y_TICKS;
   return (
-    <svg
-      viewBox="0 0 1000 460"
-      preserveAspectRatio="xMidYMid meet"
-      role="img"
-      aria-label={title}
-      className="block w-full h-auto font-sans"
-    >
-      <title>{title}</title>
-      <desc>{title}</desc>
-      <g transform="translate(80,40)">
-        <g stroke="var(--color-rule-soft)" strokeWidth={1} fill="none">
-          {resolvedYTicks.map((t, i) => (
-            <line key={`hg${i}`} x1={0} y1={t.y} x2={820} y2={t.y} />
-          ))}
-          {resolvedXTicks.map((t, i) => (
-            <line key={`vg${i}`} x1={t.x} y1={0} x2={t.x} y2={320} />
-          ))}
-        </g>
-
-        {diagonal ? (
-          <>
-            <line
-              x1={resolvedXTicks[0].x}
-              y1={resolvedYTicks[0].y}
-              x2={resolvedXTicks[resolvedXTicks.length - 1].x}
-              y2={resolvedYTicks[resolvedYTicks.length - 1].y}
-              stroke="var(--color-ink-soft)"
-              strokeWidth={1}
-              strokeDasharray="4,4"
-            />
-            {diagonalLabel ? (
-              <text
-                x={diagonalLabelX ?? 700}
-                y={diagonalLabelY ?? 274}
-                fontSize={13}
-                fill="var(--color-ink-soft)"
-                fontStyle="italic"
-              >
-                {diagonalLabel}
-              </text>
-            ) : null}
-          </>
-        ) : null}
-
-        {legend ? (
-          <g fontSize={12} fill="var(--color-ink-soft)">
-            <circle cx={legendX} cy={legendY} r={4.5} fill="var(--color-tamkeen-deep)" />
-            <text x={legendX + 12} y={legendY + 4}>
-              {legendSolidLabel}
-            </text>
-            <circle
-              cx={legendX}
-              cy={legendY + 20}
-              r={4.5}
-              fill="var(--color-paper)"
-              stroke="var(--color-tamkeen-deep)"
-              strokeWidth={1}
-            />
-            <text x={legendX + 12} y={legendY + 24}>
-              {legendBandedLabel}
-            </text>
+    <div>
+      <svg
+        viewBox="0 0 1000 460"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        aria-label={title}
+        className="block w-full h-auto font-sans"
+      >
+        <title>{title}</title>
+        <desc>{title}</desc>
+        <g transform="translate(80,40)">
+          <g stroke="var(--color-rule-soft)" strokeWidth={1} fill="none">
+            {resolvedYTicks.map((t, i) => (
+              <line key={`hg${i}`} x1={0} y1={t.y} x2={820} y2={t.y} />
+            ))}
+            {resolvedXTicks.map((t, i) => (
+              <line key={`vg${i}`} x1={t.x} y1={0} x2={t.x} y2={320} />
+            ))}
           </g>
-        ) : null}
 
-        <g>
-          {points.map((p, i) =>
-            p.banded ? (
-              <circle
-                key={i}
-                cx={p.x}
-                cy={p.y}
-                r={p.r ?? pointRadius}
-                fill="var(--color-paper)"
-                stroke="var(--color-tamkeen-deep)"
+          {diagonal ? (
+            <>
+              <line
+                x1={resolvedXTicks[0].x}
+                y1={resolvedYTicks[0].y}
+                x2={resolvedXTicks[resolvedXTicks.length - 1].x}
+                y2={resolvedYTicks[resolvedYTicks.length - 1].y}
+                stroke="var(--color-ink-soft)"
                 strokeWidth={1}
-                opacity={bandedPointOpacity}
-              >
-                {p.title ? <title>{p.title}</title> : null}
-              </circle>
-            ) : (
-              <circle key={i} cx={p.x} cy={p.y} r={p.r ?? pointRadius} fill="var(--color-tamkeen-deep)" opacity={pointOpacity}>
-                {p.title ? <title>{p.title}</title> : null}
-              </circle>
-            ),
-          )}
-        </g>
+                strokeDasharray="4,4"
+              />
+              {diagonalLabel ? (
+                <text
+                  x={diagonalLabelX ?? 700}
+                  y={diagonalLabelY ?? 274}
+                  fontSize={13}
+                  fill="var(--color-ink-soft)"
+                  fontStyle="italic"
+                >
+                  {diagonalLabel}
+                </text>
+              ) : null}
+            </>
+          ) : null}
 
-        <g fill="#A0342A">
-          {outliers.map((o, i) => (
-            <circle key={`f${i}`} cx={o.x} cy={o.y} r={4} fill={o.banded ? 'var(--color-paper)' : '#A0342A'} stroke={o.banded ? '#A0342A' : 'none'} strokeWidth={o.banded ? 1.4 : 0}>
-              {o.title ? <title>{o.title}</title> : null}
-            </circle>
-          ))}
-        </g>
-        <g fill="none" stroke="#A0342A" strokeWidth={1.4}>
-          {outliers.map((o, i) => (
-            <circle key={`r${i}`} cx={o.x} cy={o.y} r={8} />
-          ))}
-        </g>
-        {outliers.map((o, i) => (
-          <text
-            key={`t${i}`}
-            x={o.labelX ?? o.x + 14}
-            y={o.labelY ?? o.y - 4}
-            fontSize={13}
-            fill="var(--color-ink)"
-          >
-            {o.label}
-          </text>
-        ))}
+          <g>
+            {points.map((p, i) =>
+              p.banded ? (
+                <circle
+                  key={i}
+                  cx={p.x}
+                  cy={p.y}
+                  r={p.r ?? pointRadius}
+                  fill="var(--color-paper)"
+                  stroke="var(--color-tamkeen-deep)"
+                  strokeWidth={1}
+                  opacity={bandedPointOpacity}
+                >
+                  {p.title ? <title>{p.title}</title> : null}
+                </circle>
+              ) : (
+                <circle key={i} cx={p.x} cy={p.y} r={p.r ?? pointRadius} fill="var(--color-tamkeen-deep)" opacity={pointOpacity}>
+                  {p.title ? <title>{p.title}</title> : null}
+                </circle>
+              ),
+            )}
+          </g>
 
-        <g stroke="var(--color-rule)" strokeWidth={1} fill="var(--color-ink-soft)" fontSize={13}>
-          <line x1={0} y1={320} x2={820} y2={320} />
-          <line x1={0} y1={0} x2={0} y2={320} />
-          {resolvedXTicks.map((t, i) => (
-            <text key={`x${i}`} x={t.x} y={340} textAnchor="middle" stroke="none">
-              {t.label}
+          <g fill="#A0342A">
+            {outliers.map((o, i) => (
+              <circle key={`f${i}`} cx={o.x} cy={o.y} r={4} fill="#A0342A">
+                {o.title ? <title>{o.title}</title> : null}
+              </circle>
+            ))}
+          </g>
+          <g fill="none" stroke="#A0342A" strokeWidth={1.4}>
+            {outliers.map((o, i) => (
+              <circle key={`r${i}`} cx={o.x} cy={o.y} r={8} />
+            ))}
+          </g>
+          {outliers.map((o, i) => (
+            <text
+              key={`t${i}`}
+              x={o.labelX ?? o.x + 14}
+              y={o.labelY ?? o.y - 4}
+              fontSize={13}
+              fill="var(--color-ink)"
+            >
+              {o.label}
             </text>
           ))}
-          {resolvedYTicks.map((t, i) => (
-            <text key={`y${i}`} x={-12} y={t.y} textAnchor="end" stroke="none">
-              {t.label}
+
+          <g stroke="var(--color-rule)" strokeWidth={1} fill="var(--color-ink-soft)" fontSize={13}>
+            <line x1={0} y1={320} x2={820} y2={320} />
+            <line x1={0} y1={0} x2={0} y2={320} />
+            {resolvedXTicks.map((t, i) => (
+              <text key={`x${i}`} x={t.x} y={340} textAnchor="middle" stroke="none">
+                {t.label}
+              </text>
+            ))}
+            {resolvedYTicks.map((t, i) => (
+              <text key={`y${i}`} x={-12} y={t.y} textAnchor="end" stroke="none">
+                {t.label}
+              </text>
+            ))}
+          </g>
+          {xAxisLabel ? (
+            <text x={410} y={378} textAnchor="middle" fontSize={15} fontWeight={600} fill="var(--color-ink)">
+              {xAxisLabel}
             </text>
-          ))}
+          ) : null}
+          {yAxisLabel ? (
+            <text
+              transform="translate(-58,160) rotate(-90)"
+              textAnchor="middle"
+              fontSize={15}
+              fontWeight={600}
+              fill="var(--color-ink)"
+            >
+              {yAxisLabel}
+            </text>
+          ) : null}
         </g>
-        {xAxisLabel ? (
-          <text x={410} y={378} textAnchor="middle" fontSize={15} fontWeight={600} fill="var(--color-ink)">
-            {xAxisLabel}
-          </text>
-        ) : null}
-        {yAxisLabel ? (
-          <text
-            transform="translate(-58,160) rotate(-90)"
-            textAnchor="middle"
-            fontSize={15}
-            fontWeight={600}
-            fill="var(--color-ink)"
-          >
-            {yAxisLabel}
-          </text>
-        ) : null}
-      </g>
-    </svg>
+      </svg>
+      {legend ? (
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-1.5 mt-3 font-sans text-[12px] text-mute">
+          <span className="inline-flex items-center gap-2">
+            <span
+              className="inline-block w-[9px] h-[9px] rounded-full shrink-0"
+              style={{ backgroundColor: 'var(--color-tamkeen-deep)' }}
+            />
+            {legendSolidLabel}
+          </span>
+          <span className="inline-flex items-center gap-2">
+            <span
+              className="inline-block w-[9px] h-[9px] rounded-full shrink-0"
+              style={{ backgroundColor: 'var(--color-paper)', border: '1px solid var(--color-tamkeen-deep)' }}
+            />
+            {legendBandedLabel}
+          </span>
+        </div>
+      ) : null}
+    </div>
   );
 }
