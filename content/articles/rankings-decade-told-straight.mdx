@@ -175,6 +175,71 @@ Four countries account for nearly all of the movement below the very top. Three 
   <li><strong>The United States is still the largest single-country cohort in both rankings.</strong> It lost ground, but the lost ground is in the 200-to-500 band, not at the top. Harvard, MIT and Stanford are exactly where they were. Princeton drifted a few places on QS but holds its top-five position on Times Higher Education. The mid-tier public flagships are where the erosion is.</li>
 </ul>
 
+<p style={{ marginTop: 32 }}>
+Singapore is the counter-example to every story above: it didn't grow its footprint at all, and that was the point. Its Times Higher Education count has held at exactly two institutions, National University of Singapore and Nanyang Technological University, for the entire decade; neither appears on the risers list, because both were already inside the global elite in 2016. What moved is how elite: NUS climbed from QS 12th to 8th and Times Higher Education 26th to 17th, while NTU's bigger move was on Times Higher Education, from 55th to 31st, holding roughly steady on QS (13th to 12th). A system with only two internationally ranked universities pushed both of them further up, rather than adding a third. Section 06 states the lesson directly: pick fewer, fund longer.
+</p>
+
+<Exhibit
+  title="Already elite in 2016, and still climbing."
+  sub="QS and Times Higher Education rank, National University of Singapore and Nanyang Technological University, 2016 to 2026. NTU has no QS entry for 2024; the line breaks there rather than interpolating a value."
+  source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2016 to 2026; authors’ analysis."
+>
+  <div className="grid grid-cols-2 gap-x-10 max-[640px]:grid-cols-1 max-[640px]:gap-y-8">
+    <DualLineTrajectory
+      title="National University of Singapore"
+      scaleMax={30}
+      years={['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']}
+      series={[
+        {
+          label: 'QS',
+          color: 'var(--color-green)',
+          points: [
+            { value: null },
+            { value: 12 }, { value: 15 }, { value: 11 }, { value: 11 },
+            { value: 11 }, { value: 11 }, { value: 11 }, { value: 8 },
+            { value: 8 }, { value: 8 },
+          ],
+        },
+        {
+          label: 'THE',
+          color: 'var(--color-lime)',
+          points: [
+            { value: 26 }, { value: 24 }, { value: 22 }, { value: 23 }, { value: 25 },
+            { value: 25 }, { value: 21 }, { value: 19 }, { value: 19 },
+            { value: 17 }, { value: 17 },
+          ],
+        },
+      ]}
+    />
+    <DualLineTrajectory
+      title="Nanyang Technological University"
+      scaleMax={60}
+      years={['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']}
+      series={[
+        {
+          label: 'QS',
+          color: 'var(--color-green)',
+          points: [
+            { value: null },
+            { value: 13 }, { value: 11 }, { value: 12 }, { value: 11 },
+            { value: 13 }, { value: 12 }, { value: 19 }, { value: null },
+            { value: 15 }, { value: 12 },
+          ],
+        },
+        {
+          label: 'THE',
+          color: 'var(--color-lime)',
+          points: [
+            { value: 55 }, { value: 54 }, { value: 52 }, { value: 51 }, { value: 48 },
+            { value: 47 }, { value: 46 }, { value: 36 }, { value: 32 },
+            { value: 30 }, { value: 31 },
+          ],
+        },
+      ]}
+    />
+  </div>
+</Exhibit>
+
 <Exhibit
   title="The 2016 elite tracked through 2026."
   sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
@@ -185,6 +250,10 @@ Four countries account for nearly all of the movement below the very top. Three 
 
 <p style={{ marginTop: 32 }}>
 The 2016 elite barely moves: 17 of these 20 institutions are still in the Top 20 a decade later, and the average drift is three places. The real movement in this decade's data is happening below this cohort, among institutions that weren't elite in 2016 at all. Isolating the fastest of those newcomers makes the funding pattern explicit.
+</p>
+
+<p style={{ marginTop: 32 }}>
+The UK is the clearest test of that stability, because it wasn't just holding steady, it was absorbing a real shock. Its Times Higher Education Top-100 count held at roughly eleven institutions through 2021 to 2024, the same years its universities lost preferential access to Horizon Europe funding after Brexit; full re-association wasn't restored until September 2023. A four-year disruption to the EU's flagship research-grant programme, and the UK's elite-tier footprint barely moved. Section 06 draws the lesson directly: deep reputation and alumni networks buy years of buffer against a policy shock that would sink a system with less of either.
 </p>
 
 <Exhibit
@@ -600,6 +669,10 @@ Between 2023 and 2024, universities moved on the rankings about three times as m
 The same dataset reads differently depending on the chair you sit in. What the decade should change for each major stakeholder.
 </p>
 
+<p style={{ marginTop: 24 }}>
+Two passes over the same decade follow. First, six country cases already told earlier in this piece, China, Singapore, Korea, Saudi Arabia, the UK, and Australia, compressed here into one lesson each. Second, those lessons translated into six stakeholder agendas: what a government, a university, a funder, a student, an employer, or a researcher should actually do differently, regardless of which country or system they sit in.
+</p>
+
 <h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
 
 <DataTable
@@ -625,6 +698,10 @@ The same dataset reads differently depending on the chair you sit in. What the d
     return String(v);
   }}
 />
+
+<p style={{ marginTop: 32 }}>
+Those are country-level lessons, each tied to one system's specific story. The same underlying mechanisms, reputation lag, funding-to-climb lag, and how much a system concentrates versus spreads its effort, translate into direct instructions for six kinds of reader below, independent of geography.
+</p>
 
 <h3 style={{ marginTop: 32 }}>Six agendas, one dataset.</h3>
 
@@ -686,6 +763,10 @@ The same dataset reads differently depending on the chair you sit in. What the d
     },
   ]}
 />
+
+<p style={{ marginTop: 32 }}>
+Six audiences, one dataset, and underneath all of it the same two or three mechanisms: reputation lag, funding-to-climb lag, and how much a system concentrates its effort versus spreads it thin. Which chair you sit in changes what you should do next. It doesn't change what actually happened.
+</p>
 
 </ArticleSection>
 
