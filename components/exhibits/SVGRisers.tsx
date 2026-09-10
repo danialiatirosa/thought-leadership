@@ -21,12 +21,13 @@ interface SVGRisersProps {
 
 const FROM_X = 0;
 const TO_X = 600;
+const DELTA_X = 760;
 const RANK_TO_PX = 3;
 
 export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersProps) {
   return (
     <svg
-      viewBox="0 0 1000 540"
+      viewBox="0 0 1080 540"
       preserveAspectRatio="xMidYMid meet"
       role="img"
       aria-label={title}
@@ -35,13 +36,16 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
       <title>{title}</title>
       <desc>{title}</desc>
       <g transform="translate(280,30)">
-        <line x1={FROM_X} y1={0} x2={FROM_X} y2={490} stroke="var(--color-rule)" />
-        <line x1={TO_X} y1={0} x2={TO_X} y2={490} stroke="var(--color-rule)" />
+        <line x1={FROM_X} y1={0} x2={FROM_X} y2={452} stroke="var(--color-rule)" />
+        <line x1={TO_X} y1={0} x2={TO_X} y2={452} stroke="var(--color-rule)" />
         <text x={FROM_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
           Most recent (2026) ↓
         </text>
         <text x={TO_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
           → First appearance
+        </text>
+        <text x={DELTA_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
+          Climbed
         </text>
         <text x={FROM_X} y={512} fontSize={12} textAnchor="middle" fill="var(--color-ink-soft)">
           low number = better
@@ -81,7 +85,7 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
                 fontWeight={600}
                 fill="#2E5B66"
               >
-                #{r.fromRank}
+                {r.fromRank}
               </text>
               <text
                 x={endX - 31}
@@ -91,19 +95,30 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
                 fontWeight={600}
                 fill="var(--color-ink-soft)"
               >
-                #{r.toRank}
+                {r.toRank}
+              </text>
+              <text
+                x={DELTA_X}
+                y={4}
+                textAnchor="middle"
+                fontFamily="JetBrains Mono, ui-monospace, monospace"
+                fontSize={16}
+                fontWeight={600}
+                fill="var(--color-green)"
+              >
+                +{r.toRank - r.fromRank}
               </text>
             </g>
           );
         })}
 
-        <g transform="translate(0,470)">
+        <g transform="translate(0,472)">
           <circle cx={0} cy={0} r={4} fill="var(--color-ink-soft)" />
-          <text x={10} y={4} fontSize={13} fill="var(--color-ink-soft)">
-            First appearance (decade-start rank)
+          <text x={10} y={5} fontSize={16} fill="var(--color-ink-soft)">
+            2016, or first appearance
           </text>
-          <circle cx={260} cy={0} r={4} fill="#2E5B66" />
-          <text x={270} y={4} fontSize={13} fill="var(--color-ink-soft)">
+          <circle cx={290} cy={0} r={4} fill="#2E5B66" />
+          <text x={300} y={5} fontSize={16} fill="var(--color-ink-soft)">
             Most recent rank (2026)
           </text>
         </g>
