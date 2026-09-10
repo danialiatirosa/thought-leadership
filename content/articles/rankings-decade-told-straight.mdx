@@ -180,6 +180,67 @@ Singapore is the counter-example to every story above: it didn't grow its footpr
 </p>
 
 <Exhibit
+  title="Already elite in 2016, and still climbing."
+  sub="QS and Times Higher Education rank, National University of Singapore and Nanyang Technological University, 2016 to 2026. NTU has no QS entry for 2024; the line breaks there rather than interpolating a value."
+  source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2016 to 2026; authors’ analysis."
+>
+  <div className="grid grid-cols-2 gap-x-10 max-[640px]:grid-cols-1 max-[640px]:gap-y-8">
+    <DualLineTrajectory
+      title="National University of Singapore"
+      scaleMax={30}
+      years={['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']}
+      series={[
+        {
+          label: 'QS',
+          color: 'var(--color-green)',
+          points: [
+            { value: null },
+            { value: 12 }, { value: 15 }, { value: 11 }, { value: 11 },
+            { value: 11 }, { value: 11 }, { value: 11 }, { value: 8 },
+            { value: 8 }, { value: 8 },
+          ],
+        },
+        {
+          label: 'THE',
+          color: 'var(--color-lime)',
+          points: [
+            { value: 26 }, { value: 24 }, { value: 22 }, { value: 23 }, { value: 25 },
+            { value: 25 }, { value: 21 }, { value: 19 }, { value: 19 },
+            { value: 17 }, { value: 17 },
+          ],
+        },
+      ]}
+    />
+    <DualLineTrajectory
+      title="Nanyang Technological University"
+      scaleMax={60}
+      years={['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']}
+      series={[
+        {
+          label: 'QS',
+          color: 'var(--color-green)',
+          points: [
+            { value: null },
+            { value: 13 }, { value: 11 }, { value: 12 }, { value: 11 },
+            { value: 13 }, { value: 12 }, { value: 19 }, { value: null },
+            { value: 15 }, { value: 12 },
+          ],
+        },
+        {
+          label: 'THE',
+          color: 'var(--color-lime)',
+          points: [
+            { value: 55 }, { value: 54 }, { value: 52 }, { value: 51 }, { value: 48 },
+            { value: 47 }, { value: 46 }, { value: 36 }, { value: 32 },
+            { value: 30 }, { value: 31 },
+          ],
+        },
+      ]}
+    />
+  </div>
+</Exhibit>
+
+<Exhibit
   title="The 2016 elite tracked through 2026."
   sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
   source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Cohort = the Times Higher Education Top 20 in 2016, tracked through every subsequent year."
