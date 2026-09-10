@@ -71,7 +71,7 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
         <div className="space-y-3">
           {groups.map((g, groupIndex) => (
             <div key={groupIndex} className="border border-rule rounded-[6px] bg-green/[0.03] px-3 pt-3 pb-1">
-              <div className="flex items-center gap-2 mb-1 px-2">
+              <div className="flex items-center gap-2 mb-1">
                 {g.flag ? <Flag country={g.flag} width={18} /> : null}
                 <span className="font-sans text-[13px] font-semibold tracking-[0.3px] text-ink uppercase">
                   {g.country}
@@ -95,39 +95,41 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
                       isActive ? 'bg-green/[0.07]' : 'hover:bg-green/[0.04]'
                     }`}
                   >
-                    <div className="text-[13px] font-serif text-ink mb-5 mt-1">{r.system}</div>
-                    <div className="relative h-4">
-                      <div className="absolute top-1/2 left-0 right-0 h-px bg-rule-soft -translate-y-1/2" />
-                      <div
-                        className="absolute top-1/2 h-[1.5px] bg-green -translate-y-1/2"
-                        style={{ left: `${startPct}%`, width: `${endPct - startPct}%` }}
-                      />
-                      <span
-                        className="absolute bottom-[9px] font-sans text-[11px] text-mute -translate-x-1/2 tabular-nums"
-                        style={{ left: `${startPct}%` }}
-                      >
-                        {r.start}
-                      </span>
-                      <span
-                        className="absolute top-1/2 block w-[7px] h-[7px] rounded-full bg-mute -translate-x-1/2 -translate-y-1/2"
-                        style={{ left: `${startPct}%` }}
-                      />
-                      <span
-                        className="absolute bottom-[9px] font-sans text-[12px] font-semibold text-green -translate-x-1/2 tabular-nums"
-                        style={{ left: `${endPct}%` }}
-                      >
-                        {r.end}
-                      </span>
-                      <svg
-                        className="absolute top-1/2 -translate-y-1/2"
-                        style={{ left: `${endPct}%` }}
-                        width="11"
-                        height="11"
-                        viewBox="0 0 11 11"
-                        aria-hidden
-                      >
-                        <polygon points="0,1 0,10 11,5.5" fill="var(--color-green)" />
-                      </svg>
+                    <div className="pl-4">
+                      <div className="text-[13px] font-serif text-ink mb-5 mt-1">{r.system}</div>
+                      <div className="relative h-4">
+                        <div className="absolute top-1/2 left-0 right-0 h-px bg-rule-soft -translate-y-1/2" />
+                        <div
+                          className="absolute top-1/2 h-[1.5px] bg-green -translate-y-1/2"
+                          style={{ left: `${startPct}%`, width: `${endPct - startPct}%` }}
+                        />
+                        <span
+                          className="absolute bottom-[9px] font-sans text-[11px] text-mute -translate-x-1/2 tabular-nums"
+                          style={{ left: `${startPct}%` }}
+                        >
+                          {r.start}
+                        </span>
+                        <span
+                          className="absolute top-1/2 block w-[7px] h-[7px] rounded-full bg-mute -translate-x-1/2 -translate-y-1/2"
+                          style={{ left: `${startPct}%` }}
+                        />
+                        <span
+                          className="absolute bottom-[9px] font-sans text-[12px] font-semibold text-green -translate-x-1/2 tabular-nums"
+                          style={{ left: `${endPct}%` }}
+                        >
+                          {r.end}
+                        </span>
+                        <svg
+                          className="absolute top-1/2 -translate-y-1/2"
+                          style={{ left: `${endPct}%` }}
+                          width="11"
+                          height="11"
+                          viewBox="0 0 11 11"
+                          aria-hidden
+                        >
+                          <polygon points="0,1 0,10 11,5.5" fill="var(--color-green)" />
+                        </svg>
+                      </div>
                     </div>
                   </button>
                 );
