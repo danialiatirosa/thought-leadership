@@ -28,7 +28,6 @@ import { GCCFootprintExplorer } from '@/components/exhibits/GCCFootprintExplorer
 import { RankTrajectory } from '@/components/exhibits/RankTrajectory';
 import { Flag } from '@/components/exhibits/Flag';
 import { DualLineTrajectory } from '@/components/exhibits/charts/DualLineTrajectory';
-import { VortexDiagram } from '@/components/exhibits/VortexDiagram';
 
 export const articleComponents: MDXComponents = {
   Eyebrow,
@@ -60,7 +59,6 @@ export const articleComponents: MDXComponents = {
   RankTrajectory,
   Flag,
   DualLineTrajectory,
-  VortexDiagram,
 };
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
