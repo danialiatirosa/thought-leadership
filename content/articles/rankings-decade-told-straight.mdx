@@ -28,7 +28,6 @@ import {
 } from './decade-that-reshaped-higher-education.data';
 
 import top20ByYear from '@/content/data/the-top20-by-year.json';
-import theBumpCohort from '@/content/data/the-bump-cohort.json';
 import qsTheScatter2026 from '@/content/data/qs-the-scatter-2026.json';
 import qsTheYoyMovement2026 from '@/content/data/qs-the-yoy-movement-2026.json';
 
@@ -64,14 +63,6 @@ From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a sm
 
 <Finding index={2} num="4 → 12" trend="up" title="Greater China tripled its THE Top 100 footprint">
 From 4 institutions in 2016 to 12 in 2026. This is the single biggest source of change in the elite tier of either ranking. The timing lines up with China's Double First-Class programme, announced in 2015 and rolled out with sustained five-year funding cycles from 2017.
-
-<Exhibit
-  title="The Top 20, played out year by year."
-  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
->
-  <BarRace years={top20ByYear} />
-</Exhibit>
 </Finding>
 
 <Finding index={3} num="−4 / −6" tone="neg" trend="down" title="The US lost ground, but only mildly at the elite tier">
@@ -250,11 +241,11 @@ The 2016 elite barely moves: 17 of these 20 institutions are still in the Top 20
 </p>
 
 <Exhibit
-  title="The 2016 elite tracked through 2026."
-  sub="Click any line, click a university's name on the right, or pick from the menu to highlight a trajectory; the others fade. The 2024 vertical hairline marks the WUR 3.0 rule change."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Cohort = the Times Higher Education Top 20 in 2016, tracked through every subsequent year."
+  title="The Top 20, played out year by year."
+  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: deep olive for the United States, teal for the United Kingdom, light olive for other countries, lime for Greater China entrants."
 >
-  <BumpChart data={theBumpCohort} />
+  <BarRace years={top20ByYear} />
 </Exhibit>
 
 <p style={{ marginTop: 32 }}>
