@@ -25,7 +25,6 @@ import {
   risers,
   countryTableRows,
   countryShortNames,
-  lessonsTableRows,
 } from './decade-that-reshaped-higher-education.data';
 
 import top20ByYear from '@/content/data/the-top20-by-year.json';
@@ -174,7 +173,7 @@ Four countries account for nearly all of the movement below the very top. Three 
 </ul>
 
 <p style={{ marginTop: 32 }}>
-Singapore is the counter-example to every story above: it didn't grow its footprint at all, and that was the point. Its Times Higher Education count has held at exactly two institutions, National University of Singapore and Nanyang Technological University, for the entire decade; neither appears on the risers list, because both were already inside the global elite in 2016. What moved is how elite: NUS climbed from QS 12th to 8th and Times Higher Education 26th to 17th, while NTU's bigger move was on Times Higher Education, from 55th to 31st, holding roughly steady on QS (13th to 12th). A system with only two internationally ranked universities pushed both of them further up, rather than adding a third. Section 06 states the lesson directly: pick fewer, fund longer.
+Singapore is the counter-example to every story above: it didn't grow its footprint at all, and that was the point. Its Times Higher Education count has held at exactly two institutions, National University of Singapore and Nanyang Technological University, for the entire decade; neither appears on the risers list, because both were already inside the global elite in 2016. What moved is how elite: NUS climbed from QS 12th to 8th and Times Higher Education 26th to 17th, while NTU's bigger move was on Times Higher Education, from 55th to 31st, holding roughly steady on QS (13th to 12th). A system with only two internationally ranked universities pushed both of them further up, rather than adding a third: pick fewer, fund longer.
 </p>
 
 <Exhibit
@@ -251,7 +250,7 @@ The 2016 elite barely moves: 17 of these 20 institutions are still in the Top 20
 </Exhibit>
 
 <p style={{ marginTop: 32 }}>
-The UK is the clearest test of that stability, because it wasn't just holding steady, it was absorbing a real shock. Its Times Higher Education Top-100 count held at roughly eleven institutions through 2021 to 2024, the same years its universities lost preferential access to Horizon Europe funding after Brexit; full re-association wasn't restored until September 2023. A four-year disruption to the EU's flagship research-grant programme, and the UK's elite-tier footprint barely moved. Section 06 draws the lesson directly: deep reputation and alumni networks buy years of buffer against a policy shock that would sink a system with less of either.
+The UK is the clearest test of that stability, because it wasn't just holding steady, it was absorbing a real shock. Its Times Higher Education Top-100 count held at roughly eleven institutions through 2021 to 2024, the same years its universities lost preferential access to Horizon Europe funding after Brexit; full re-association wasn't restored until September 2023. A four-year disruption to the EU's flagship research-grant programme, and the UK's elite-tier footprint barely moved: deep reputation and alumni networks buy years of buffer against a policy shock that would sink a system with less of either.
 </p>
 
 <Exhibit
@@ -267,7 +266,7 @@ The list of biggest risers is, in effect, a list of national funding programmes.
 </p>
 
 <p style={{ marginTop: 32 }}>
-UTS's presence here is worth reading carefully: it is one university's climb inside a national system this report treats elsewhere as a cautionary tale, not a funding success story. Section 06 covers Australia's structural exposure directly: an international-student-revenue funding model that took the sharpest international-outlook hit of any major host country during the 2020-to-2022 border closures, with the Australian National University alone falling from THE rank 50 in 2020 to 73 by 2025. One institution's rise and a system's fragility can both be true at once.
+UTS's presence here is worth reading carefully: it is one university's climb inside a national system this report treats elsewhere as a cautionary tale, not a funding success story. Australia's structural exposure is real: an international-student-revenue funding model that took the sharpest international-outlook hit of any major host country during the 2020-to-2022 border closures, with the Australian National University alone falling from THE rank 50 in 2020 to 73 by 2025. One institution's rise and a system's fragility can both be true at once.
 </p>
 
 <p style={{ marginTop: 32 }}>
@@ -688,47 +687,17 @@ The clearest planning fact for the next five years is that another rule change i
 
 <SectionHeader
   number="06"
-  kicker="Lessons & Implications"
-  title="A single set of findings, six agendas."
-  italic="six"
+  kicker="Implications"
+  title="One dataset, six agendas, and a decade still in motion."
+  italic="six agendas"
 />
 
 <p className="lead">
-The same dataset reads differently depending on the chair you sit in. What the decade should change for each major stakeholder.
+The same dataset reads differently depending on the chair you sit in. What the decade should change for each major stakeholder, and what to do about the four forces already reshaping the next one.
 </p>
 
 <p style={{ marginTop: 24 }}>
-Two passes over the same decade follow. First, six country cases already told earlier in this piece, China, Singapore, Korea, Saudi Arabia, the UK, and Australia, compressed here into one lesson each. Second, those lessons translated into six stakeholder agendas: what a government, a university, a funder, a student, an employer, or a researcher should actually do differently, regardless of which country or system they sit in.
-</p>
-
-<h3 style={{ marginTop: 32 }}>Six countries, six lessons.</h3>
-
-<DataTable
-  columns={[
-    { key: 'country', label: 'Country', width: '140px' },
-    { key: 'data', label: "What the decade's data shows" },
-    { key: 'lesson', label: 'Key lesson' },
-  ]}
-  rows={lessonsTableRows}
-  cellRender={(col, row) => {
-    const v = row[col.key];
-    if (col.key === 'lesson' || col.key === 'data') {
-      return (
-        <span
-          style={{ fontSize: 13.5, lineHeight: 1.55, color: col.key === 'data' ? 'var(--color-ink-mid)' : undefined, fontFamily: 'var(--font-serif)' }}
-          dangerouslySetInnerHTML={{ __html: String(v) }}
-        />
-      );
-    }
-    if (col.key === 'country') {
-      return <span style={{ fontWeight: 600 }}>{String(v)}</span>;
-    }
-    return String(v);
-  }}
-/>
-
-<p style={{ marginTop: 32 }}>
-Those are country-level lessons, each tied to one system's specific story. The same underlying mechanisms, reputation lag, funding-to-climb lag, and how much a system concentrates versus spreads its effort, translate into direct instructions for six kinds of reader below, independent of geography.
+What follows is six stakeholder agendas: what a government, a university, a funder, a student, an employer, or a researcher should actually do differently, regardless of which country or system they sit in. Each is built on the same two or three mechanisms that run through this decade's data, reputation lag, funding-to-climb lag, and how much a system concentrates its effort versus spreads it thin.
 </p>
 
 <h3 style={{ marginTop: 32 }}>Six agendas, one dataset.</h3>
@@ -794,6 +763,12 @@ Those are country-level lessons, each tied to one system's specific story. The s
 
 <p style={{ marginTop: 32 }}>
 Six audiences, one dataset, and underneath all of it the same two or three mechanisms: reputation lag, funding-to-climb lag, and how much a system concentrates its effort versus spreads it thin. Which chair you sit in changes what you should do next. It doesn't change what actually happened.
+</p>
+
+<h3 style={{ marginTop: 32 }}>None of these agendas expire in 2026.</h3>
+
+<p>
+The four forces set out in Section 05, AI-augmented research, geopolitical fragmentation, demographic decline in traditional source markets, and the splintering of a single "world ranking" into a portfolio of specialist tables, don't replace the six agendas above; they raise the cost of ignoring them. A government that hasn't set a numbered target is now competing against systems that have, in a landscape where AI is compounding research output (and research-integrity risk) faster every year. A university building co-authorship volume today is building the pipeline the AI-research era will reward, and needs the same integrity discipline this report found lacking at King Abdulaziz University, before it is asked to apply that discipline at machine speed. <strong>Every agenda on this page should be read against a 2030 landscape that is being reshaped faster than this decade was, not against the one this data describes.</strong>
 </p>
 
 </ArticleSection>
