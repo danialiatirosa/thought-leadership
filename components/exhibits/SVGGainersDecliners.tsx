@@ -43,7 +43,7 @@ export function SVGGainersDecliners({
       <desc>{title}</desc>
       <g transform="translate(200,30)">
         <line x1={ZERO_X} y1={0} x2={ZERO_X} y2={490} stroke="#2E5B66" strokeWidth={1.2} />
-        <text x={ZERO_X} y={-14} textAnchor="middle" fontSize={12} fontWeight={600} fill="#2E5B66">
+        <text x={ZERO_X} y={-16} textAnchor="middle" fontSize={14} fontWeight={600} fill="#2E5B66">
           {axisLabel}
         </text>
 
@@ -53,12 +53,12 @@ export function SVGGainersDecliners({
           <line x1={500} y1={0} x2={500} y2={490} />
           <line x1={600} y1={0} x2={600} y2={490} />
         </g>
-        <g fontSize={10} fill="var(--color-ink-soft)">
-          <text x={100} y={502} textAnchor="middle">-25</text>
-          <text x={200} y={502} textAnchor="middle">-15</text>
-          <text x={350} y={502} textAnchor="middle">0</text>
-          <text x={500} y={502} textAnchor="middle">+15</text>
-          <text x={600} y={502} textAnchor="middle">+25</text>
+        <g fontSize={12} fill="var(--color-ink-soft)">
+          <text x={100} y={504} textAnchor="middle">-25</text>
+          <text x={200} y={504} textAnchor="middle">-15</text>
+          <text x={350} y={504} textAnchor="middle">0</text>
+          <text x={500} y={504} textAnchor="middle">+15</text>
+          <text x={600} y={504} textAnchor="middle">+25</text>
         </g>
 
         {gainers.map((g, i) => {
@@ -67,15 +67,15 @@ export function SVGGainersDecliners({
           return (
             <g key={`g${i}`}>
               <rect x={ZERO_X} y={y} width={w} height={22} fill={g.fill} />
-              <text x={-12} y={y + 16} textAnchor="end" fontSize={12} fontWeight={600} fill="var(--color-ink)">
+              <text x={-12} y={y + 17} textAnchor="end" fontSize={14} fontWeight={600} fill="var(--color-ink)">
                 {g.name}
               </text>
               <text
                 x={ZERO_X + w + 6}
-                y={y + 16}
+                y={y + 17}
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
                 fontWeight={600}
-                fontSize={11}
+                fontSize={13}
                 fill="#2E5B66"
               >
                 +{g.value}
@@ -91,16 +91,16 @@ export function SVGGainersDecliners({
           return (
             <g key={`d${i}`}>
               <rect x={x} y={y} width={w} height={22} fill={d.fill} />
-              <text x={-12} y={y + 16} textAnchor="end" fontSize={12} fontWeight={600} fill="var(--color-ink)">
+              <text x={-12} y={y + 17} textAnchor="end" fontSize={14} fontWeight={600} fill="var(--color-ink)">
                 {d.name}
               </text>
               <text
                 x={x - 5}
-                y={y + 16}
+                y={y + 17}
                 textAnchor="end"
                 fontFamily="JetBrains Mono, ui-monospace, monospace"
                 fontWeight={600}
-                fontSize={11}
+                fontSize={13}
                 fill="#A0342A"
               >
                 -{d.value}
@@ -109,10 +109,10 @@ export function SVGGainersDecliners({
           );
         })}
 
-        <text x={600} y={2} fontSize={10.5} fill="#2E5B66" fontStyle="italic">
+        <text x={600} y={2} fontSize={12.5} fill="#2E5B66" fontStyle="italic">
           ↑ Gainers
         </text>
-        <text x={105} y={2} fontSize={10.5} fill="#A0342A" fontStyle="italic">
+        <text x={105} y={2} fontSize={12.5} fill="#A0342A" fontStyle="italic">
           ↑ Decliners
         </text>
 
