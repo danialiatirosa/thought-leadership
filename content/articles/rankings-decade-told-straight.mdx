@@ -127,7 +127,7 @@ China's rise and the United States' decline are the decade's two biggest stories
     { key: 'the26', label: "'26", numeric: true },
     { key: 'theD', label: 'Δ', numeric: true, shaded: true },
   ]}
-  rows={countryTableRows}
+  rows={[...countryTableRows].sort((a, b) => b.the26 - a.the26)}
   cellRender={(col, row) => {
     if (col.key === 'country') {
       const name = String(row.country);
