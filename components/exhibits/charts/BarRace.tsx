@@ -252,7 +252,7 @@ export function BarRace({ years, topN = 20, msPerYear = 700 }: BarRaceProps) {
               : b.country === 'United States'
               ? '#3C3B6E'
               : b.country === 'United Kingdom'
-              ? '#00247D'
+              ? 'var(--color-lime)'
               : 'var(--color-green-light)';
             const opacity = b.position > topN + 0.5 ? 0 : 1;
             return (
@@ -306,7 +306,7 @@ export function BarRace({ years, topN = 20, msPerYear = 700 }: BarRaceProps) {
         {[
           { color: '#DE2910', label: 'China' },
           { color: '#3C3B6E', label: 'United States' },
-          { color: '#00247D', label: 'United Kingdom' },
+          { color: 'var(--color-lime)', label: 'United Kingdom' },
           { color: 'var(--color-green-light)', label: 'Other countries' },
         ].map((k) => (
           <div key={k.label} className="flex items-center gap-2">
