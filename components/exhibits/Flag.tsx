@@ -161,6 +161,27 @@ const BODIES: Record<string, React.ReactNode> = {
       <rect x={0} y={13.33} width={30} height={6.67} fill="#21468B" />
     </>
   ),
+  'Iran, Islamic Rep. of': (
+    <>
+      <rect x={0} y={0} width={30} height={6.67} fill="#239F40" />
+      <rect x={0} y={6.67} width={30} height={6.67} fill="#FFFFFF" />
+      <rect x={0} y={13.33} width={30} height={6.67} fill="#DA0000" />
+    </>
+  ),
+  'Russian Federation': (
+    <>
+      <rect x={0} y={0} width={30} height={6.67} fill="#FFFFFF" />
+      <rect x={0} y={6.67} width={30} height={6.67} fill="#0039A6" />
+      <rect x={0} y={13.33} width={30} height={6.67} fill="#D52B1E" />
+    </>
+  ),
+  Czechia: (
+    <>
+      <rect x={0} y={0} width={30} height={10} fill="#FFFFFF" />
+      <rect x={0} y={10} width={30} height={10} fill="#D7141A" />
+      <polygon points="0,0 0,20 12,10" fill="#11457E" />
+    </>
+  ),
   Malaysia: (
     <>
       <rect x={0} y={0} width={30} height={20} fill="#FFFFFF" />
@@ -179,6 +200,8 @@ const BODIES: Record<string, React.ReactNode> = {
 const ALIASES: Record<string, string> = {
   'South Korea': 'Korea, Republic of',
   Korea: 'Korea, Republic of',
+  Iran: 'Iran, Islamic Rep. of',
+  Russia: 'Russian Federation',
   UAE: 'United Arab Emirates',
   UK: 'United Kingdom',
   USA: 'United States',
