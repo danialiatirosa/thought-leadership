@@ -87,36 +87,34 @@ export function DualLineTrajectory({ years, series, scaleMax = 60, title }: Dual
           <text
             key={i}
             x={xFor(i)}
-            y={HEIGHT - PAD_BOTTOM + 20}
+            y={HEIGHT - PAD_BOTTOM + 22}
             textAnchor="middle"
-            style={{ fontSize: 10.5, fill: 'var(--color-mute)', fontFamily: 'var(--font-sans)' }}
+            style={{ fontSize: 13, fill: 'var(--color-mute)', fontFamily: 'var(--font-sans)' }}
           >
             {y}
           </text>
         ))}
-        {series.map((s, si) => {
-          const available = s.points.map((p, i) => ({ p, i })).filter((x) => x.p.value != null);
-          if (available.length === 0) return null;
-          const first = available[0]!;
-          const last = available[available.length - 1]!;
-          return [first, last].map((entry, k) => (
-            <text
-              key={`${si}-${k}`}
-              x={xFor(entry.i)}
-              y={yFor(entry.p.value as number) - 10}
-              textAnchor="middle"
-              style={{
-                fontSize: 12,
-                fontWeight: 700,
-                fill: s.color,
-                fontFamily: 'var(--font-sans)',
-                fontVariantNumeric: 'tabular-nums',
-              }}
-            >
-              {entry.p.display ?? entry.p.value}
-            </text>
-          ));
-        })}
+        {series.map((s, si) =>
+          s.points.map((p, i) =>
+            p.value != null ? (
+              <text
+                key={`${si}-${i}`}
+                x={xFor(i)}
+                y={yFor(p.value) - 10}
+                textAnchor="middle"
+                style={{
+                  fontSize: 11,
+                  fontWeight: 700,
+                  fill: s.color,
+                  fontFamily: 'var(--font-sans)',
+                  fontVariantNumeric: 'tabular-nums',
+                }}
+              >
+                {p.display ?? p.value}
+              </text>
+            ) : null,
+          ),
+        )}
       </svg>
       <div className="flex items-center gap-4 mt-1 text-[11px] font-sans text-mute flex-wrap">
         <span>↑ higher on the chart = better rank</span>
