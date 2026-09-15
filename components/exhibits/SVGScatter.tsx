@@ -26,6 +26,9 @@ interface SVGScatterProps {
   diagonalLabel?: string;
   diagonalLabelX?: number;
   diagonalLabelY?: number;
+  /** Optional arrow from the label to a point on the diagonal, for when the label sits away from the line. */
+  diagonalLabelArrowToX?: number;
+  diagonalLabelArrowToY?: number;
   xAxisLabel?: string;
   yAxisLabel?: string;
   xTicks?: { x: number; label: string }[];
@@ -67,6 +70,8 @@ export function SVGScatter({
   diagonalLabel,
   diagonalLabelX,
   diagonalLabelY,
+  diagonalLabelArrowToX,
+  diagonalLabelArrowToY,
   xAxisLabel,
   yAxisLabel,
   xTicks,
@@ -91,6 +96,11 @@ export function SVGScatter({
       >
         <title>{title}</title>
         <desc>{title}</desc>
+        <defs>
+          <marker id="scatterDiagonalArrow" markerWidth={8} markerHeight={8} refX={4} refY={4} orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="var(--color-lime)" />
+          </marker>
+        </defs>
         <g transform="translate(80,40)">
           <g stroke="var(--color-rule-soft)" strokeWidth={1} fill="none">
             {resolvedYTicks.map((t, i) => (
@@ -113,15 +123,28 @@ export function SVGScatter({
                 strokeDasharray="4,4"
               />
               {diagonalLabel ? (
-                <text
-                  x={diagonalLabelX ?? 700}
-                  y={diagonalLabelY ?? 274}
-                  fontSize={13}
-                  fill="var(--color-ink-soft)"
-                  fontStyle="italic"
-                >
-                  {diagonalLabel}
-                </text>
+                <>
+                  {diagonalLabelArrowToX != null && diagonalLabelArrowToY != null ? (
+                    <line
+                      x1={diagonalLabelX ?? 700}
+                      y1={(diagonalLabelY ?? 274) + 6}
+                      x2={diagonalLabelArrowToX}
+                      y2={diagonalLabelArrowToY}
+                      stroke="var(--color-lime)"
+                      strokeWidth={1.5}
+                      markerEnd="url(#scatterDiagonalArrow)"
+                    />
+                  ) : null}
+                  <text
+                    x={diagonalLabelX ?? 700}
+                    y={diagonalLabelY ?? 274}
+                    fontSize={13}
+                    fontWeight={700}
+                    fill="var(--color-lime)"
+                  >
+                    {diagonalLabel}
+                  </text>
+                </>
               ) : null}
             </>
           ) : null}
