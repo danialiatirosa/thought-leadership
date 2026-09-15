@@ -60,8 +60,8 @@ From 9% in 2016 to 20% in 2026 on the Times Higher Education list. QS shows a sm
 </Exhibit>
 </Finding>
 
-<Finding index={2} num="4 → 12" trend="up" title="China tripled its THE WUR Top 100 footprint">
-From 4 institutions in 2016 to 12 in 2026. This is the single biggest change in the elite tier of either ranking. The timing lines up with China's Double First-Class programme (a state initiative funding roughly 140 universities and disciplines to build "world-class" research capacity), announced in 2015 and rolled out with sustained five-year funding cycles from 2017.
+<Finding index={2} num="2 → 7" trend="up" title="China more than tripled its THE WUR Top 100 footprint">
+From 2 institutions in 2016 to 7 in 2026. This is the single biggest change in the elite tier of either ranking. The timing lines up with China's Double First-Class programme (a state initiative funding roughly 140 universities and disciplines to build "world-class" research capacity), announced in 2015 and rolled out with sustained five-year funding cycles from 2017.
 </Finding>
 
 <Finding index={3} num="−4 / −20" tone="neg" trend="down" title="The US lost ground at the WUR Top 100, and far more sharply below it">
@@ -164,7 +164,7 @@ China's rise and the United States' decline are the decade's two biggest stories
 </p>
 
 <ul>
-  <li><strong>China added 24 universities to the Times Higher Education WUR Top 500</strong> across the decade, and tripled its Top 100 cohort from 4 to 12. Six universities account for most of the elite-tier gain: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China.</li>
+  <li><strong>China added 24 universities to the Times Higher Education WUR Top 500</strong> across the decade, and more than tripled its Top 100 cohort from 2 to 7. Six universities account for most of the elite-tier gain: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China.</li>
   <li><strong>Saudi Arabia went from one university in the WUR Top 500 to nine.</strong> Vision 2030 named an explicit target ("at least five institutions in the global Top 200") and turned rank movement into a ministerial KPI. The WUR Top-500 cohort grew accordingly, from one institution to nine, though the Top-200 line has not yet been crossed at scale.</li>
   <li><strong>The UAE went from zero universities in the Times Higher Education WUR Top 500 to seven.</strong> The second-largest Gulf gain, behind only Saudi Arabia's nine. Khalifa University did most of the work; details in Section 03.</li>
   <li><strong>The United States is still the largest single-country cohort in both rankings.</strong> It lost ground, but the lost ground is concentrated below the very top. Harvard, MIT and Stanford are exactly where they were. Princeton drifted from 11th to 25th on QS, while climbing to 3rd on Times Higher Education. Not every Ivy has been as fortunate: Brown fell from QS 49th to 69th, and Dartmouth further still, from QS 158th to 247th and Times Higher Education 104th to 180th, both now well outside the range Harvard, MIT, Stanford and Princeton have held. Even so, the bulk of the erosion is concentrated in the mid-tier public flagships, not the elite privates.</li>
@@ -746,9 +746,9 @@ None of this changes what already happened. It only changes what to do next.
 />
 
 <ul>
-  <li><strong>Coverage.</strong> QS WUR Top 500, 2017–2026 (ten editions). THE WUR Top 500, 2016–2026 (eleven editions). 1,038 distinct canonical institutions across 96 countries; 10,536 institution-year-system rows.</li>
+  <li><strong>Coverage.</strong> QS WUR Top 500, 2017–2026 (ten editions). THE WUR Top 500, 2016–2026 (eleven editions). 1,090 distinct canonical institutions across 91 countries; 10,238 institution-year-system rows.</li>
   <li><strong>Rank handling.</strong> Integer ranks pass through unchanged. Banded ranks (e.g., "401–500") converted to numerical midpoints with the original band retained for tier-boundary analysis. Tie markers stripped.</li>
-  <li><strong>Country normalisation.</strong> ISO-3166 alpha-3 via pycountry, plus manual aliases for Hong Kong, Macao, Taiwan, Iran, Korea, Russia, the UAE, and other commonly inconsistent entries. China is tracked as a single bloc with Hong Kong, Macao and Taiwan, retained as a separate analytical view.</li>
+  <li><strong>Country normalisation.</strong> ISO-3166 alpha-3 via pycountry, plus manual aliases for Hong Kong, Macao, Taiwan, Iran, Korea, Russia, the UAE, and other commonly inconsistent entries. China is tracked as mainland China only throughout; Hong Kong, Macao and Taiwan are counted under their own country codes.</li>
   <li><strong>Institution matching.</strong> Three rules in order: hard alias for known cases; exact match on aggressively-normalised name; controlled fuzzy match (token_sort_ratio ≥ 97 AND first significant token agrees AND length ratio ≥ 0.75). All fuzzy edges audited.</li>
   <li><strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout. Validated against a 28-institution truth panel with anti-collision tests.</li>
 </ul>
