@@ -390,9 +390,18 @@ button {
   padding-left: 24px;
   max-width: none;
 }
+.prose-article ul {
+  list-style: disc outside;
+}
+.prose-article ol {
+  list-style: decimal outside;
+}
 .prose-article ul li,
 .prose-article ol li {
   margin-bottom: 8px;
+}
+.prose-article ul li::marker {
+  color: var(--color-mute);
 }
 
 /* Generic spacers (used in MDX) */
