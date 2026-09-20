@@ -391,7 +391,8 @@ button {
   max-width: none;
 }
 .prose-article ul {
-  list-style: disc outside;
+  list-style: none;
+  padding-left: 0;
 }
 .prose-article ol {
   list-style: decimal outside;
@@ -400,7 +401,14 @@ button {
 .prose-article ol li {
   margin-bottom: 8px;
 }
-.prose-article ul li::marker {
+.prose-article ul li {
+  position: relative;
+  padding-left: 32px;
+}
+.prose-article ul li::before {
+  content: "•";
+  position: absolute;
+  left: 12px;
   color: var(--color-mute);
 }
 
