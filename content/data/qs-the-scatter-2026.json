@@ -1919,18 +1919,15 @@
       "y": 95.6,
       "banded": true,
       "title": "King Abdulaziz University — QS 163, THE 351–400 band"
-    }
-  ],
-  "outliers": [
+    },
     {
       "x": 189,
       "y": 62.3,
       "banded": true,
-      "title": "Pontificia Universidad Católica de Chile — QS 116, THE 401–500 band",
-      "label": "Pontificia Universidad Católica de Chile",
-      "labelX": 150,
-      "labelY": 18
-    },
+      "title": "Pontificia Universidad Católica de Chile — QS 116, THE 401–500 band"
+    }
+  ],
+  "outliers": [
     {
       "x": 249.8,
       "y": 60.1,
