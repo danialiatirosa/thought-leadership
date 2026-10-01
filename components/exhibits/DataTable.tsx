@@ -11,6 +11,8 @@ export interface Column {
 }
 
 export interface DataTableRow {
+  /** When set, the row renders as a full-width group label (e.g. "Rest of the GCC") instead of data cells. */
+  groupLabel?: string;
   [k: string]: string | number | { value: string; tone?: 'pos' | 'neg' | 'flat' } | undefined;
 }
 
@@ -108,7 +110,18 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
           </tr>
         </thead>
         <tbody>
-          {rows.map((r, ri) => (
+          {rows.map((r, ri) =>
+            r.groupLabel ? (
+              <tr key={ri}>
+                <th
+                  colSpan={columns.length}
+                  scope="rowgroup"
+                  className="px-2.5 pt-5 pb-2 border-b border-ink text-left font-sans font-semibold text-[13px] tracking-[1.2px] uppercase text-mute max-[640px]:px-1.5 max-[640px]:text-[11px]"
+                >
+                  {r.groupLabel}
+                </th>
+              </tr>
+            ) : (
             <tr key={ri}>
               {columns.map((c) => (
                 <td
@@ -126,7 +139,8 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
                 </td>
               ))}
             </tr>
-          ))}
+            ),
+          )}
         </tbody>
       </table>
     </div>

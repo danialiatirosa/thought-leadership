@@ -194,6 +194,36 @@ const BODIES: Record<string, React.ReactNode> = {
       <polygon points="9,7 12,5.6 10.6,7 12,8.4" fill="#FFCC00" />
     </>
   ),
+  Austria: (
+    <>
+      <rect x={0} y={0} width={30} height={20} fill="#ED2939" />
+      <rect x={0} y={6.67} width={30} height={6.67} fill="#FFFFFF" />
+    </>
+  ),
+  Bahrain: (
+    <>
+      <rect x={0} y={0} width={30} height={20} fill="#CE1126" />
+      <polygon
+        points="0,0 8,0 11,2 8,4 11,6 8,8 11,10 8,12 11,14 8,16 11,18 8,20 0,20"
+        fill="#FFFFFF"
+      />
+    </>
+  ),
+  Kuwait: (
+    <>
+      <rect x={0} y={0} width={30} height={6.67} fill="#007A3D" />
+      <rect x={0} y={6.67} width={30} height={6.67} fill="#FFFFFF" />
+      <rect x={0} y={13.33} width={30} height={6.67} fill="#CE1126" />
+      <polygon points="0,0 7,6.67 7,13.33 0,20" fill="#000000" />
+    </>
+  ),
+  Oman: (
+    <>
+      <rect x={0} y={0} width={30} height={20} fill="#DB161B" />
+      <rect x={9} y={0} width={21} height={6.67} fill="#FFFFFF" />
+      <rect x={9} y={13.33} width={21} height={6.67} fill="#008000" />
+    </>
+  ),
 };
 
 /** Aliases so callers can use whichever country-name spelling they already have. */

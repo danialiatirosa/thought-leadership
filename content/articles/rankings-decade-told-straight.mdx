@@ -128,11 +128,11 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
 />
 
 <p className="lead">
-<strong>China's rise and the US's decline are the decade's two biggest stories.</strong> China added 24 institutions to the THE WUR Top 500; the US lost 20, the largest net decline of any country. The Gulf has its own growth story, smaller than China's but just as deliberate.
+<strong>China's rise and the US's decline are the decade's two biggest stories.</strong> China added 25 institutions to the THE WUR Top 500; the US lost 26, the largest net decline of any country. The Gulf has its own growth story, smaller than China's but just as deliberate.
 </p>
 
 <DataTable
-  caption="Top-15 countries by 2026 WUR Top-500 count, both ranking systems"
+  caption="Top 15 countries by THE WUR Top-500 count in 2027, plus the rest of the GCC, both ranking systems"
   groupHeader={[
     { label: '', span: 1 },
     { label: 'QS', span: 3, logo: '/logo-qs.svg' },
@@ -141,13 +141,13 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
   columns={[
     { key: 'country', label: 'Country', width: '230px' },
     { key: 'qs17', label: "'17", numeric: true },
-    { key: 'qs26', label: "'26", numeric: true },
+    { key: 'qs27', label: "'27", numeric: true },
     { key: 'qsD', label: 'Δ', numeric: true, shaded: true },
     { key: 'the16', label: "'16", numeric: true },
-    { key: 'the26', label: "'26", numeric: true },
+    { key: 'the27', label: "'27", numeric: true },
     { key: 'theD', label: 'Δ', numeric: true, shaded: true },
   ]}
-  rows={[...countryTableRows].sort((a, b) => b.the26 - a.the26)}
+  rows={countryTableRows}
   cellRender={(col, row) => {
     if (col.key === 'country') {
       const name = String(row.country);
@@ -167,15 +167,19 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
   }}
 />
 
+<p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: -24 }}>
+Six countries tie at 8 for 15th on THE; the tie is broken by QS count.
+</p>
+
 <p style={{ marginTop: 24 }}>
 <strong>Four countries account for nearly all the movement below the very top.</strong> Three are growth stories built on sustained funding; the US is where the erosion sits.
 </p>
 
 <ul>
-  <li><strong>China added 24 universities to the THE WUR Top 500 across the decade</strong>, and more than tripled its Top 100 cohort from 2 to 7. Six universities drove most of the gain: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China.</li>
+  <li><strong>China added 25 universities to the THE WUR Top 500 across the decade</strong>, and more than tripled its Top 100 cohort from 2 to 8. Six universities drove most of the gain: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China.</li>
   <li><strong>Saudi Arabia went from one WUR Top 500 university to nine.</strong> Vision 2030 set a clear target, at least five in the global Top 200, and made rank movement a ministerial KPI. That line hasn't been reached at scale yet.</li>
-  <li><strong>The UAE went from zero WUR Top 500 universities to seven</strong>, the second-largest Gulf gain after Saudi Arabia. Khalifa University did most of the work; more in Section 03.</li>
-  <li><strong>The US is still the largest single-country cohort in both rankings. Its losses sit almost entirely in the mid-tier public flagships, not the elite privates.</strong> Harvard, MIT and Stanford are exactly where they were. Princeton drifted from 11th to 25th on QS while climbing to 3rd on THE. Brown and Dartmouth are the exceptions, falling from QS 49th to 69th and 158th to 247th. The public flagships account for most of what the US has lost.</li>
+  <li><strong>The UAE went from zero WUR Top 500 universities to six</strong>, the second-largest Gulf gain after Saudi Arabia. Khalifa University did most of the work; more in Section 03.</li>
+  <li><strong>The US is still the largest single-country cohort in both rankings. Its losses sit almost entirely in the mid-tier public flagships, not the elite privates.</strong> Harvard, MIT and Stanford are exactly where they were. Princeton drifted from 11th to 27th on QS while climbing to 3rd on THE. Brown and Dartmouth are the exceptions, falling from QS 49th to 66th and 158th to 270th. The public flagships account for most of what the US has lost.</li>
 </ul>
 
 <p style={{ marginTop: 24 }}>
@@ -184,14 +188,14 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
 
 <Exhibit
   title="Already elite in 2017, and still climbing."
-  sub="QS and Times Higher Education rank, National University of Singapore and Nanyang Technological University, 2017 to 2026."
-  source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2017 to 2026; authors’ analysis."
+  sub="QS and Times Higher Education rank, National University of Singapore and Nanyang Technological University, 2017 to 2027."
+  source="Source: QS World University Rankings 2017 to 2027; THE World University Rankings 2017 to 2027; authors’ analysis."
 >
   <div className="grid grid-cols-2 gap-x-10 max-[640px]:grid-cols-1 max-[640px]:gap-y-8">
     <DualLineTrajectory
       title="National University of Singapore"
       scaleMax={30}
-      years={['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']}
+      years={['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026', '2027']}
       series={[
         {
           label: 'QS',
@@ -199,7 +203,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
           points: [
             { value: 12 }, { value: 15 }, { value: 11 }, { value: 11 },
             { value: 11 }, { value: 11 }, { value: 11 }, { value: 8 },
-            { value: 8 }, { value: 8 },
+            { value: 8 }, { value: 8 }, { value: 10 },
           ],
         },
         {
@@ -208,7 +212,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
           points: [
             { value: 24 }, { value: 22 }, { value: 23 }, { value: 25 },
             { value: 25 }, { value: 21 }, { value: 19 }, { value: 19 },
-            { value: 17 }, { value: 17 },
+            { value: 17 }, { value: 17 }, { value: 15 },
           ],
         },
       ]}
@@ -216,7 +220,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
     <DualLineTrajectory
       title="Nanyang Technological University"
       scaleMax={60}
-      years={['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']}
+      years={['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026', '2027']}
       series={[
         {
           label: 'QS',
@@ -224,7 +228,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
           points: [
             { value: 13 }, { value: 11 }, { value: 12 }, { value: 11 },
             { value: 13 }, { value: 12 }, { value: 19 }, { value: 26 },
-            { value: 15 }, { value: 12 },
+            { value: 15 }, { value: 12 }, { value: 12 },
           ],
         },
         {
@@ -233,7 +237,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
           points: [
             { value: 54 }, { value: 52 }, { value: 51 }, { value: 48 },
             { value: 47 }, { value: 46 }, { value: 36 }, { value: 32 },
-            { value: 30 }, { value: 31 },
+            { value: 30 }, { value: 31 }, { value: 28 },
           ],
         },
       ]}
@@ -242,13 +246,13 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
 </Exhibit>
 
 <p style={{ marginTop: 32 }}>
-<strong>Singapore is the counter-example: it didn't grow its footprint at all, and that was the point.</strong> Its THE count has held at exactly two institutions, NUS and NTU, for the whole decade<sup>‡</sup>; neither appears on the risers list, because both were already elite in 2017. What moved is how elite: NUS climbed from QS 12th to 8th, and NTU's bigger move was on THE, from 54th to 31st. A system with only two ranked universities pushed both further up instead of adding a third: pick fewer, fund longer.
+<strong>Singapore is the counter-example: it barely grew its footprint, and that was the point.</strong> Its THE count held at exactly two institutions, NUS and NTU, for ten years<sup>‡</sup>, until the Singapore University of Technology and Design joined in 2027; neither appears on the risers list, because both were already elite in 2017. What moved is how elite: NUS climbed from QS 12th to 10th, and NTU's bigger move was on THE, from 54th to 28th. A system with only two ranked universities pushed both further up instead of adding a third: pick fewer, fund longer.
 </p>
 
 <Exhibit
   title="The Top 20, played out year by year."
-  sub="THE overall score, top twenty institutions per year, 2016 to 2026. Press play, scrub, or use the arrow keys."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis. Bars are coloured by country: navy for the United States, green for the United Kingdom, red for China, olive for other countries."
+  sub="THE overall score, top twenty institutions per year, 2016 to 2027. Press play, scrub, or use the arrow keys."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2027; authors’ analysis. Bars are coloured by country: navy for the United States, green for the United Kingdom, red for China, olive for other countries."
 >
   <BarRace years={top20ByYear} />
 </Exhibit>
@@ -268,9 +272,9 @@ The real movement sits below this cohort, among institutions that weren't elite 
 <Exhibit
   title="THE: top 15 risers across the decade."
   sub="First-appearance rank to most-recent rank. Limited to institutions with an exact integer rank at both ends; sorted by magnitude."
-  source="Source: THE World University Rankings, annual editions 2016 to 2026; authors’ analysis. THE gives exact ranks only to 200, then bands everyone else in 50-place tiers (201–250, 251–300, and so on to 401–500), so a banded institution's precise climb can't be calculated. Limited to institutions appearing in at least 4 of the decade's 11 editions, so each climb reflects a sustained trend rather than a brief in-and-out appearance."
+  source="Source: THE World University Rankings, annual editions 2016 to 2027; authors’ analysis. THE gave exact ranks only to 200 until 2026 (to 300 in 2027), then bands everyone else in 50-place tiers (201–250, 251–300, and so on to 401–500), so a banded institution's precise climb can't be calculated. Limited to institutions appearing in at least 4 of the decade's 12 editions, so each climb reflects a sustained trend rather than a brief in-and-out appearance."
 >
-  <SVGRisers rows={risers} />
+  <SVGRisers rows={risers} toYear={2027} />
 </Exhibit>
 
 <p style={{ marginTop: 32 }}>
@@ -280,8 +284,8 @@ The real movement sits below this cohort, among institutions that weren't elite 
 <ul>
   <li><strong>Five of the top ten risers are mainland Chinese universities, each climbing more than 100 places</strong>, funded under the same Double First-Class programme described above.</li>
   <li><strong>Two more risers are Hong Kong universities</strong> (Hong Kong Polytechnic and the Chinese University of Hong Kong), on a separate funding track.</li>
-  <li><strong>Two are Korean universities funded by Brain Korea 21</strong> (Yonsei and KAIST), a graduate-research programme running since 1999, so Korea's climb is two and a half decades of steady investment, not one launch.</li>
-  <li><strong>The rest are Germany's Charité</strong>, a specialist medical university funded by the Excellence Strategy, <strong>and Australia's University of Technology Sydney</strong>, a university only since 1988, whose climb from rank 196 to 145 is real but far more modest.</li>
+  <li><strong>Four are Korean universities funded by Brain Korea 21</strong> (Yonsei, KAIST, Sungkyunkwan and Korea University), a graduate-research programme running since 1999, so Korea's climb is two and a half decades of steady investment, not one launch.</li>
+  <li><strong>The rest are two more mainland Chinese universities (Harbin Institute of Technology and Tongji), Germany's Charité</strong>, a specialist medical university funded by the Excellence Strategy, <strong>and Italy's University of Bologna</strong>.</li>
 </ul>
 
 <p style={{ marginTop: 32 }}>
@@ -299,7 +303,7 @@ One pattern holds across the entire risers list. <strong>The universities that c
 † Project 211 (1995) and Project 985 (1998) were China's earlier national university-funding tiers, targeting roughly 116 and 39 universities respectively for elite-tier research investment; the 985 universities were a subset of the 211 list. Double First-Class replaced both with a single, updated list in 2017.
 </p>
 <p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: 8 }}>
-‡ On QS specifically, two further Singaporean universities appear in the WUR Top 500 without breaking into the Top 100: Singapore Management University (ranked in the 430s to 500 range, 2017–2020) and Singapore University of Technology and Design (rank 440 in 2025). Neither appears on Times Higher Education's list in any year.
+‡ On QS specifically, two further Singaporean universities appear in the WUR Top 500 without breaking into the Top 100: Singapore Management University (ranked in the 430s to 500 range, 2017–2020, and 411 in 2027) and Singapore University of Technology and Design (rank 440 in 2025, 266 in 2027). SMU has never appeared on Times Higher Education's list; SUTD entered it in 2027, in the 301–325 band.
 </p>
 
 </ArticleSection>
