@@ -13,7 +13,7 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 425,
+  "blockCount": 428,
   "sharedCount": 37,
   "blocks": [
     {
@@ -5087,9 +5087,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52822,
-          "end": 52976,
-          "line": 763
+          "start": 53980,
+          "end": 54134,
+          "line": 766
         }
       ]
     },
@@ -5112,9 +5112,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53066,
-          "end": 53161,
-          "line": 764
+          "start": 54224,
+          "end": 54319,
+          "line": 767
         }
       ]
     },
@@ -5137,9 +5137,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53251,
-          "end": 53375,
-          "line": 765
+          "start": 54409,
+          "end": 54533,
+          "line": 768
         }
       ]
     },
@@ -5162,9 +5162,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53465,
-          "end": 53564,
-          "line": 766
+          "start": 54623,
+          "end": 54722,
+          "line": 769
         }
       ]
     },
@@ -8373,6 +8373,63 @@
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
+      "text": "State Council of the People's Republic of China, <em style={{ color: 'var(--color-ink)' }}>Overall Plan for Promoting the Construction of World-Class Universities and First-Class Disciplines</em> (Guofa [2015] No. 64), 5 November 2015.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "State Council of the People's Republic of China, <em style={{ color: 'var(--color-ink)' }}>Overall Plan for Promoting the Construction of World-Class Universities and First-Class Disciplines</em> (Guofa [2015] No. 64), 5 November 2015.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 52822,
+          "end": 53057,
+          "line": 763
+        }
+      ]
+    },
+    {
+      "id": "B-164",
+      "kind": "prose",
+      "path": "07 Methodology & sources > <li>",
+      "sectionId": "methodology",
+      "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the List of Universities and Disciplines for World-Class University and First-Class Discipline Construction</em> (Jiaoyanhan [2017] No. 2), 21 September 2017.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the List of Universities and Disciplines for World-Class University and First-Class Discipline Construction</em> (Jiaoyanhan [2017] No. 2), 21 September 2017.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 53147,
+          "end": 53457,
+          "line": 764
+        }
+      ]
+    },
+    {
+      "id": "B-165",
+      "kind": "prose",
+      "path": "07 Methodology & sources > <li>",
+      "sectionId": "methodology",
+      "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 53547,
+          "end": 53890,
+          "line": 765
+        }
+      ]
+    },
+    {
+      "id": "B-166",
+      "kind": "prose",
+      "path": "07 Methodology & sources > <li>",
+      "sectionId": "methodology",
       "text": "QS World University Rankings, annual editions 2017 to 2027.",
       "shared": false,
       "minor": false,
@@ -8381,14 +8438,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53654,
-          "end": 53713,
-          "line": 767
+          "start": 54812,
+          "end": 54871,
+          "line": 770
         }
       ]
     },
     {
-      "id": "B-164",
+      "id": "B-167",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8400,14 +8457,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53803,
-          "end": 53883,
-          "line": 768
+          "start": 54961,
+          "end": 55041,
+          "line": 771
         }
       ]
     },
     {
-      "id": "B-165",
+      "id": "B-168",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8419,14 +8476,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53973,
-          "end": 54224,
-          "line": 769
+          "start": 55131,
+          "end": 55382,
+          "line": 772
         }
       ]
     },
     {
-      "id": "B-166",
+      "id": "B-169",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8438,14 +8495,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54314,
-          "end": 54490,
-          "line": 770
+          "start": 55472,
+          "end": 55648,
+          "line": 773
         }
       ]
     },
     {
-      "id": "B-167",
+      "id": "B-170",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8457,9 +8514,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54580,
-          "end": 54729,
-          "line": 771
+          "start": 55738,
+          "end": 55887,
+          "line": 774
         }
       ]
     }
