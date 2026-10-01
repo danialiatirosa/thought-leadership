@@ -14,7 +14,7 @@
     }
   ],
   "blockCount": 425,
-  "sharedCount": 38,
+  "sharedCount": 37,
   "blocks": [
     {
       "id": "A-001",
@@ -5050,12 +5050,12 @@
       ]
     },
     {
-      "id": "S-034",
+      "id": "A-219",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
       "text": "Wikipedia, <em style={{ color: 'var(--color-ink)' }}>Double First-Class Construction</em> (initiated 2015; replaced Project 985/211).",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "jsx",
       "display": "Wikipedia, <em style={{ color: 'var(--color-ink)' }}>Double First-Class Construction</em> (initiated 2015; replaced Project 985/211).",
@@ -5065,17 +5065,11 @@
           "start": 42233,
           "end": 42366,
           "line": 625
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52822,
-          "end": 52955,
-          "line": 763
         }
       ]
     },
     {
-      "id": "S-035",
+      "id": "S-034",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5093,14 +5087,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53045,
-          "end": 53199,
-          "line": 764
+          "start": 52822,
+          "end": 52976,
+          "line": 763
         }
       ]
     },
     {
-      "id": "S-036",
+      "id": "S-035",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5118,14 +5112,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53289,
-          "end": 53384,
-          "line": 765
+          "start": 53066,
+          "end": 53161,
+          "line": 764
         }
       ]
     },
     {
-      "id": "S-037",
+      "id": "S-036",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5143,14 +5137,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53474,
-          "end": 53598,
-          "line": 766
+          "start": 53251,
+          "end": 53375,
+          "line": 765
         }
       ]
     },
     {
-      "id": "S-038",
+      "id": "S-037",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5168,14 +5162,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53688,
-          "end": 53787,
-          "line": 767
+          "start": 53465,
+          "end": 53564,
+          "line": 766
         }
       ]
     },
     {
-      "id": "A-219",
+      "id": "A-220",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5194,7 +5188,7 @@
       ]
     },
     {
-      "id": "A-220",
+      "id": "A-221",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8387,9 +8381,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53877,
-          "end": 53936,
-          "line": 768
+          "start": 53654,
+          "end": 53713,
+          "line": 767
         }
       ]
     },
@@ -8406,9 +8400,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54026,
-          "end": 54106,
-          "line": 769
+          "start": 53803,
+          "end": 53883,
+          "line": 768
         }
       ]
     },
@@ -8425,9 +8419,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54196,
-          "end": 54447,
-          "line": 770
+          "start": 53973,
+          "end": 54224,
+          "line": 769
         }
       ]
     },
@@ -8444,9 +8438,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54537,
-          "end": 54713,
-          "line": 771
+          "start": 54314,
+          "end": 54490,
+          "line": 770
         }
       ]
     },
@@ -8463,9 +8457,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54803,
-          "end": 54952,
-          "line": 772
+          "start": 54580,
+          "end": 54729,
+          "line": 771
         }
       ]
     }
