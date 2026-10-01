@@ -10,7 +10,7 @@ interface KPI {
 
 interface KpiStripProps {
   kpis: KPI[];
-  cols?: 2 | 3 | 4;
+  cols?: 1 | 2 | 3 | 4;
 }
 
 export function TrendArrow({ direction }: { direction: 'up' | 'down' | 'flat' }) {
@@ -39,11 +39,13 @@ export function TrendArrow({ direction }: { direction: 'up' | 'down' | 'flat' })
  */
 export function KpiStrip({ kpis, cols = 4 }: KpiStripProps) {
   const colsClass =
-    cols === 2
-      ? 'grid-cols-2 max-[540px]:grid-cols-1'
-      : cols === 3
-        ? 'grid-cols-3 max-[760px]:grid-cols-2 max-[540px]:grid-cols-1'
-        : 'grid-cols-4 max-[920px]:grid-cols-2 max-[540px]:grid-cols-1';
+    cols === 1
+      ? 'grid-cols-1'
+      : cols === 2
+        ? 'grid-cols-2 max-[540px]:grid-cols-1'
+        : cols === 3
+          ? 'grid-cols-3 max-[760px]:grid-cols-2 max-[540px]:grid-cols-1'
+          : 'grid-cols-4 max-[920px]:grid-cols-2 max-[540px]:grid-cols-1';
   return (
     <div className={`my-12 border-t border-green/30 border-b border-rule pt-7 pb-7 grid ${colsClass} gap-x-8 gap-y-8`}>
       {kpis.map((k, i) => (
