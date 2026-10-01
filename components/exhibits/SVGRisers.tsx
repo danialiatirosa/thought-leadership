@@ -4,7 +4,7 @@ interface RiserRow {
   label: string;
   /**
    * Plotted by raw value (smaller = further left), not by chronology. For a
-   * "risers" list this field ends up holding the most-recent (2026) rank,
+   * "risers" list this field ends up holding the most-recent rank,
    * since it is always smaller than fromRank's counterpart for a riser.
    */
   fromRank: number;
@@ -17,6 +17,8 @@ interface RiserRow {
 interface SVGRisersProps {
   title?: string;
   rows: RiserRow[];
+  /** Edition shown as "most recent". Defaults to 2026. */
+  toYear?: number;
 }
 
 const FROM_X = 0;
@@ -24,7 +26,7 @@ const TO_X = 600;
 const DELTA_X = 760;
 const RANK_TO_PX = 3;
 
-export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersProps) {
+export function SVGRisers({ title = 'Top risers slope chart', rows, toYear = 2026 }: SVGRisersProps) {
   return (
     <svg
       viewBox="0 0 1080 540"
@@ -39,7 +41,7 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
         <line x1={FROM_X} y1={0} x2={FROM_X} y2={452} stroke="var(--color-rule)" />
         <line x1={TO_X} y1={0} x2={TO_X} y2={452} stroke="var(--color-rule)" />
         <text x={FROM_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
-          Most recent (2026) ↓
+          Most recent ({toYear}) ↓
         </text>
         <text x={TO_X} y={-12} fontSize={14} fill="var(--color-ink)" textAnchor="middle">
           → First appearance
@@ -119,7 +121,7 @@ export function SVGRisers({ title = 'Top risers slope chart', rows }: SVGRisersP
           </text>
           <circle cx={290} cy={0} r={4} fill="#2E5B66" />
           <text x={300} y={5} fontSize={16} fill="var(--color-ink-soft)">
-            Most recent rank (2026)
+            Most recent rank ({toYear})
           </text>
         </g>
       </g>

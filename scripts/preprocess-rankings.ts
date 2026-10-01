@@ -56,6 +56,16 @@ const COUNTRY_ALIASES: Record<string, string> = {
   'Republic of Ireland': 'Ireland',
   'Hong Kong SAR': 'Hong Kong',
   Macao: 'Macau',
+  // QS spellings introduced in the 2026 edition, and THE's 2027 spellings.
+  'China (Mainland)': 'China',
+  'Hong Kong SAR, China': 'Hong Kong',
+  'Macao SAR, China': 'Macau',
+  'Macau SAR': 'Macau',
+  'Republic of Korea': 'South Korea',
+  Türkiye: 'Turkey',
+  'Viet Nam': 'Vietnam',
+  'Iran (Islamic Republic of)': 'Iran',
+  'Brunei Darussalam': 'Brunei',
 };
 
 function normCountry(c: string): string {
@@ -501,11 +511,11 @@ function distinctInstitutions(rows: RawRow[]): { institutions: number; countries
 
 console.log('reading workbooks...');
 const theRaw = readWorkbook(
-  path.join(RANKINGS, 'THE_World_University_Rankings_2016_2026 (1).xlsx'),
+  path.join(RANKINGS, 'THE_World_University_Rankings_2016_2027.xlsx'),
   'THE',
 );
 const qsRaw = readWorkbook(
-  path.join(RANKINGS, 'QS_World_University_Rankings_2017_2026.xlsx'),
+  path.join(RANKINGS, 'QS_World_University_Rankings_2017_2027.xlsx'),
   'QS',
 );
 const allRaw = [...theRaw, ...qsRaw];

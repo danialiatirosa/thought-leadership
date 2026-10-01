@@ -72,12 +72,6 @@
           "rank": 7,
           "rankNumeric": 7,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 7,
-          "rankNumeric": 7,
-          "isBanded": false
         }
       ]
     },
@@ -149,12 +143,6 @@
         },
         {
           "year": 2026,
-          "rank": 1,
-          "rankNumeric": 1,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
           "rank": 1,
           "rankNumeric": 1,
           "isBanded": false
@@ -232,12 +220,6 @@
           "rank": 5,
           "rankNumeric": 5,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 3,
-          "rankNumeric": 3,
-          "isBanded": false
         }
       ]
     },
@@ -312,12 +294,6 @@
           "rank": 3,
           "rankNumeric": 3,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 5,
-          "rankNumeric": 5,
-          "isBanded": false
         }
       ]
     },
@@ -389,12 +365,6 @@
         },
         {
           "year": 2026,
-          "rank": 2,
-          "rankNumeric": 2,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
           "rank": 2,
           "rankNumeric": 2,
           "isBanded": false
@@ -472,12 +442,6 @@
           "rank": 5,
           "rankNumeric": 5,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 6,
-          "rankNumeric": 6,
-          "isBanded": false
         }
       ]
     },
@@ -549,12 +513,6 @@
         },
         {
           "year": 2026,
-          "rank": 3,
-          "rankNumeric": 3,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
           "rank": 3,
           "rankNumeric": 3,
           "isBanded": false
@@ -632,12 +590,6 @@
           "rank": 8,
           "rankNumeric": 8,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 8,
-          "rankNumeric": 8,
-          "isBanded": false
         }
       ]
     },
@@ -711,12 +663,6 @@
           "year": 2026,
           "rank": 11,
           "rankNumeric": 11,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 12,
-          "rankNumeric": 12,
           "isBanded": false
         }
       ]
@@ -792,12 +738,6 @@
           "rank": 15,
           "rankNumeric": 15,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 16,
-          "rankNumeric": 16,
-          "isBanded": false
         }
       ]
     },
@@ -871,12 +811,6 @@
           "year": 2026,
           "rank": 16,
           "rankNumeric": 16,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 17,
-          "rankNumeric": 17,
           "isBanded": false
         }
       ]
@@ -952,12 +886,6 @@
           "rank": 10,
           "rankNumeric": 10,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 9,
-          "rankNumeric": 9,
-          "isBanded": false
         }
       ]
     },
@@ -1029,12 +957,6 @@
         },
         {
           "year": 2026,
-          "rank": 9,
-          "rankNumeric": 9,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
           "rank": 9,
           "rankNumeric": 9,
           "isBanded": false
@@ -1112,12 +1034,6 @@
           "rank": 22,
           "rankNumeric": 22,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 17,
-          "rankNumeric": 17,
-          "isBanded": false
         }
       ]
     },
@@ -1191,12 +1107,6 @@
           "year": 2026,
           "rank": 20,
           "rankNumeric": 20,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 19,
-          "rankNumeric": 19,
           "isBanded": false
         }
       ]
@@ -1272,12 +1182,6 @@
           "rank": 18,
           "rankNumeric": 18,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 20,
-          "rankNumeric": 20,
-          "isBanded": false
         }
       ]
     },
@@ -1349,12 +1253,6 @@
         },
         {
           "year": 2026,
-          "rank": 14,
-          "rankNumeric": 14,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
           "rank": 14,
           "rankNumeric": 14,
           "isBanded": false
@@ -1432,12 +1330,6 @@
           "rank": 18,
           "rankNumeric": 18,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 21,
-          "rankNumeric": 21,
-          "isBanded": false
         }
       ]
     },
@@ -1512,12 +1404,6 @@
           "rank": 21,
           "rankNumeric": 21,
           "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 22,
-          "rankNumeric": 22,
-          "isBanded": false
         }
       ]
     },
@@ -1591,12 +1477,6 @@
           "year": 2026,
           "rank": 28,
           "rankNumeric": 28,
-          "isBanded": false
-        },
-        {
-          "year": 2027,
-          "rank": 32,
-          "rankNumeric": 32,
           "isBanded": false
         }
       ]

@@ -29,6 +29,8 @@ export interface ArticleFrontmatter {
   authors: string[];
   readingTime?: number;
   heroExhibit?: string;
+  /** Latest ranking edition the article's data covers. Defaults to 2026. */
+  dataEndYear?: number;
   tags?: string[];
   status: ArticleStatus;
 }

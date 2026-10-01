@@ -11,7 +11,20 @@ interface ArticleClosingProps {
  * lines: methodology summary, dataset note, citation hint, plus the
  * publication metadata.
  */
+const EDITION_WORDS: Record<number, string> = {
+  10: 'ten',
+  11: 'eleven',
+  12: 'twelve',
+  13: 'thirteen',
+};
+
+function editions(fromYear: number, toYear: number): string {
+  const n = toYear - fromYear + 1;
+  return EDITION_WORDS[n] ?? String(n);
+}
+
 export function ArticleClosing({ article }: ArticleClosingProps) {
+  const endYear = article.dataEndYear ?? 2026;
   return (
     <section
       aria-label="About this analysis"
@@ -23,8 +36,8 @@ export function ArticleClosing({ article }: ArticleClosingProps) {
 
       <p className="font-serif text-[16px] leading-[1.6] text-ink/90 m-0 mb-3">
         The argument rests on the published Top 500 of QS World University
-        Rankings (2017 to 2026, ten editions) and Times Higher Education
-        World University Rankings (2016 to 2026, eleven editions), supplemented
+        Rankings (2017 to {endYear}, {editions(2017, endYear)} editions) and Times Higher Education
+        World University Rankings (2016 to {endYear}, {editions(2016, endYear)} editions), supplemented
         by the World Bank R&amp;D-as-share-of-GDP indicator. All numerical
         claims are computed from the source datasets and cross-checked against
         a 28-institution truth panel.
