@@ -104,6 +104,23 @@ const NAME_HARD_ALIASES: Record<string, string> = {
     'london school of economics and political science',
   'university of california,berkeley': 'university of california berkeley',
   'university of california, berkeley': 'university of california berkeley',
+  // 2027-edition renames (keys are post-normalisation forms).
+  kfupm: 'king fahd university of petroleum and minerals',
+  kaist: 'korea advanced institute of science and technology',
+  'kaist korea advanced institute of science and technology':
+    'korea advanced institute of science and technology',
+  'epfl ecole polytechnique federale de lausanne': 'ecole polytechnique federale de lausanne',
+  'ruprecht karls universitat heidelberg': 'universitat heidelberg',
+  'university of illinois urbana champaign': 'university of illinois at urbana champaign',
+  'alma mater studiorum universita di bologna': 'alma mater studiorum university of bologna',
+  'national tsing hua university nthu': 'national tsing hua university',
+  'university of north carolina at chapel hill': 'university of north carolina chapel hill',
+  'university of bayreuth': 'universitat bayreuth',
+  'institut teknologi bandung': 'bandung institute of technology',
+  'lappeenranta lahti university of technology lut': 'lut university',
+  'university mohammed vi polytechnic': 'mohammed vi polytechnic university',
+  // Tokyo Tech merged with Tokyo Medical and Dental University in October 2024.
+  'institute of science tokyo': 'tokyo institute of technology',
 };
 
 /**
