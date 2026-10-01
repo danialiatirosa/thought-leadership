@@ -1,0 +1,2044 @@
+{
+  "points": [
+    {
+      "x": 621.2,
+      "y": 29.7,
+      "banded": true,
+      "title": "National Taiwan University of Science and Technology (Taiwan Tech) — QS 379, THE 451–500 band"
+    },
+    {
+      "x": 193.9,
+      "y": 29.9,
+      "banded": true,
+      "title": "Pontificia Universidad Católica de Chile — QS 119, THE 451–500 band"
+    },
+    {
+      "x": 225.1,
+      "y": 29.9,
+      "banded": true,
+      "title": "Universiti Putra Malaysia — QS 138, THE 451–500 band"
+    },
+    {
+      "x": 714.8,
+      "y": 29.9,
+      "banded": true,
+      "title": "Central Queensland University — QS 436, THE 451–500 band"
+    },
+    {
+      "x": 527.5,
+      "y": 30.3,
+      "banded": true,
+      "title": "York University — QS 322, THE 451–500 band"
+    },
+    {
+      "x": 680.3,
+      "y": 30.6,
+      "banded": true,
+      "title": "University of Kent — QS 415, THE 451–500 band"
+    },
+    {
+      "x": 741.1,
+      "y": 31.1,
+      "banded": true,
+      "title": "Shoolini University of Biotechnology and Management Sciences — QS 452, THE 451–500 band"
+    },
+    {
+      "x": 312.2,
+      "y": 31.4,
+      "banded": true,
+      "title": "National Cheng Kung University (NCKU) — QS 191, THE 451–500 band"
+    },
+    {
+      "x": 447,
+      "y": 31.4,
+      "banded": true,
+      "title": "Charles University — QS 273, THE 451–500 band"
+    },
+    {
+      "x": 532.4,
+      "y": 31.4,
+      "banded": true,
+      "title": "Heriot-Watt University — QS 325, THE 451–500 band"
+    },
+    {
+      "x": 534.1,
+      "y": 31.4,
+      "banded": true,
+      "title": "University of Pretoria — QS 326, THE 451–500 band"
+    },
+    {
+      "x": 601.4,
+      "y": 31.4,
+      "banded": true,
+      "title": "University of Tehran — QS 367, THE 451–500 band"
+    },
+    {
+      "x": 639.2,
+      "y": 31.4,
+      "banded": true,
+      "title": "Sharif University of Technology — QS 390, THE 451–500 band"
+    },
+    {
+      "x": 659,
+      "y": 31.4,
+      "banded": true,
+      "title": "National and Kapodistrian University of Athens — QS 402, THE 451–500 band"
+    },
+    {
+      "x": 751,
+      "y": 32.1,
+      "banded": true,
+      "title": "SOAS University of London — QS 458, THE 401–450 band"
+    },
+    {
+      "x": 792.1,
+      "y": 32.1,
+      "banded": true,
+      "title": "Amirkabir University of Technology — QS 483, THE 401–450 band"
+    },
+    {
+      "x": 795.4,
+      "y": 32.3,
+      "banded": true,
+      "title": "Royal Holloway, University of London — QS 485, THE 401–450 band"
+    },
+    {
+      "x": 782.2,
+      "y": 32.8,
+      "banded": true,
+      "title": "University of Canberra — QS 477, THE 401–450 band"
+    },
+    {
+      "x": 708.3,
+      "y": 42.2,
+      "banded": true,
+      "title": "Chung-Ang University — QS 432, THE 401–450 band"
+    },
+    {
+      "x": 691.8,
+      "y": 48.5,
+      "banded": true,
+      "title": "Murdoch University — QS 422, THE 401–450 band"
+    },
+    {
+      "x": 690.2,
+      "y": 51,
+      "banded": true,
+      "title": "Prince Mohammad Bin Fahd University — QS 421, THE 401–450 band"
+    },
+    {
+      "x": 682,
+      "y": 54.5,
+      "banded": true,
+      "title": "Aston University — QS 416, THE 401–450 band"
+    },
+    {
+      "x": 670.5,
+      "y": 58.2,
+      "banded": true,
+      "title": "Graz University of Technology — QS 409, THE 401–450 band"
+    },
+    {
+      "x": 394.4,
+      "y": 62,
+      "banded": true,
+      "title": "Victoria University of Wellington — QS 241, THE 401–450 band"
+    },
+    {
+      "x": 578.4,
+      "y": 62.4,
+      "banded": true,
+      "title": "Brunel University of London — QS 353, THE 401–450 band"
+    },
+    {
+      "x": 325.4,
+      "y": 62.9,
+      "banded": true,
+      "title": "Complutense University of Madrid — QS 199, THE 401–450 band"
+    },
+    {
+      "x": 558.7,
+      "y": 62.9,
+      "banded": true,
+      "title": "University of Pisa — QS 341, THE 401–450 band"
+    },
+    {
+      "x": 289.2,
+      "y": 63.5,
+      "banded": true,
+      "title": "National Yang Ming Chiao Tung University (NYCU Taiwan) — QS 177, THE 401–450 band"
+    },
+    {
+      "x": 327,
+      "y": 63.5,
+      "banded": true,
+      "title": "King Abdulaziz University — QS 200, THE 401–450 band"
+    },
+    {
+      "x": 417.4,
+      "y": 63.5,
+      "banded": true,
+      "title": "University of Porto — QS 255, THE 401–450 band"
+    },
+    {
+      "x": 560.4,
+      "y": 63.5,
+      "banded": true,
+      "title": "University of Coimbra — QS 342, THE 401–450 band"
+    },
+    {
+      "x": 565.3,
+      "y": 63.5,
+      "banded": true,
+      "title": "Boğaziçi University — QS 345, THE 401–450 band"
+    },
+    {
+      "x": 634.3,
+      "y": 63.5,
+      "banded": true,
+      "title": "Université Grenoble Alpes — QS 387, THE 401–450 band"
+    },
+    {
+      "x": 663.9,
+      "y": 64.1,
+      "banded": true,
+      "title": "University of Turin — QS 405, THE 376–400 band"
+    },
+    {
+      "x": 800.3,
+      "y": 64.1,
+      "banded": true,
+      "title": "Jilin University — QS 488, THE 376–400 band"
+    },
+    {
+      "x": 800.3,
+      "y": 64.5,
+      "banded": true,
+      "title": "Prince Sultan University (PSU) — QS 488, THE 376–400 band"
+    },
+    {
+      "x": 762.5,
+      "y": 64.7,
+      "banded": true,
+      "title": "Chongqing University — QS 465, THE 376–400 band"
+    },
+    {
+      "x": 657.3,
+      "y": 64.9,
+      "banded": true,
+      "title": "University of Naples Federico II — QS 401, THE 376–400 band"
+    },
+    {
+      "x": 673.7,
+      "y": 64.9,
+      "banded": true,
+      "title": "University of Southern Queensland — QS 411, THE 376–400 band"
+    },
+    {
+      "x": 650.7,
+      "y": 65.8,
+      "banded": true,
+      "title": "Ajman University — QS 397, THE 376–400 band"
+    },
+    {
+      "x": 621.2,
+      "y": 76.7,
+      "banded": true,
+      "title": "Gwangju Institute of Science and Technology (GIST) — QS 379, THE 376–400 band"
+    },
+    {
+      "x": 292.5,
+      "y": 79,
+      "banded": true,
+      "title": "Hokkaido University — QS 179, THE 376–400 band"
+    },
+    {
+      "x": 601.4,
+      "y": 79.4,
+      "banded": true,
+      "title": "University of Tartu — QS 367, THE 376–400 band"
+    },
+    {
+      "x": 387.8,
+      "y": 79.5,
+      "banded": true,
+      "title": "University of Lisbon — QS 237, THE 376–400 band"
+    },
+    {
+      "x": 575.2,
+      "y": 79.5,
+      "banded": true,
+      "title": "University of Tsukuba — QS 351, THE 376–400 band"
+    },
+    {
+      "x": 631,
+      "y": 80.2,
+      "banded": true,
+      "title": "Daegu Gyeongbuk Institute of Science and Technology (DGIST) — QS 385, THE 351–375 band"
+    },
+    {
+      "x": 652.4,
+      "y": 80.2,
+      "banded": true,
+      "title": "University of Turku — QS 398, THE 351–375 band"
+    },
+    {
+      "x": 670.5,
+      "y": 80.2,
+      "banded": true,
+      "title": "University of Florence — QS 409, THE 351–375 band"
+    },
+    {
+      "x": 718.1,
+      "y": 80.2,
+      "banded": true,
+      "title": "Umeå University — QS 438, THE 351–375 band"
+    },
+    {
+      "x": 718.1,
+      "y": 80.2,
+      "banded": true,
+      "title": "University of Trento — QS 438, THE 351–375 band"
+    },
+    {
+      "x": 770.7,
+      "y": 80.2,
+      "banded": true,
+      "title": "Leibniz University Hannover — QS 470, THE 351–375 band"
+    },
+    {
+      "x": 682,
+      "y": 80.5,
+      "banded": true,
+      "title": "Shenzhen University — QS 416, THE 351–375 band"
+    },
+    {
+      "x": 782.2,
+      "y": 80.5,
+      "banded": true,
+      "title": "Lebanese American University — QS 477, THE 351–375 band"
+    },
+    {
+      "x": 800.3,
+      "y": 80.7,
+      "banded": true,
+      "title": "University of Electronic Science and Technology of China — QS 488, THE 351–375 band"
+    },
+    {
+      "x": 673.7,
+      "y": 80.9,
+      "banded": true,
+      "title": "University of Saskatchewan — QS 411, THE 351–375 band"
+    },
+    {
+      "x": 231.7,
+      "y": 94.9,
+      "banded": true,
+      "title": "National Tsing Hua University — QS 142, THE 351–375 band"
+    },
+    {
+      "x": 478.2,
+      "y": 95.2,
+      "banded": true,
+      "title": "University of Johannesburg — QS 292, THE 351–375 band"
+    },
+    {
+      "x": 442,
+      "y": 95.3,
+      "banded": true,
+      "title": "University of Milan — QS 270, THE 351–375 band"
+    },
+    {
+      "x": 323.7,
+      "y": 95.4,
+      "banded": true,
+      "title": "University of Otago — QS 198, THE 351–375 band"
+    },
+    {
+      "x": 527.5,
+      "y": 95.5,
+      "banded": true,
+      "title": "Swansea University — QS 322, THE 351–375 band"
+    },
+    {
+      "x": 376.3,
+      "y": 95.6,
+      "banded": true,
+      "title": "University of Strathclyde — QS 230, THE 351–375 band"
+    },
+    {
+      "x": 488.1,
+      "y": 95.6,
+      "banded": true,
+      "title": "Dalhousie University — QS 298, THE 351–375 band"
+    },
+    {
+      "x": 511.1,
+      "y": 95.6,
+      "banded": true,
+      "title": "Simon Fraser University — QS 312, THE 351–375 band"
+    },
+    {
+      "x": 591.6,
+      "y": 96.2,
+      "banded": true,
+      "title": "City St George’s, University of London — QS 361, THE 326–350 band"
+    },
+    {
+      "x": 703.3,
+      "y": 96.2,
+      "banded": true,
+      "title": "Tilburg University — QS 429, THE 326–350 band"
+    },
+    {
+      "x": 718.1,
+      "y": 96.2,
+      "banded": true,
+      "title": "James Cook University — QS 438, THE 326–350 band"
+    },
+    {
+      "x": 732.9,
+      "y": 96.2,
+      "banded": true,
+      "title": "University of Dundee — QS 447, THE 326–350 band"
+    },
+    {
+      "x": 652.4,
+      "y": 96.4,
+      "banded": true,
+      "title": "University of California, Riverside — QS 398, THE 326–350 band"
+    },
+    {
+      "x": 580.1,
+      "y": 96.7,
+      "banded": true,
+      "title": "Birkbeck, University of London — QS 354, THE 326–350 band"
+    },
+    {
+      "x": 639.2,
+      "y": 96.7,
+      "banded": true,
+      "title": "LUT University — QS 390, THE 326–350 band"
+    },
+    {
+      "x": 759.2,
+      "y": 96.8,
+      "banded": true,
+      "title": "Dalian University of Technology — QS 463, THE 326–350 band"
+    },
+    {
+      "x": 714.8,
+      "y": 96.9,
+      "banded": true,
+      "title": "Tampere University — QS 436, THE 326–350 band"
+    },
+    {
+      "x": 547.2,
+      "y": 105.6,
+      "banded": true,
+      "title": "Technion Israel Institute of Technology — QS 334, THE 326–350 band"
+    },
+    {
+      "x": 539,
+      "y": 110.5,
+      "banded": true,
+      "title": "Koç University — QS 329, THE 326–350 band"
+    },
+    {
+      "x": 384.5,
+      "y": 110.8,
+      "banded": true,
+      "title": "École Normale Supérieure de Lyon — QS 235, THE 326–350 band"
+    },
+    {
+      "x": 450.3,
+      "y": 111,
+      "banded": true,
+      "title": "University of Galway — QS 275, THE 326–350 band"
+    },
+    {
+      "x": 499.6,
+      "y": 111.1,
+      "banded": true,
+      "title": "Middle East Technical University — QS 305, THE 326–350 band"
+    },
+    {
+      "x": 208.7,
+      "y": 111.6,
+      "banded": true,
+      "title": "Universiti Sains Malaysia — QS 128, THE 326–350 band"
+    },
+    {
+      "x": 331.9,
+      "y": 111.6,
+      "banded": true,
+      "title": "Loughborough University — QS 203, THE 326–350 band"
+    },
+    {
+      "x": 484.8,
+      "y": 111.6,
+      "banded": true,
+      "title": "Stellenbosch University — QS 296, THE 326–350 band"
+    },
+    {
+      "x": 570.2,
+      "y": 112.2,
+      "banded": true,
+      "title": "Abu Dhabi University — QS 348, THE 301–325 band"
+    },
+    {
+      "x": 606.4,
+      "y": 112.2,
+      "banded": true,
+      "title": "Western Sydney University — QS 370, THE 301–325 band"
+    },
+    {
+      "x": 612.9,
+      "y": 112.2,
+      "banded": true,
+      "title": "Flinders University — QS 374, THE 301–325 band"
+    },
+    {
+      "x": 751,
+      "y": 112.2,
+      "banded": true,
+      "title": "University of Connecticut — QS 458, THE 301–325 band"
+    },
+    {
+      "x": 774,
+      "y": 112.2,
+      "banded": true,
+      "title": "University of Bayreuth — QS 472, THE 301–325 band"
+    },
+    {
+      "x": 565.3,
+      "y": 112.7,
+      "banded": true,
+      "title": "Universiti Brunei Darussalam — QS 345, THE 301–325 band"
+    },
+    {
+      "x": 606.4,
+      "y": 112.7,
+      "banded": true,
+      "title": "University of Victoria — QS 370, THE 301–325 band"
+    },
+    {
+      "x": 624.4,
+      "y": 112.7,
+      "banded": true,
+      "title": "University of East Anglia — QS 381, THE 301–325 band"
+    },
+    {
+      "x": 636,
+      "y": 112.7,
+      "banded": true,
+      "title": "Università Cattolica del Sacro Cuore — QS 388, THE 301–325 band"
+    },
+    {
+      "x": 524.2,
+      "y": 114.8,
+      "banded": true,
+      "title": "North Carolina State University — QS 320, THE 301–325 band"
+    },
+    {
+      "x": 279.4,
+      "y": 127.1,
+      "banded": true,
+      "title": "Kyushu University — QS 171, THE 301–325 band"
+    },
+    {
+      "x": 212,
+      "y": 127.6,
+      "banded": true,
+      "title": "Universiti Kebangsaan Malaysia — QS 130, THE 301–325 band"
+    },
+    {
+      "x": 359.9,
+      "y": 127.6,
+      "banded": true,
+      "title": "University College Cork — QS 220, THE 301–325 band"
+    },
+    {
+      "x": 435.5,
+      "y": 127.6,
+      "banded": true,
+      "title": "Singapore University of Technology and Design — QS 266, THE 301–325 band"
+    },
+    {
+      "x": 463.4,
+      "y": 127.6,
+      "banded": true,
+      "title": "University of Sharjah — QS 283, THE 301–325 band"
+    },
+    {
+      "x": 432.2,
+      "y": 128.9,
+      "banded": false,
+      "title": "Norwegian University of Science and Technology — QS 264, THE 299"
+    },
+    {
+      "x": 514.3,
+      "y": 128.9,
+      "banded": false,
+      "title": "Rutgers University–New Brunswick — QS 314, THE 299"
+    },
+    {
+      "x": 253.1,
+      "y": 130.8,
+      "banded": false,
+      "title": "Hanyang University — QS 155, THE 296"
+    },
+    {
+      "x": 356.6,
+      "y": 130.8,
+      "banded": false,
+      "title": "Hebrew University of Jerusalem — QS 218, THE 296"
+    },
+    {
+      "x": 476.6,
+      "y": 132.1,
+      "banded": false,
+      "title": "Swinburne University of Technology — QS 291, THE 294"
+    },
+    {
+      "x": 308.9,
+      "y": 133.4,
+      "banded": false,
+      "title": "Curtin University — QS 189, THE 292"
+    },
+    {
+      "x": 394.4,
+      "y": 134,
+      "banded": false,
+      "title": "La Trobe University — QS 241, THE 291"
+    },
+    {
+      "x": 203.8,
+      "y": 138.5,
+      "banded": false,
+      "title": "University of Bath — QS 125, THE 284"
+    },
+    {
+      "x": 409.2,
+      "y": 138.5,
+      "banded": false,
+      "title": "Technical University of Darmstadt — QS 250, THE 284"
+    },
+    {
+      "x": 589.9,
+      "y": 138.5,
+      "banded": false,
+      "title": "University of Oulu — QS 360, THE 284"
+    },
+    {
+      "x": 668.8,
+      "y": 138.5,
+      "banded": false,
+      "title": "Dublin City University — QS 408, THE 284"
+    },
+    {
+      "x": 580.1,
+      "y": 139.2,
+      "banded": false,
+      "title": "Sunway University — QS 354, THE 283"
+    },
+    {
+      "x": 489.7,
+      "y": 140.4,
+      "banded": false,
+      "title": "Ulsan National Institute of Science and Technology (UNIST) — QS 299, THE 281"
+    },
+    {
+      "x": 652.4,
+      "y": 140.4,
+      "banded": false,
+      "title": "Sejong University — QS 398, THE 281"
+    },
+    {
+      "x": 463.4,
+      "y": 143,
+      "banded": false,
+      "title": "University of Southern Denmark — QS 283, THE 277"
+    },
+    {
+      "x": 509.4,
+      "y": 143,
+      "banded": false,
+      "title": "University of Tasmania — QS 311, THE 277"
+    },
+    {
+      "x": 599.8,
+      "y": 143,
+      "banded": false,
+      "title": "Virginia Polytechnic Institute and State University — QS 366, THE 277"
+    },
+    {
+      "x": 741.1,
+      "y": 143,
+      "banded": false,
+      "title": "Central South University — QS 452, THE 277"
+    },
+    {
+      "x": 456.8,
+      "y": 144.3,
+      "banded": false,
+      "title": "University of Navarra — QS 279, THE 275"
+    },
+    {
+      "x": 447,
+      "y": 145.6,
+      "banded": false,
+      "title": "University of Sussex — QS 273, THE 273"
+    },
+    {
+      "x": 463.4,
+      "y": 145.6,
+      "banded": false,
+      "title": "University of Bergen — QS 283, THE 273"
+    },
+    {
+      "x": 606.4,
+      "y": 146.2,
+      "banded": false,
+      "title": "University of Illinois Chicago — QS 370, THE 272"
+    },
+    {
+      "x": 391.1,
+      "y": 148.1,
+      "banded": false,
+      "title": "Central European University — QS 239, THE 269"
+    },
+    {
+      "x": 652.4,
+      "y": 148.1,
+      "banded": false,
+      "title": "Macau University of Science and Technology — QS 398, THE 269"
+    },
+    {
+      "x": 376.3,
+      "y": 150.1,
+      "banded": false,
+      "title": "Griffith University — QS 230, THE 266"
+    },
+    {
+      "x": 560.4,
+      "y": 150.7,
+      "banded": false,
+      "title": "South China University of Technology — QS 342, THE 265"
+    },
+    {
+      "x": 506.1,
+      "y": 152,
+      "banded": false,
+      "title": "Shandong University — QS 309, THE 263"
+    },
+    {
+      "x": 782.2,
+      "y": 152,
+      "banded": false,
+      "title": "Hunan University — QS 477, THE 263"
+    },
+    {
+      "x": 483.1,
+      "y": 153.3,
+      "banded": false,
+      "title": "Vrije Universiteit Brussel — QS 295, THE 261"
+    },
+    {
+      "x": 284.3,
+      "y": 155.8,
+      "banded": false,
+      "title": "Chalmers University of Technology — QS 174, THE 257"
+    },
+    {
+      "x": 292.5,
+      "y": 155.8,
+      "banded": false,
+      "title": "Cardiff University — QS 179, THE 257"
+    },
+    {
+      "x": 624.4,
+      "y": 157.8,
+      "banded": false,
+      "title": "George Washington University — QS 381, THE 254"
+    },
+    {
+      "x": 405.9,
+      "y": 159,
+      "banded": false,
+      "title": "Université Libre de Bruxelles — QS 248, THE 252"
+    },
+    {
+      "x": 616.2,
+      "y": 159,
+      "banded": false,
+      "title": "University of Luxembourg — QS 376, THE 252"
+    },
+    {
+      "x": 318.8,
+      "y": 162.2,
+      "banded": false,
+      "title": "University of Wollongong — QS 195, THE 247"
+    },
+    {
+      "x": 548.9,
+      "y": 162.2,
+      "banded": false,
+      "title": "Southeast University — QS 335, THE 247"
+    },
+    {
+      "x": 254.7,
+      "y": 165.5,
+      "banded": false,
+      "title": "Nagoya University — QS 156, THE 242"
+    },
+    {
+      "x": 427.3,
+      "y": 165.5,
+      "banded": false,
+      "title": "Universiti Teknologi Petronas — QS 261, THE 242"
+    },
+    {
+      "x": 504.5,
+      "y": 165.5,
+      "banded": false,
+      "title": "Linköping University — QS 308, THE 242"
+    },
+    {
+      "x": 645.8,
+      "y": 165.5,
+      "banded": false,
+      "title": "East China Normal University — QS 394, THE 242"
+    },
+    {
+      "x": 193.9,
+      "y": 167.4,
+      "banded": false,
+      "title": "RMIT University — QS 119, THE 239"
+    },
+    {
+      "x": 402.6,
+      "y": 168.7,
+      "banded": false,
+      "title": "University of Surrey — QS 246, THE 237"
+    },
+    {
+      "x": 506.1,
+      "y": 168.7,
+      "banded": false,
+      "title": "Kyung Hee University — QS 309, THE 237"
+    },
+    {
+      "x": 239.9,
+      "y": 169.9,
+      "banded": false,
+      "title": "Khalifa University — QS 147, THE 235"
+    },
+    {
+      "x": 354.9,
+      "y": 169.9,
+      "banded": false,
+      "title": "United Arab Emirates University — QS 217, THE 235"
+    },
+    {
+      "x": 397.7,
+      "y": 170.6,
+      "banded": false,
+      "title": "Beijing Institute of Technology — QS 243, THE 234"
+    },
+    {
+      "x": 471.6,
+      "y": 171.2,
+      "banded": false,
+      "title": "University of Aberdeen — QS 288, THE 233"
+    },
+    {
+      "x": 272.8,
+      "y": 172.5,
+      "banded": false,
+      "title": "Stockholm University — QS 167, THE 231"
+    },
+    {
+      "x": 491.3,
+      "y": 177,
+      "banded": false,
+      "title": "Sichuan University — QS 300, THE 224"
+    },
+    {
+      "x": 496.3,
+      "y": 177,
+      "banded": false,
+      "title": "Xiamen University — QS 303, THE 224"
+    },
+    {
+      "x": 539,
+      "y": 177,
+      "banded": false,
+      "title": "Aalborg University — QS 329, THE 224"
+    },
+    {
+      "x": 553.8,
+      "y": 177,
+      "banded": false,
+      "title": "University of Miami — QS 338, THE 224"
+    },
+    {
+      "x": 696.8,
+      "y": 177,
+      "banded": false,
+      "title": "Northwestern Polytechnical University — QS 425, THE 224"
+    },
+    {
+      "x": 177.5,
+      "y": 178.3,
+      "banded": false,
+      "title": "Qatar University — QS 109, THE 222"
+    },
+    {
+      "x": 392.7,
+      "y": 178.3,
+      "banded": false,
+      "title": "Queensland University of Technology — QS 240, THE 222"
+    },
+    {
+      "x": 320.4,
+      "y": 180.2,
+      "banded": false,
+      "title": "University of Reading — QS 196, THE 219"
+    },
+    {
+      "x": 368.1,
+      "y": 180.2,
+      "banded": false,
+      "title": "University of Gothenburg — QS 225, THE 219"
+    },
+    {
+      "x": 371.4,
+      "y": 180.8,
+      "banded": false,
+      "title": "Deakin University — QS 227, THE 218"
+    },
+    {
+      "x": 174.2,
+      "y": 182.1,
+      "banded": false,
+      "title": "King Saud University — QS 107, THE 216"
+    },
+    {
+      "x": 162.7,
+      "y": 184.7,
+      "banded": false,
+      "title": "University College Dublin — QS 100, THE 212"
+    },
+    {
+      "x": 231.7,
+      "y": 184.7,
+      "banded": false,
+      "title": "Western University — QS 142, THE 212"
+    },
+    {
+      "x": 665.5,
+      "y": 184.7,
+      "banded": false,
+      "title": "The Education University of Hong Kong — QS 406, THE 212"
+    },
+    {
+      "x": 340.2,
+      "y": 186.6,
+      "banded": false,
+      "title": "Tel Aviv University — QS 208, THE 209"
+    },
+    {
+      "x": 514.3,
+      "y": 186.6,
+      "banded": false,
+      "title": "University of Leicester — QS 314, THE 209"
+    },
+    {
+      "x": 553.8,
+      "y": 186.6,
+      "banded": false,
+      "title": "Tufts University — QS 338, THE 209"
+    },
+    {
+      "x": 320.4,
+      "y": 189.2,
+      "banded": false,
+      "title": "Université Catholique de Louvain — QS 196, THE 205"
+    },
+    {
+      "x": 353.3,
+      "y": 189.2,
+      "banded": false,
+      "title": "Hong Kong Baptist University — QS 216, THE 205"
+    },
+    {
+      "x": 422.3,
+      "y": 189.2,
+      "banded": false,
+      "title": "Sun Yat-sen University — QS 258, THE 205"
+    },
+    {
+      "x": 364.8,
+      "y": 191.7,
+      "banded": false,
+      "title": "University of Twente — QS 223, THE 201"
+    },
+    {
+      "x": 496.3,
+      "y": 191.7,
+      "banded": false,
+      "title": "Université Paris Cité — QS 303, THE 201"
+    },
+    {
+      "x": 281,
+      "y": 192.4,
+      "banded": false,
+      "title": "Arizona State University (Tempe) — QS 172, THE 200"
+    },
+    {
+      "x": 284.3,
+      "y": 194.9,
+      "banded": false,
+      "title": "Queen’s University Belfast — QS 174, THE 196"
+    },
+    {
+      "x": 384.5,
+      "y": 194.9,
+      "banded": false,
+      "title": "Tianjin University — QS 235, THE 196"
+    },
+    {
+      "x": 473.3,
+      "y": 194.9,
+      "banded": false,
+      "title": "Georgetown University — QS 289, THE 196"
+    },
+    {
+      "x": 484.8,
+      "y": 194.9,
+      "banded": false,
+      "title": "Xi’an Jiaotong University — QS 296, THE 196"
+    },
+    {
+      "x": 606.4,
+      "y": 196.2,
+      "banded": false,
+      "title": "University of Münster — QS 370, THE 194"
+    },
+    {
+      "x": 491.3,
+      "y": 198.2,
+      "banded": false,
+      "title": "University of Notre Dame — QS 300, THE 191"
+    },
+    {
+      "x": 502.8,
+      "y": 198.2,
+      "banded": false,
+      "title": "Huazhong University of Science and Technology — QS 307, THE 191"
+    },
+    {
+      "x": 157.8,
+      "y": 202,
+      "banded": false,
+      "title": "Institute of Science Tokyo — QS 97, THE 185"
+    },
+    {
+      "x": 187.3,
+      "y": 202,
+      "banded": false,
+      "title": "University of St Andrews — QS 115, THE 185"
+    },
+    {
+      "x": 373,
+      "y": 202,
+      "banded": false,
+      "title": "University of Ottawa — QS 228, THE 185"
+    },
+    {
+      "x": 407.5,
+      "y": 202,
+      "banded": false,
+      "title": "University of Calgary — QS 249, THE 185"
+    },
+    {
+      "x": 453.5,
+      "y": 202,
+      "banded": false,
+      "title": "University of Antwerp — QS 277, THE 185"
+    },
+    {
+      "x": 571.9,
+      "y": 202,
+      "banded": false,
+      "title": "Beihang University — QS 349, THE 185"
+    },
+    {
+      "x": 205.4,
+      "y": 203.3,
+      "banded": false,
+      "title": "Aalto University — QS 126, THE 183"
+    },
+    {
+      "x": 267.9,
+      "y": 203.3,
+      "banded": false,
+      "title": "Lancaster University — QS 164, THE 183"
+    },
+    {
+      "x": 248.1,
+      "y": 205.2,
+      "banded": false,
+      "title": "Eindhoven University of Technology — QS 152, THE 180"
+    },
+    {
+      "x": 438.8,
+      "y": 205.9,
+      "banded": false,
+      "title": "University of Virginia (Main campus) — QS 268, THE 179"
+    },
+    {
+      "x": 184,
+      "y": 206.5,
+      "banded": false,
+      "title": "University of Waterloo — QS 113, THE 178"
+    },
+    {
+      "x": 101.9,
+      "y": 207.8,
+      "banded": false,
+      "title": "KFUPM — QS 63, THE 176"
+    },
+    {
+      "x": 302.4,
+      "y": 207.8,
+      "banded": false,
+      "title": "Vrije Universiteit Amsterdam — QS 185, THE 176"
+    },
+    {
+      "x": 345.1,
+      "y": 208.4,
+      "banded": false,
+      "title": "Universitat Autònoma de Barcelona (UAB) — QS 211, THE 175"
+    },
+    {
+      "x": 124.9,
+      "y": 209.7,
+      "banded": false,
+      "title": "The University of Western Australia — QS 77, THE 173"
+    },
+    {
+      "x": 539,
+      "y": 209.7,
+      "banded": false,
+      "title": "Nankai University — QS 329, THE 173"
+    },
+    {
+      "x": 108.5,
+      "y": 212.9,
+      "banded": false,
+      "title": "University of Auckland — QS 67, THE 168"
+    },
+    {
+      "x": 258,
+      "y": 212.9,
+      "banded": false,
+      "title": "University of York — QS 158, THE 168"
+    },
+    {
+      "x": 442,
+      "y": 213.5,
+      "banded": false,
+      "title": "Dartmouth College — QS 270, THE 167"
+    },
+    {
+      "x": 274.4,
+      "y": 216.1,
+      "banded": false,
+      "title": "University of Geneva — QS 168, THE 163"
+    },
+    {
+      "x": 440.4,
+      "y": 216.1,
+      "banded": false,
+      "title": "University of Cologne — QS 269, THE 163"
+    },
+    {
+      "x": 519.3,
+      "y": 216.1,
+      "banded": false,
+      "title": "Southern University of Science and Technology (SUSTech) — QS 317, THE 163"
+    },
+    {
+      "x": 205.4,
+      "y": 217.4,
+      "banded": false,
+      "title": "Macquarie University — QS 126, THE 161"
+    },
+    {
+      "x": 138,
+      "y": 220,
+      "banded": false,
+      "title": "Durham University — QS 85, THE 157"
+    },
+    {
+      "x": 141.3,
+      "y": 220,
+      "banded": false,
+      "title": "Politecnico di Milano — QS 87, THE 157"
+    },
+    {
+      "x": 157.8,
+      "y": 220,
+      "banded": false,
+      "title": "University of Nottingham — QS 97, THE 157"
+    },
+    {
+      "x": 221.8,
+      "y": 220,
+      "banded": false,
+      "title": "University of Exeter — QS 136, THE 157"
+    },
+    {
+      "x": 226.8,
+      "y": 221.9,
+      "banded": false,
+      "title": "University of Liverpool — QS 139, THE 154"
+    },
+    {
+      "x": 243.2,
+      "y": 221.9,
+      "banded": false,
+      "title": "Newcastle University — QS 149, THE 154"
+    },
+    {
+      "x": 437.1,
+      "y": 221.9,
+      "banded": false,
+      "title": "University of Macau — QS 267, THE 154"
+    },
+    {
+      "x": 276.1,
+      "y": 222.5,
+      "banded": false,
+      "title": "Texas A&M University — QS 169, THE 153"
+    },
+    {
+      "x": 141.3,
+      "y": 223.2,
+      "banded": false,
+      "title": "University of Technology Sydney — QS 87, THE 152"
+    },
+    {
+      "x": 154.5,
+      "y": 226.4,
+      "banded": false,
+      "title": "The University of Osaka — QS 95, THE 147"
+    },
+    {
+      "x": 180.8,
+      "y": 226.4,
+      "banded": false,
+      "title": "Sapienza University of Rome — QS 111, THE 147"
+    },
+    {
+      "x": 300.7,
+      "y": 226.4,
+      "banded": false,
+      "title": "University of Cape Town — QS 184, THE 147"
+    },
+    {
+      "x": 534.1,
+      "y": 226.4,
+      "banded": false,
+      "title": "Case Western Reserve University — QS 326, THE 147"
+    },
+    {
+      "x": 172.5,
+      "y": 228.9,
+      "banded": false,
+      "title": "Pohang University of Science and Technology (POSTECH) — QS 106, THE 143"
+    },
+    {
+      "x": 128.2,
+      "y": 230.2,
+      "banded": false,
+      "title": "Adelaide University — QS 79, THE 141"
+    },
+    {
+      "x": 512.7,
+      "y": 231.5,
+      "banded": false,
+      "title": "University of Arizona — QS 313, THE 139"
+    },
+    {
+      "x": 373,
+      "y": 232.1,
+      "banded": false,
+      "title": "University of Florida — QS 228, THE 138"
+    },
+    {
+      "x": 180.8,
+      "y": 233.4,
+      "banded": false,
+      "title": "University of Southampton — QS 111, THE 136"
+    },
+    {
+      "x": 410.8,
+      "y": 233.4,
+      "banded": false,
+      "title": "University of Rochester — QS 251, THE 136"
+    },
+    {
+      "x": 141.3,
+      "y": 235.4,
+      "banded": false,
+      "title": "Uppsala University — QS 87, THE 133"
+    },
+    {
+      "x": 415.8,
+      "y": 235.4,
+      "banded": false,
+      "title": "Maastricht University — QS 254, THE 133"
+    },
+    {
+      "x": 427.3,
+      "y": 235.4,
+      "banded": false,
+      "title": "University of Göttingen — QS 261, THE 133"
+    },
+    {
+      "x": 264.6,
+      "y": 236,
+      "banded": false,
+      "title": "Université de Montréal — QS 162, THE 132"
+    },
+    {
+      "x": 167.6,
+      "y": 237.9,
+      "banded": false,
+      "title": "Queen Mary University of London — QS 103, THE 129"
+    },
+    {
+      "x": 381.2,
+      "y": 237.9,
+      "banded": false,
+      "title": "University of Lausanne — QS 233, THE 129"
+    },
+    {
+      "x": 83.8,
+      "y": 238.6,
+      "banded": false,
+      "title": "Korea University — QS 52, THE 128"
+    },
+    {
+      "x": 87.1,
+      "y": 239.8,
+      "banded": false,
+      "title": "National Taiwan University (NTU) — QS 54, THE 126"
+    },
+    {
+      "x": 348.4,
+      "y": 239.8,
+      "banded": false,
+      "title": "Hamad Bin Khalifa University — QS 213, THE 126"
+    },
+    {
+      "x": 387.8,
+      "y": 240.5,
+      "banded": false,
+      "title": "Beijing Normal University — QS 237, THE 125"
+    },
+    {
+      "x": 238.3,
+      "y": 241.1,
+      "banded": false,
+      "title": "Tongji University — QS 146, THE 124"
+    },
+    {
+      "x": 412.5,
+      "y": 241.8,
+      "banded": false,
+      "title": "University of Maryland, College Park — QS 252, THE 123"
+    },
+    {
+      "x": 269.5,
+      "y": 243,
+      "banded": false,
+      "title": "Wuhan University — QS 165, THE 121"
+    },
+    {
+      "x": 312.2,
+      "y": 243,
+      "banded": false,
+      "title": "University of Bern — QS 191, THE 121"
+    },
+    {
+      "x": 156.1,
+      "y": 245,
+      "banded": false,
+      "title": "University of Alberta — QS 96, THE 118"
+    },
+    {
+      "x": 200.5,
+      "y": 245,
+      "banded": false,
+      "title": "University of Helsinki — QS 123, THE 118"
+    },
+    {
+      "x": 213.6,
+      "y": 245,
+      "banded": false,
+      "title": "University of Oslo — QS 131, THE 118"
+    },
+    {
+      "x": 244.8,
+      "y": 246.3,
+      "banded": false,
+      "title": "Ghent University — QS 150, THE 116"
+    },
+    {
+      "x": 284.3,
+      "y": 246.3,
+      "banded": false,
+      "title": "McMaster University — QS 174, THE 116"
+    },
+    {
+      "x": 110.1,
+      "y": 248.2,
+      "banded": false,
+      "title": "University of Warwick — QS 68, THE 113"
+    },
+    {
+      "x": 124.9,
+      "y": 248.2,
+      "banded": false,
+      "title": "University of Leeds — QS 77, THE 113"
+    },
+    {
+      "x": 244.8,
+      "y": 249.5,
+      "banded": false,
+      "title": "University of Basel — QS 150, THE 111"
+    },
+    {
+      "x": 170.9,
+      "y": 250.1,
+      "banded": false,
+      "title": "Technical University of Denmark — QS 105, THE 110"
+    },
+    {
+      "x": 241.6,
+      "y": 250.7,
+      "banded": false,
+      "title": "Erasmus University Rotterdam — QS 148, THE 109"
+    },
+    {
+      "x": 299.1,
+      "y": 251.4,
+      "banded": false,
+      "title": "Emory University — QS 183, THE 108"
+    },
+    {
+      "x": 133.1,
+      "y": 252.7,
+      "banded": false,
+      "title": "KTH Royal Institute of Technology — QS 82, THE 106"
+    },
+    {
+      "x": 166,
+      "y": 252.7,
+      "banded": false,
+      "title": "Tohoku University — QS 102, THE 106"
+    },
+    {
+      "x": 115,
+      "y": 253.9,
+      "banded": false,
+      "title": "Lund University — QS 71, THE 104"
+    },
+    {
+      "x": 133.1,
+      "y": 253.9,
+      "banded": false,
+      "title": "University of Sheffield — QS 82, THE 104"
+    },
+    {
+      "x": 198.8,
+      "y": 255.9,
+      "banded": false,
+      "title": "Rice University — QS 122, THE 101"
+    },
+    {
+      "x": 110.1,
+      "y": 258.4,
+      "banded": false,
+      "title": "University of Birmingham — QS 68, THE 97"
+    },
+    {
+      "x": 208.7,
+      "y": 258.4,
+      "banded": false,
+      "title": "Aarhus University — QS 128, THE 97"
+    },
+    {
+      "x": 328.7,
+      "y": 258.4,
+      "banded": false,
+      "title": "Ohio State University (Main campus) — QS 201, THE 97"
+    },
+    {
+      "x": 412.5,
+      "y": 258.4,
+      "banded": false,
+      "title": "University of California, Irvine — QS 252, THE 97"
+    },
+    {
+      "x": 310.6,
+      "y": 259.1,
+      "banded": false,
+      "title": "Harbin Institute of Technology — QS 190, THE 96"
+    },
+    {
+      "x": 228.4,
+      "y": 259.7,
+      "banded": false,
+      "title": "University of Vienna — QS 140, THE 95"
+    },
+    {
+      "x": 297.4,
+      "y": 261,
+      "banded": false,
+      "title": "Michigan State University — QS 182, THE 93"
+    },
+    {
+      "x": 433.8,
+      "y": 261.6,
+      "banded": false,
+      "title": "Vanderbilt University — QS 265, THE 92"
+    },
+    {
+      "x": 169.3,
+      "y": 262.9,
+      "banded": false,
+      "title": "RWTH Aachen University — QS 104, THE 90"
+    },
+    {
+      "x": 417.4,
+      "y": 264.2,
+      "banded": false,
+      "title": "University of Minnesota — QS 255, THE 88"
+    },
+    {
+      "x": 256.4,
+      "y": 264.8,
+      "banded": false,
+      "title": "University of Groningen — QS 157, THE 87"
+    },
+    {
+      "x": 152.8,
+      "y": 265.5,
+      "banded": false,
+      "title": "Boston University — QS 94, THE 86"
+    },
+    {
+      "x": 258,
+      "y": 266.1,
+      "banded": false,
+      "title": "University of North Carolina at Chapel Hill — QS 158, THE 85"
+    },
+    {
+      "x": 129.8,
+      "y": 267.4,
+      "banded": false,
+      "title": "University of Glasgow — QS 80, THE 83"
+    },
+    {
+      "x": 92,
+      "y": 268.1,
+      "banded": false,
+      "title": "University of Bristol — QS 57, THE 82"
+    },
+    {
+      "x": 146.3,
+      "y": 268.7,
+      "banded": false,
+      "title": "University of Copenhagen — QS 90, THE 81"
+    },
+    {
+      "x": 67.4,
+      "y": 269.3,
+      "banded": false,
+      "title": "Yonsei University (Seoul campus) — QS 42, THE 80"
+    },
+    {
+      "x": 80.5,
+      "y": 270,
+      "banded": false,
+      "title": "The Hong Kong Polytechnic University — QS 50, THE 79"
+    },
+    {
+      "x": 123.2,
+      "y": 270.6,
+      "banded": false,
+      "title": "Université Paris-Saclay — QS 76, THE 78"
+    },
+    {
+      "x": 46,
+      "y": 271.3,
+      "banded": false,
+      "title": "Australian National University — QS 29, THE 77"
+    },
+    {
+      "x": 69,
+      "y": 272.5,
+      "banded": false,
+      "title": "Institut Polytechnique de Paris — QS 43, THE 75"
+    },
+    {
+      "x": 64.1,
+      "y": 273.8,
+      "banded": false,
+      "title": "The University of Queensland — QS 40, THE 73"
+    },
+    {
+      "x": 106.8,
+      "y": 273.8,
+      "banded": false,
+      "title": "Brown University — QS 66, THE 73"
+    },
+    {
+      "x": 249.8,
+      "y": 275.1,
+      "banded": false,
+      "title": "University of Southern California — QS 153, THE 71"
+    },
+    {
+      "x": 282.6,
+      "y": 275.1,
+      "banded": false,
+      "title": "University of California, Santa Barbara — QS 173, THE 71"
+    },
+    {
+      "x": 83.8,
+      "y": 275.8,
+      "banded": false,
+      "title": "City University of Hong Kong — QS 52, THE 70"
+    },
+    {
+      "x": 193.9,
+      "y": 276.4,
+      "banded": false,
+      "title": "Leiden University — QS 119, THE 69"
+    },
+    {
+      "x": 175.8,
+      "y": 277,
+      "banded": false,
+      "title": "Sungkyunkwan University (SKKU) — QS 108, THE 68"
+    },
+    {
+      "x": 251.4,
+      "y": 278.3,
+      "banded": false,
+      "title": "Wageningen University & Research — QS 154, THE 66"
+    },
+    {
+      "x": 223.5,
+      "y": 279,
+      "banded": false,
+      "title": "University of California, Davis — QS 137, THE 65"
+    },
+    {
+      "x": 105.2,
+      "y": 279.6,
+      "banded": false,
+      "title": "Korea Advanced Institute of Science and Technology (KAIST) — QS 65, THE 64"
+    },
+    {
+      "x": 97,
+      "y": 280.9,
+      "banded": false,
+      "title": "University of Amsterdam — QS 60, THE 62"
+    },
+    {
+      "x": 103.5,
+      "y": 280.9,
+      "banded": false,
+      "title": "Kyoto University — QS 64, THE 62"
+    },
+    {
+      "x": 49.3,
+      "y": 281.5,
+      "banded": false,
+      "title": "Monash University — QS 31, THE 61"
+    },
+    {
+      "x": 64.1,
+      "y": 282.2,
+      "banded": false,
+      "title": "University of Manchester — QS 40, THE 60"
+    },
+    {
+      "x": 146.3,
+      "y": 282.8,
+      "banded": false,
+      "title": "Nanjing University — QS 90, THE 59"
+    },
+    {
+      "x": 52.6,
+      "y": 283.4,
+      "banded": false,
+      "title": "The Hong Kong University of Science and Technology — QS 33, THE 58"
+    },
+    {
+      "x": 60.8,
+      "y": 284.7,
+      "banded": false,
+      "title": "Seoul National University — QS 38, THE 56"
+    },
+    {
+      "x": 116.7,
+      "y": 286.7,
+      "banded": false,
+      "title": "University of Texas at Austin — QS 72, THE 53"
+    },
+    {
+      "x": 213.6,
+      "y": 286.7,
+      "banded": false,
+      "title": "University of Wisconsin-Madison — QS 131, THE 53"
+    },
+    {
+      "x": 44.4,
+      "y": 287.9,
+      "banded": false,
+      "title": "The University of Sydney — QS 28, THE 51"
+    },
+    {
+      "x": 77.2,
+      "y": 288.6,
+      "banded": false,
+      "title": "Delft University of Technology — QS 48, THE 50"
+    },
+    {
+      "x": 231.7,
+      "y": 289.2,
+      "banded": false,
+      "title": "Georgia Institute of Technology — QS 142, THE 49"
+    },
+    {
+      "x": 120,
+      "y": 289.9,
+      "banded": false,
+      "title": "University of Illinois at Urbana-Champaign — QS 74, THE 48"
+    },
+    {
+      "x": 100.2,
+      "y": 290.5,
+      "banded": false,
+      "title": "London School of Economics and Political Science — QS 62, THE 47"
+    },
+    {
+      "x": 95.3,
+      "y": 291.8,
+      "banded": false,
+      "title": "KU Leuven — QS 59, THE 45"
+    },
+    {
+      "x": 139.7,
+      "y": 291.8,
+      "banded": false,
+      "title": "Universität Heidelberg — QS 86, THE 45"
+    },
+    {
+      "x": 72.3,
+      "y": 292.4,
+      "banded": false,
+      "title": "University of British Columbia — QS 45, THE 44"
+    },
+    {
+      "x": 47.7,
+      "y": 293.1,
+      "banded": false,
+      "title": "McGill University — QS 30, THE 43"
+    },
+    {
+      "x": 27.9,
+      "y": 293.7,
+      "banded": false,
+      "title": "The Chinese University of Hong Kong — QS 18, THE 42"
+    },
+    {
+      "x": 59.2,
+      "y": 295,
+      "banded": false,
+      "title": "King’s College London — QS 37, THE 40"
+    },
+    {
+      "x": 57.5,
+      "y": 295.6,
+      "banded": false,
+      "title": "Shanghai Jiao Tong University — QS 36, THE 39"
+    },
+    {
+      "x": 41.1,
+      "y": 296.3,
+      "banded": false,
+      "title": "Fudan University — QS 26, THE 38"
+    },
+    {
+      "x": 131.5,
+      "y": 296.9,
+      "banded": false,
+      "title": "University of California, San Diego — QS 81, THE 37"
+    },
+    {
+      "x": 34.5,
+      "y": 297.6,
+      "banded": false,
+      "title": "École Polytechnique Fédérale de Lausanne — QS 22, THE 36"
+    },
+    {
+      "x": 34.5,
+      "y": 298.8,
+      "banded": false,
+      "title": "University of Melbourne — QS 22, THE 34"
+    },
+    {
+      "x": 75.6,
+      "y": 298.8,
+      "banded": false,
+      "title": "Zhejiang University — QS 47, THE 34"
+    },
+    {
+      "x": 16.4,
+      "y": 299.5,
+      "banded": false,
+      "title": "University of Hong Kong — QS 11, THE 33"
+    },
+    {
+      "x": 113.4,
+      "y": 300.1,
+      "banded": false,
+      "title": "Duke University — QS 70, THE 32"
+    },
+    {
+      "x": 55.9,
+      "y": 302,
+      "banded": false,
+      "title": "University of Edinburgh — QS 35, THE 29"
+    },
+    {
+      "x": 72.3,
+      "y": 302,
+      "banded": false,
+      "title": "Northwestern University — QS 45, THE 29"
+    },
+    {
+      "x": 93.7,
+      "y": 302,
+      "banded": false,
+      "title": "New York University (NYU) — QS 58, THE 29"
+    },
+    {
+      "x": 18.1,
+      "y": 302.7,
+      "banded": false,
+      "title": "Nanyang Technological University, Singapore — QS 12, THE 28"
+    },
+    {
+      "x": 62.4,
+      "y": 303.3,
+      "banded": false,
+      "title": "The University of Tokyo — QS 39, THE 27"
+    },
+    {
+      "x": 149.5,
+      "y": 304,
+      "banded": false,
+      "title": "University of Washington — QS 92, THE 26"
+    },
+    {
+      "x": 39.4,
+      "y": 304.6,
+      "banded": false,
+      "title": "Technical University of Munich — QS 25, THE 25"
+    },
+    {
+      "x": 88.7,
+      "y": 305.3,
+      "banded": false,
+      "title": "Carnegie Mellon University — QS 55, THE 24"
+    },
+    {
+      "x": 82.2,
+      "y": 305.9,
+      "banded": false,
+      "title": "University of Michigan-Ann Arbor — QS 51, THE 23"
+    },
+    {
+      "x": 50.9,
+      "y": 306.5,
+      "banded": false,
+      "title": "University of Toronto — QS 32, THE 22"
+    },
+    {
+      "x": 78.9,
+      "y": 307.8,
+      "banded": false,
+      "title": "University of California, Los Angeles — QS 49, THE 20"
+    },
+    {
+      "x": 69,
+      "y": 308.5,
+      "banded": false,
+      "title": "Columbia University — QS 43, THE 19"
+    },
+    {
+      "x": 11.5,
+      "y": 309.7,
+      "banded": false,
+      "title": "University College London — QS 8, THE 17"
+    },
+    {
+      "x": 31.2,
+      "y": 309.7,
+      "banded": false,
+      "title": "Johns Hopkins University — QS 20, THE 17"
+    },
+    {
+      "x": 37.8,
+      "y": 310.4,
+      "banded": false,
+      "title": "The University of Chicago — QS 24, THE 16"
+    },
+    {
+      "x": 14.8,
+      "y": 311,
+      "banded": false,
+      "title": "National University of Singapore — QS 10, THE 15"
+    },
+    {
+      "x": 23,
+      "y": 311.7,
+      "banded": false,
+      "title": "University of Pennsylvania — QS 15, THE 14"
+    },
+    {
+      "x": 19.7,
+      "y": 312.3,
+      "banded": false,
+      "title": "Peking University — QS 13, THE 13"
+    },
+    {
+      "x": 11.5,
+      "y": 312.9,
+      "banded": false,
+      "title": "ETH Zurich — QS 8, THE 12"
+    },
+    {
+      "x": 21.4,
+      "y": 313.6,
+      "banded": false,
+      "title": "Tsinghua University — QS 14, THE 11"
+    },
+    {
+      "x": 24.6,
+      "y": 314.9,
+      "banded": false,
+      "title": "Yale University — QS 16, THE 9"
+    },
+    {
+      "x": 31.2,
+      "y": 314.9,
+      "banded": false,
+      "title": "University of California, Berkeley — QS 20, THE 9"
+    },
+    {
+      "x": 1.6,
+      "y": 315.5,
+      "banded": false,
+      "title": "Imperial College London — QS 2, THE 8"
+    },
+    {
+      "x": 9.9,
+      "y": 316.2,
+      "banded": false,
+      "title": "California Institute of Technology — QS 7, THE 7"
+    },
+    {
+      "x": 6.6,
+      "y": 316.8,
+      "banded": false,
+      "title": "Harvard University — QS 5, THE 6"
+    },
+    {
+      "x": 8.2,
+      "y": 317.4,
+      "banded": false,
+      "title": "University of Cambridge — QS 6, THE 5"
+    },
+    {
+      "x": 1.6,
+      "y": 318.7,
+      "banded": false,
+      "title": "Stanford University — QS 2, THE 3"
+    },
+    {
+      "x": 42.7,
+      "y": 318.7,
+      "banded": false,
+      "title": "Princeton University — QS 27, THE 3"
+    },
+    {
+      "x": 0,
+      "y": 319.4,
+      "banded": false,
+      "title": "Massachusetts Institute of Technology — QS 1, THE 2"
+    },
+    {
+      "x": 4.9,
+      "y": 320,
+      "banded": false,
+      "title": "University of Oxford — QS 4, THE 1"
+    }
+  ],
+  "outliers": [
+    {
+      "x": 24.6,
+      "y": 307.2,
+      "banded": false,
+      "title": "Cornell University — QS 16, THE 21",
+      "label": "Cornell University",
+      "labelX": 95,
+      "labelY": 273
+    },
+    {
+      "x": 218.6,
+      "y": 287.9,
+      "banded": false,
+      "title": "University of Science and Technology of China — QS 134, THE 51",
+      "label": "University of Science and Technology of China"
+    },
+    {
+      "x": 751,
+      "y": 191.7,
+      "banded": false,
+      "title": "University of California, Santa Cruz — QS 458, THE 201",
+      "label": "University of California, Santa Cruz",
+      "labelX": 496,
+      "labelY": 195
+    },
+    {
+      "x": 258,
+      "y": 63.5,
+      "banded": true,
+      "title": "Universiti Teknologi Malaysia — QS 158, THE 401–450 band",
+      "label": "Universiti Teknologi Malaysia",
+      "labelX": 267,
+      "labelY": 61
+    }
+  ]
+}

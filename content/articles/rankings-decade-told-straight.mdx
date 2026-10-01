@@ -27,8 +27,8 @@ import {
 } from './rankings-decade-told-straight.data';
 
 import top20ByYear from '@/content/data/the-top20-by-year.json';
-import qsTheScatter2026 from '@/content/data/qs-the-scatter-2026.json';
-import qsTheYoyMovement2026 from '@/content/data/qs-the-yoy-movement-2026.json';
+import qsTheScatter2027 from '@/content/data/qs-the-scatter-2027.json';
+import qsTheYoyMovement2027 from '@/content/data/qs-the-yoy-movement-2027.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
 
@@ -467,7 +467,7 @@ One pattern holds across the entire risers list. <strong>The universities that c
 </p>
 
 <p>
-<strong>King Fahd University of Petroleum and Minerals leads the group at QS 63, the first Arab university to break into the QS Top 100.</strong> It became independent from the government in 2020. Its president, Dr. Muhammad Al-Saggaf, came the same year from KAPSARC. He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold toward a target of 1,500. The rank barely moved until 2023, then jumped from 160 to 101 to 67 by 2026.
+<strong>King Fahd University of Petroleum and Minerals leads the group at QS 63, the first Arab university to break into the QS Top 100.</strong> It became independent from the government in 2020. Its president, Dr. Muhammad Al-Saggaf, came the same year from KAPSARC. He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold toward a target of 1,500. The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.
 </p>
 
 <p>
@@ -585,18 +585,18 @@ Qatar's footprint is small, though two facts make it look smaller than it is. It
   <li><strong>Research output moves faster.</strong> A university that publishes more, and is cited more, climbs the research-output side of the rankings in three to five years. THE rewards this more than QS does. 30% of the THE score sits in purely bibliometric Research Quality indicators. QS's Citations per Faculty is only 20%.</li>
 </ul>
 
-<p><strong>Together, the two mechanisms sort universities into two types.</strong> Take the University of Science and Technology of China (QS 132, THE 51). It rose on citation output, so it typically ranks higher on THE. That's the research-speed mechanism: THE weights research output 30% against QS's 20%. Now take Cornell (QS 16, THE 18), a long-established American university with a deep reputation footprint. It typically ranks higher on QS. That's the reputation-lag mechanism: QS weights reputation 45% against THE's 33%.</p>
+<p><strong>Together, the two mechanisms sort universities into two types.</strong> Take the University of Science and Technology of China (QS 134, THE 51). It rose on citation output, so it typically ranks higher on THE. That's the research-speed mechanism: THE weights research output 30% against QS's 20%. Now take Cornell (QS 16, THE 21), a long-established American university with a deep reputation footprint. It typically ranks higher on QS. That's the reputation-lag mechanism: QS weights reputation 45% against THE's 33%.</p>
 
-<p>The same two mechanisms explain wider gaps too. University of California, Santa Cruz (QS 458, THE 181) runs the opposite way. It's a public research campus with a research profile that shows up well across THE's broader pillar structure. But it lacks the global reputation-survey visibility and the strong faculty-to-student ratio that QS's heavier 55% reputation-plus-ratio weighting rewards. Neither ranking is wrong. They're weighing different things.</p>
+<p>The same two mechanisms explain wider gaps too. University of California, Santa Cruz (QS 458, THE 201) runs the opposite way. It's a public research campus with a research profile that shows up well across THE's broader pillar structure. But it lacks the global reputation-survey visibility and the strong faculty-to-student ratio that QS's heavier 55% reputation-plus-ratio weighting rewards. Neither ranking is wrong. They're weighing different things.</p>
 
 <Exhibit
   title="QS and THE often disagree, and the disagreement is structural."
-  sub="Institution-level QS rank vs THE rank, 2026 edition: all 325 institutions that appear in both WUR Top 500 lists. Hollow dots are banded on THE's axis (e.g., the 401–500 tier). Hover any dot for the institution and both ranks; outliers labelled."
-  source="Source: QS World University Rankings 2026; THE World University Rankings 2026; authors’ analysis. 321 unlabelled institutions plus 4 labelled outliers, matched by canonicalised name across both systems. QS ranks individually to 500; THE ranks individually only to 200, then bands institutions in tiers (201–250, 251–300, 301–350, 351–400, 401–500) rather than giving exact positions. Banded points are placed at the position within their true band closest to perfect agreement with their QS rank, not the band midpoint, so a genuine gap wider than the band itself still shows."
+  sub="Institution-level QS rank vs THE rank, 2027 edition: all 338 institutions that appear in both WUR Top 500 lists. Hollow dots are banded on THE's axis (e.g., the 401–500 tier). Hover any dot for the institution and both ranks; outliers labelled."
+  source="Source: QS World University Rankings 2027; THE World University Rankings 2027; authors’ analysis. 334 unlabelled institutions plus 4 labelled outliers, matched by canonicalised name across both systems. QS ranks individually to 500; THE ranks individually only to 300, then bands institutions in tiers (301–325, 326–350, 351–375, 376–400, 401–450, 451–500) rather than giving exact positions. Banded points are placed at the position within their true band closest to perfect agreement with their QS rank, not the band midpoint, so a genuine gap wider than the band itself still shows."
 >
   <SVGScatter
-    points={qsTheScatter2026.points}
-    outliers={qsTheScatter2026.outliers}
+    points={qsTheScatter2027.points}
+    outliers={qsTheScatter2027.outliers}
     pointRadius={2.25}
     pointOpacity={0.8}
     bandedPointOpacity={0.9}
@@ -642,10 +642,10 @@ Both publishers shipped material rewrites for the 2024 edition.
 
 <Exhibit
   title="The 2023-to-2024 transition moved rankings further than any other year of the decade."
-  sub="Median absolute year-over-year rank change, both systems, 2017 to 2026. Includes banded ranks (mapped to band midpoints): much of the 2023–2024 spike is institutions moving into or out of a band, which is itself a signature of the rule change, not something a strictly integer-ranks-only view would fully show."
-  source="Source: QS World University Rankings 2017 to 2026; THE World University Rankings 2016 to 2026; authors’ analysis."
+  sub="Median absolute year-over-year rank change, both systems, 2017 to 2027. Includes banded ranks (mapped to band midpoints): much of the 2023–2024 spike is institutions moving into or out of a band, which is itself a signature of the rule change, not something a strictly integer-ranks-only view would fully show."
+  source="Source: QS World University Rankings 2017 to 2027; THE World University Rankings 2016 to 2027; authors’ analysis."
 >
-  <VolatilityChart tiers={qsTheYoyMovement2026} caveat="THE's 2016–2017 transition is excluded: QS coverage starts in 2017, so there is no paired year to compare it against." />
+  <VolatilityChart tiers={qsTheYoyMovement2027} caveat="THE's 2016–2017 transition is excluded: QS coverage starts in 2017, so there is no paired year to compare it against. In 2027, THE began giving exact ranks to 300 (previously 200) and narrower bands above that. For a like-for-like 2026–2027 comparison, THE's 2027 ranks beyond 200 are converted back into the 2026 bands (201–250, 251–300, 301–350, 351–400, 401–500) before measuring the change; otherwise universities that did not move would appear to." />
 </Exhibit>
 
 <p style={{ marginTop: 32 }}>

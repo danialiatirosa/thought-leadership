@@ -9,13 +9,15 @@ interface VolatilityChartProps {
   caveat?: string;
 }
 
-const MAX = 18;
+/** Minimum bar scale; grows when a value exceeds it so no bar overflows. */
+const MIN_MAX = 18;
 
 /**
  * Simple paired-bar chart. Two stripes per row (QS green, THE near-black).
  * No card. No background.
  */
 export function VolatilityChart({ tiers, caveat }: VolatilityChartProps) {
+  const MAX = Math.max(MIN_MAX, ...tiers.flatMap((t) => [t.qs, t.the]));
   return (
     <div className="my-6">
       {tiers.map((t, i) => {
