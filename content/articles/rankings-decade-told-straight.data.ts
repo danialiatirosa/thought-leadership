@@ -15,22 +15,22 @@
 export const stackedAreaPaths = [
   // North America
   {
-    d: 'M0,300 L82,300 L164,300 L246,300 L328,300 L410,300 L492,300 L574,300 L656,300 L738,300 L820,300 L820,186 L738,177 L656,183 L574,186 L492,171 L410,174 L328,165 L246,162 L164,159 L82,168 L0,171 Z',
+    d: 'M0,300 L74.5,300 L149.1,300 L223.6,300 L298.2,300 L372.7,300 L447.3,300 L521.8,300 L596.4,300 L670.9,300 L745.5,300 L820,300 L820,180 L745.5,186 L670.9,177 L596.4,183 L521.8,186 L447.3,171 L372.7,174 L298.2,165 L223.6,162 L149.1,159 L74.5,168 L0,171 Z',
     fill: '#1D383F',
   },
   // Europe
   {
-    d: 'M0,171 L82,168 L164,159 L246,162 L328,165 L410,174 L492,171 L574,186 L656,183 L738,177 L820,186 L820,78 L738,69 L656,75 L574,78 L492,66 L410,66 L328,54 L246,54 L164,45 L82,51 L0,45 Z',
+    d: 'M0,171 L74.5,168 L149.1,159 L223.6,162 L298.2,165 L372.7,174 L447.3,171 L521.8,186 L596.4,183 L670.9,177 L745.5,186 L820,180 L820,81 L745.5,78 L670.9,69 L596.4,75 L521.8,78 L447.3,66 L372.7,66 L298.2,54 L223.6,54 L149.1,45 L74.5,51 L0,45 Z',
     fill: '#6B8B8E',
   },
   // Asia
   {
-    d: 'M0,45 L82,51 L164,45 L246,54 L328,54 L410,66 L492,66 L574,78 L656,75 L738,69 L820,78 L820,18 L738,15 L656,18 L574,21 L492,18 L410,18 L328,18 L246,18 L164,12 L82,18 L0,18 Z',
+    d: 'M0,45 L74.5,51 L149.1,45 L223.6,54 L298.2,54 L372.7,66 L447.3,66 L521.8,78 L596.4,75 L670.9,69 L745.5,78 L820,81 L820,18 L745.5,18 L670.9,15 L596.4,18 L521.8,21 L447.3,18 L372.7,18 L298.2,18 L223.6,18 L149.1,12 L74.5,18 L0,18 Z',
     fill: '#A7B241',
   },
   // Oceania
   {
-    d: 'M0,18 L82,18 L164,12 L246,18 L328,18 L410,18 L492,18 L574,21 L656,18 L738,15 L820,18 L820,0 L738,-3 L656,0 L574,0 L492,0 L410,0 L328,0 L246,0 L164,-6 L82,0 L0,0 Z',
+    d: 'M0,18 L74.5,18 L149.1,12 L223.6,18 L298.2,18 L372.7,18 L447.3,18 L521.8,21 L596.4,18 L670.9,15 L745.5,18 L820,18 L820,0 L745.5,0 L670.9,-3 L596.4,0 L521.8,0 L447.3,0 L372.7,0 L298.2,0 L223.6,0 L149.1,-6 L74.5,0 L0,0 Z',
     fill: '#6C6864',
   },
 ];
@@ -60,28 +60,29 @@ export const stackedAreaYears = [
   '2024',
   '2025',
   '2026',
+  '2027',
 ];
 
 export const gainers = [
-  { name: 'China', value: 24, fill: '#2E5B66' },
+  { name: 'China', value: 25, fill: '#2E5B66' },
   { name: 'Saudi Arabia', value: 8, fill: '#2E5B66' },
-  { name: 'United Arab Emirates', value: 7, fill: '#2E5B66' },
-  { name: 'Malaysia', value: 6, fill: '#6C6864' },
-  { name: 'Germany', value: 5, fill: '#6C6864' },
-  { name: 'Australia', value: 5, fill: '#6C6864' },
+  { name: 'Malaysia', value: 7, fill: '#6C6864' },
+  { name: 'United Arab Emirates', value: 6, fill: '#2E5B66' },
+  { name: 'Germany', value: 6, fill: '#6C6864' },
+  { name: 'Australia', value: 4, fill: '#6C6864' },
+  { name: 'Korea, Republic of', value: 4, fill: '#6B8B8E' },
   { name: 'Iran, Islamic Rep. of', value: 3, fill: '#6B8B8E' },
-  { name: 'Korea, Republic of', value: 3, fill: '#6B8B8E' },
 ];
 
 export const decliners = [
   { name: 'Czechia', value: 2, fill: '#E8C7C2' },
   { name: 'Canada', value: 3, fill: '#E8C7C2' },
-  { name: 'Russian Federation', value: 4, fill: '#A0342A' },
-  { name: 'Spain', value: 4, fill: '#A0342A' },
-  { name: 'Italy', value: 8, fill: '#A0342A' },
+  { name: 'Spain', value: 3, fill: '#E8C7C2' },
+  { name: 'Russian Federation', value: 6, fill: '#A0342A' },
+  { name: 'Italy', value: 6, fill: '#A0342A' },
   { name: 'United Kingdom', value: 9, fill: '#A0342A' },
-  { name: 'France', value: 9, fill: '#A0342A' },
-  { name: 'United States', value: 20, fill: '#A0342A' },
+  { name: 'France', value: 10, fill: '#A0342A' },
+  { name: 'United States', value: 26, fill: '#A0342A' },
 ];
 
 export const risers = [

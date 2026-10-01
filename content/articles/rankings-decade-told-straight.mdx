@@ -42,15 +42,15 @@ import { ArticleSection } from '@/components/ArticleLayout';
 />
 
 <Finding index={1} num="2×" trend="up" title="Asia's THE WUR Top 100 share more than doubled">
-Asia's share of the THE WUR Top 100 grew from 9% in 2016 to 20% in 2026. QS shows a smaller shift, from 20% to 21%, because it leans more on reputation surveys, and reputation moves slowly. Surveys take years to catch up with what universities actually do.
+Asia's share of the THE WUR Top 100 grew from 9% in 2016 to 21% in 2027. QS shows a smaller shift, from 20% to 23%, because it leans more on reputation surveys, and reputation moves slowly. Surveys take years to catch up with what universities actually do.
 
 <Exhibit
-  sub="Composition of the Times Higher Education WUR Top 100 by region, 2016 to 2026 (% share). The chart reveals year by year as you scroll."
-  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2026; authors’ analysis."
+  sub="Composition of the Times Higher Education WUR Top 100 by region, 2016 to 2027 (% share). The chart reveals year by year as you scroll."
+  source="Source: Times Higher Education World University Rankings, annual editions 2016 to 2027; authors’ analysis."
 >
-  <ScrollReveal2DChart ariaLabel="Stacked area chart of THE WUR Top 100 region composition 2016 to 2026, revealed as you scroll.">
+  <ScrollReveal2DChart ariaLabel="Stacked area chart of THE WUR Top 100 region composition 2016 to 2027, revealed as you scroll.">
     <SVGStackedArea
-      title="Stacked area chart of THE WUR Top 100 region composition 2016 to 2026"
+      title="Stacked area chart of THE WUR Top 100 region composition 2016 to 2027"
       paths={stackedAreaPaths}
       legend={stackedAreaLegend}
       years={stackedAreaYears}
@@ -60,32 +60,32 @@ Asia's share of the THE WUR Top 100 grew from 9% in 2016 to 20% in 2026. QS show
 </Exhibit>
 </Finding>
 
-<Finding index={2} num="2 → 7" trend="up" title="China more than tripled its THE WUR Top 100 footprint">
-China's number of THE WUR Top 100 universities grew from 2 in 2016 to 7 in 2026. The timing lines up with China's Double First-Class programme, a state initiative funding about 140 universities and disciplines. It was announced in 2015 and started five-year funding cycles in 2017.
+<Finding index={2} num="2 → 8" trend="up" title="China more than tripled its THE WUR Top 100 footprint">
+China's number of THE WUR Top 100 universities grew from 2 in 2016 to 8 in 2027. The timing lines up with China's Double First-Class programme, a state initiative funding about 140 universities and disciplines. It was announced in 2015 and started five-year funding cycles in 2017.
 </Finding>
 
-<Finding index={3} num="−4 / −20" tone="neg" trend="down" title="The US lost ground at the WUR Top 100, and far more sharply below it">
-The US's WUR Top 100 count fell only a little: 39 to 35 on THE, 32 to 26 on QS. The drop is concentrated in mid-tier publics, not the Ivy-tier privates. The very top barely moves. Harvard, MIT, and Stanford hold almost the same ranks as a decade ago. In the WUR Top 500, a cohort five times larger, the drop is sharper: the US lost 20 institutions on net, the largest net decline of any country this decade (see chart).
+<Finding index={3} num="−2 / −26" tone="neg" trend="down" title="The US lost ground at the WUR Top 100, and far more sharply below it">
+The US's WUR Top 100 count fell only a little: 39 to 37 on THE, 32 to 26 on QS. The drop is concentrated in mid-tier publics, not the Ivy-tier privates. The very top barely moves. Harvard, MIT, and Stanford hold almost the same ranks as a decade ago. In the WUR Top 500, a cohort five times larger, the drop is sharper: the US lost 26 institutions on net, the largest net decline of any country this decade (see chart).
 
 <Exhibit
   title="China is the biggest gainer; the US is the biggest decliner."
-  sub="Net change in THE WUR Top 500 institution count, 2016 to 2026. Top eight gainers and decliners."
-  source="Source: THE World University Rankings 2016 vs 2026; authors’ analysis. Counts every listed institution, including banded ranks (e.g., 401–500), since this measures Top 500 membership, not a precise rank value."
+  sub="Net change in THE WUR Top 500 institution count, 2016 to 2027. Top eight gainers and decliners."
+  source="Source: THE World University Rankings 2016 vs 2027; authors’ analysis. Counts every listed institution, including banded ranks (e.g., 401–500), since this measures Top 500 membership, not a precise rank value."
 >
-  <SVGGainersDecliners gainers={gainers} decliners={decliners} />
+  <SVGGainersDecliners gainers={gainers} decliners={decliners} axisLabel="Net change in Top-500 institution count (THE), 2016 to 2027" />
 </Exhibit>
 </Finding>
 
-<Finding index={4} num="+8 / +7" trend="up" title="The Gulf is the decade's second growth engine, after China">
-Saudi Arabia (+8 institutions) and the UAE (+7 institutions) are the next-biggest gainers in the WUR Top 500 after China. Both are a result of Vision 2030 and Vision 2071 funding, not a one-time spike.
+<Finding index={4} num="+8 / +6" trend="up" title="The Gulf is the decade's second growth engine, after China">
+Saudi Arabia (+8 institutions) is the next-biggest gainer in the WUR Top 500 after China, and the UAE (+6 institutions) is close behind. Both are a result of Vision 2030 and Vision 2071 funding, not a one-time spike.
 </Finding>
 
-<Finding index={5} num="228" trend="up" title="Khalifa University had the single largest institutional rise in the Gulf this decade">
-Khalifa University's QS rank climbed 228 places this decade, from the 401-410 band in 2017 to rank 177 in 2026. That's the largest gain of any Gulf university in either ranking. A 2017 merger combined three research institutes into one flagship. That merger drove the climb, not organic growth.
+<Finding index={5} num="258" trend="up" title="Khalifa University had the largest rise of any UAE university this decade">
+Khalifa University's QS rank climbed 258 places this decade, from the 401-410 band in 2017 to rank 147 in 2027. That's the largest gain of any UAE university, and second in the Gulf only to Qatar University. A 2017 merger combined three research institutes into one flagship. That merger drove the climb, not organic growth.
 </Finding>
 
-<Finding index={6} num="67" trend="up" title="Saudi Arabia's numbered target strategy beat its own deadline">
-Saudi Arabia's Vision 2030 set a clear goal: at least five institutions in the global Top 200 by 2030. King Fahd University of Petroleum and Minerals became the first Arab university to break into the QS Top 100, years ahead of that target, and now sits at rank 67.
+<Finding index={6} num="63" trend="up" title="Saudi Arabia's numbered target strategy beat its own deadline">
+Saudi Arabia's Vision 2030 set a clear goal: at least five institutions in the global Top 200 by 2030. King Fahd University of Petroleum and Minerals became the first Arab university to break into the QS Top 100, years ahead of that target, and now sits at rank 63.
 </Finding>
 
 <SectionHeader
@@ -99,7 +99,7 @@ THE renamed its Research pillar to Research Environment and expanded its old Cit
 </Finding>
 
 <Finding index={8} num=">100" unit="places" title="QS and THE often disagree by 100 places or more, and that's the system working, not breaking">
-For dozens of universities in 2026, the QS rank and the THE rank sit more than 100 places apart. QS rewards reputation. THE rewards research output. A university that looks elite on one list and average on the other is being measured by two different yardsticks.
+For dozens of universities in 2027, the QS rank and the THE rank sit more than 100 places apart. QS rewards reputation. THE rewards research output. A university that looks elite on one list and average on the other is being measured by two different yardsticks.
 </Finding>
 
 <Finding index={9} num="14%" trend="up" title="AI is already reshaping how research gets done, not just how it's written up">
