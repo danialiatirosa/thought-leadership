@@ -11,6 +11,7 @@ authors: ["tamkeen-research"]
 heroExhibit: "regional-composition"
 tags: ["higher education", "rankings", "QS", "THE", "UAE"]
 readingTime: 12
+dataEndYear: 2027
 status: "published"
 ---
 
@@ -745,11 +746,11 @@ None of this changes what already happened. It only changes what to do next.
 />
 
 <ul>
-  <li><strong>Coverage.</strong> QS WUR Top 500, 2017–2026 (ten editions). THE WUR Top 500, 2016–2026 (eleven editions). 1,090 distinct canonical institutions across 91 countries; 10,238 institution-year-system rows.</li>
-  <li><strong>Rank handling.</strong> Integer ranks pass through unchanged. Banded ranks (e.g., "401–500") converted to numerical midpoints with the original band retained for tier-boundary analysis. Tie markers stripped.</li>
-  <li><strong>Country normalisation.</strong> ISO-3166 alpha-3 via pycountry, plus manual aliases for Hong Kong, Macao, Taiwan, Iran, Korea, Russia, the UAE, and other commonly inconsistent entries. China is tracked as mainland China only throughout; Hong Kong, Macao and Taiwan are counted under their own country codes.</li>
-  <li><strong>Institution matching.</strong> Three rules in order: hard alias for known cases; exact match on aggressively-normalised name; controlled fuzzy match (token_sort_ratio ≥ 97 AND first significant token agrees AND length ratio ≥ 0.75). All fuzzy edges audited.</li>
-  <li><strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout. Validated against a 28-institution truth panel with anti-collision tests.</li>
+  <li><strong>Coverage.</strong> QS WUR Top 500, 2017–2027 (eleven editions). THE WUR Top 500, 2016–2027 (twelve editions). 1,033 distinct canonical institutions across 82 countries; 11,537 institution-year-system rows.</li>
+  <li><strong>Rank handling.</strong> Integer ranks pass through unchanged. Banded ranks (e.g., "401–500") converted to numerical midpoints with the original band retained for tier-boundary analysis. Tie markers stripped. THE's 2027 edition gives exact ranks to 300 (previously 200) and narrower bands above that (25 places to 400, then 50). 2026–2027 movement is compared like-for-like by converting 2027 ranks beyond 200 into the 2026 bands.</li>
+  <li><strong>Country normalisation.</strong> Manual aliases for Hong Kong, Macao, Taiwan, Iran, Korea, Russia, the UAE, and other commonly inconsistent entries. China is tracked as mainland China only throughout; Hong Kong, Macao and Taiwan are counted under their own country codes.</li>
+  <li><strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country. Unmatched new entries were reviewed by hand for renames.</li>
+  <li><strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout. Validated by recomputing every published figure from the source tables; 2027 rows were checked against THE's live data and QS's official results file.</li>
 </ul>
 
 <hr className="rule-thin" />
@@ -764,8 +765,8 @@ None of this changes what already happened. It only changes what to do next.
     <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>King Abdullah University of Science and Technology (KAUST), institutional and Vision 2030 page.</li>
     <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>Science|Business, <em style={{ color: 'var(--color-ink)' }}>UK official association to Horizon Europe</em> (September 2023).</li>
     <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>World Bank Open Data, indicator GB.XPD.RSDV.GD.ZS (Research and development expenditure, % of GDP).</li>
-    <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>QS World University Rankings, annual editions 2017 to 2026.</li>
-    <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>Times Higher Education, World University Rankings, annual editions 2016 to 2026.</li>
+    <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>QS World University Rankings, annual editions 2017 to 2027.</li>
+    <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>Times Higher Education, World University Rankings, annual editions 2016 to 2027.</li>
     <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, <em style={{ color: 'var(--color-ink)' }}>Delving into LLM-assisted writing in biomedical publications through excess vocabulary</em>, Science Advances 11, no. 27 (2025): eadt3813.</li>
     <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}>Yudhijit Bhattacharjee, <em style={{ color: 'var(--color-ink)' }}>Saudi Universities Offer Cash in Exchange for Academic Prestige</em>, Science 334, no. 6061 (2011): 1344–1345.</li>
     <li style={{ marginBottom: 11, color: 'var(--color-ink-mid)', paddingLeft: 4 }}><em style={{ color: 'var(--color-ink)' }}>Saudi universities lose highly cited researchers after payment schemes raise ethics concerns</em>, Science.</li>
