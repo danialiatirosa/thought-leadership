@@ -39,6 +39,7 @@ export const articleComponents: MDXComponents = {
   Finding,
   Heatmap,
   VolatilityChart,
+  ScoreThreshold,
   DataTable,
   StakeholderGrid,
   Exhibit,
