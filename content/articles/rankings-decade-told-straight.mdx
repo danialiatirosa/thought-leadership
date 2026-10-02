@@ -31,6 +31,7 @@ import {
 import top20ByYear from '@/content/data/the-top20-by-year.json';
 import qsTheScatter2027 from '@/content/data/qs-the-scatter-2027.json';
 import qsTheYoyMovement2027 from '@/content/data/qs-the-yoy-movement-2027.json';
+import scoreThresholds from '@/content/data/score-thresholds.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
 
@@ -657,6 +658,18 @@ Both publishers shipped material rewrites for the 2024 edition.
 
 <p style={{ marginTop: 32 }}>
 <strong>Between 2023 and 2024, universities moved on the rankings about three times as much as they did in any other year of the decade.</strong> That is too big to come from anything the universities themselves did. Almost all of it is the rule change.
+</p>
+
+<Exhibit
+  title="A top-100 place now takes a higher score on both tables."
+  sub="Overall score of the university in 100th place, QS and Times Higher Education, 2016 to 2027. Dashed lines mark methodology changes. Choose another place, or enter a score to see where it would have ranked each year."
+  source="Source: QS World University Rankings 2017 to 2027; THE World University Rankings 2016 to 2027; authors’ analysis. THE publishes exact scores to 200th place (300th in 2027)."
+>
+  <ScoreThreshold data={scoreThresholds} />
+</Exhibit>
+
+<p style={{ marginTop: 32 }}>
+<strong>A score that once secured a top-100 place no longer does.</strong> Both publishers convert each university's results into scores relative to the other universities ranked that year, so a score shows where a university stands in that edition rather than a fixed level of performance. On THE, the score at 100th place rose steadily from 58.0 in 2016 to 63.4 in 2023, before any rule change, then jumped to 66.7 with THE's 2024 rewrite; it stood at 66.6 in 2027. On QS, it stayed between 58 and 65 from 2017 to 2025, then rose to 68.5 in 2026, when QS changed how it normalises scores, even though rankings themselves moved no more than usual that year. A university can therefore keep the same score and still slip down the table, without its own performance having declined. The rise alone does not show that universities improved; scores are measured against the field ranked each year, and both the methods and the field have changed.
 </p>
 
 </ArticleSection>

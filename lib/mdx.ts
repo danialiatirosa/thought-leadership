@@ -7,6 +7,7 @@ import { Findings } from '@/components/exhibits/Findings';
 import { Finding } from '@/components/exhibits/Finding';
 import { Heatmap } from '@/components/exhibits/Heatmap';
 import { VolatilityChart } from '@/components/exhibits/VolatilityChart';
+import { ScoreThreshold } from '@/components/exhibits/ScoreThreshold';
 import { DataTable } from '@/components/exhibits/DataTable';
 import { StakeholderGrid } from '@/components/exhibits/StakeholderGrid';
 import { Exhibit } from '@/components/exhibits/Exhibit';
