@@ -4993,8 +4993,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53743,
-          "end": 53750,
+          "start": 53592,
+          "end": 53599,
           "line": 764
         }
       ]
@@ -5018,8 +5018,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53895,
-          "end": 54019,
+          "start": 53744,
+          "end": 53868,
           "line": 766
         }
       ]
@@ -5043,8 +5043,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54109,
-          "end": 54232,
+          "start": 53958,
+          "end": 54081,
           "line": 767
         }
       ]
@@ -5087,8 +5087,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54755,
-          "end": 54909,
+          "start": 54604,
+          "end": 54758,
           "line": 769
         }
       ]
@@ -5112,8 +5112,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54999,
-          "end": 55094,
+          "start": 54848,
+          "end": 54943,
           "line": 770
         }
       ]
@@ -5137,8 +5137,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55184,
-          "end": 55308,
+          "start": 55033,
+          "end": 55157,
           "line": 771
         }
       ]
@@ -5162,8 +5162,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55398,
-          "end": 55497,
+          "start": 55247,
+          "end": 55346,
           "line": 772
         }
       ]
@@ -8373,16 +8373,16 @@
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
-      "text": "<strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout. Validated by recomputing every published figure from the source tables; 2027 rows were checked against THE's live data and QS's official results file.",
+      "text": "<strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout. Validated by recomputing every published figure from the source tables; 2027 rows were checked against THE's live data and QS's official results file.",
+      "display": "<strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 53151,
-          "end": 53572,
+          "end": 53421,
           "line": 758
         }
       ]
@@ -8400,8 +8400,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54322,
-          "end": 54665,
+          "start": 54171,
+          "end": 54514,
           "line": 768
         }
       ]
@@ -8419,8 +8419,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55587,
-          "end": 55646,
+          "start": 55436,
+          "end": 55495,
           "line": 773
         }
       ]
@@ -8438,8 +8438,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55736,
-          "end": 55816,
+          "start": 55585,
+          "end": 55665,
           "line": 774
         }
       ]
@@ -8457,8 +8457,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55906,
-          "end": 56157,
+          "start": 55755,
+          "end": 56006,
           "line": 775
         }
       ]
@@ -8476,8 +8476,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56247,
-          "end": 56423,
+          "start": 56096,
+          "end": 56272,
           "line": 776
         }
       ]
@@ -8495,8 +8495,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56513,
-          "end": 56662,
+          "start": 56362,
+          "end": 56511,
           "line": 777
         }
       ]
