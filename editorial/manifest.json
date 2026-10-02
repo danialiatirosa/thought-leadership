@@ -4993,8 +4993,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53800,
-          "end": 53807,
+          "start": 53743,
+          "end": 53750,
           "line": 764
         }
       ]
@@ -5018,8 +5018,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53952,
-          "end": 54076,
+          "start": 53895,
+          "end": 54019,
           "line": 766
         }
       ]
@@ -5043,8 +5043,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54166,
-          "end": 54289,
+          "start": 54109,
+          "end": 54232,
           "line": 767
         }
       ]
@@ -5087,8 +5087,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54812,
-          "end": 54966,
+          "start": 54755,
+          "end": 54909,
           "line": 769
         }
       ]
@@ -5112,8 +5112,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55056,
-          "end": 55151,
+          "start": 54999,
+          "end": 55094,
           "line": 770
         }
       ]
@@ -5137,8 +5137,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55241,
-          "end": 55365,
+          "start": 55184,
+          "end": 55308,
           "line": 771
         }
       ]
@@ -5162,8 +5162,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55455,
-          "end": 55554,
+          "start": 55398,
+          "end": 55497,
           "line": 772
         }
       ]
@@ -8354,16 +8354,16 @@
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
-      "text": "<strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country. Unmatched new entries were reviewed by hand for renames.",
+      "text": "<strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country. Unmatched new entries were reviewed by hand for renames.",
+      "display": "<strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 52909,
-          "end": 53196,
+          "end": 53139,
           "line": 757
         }
       ]
@@ -8381,8 +8381,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53208,
-          "end": 53629,
+          "start": 53151,
+          "end": 53572,
           "line": 758
         }
       ]
@@ -8400,8 +8400,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54379,
-          "end": 54722,
+          "start": 54322,
+          "end": 54665,
           "line": 768
         }
       ]
@@ -8419,8 +8419,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55644,
-          "end": 55703,
+          "start": 55587,
+          "end": 55646,
           "line": 773
         }
       ]
@@ -8438,8 +8438,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55793,
-          "end": 55873,
+          "start": 55736,
+          "end": 55816,
           "line": 774
         }
       ]
@@ -8457,8 +8457,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55963,
-          "end": 56214,
+          "start": 55906,
+          "end": 56157,
           "line": 775
         }
       ]
@@ -8476,8 +8476,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56304,
-          "end": 56480,
+          "start": 56247,
+          "end": 56423,
           "line": 776
         }
       ]
@@ -8495,8 +8495,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56570,
-          "end": 56719,
+          "start": 56513,
+          "end": 56662,
           "line": 777
         }
       ]
