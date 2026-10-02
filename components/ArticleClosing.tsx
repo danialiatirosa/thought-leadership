@@ -43,11 +43,6 @@ export function ArticleClosing({ article }: ArticleClosingProps) {
         the publishers&rsquo; own published tables.
       </p>
 
-      <p className="font-serif text-[15px] leading-[1.55] text-mute m-0 mb-5">
-        Where the published source disagrees with the underlying data, this
-        article sides with the data.
-      </p>
-
       <div className="grid grid-cols-2 gap-x-8 gap-y-3 ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute font-medium max-[640px]:grid-cols-1">
         <div>
           <span className="text-ink font-semibold">Authors:</span>{' '}
