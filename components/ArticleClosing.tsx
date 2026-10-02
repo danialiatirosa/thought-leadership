@@ -37,8 +37,11 @@ export function ArticleClosing({ article }: ArticleClosingProps) {
       <p className="font-serif text-[16px] leading-[1.6] text-ink/90 m-0 mb-5">
         The argument rests on the published Top 500 of QS World University
         Rankings (2017 to {endYear}, {editions(2017, endYear)} editions) and Times Higher Education
-        World University Rankings (2016 to {endYear}, {editions(2016, endYear)} editions), supplemented
-        by the World Bank R&amp;D-as-share-of-GDP indicator. All numerical
+        World University Rankings (2016 to {endYear}, {editions(2016, endYear)} editions)
+        {article.usesWorldBankRd === false
+          ? null
+          : ', supplemented by the World Bank R&D-as-share-of-GDP indicator'}
+        . All numerical
         claims are computed from the source datasets and cross-checked against
         the publishers&rsquo; own published tables.
       </p>

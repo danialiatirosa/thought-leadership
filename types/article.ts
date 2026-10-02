@@ -31,6 +31,8 @@ export interface ArticleFrontmatter {
   heroExhibit?: string;
   /** Latest ranking edition the article's data covers. Defaults to 2026. */
   dataEndYear?: number;
+  /** Whether the analysis uses the World Bank R&D-as-share-of-GDP indicator. Defaults to true. */
+  usesWorldBankRd?: boolean;
   tags?: string[];
   status: ArticleStatus;
 }
