@@ -13,7 +13,7 @@ interface ScoreThresholdProps {
 }
 
 const YEARS = Array.from({ length: 12 }, (_, i) => 2016 + i);
-const RANKS = [50, 100, 150, 200, 300, 500];
+const RANKS = [50, 100, 150, 200];
 /** Deepest rank each publisher gives an exact overall score for, by edition. */
 const COVERAGE = {
   THE: (y: number) => (y >= 2027 ? 300 : 200),
