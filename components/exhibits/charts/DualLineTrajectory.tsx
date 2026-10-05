@@ -51,6 +51,18 @@ export function DualLineTrajectory({ years, series, scaleMax = 60, title }: Dual
   const plotHeight = HEIGHT - PAD_TOP - PAD_BOTTOM;
   const xFor = (i: number) => PAD_X + (i / (years.length - 1)) * plotWidth;
   const yFor = (v: number) => PAD_TOP + (v / scaleMax) * plotHeight;
+  /** Label above the point, unless another series' point in the same year sits
+   *  just above it, in which case this label goes below to avoid overlapping it. */
+  const labelY = (si: number, i: number, v: number) => {
+    const y = yFor(v);
+    const crowdedFromAbove = series.some((o, oi) => {
+      const ov = o.points[i]?.value;
+      if (oi === si || ov == null) return false;
+      const oy = yFor(ov);
+      return oy < y && y - oy < 18;
+    });
+    return crowdedFromAbove ? y + 18 : y - 10;
+  };
 
   return (
     <div className="my-2">
@@ -100,7 +112,7 @@ export function DualLineTrajectory({ years, series, scaleMax = 60, title }: Dual
               <text
                 key={`${si}-${i}`}
                 x={xFor(i)}
-                y={yFor(p.value) - 10}
+                y={labelY(si, i, p.value)}
                 textAnchor="middle"
                 style={{
                   fontSize: 11,
