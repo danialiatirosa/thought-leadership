@@ -66,12 +66,12 @@ export const stackedAreaYears = [
 export const gainers = [
   { name: 'China', value: 25, fill: '#2E5B66' },
   { name: 'Saudi Arabia', value: 8, fill: '#2E5B66' },
-  { name: 'Malaysia', value: 7, fill: '#6C6864' },
+  { name: 'Malaysia', value: 7, fill: '#2E5B66' },
   { name: 'United Arab Emirates', value: 6, fill: '#2E5B66' },
-  { name: 'Germany', value: 6, fill: '#6C6864' },
-  { name: 'Australia', value: 4, fill: '#6C6864' },
-  { name: 'Korea, Republic of', value: 4, fill: '#6B8B8E' },
-  { name: 'Iran, Islamic Rep. of', value: 3, fill: '#6B8B8E' },
+  { name: 'Germany', value: 6, fill: '#2E5B66' },
+  { name: 'Australia', value: 4, fill: '#9DB6B8' },
+  { name: 'Korea, Republic of', value: 4, fill: '#9DB6B8' },
+  { name: 'Iran, Islamic Rep. of', value: 3, fill: '#9DB6B8' },
 ];
 
 export const decliners = [
