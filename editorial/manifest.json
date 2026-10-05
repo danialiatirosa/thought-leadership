@@ -5224,11 +5224,11 @@
       "kind": "frontmatter",
       "path": "Headline > dek",
       "sectionId": "front",
-      "text": "This analysis compares a decade of QS and Times Higher Education World University Rankings to show how the balance among the world's leading universities has shifted. Since these rankings began in 2004, institutions in North America and Europe have dominated both tables. In 2016 they held 85 places in Times Higher Education's top 100; in 2027 they hold 73. The places they ceded went to Asia, whose representation has more than doubled, with most of the gains coming from China and Hong Kong. The Gulf, starting from a negligible base, has emerged as a second source of growth. In 2024 both QS and THE rewrote their methods, which shuffled the tables more than anything the universities themselves did.",
+      "text": "This analysis compares a decade of QS and Times Higher Education World University Rankings to show how the balance among the world's leading universities has shifted. Since these rankings began in 2004, institutions in North America and Europe have dominated both tables. In 2016 they held 85 places in Times Higher Education's Top 100; in 2027 they hold 73. The places they ceded went to Asia, whose representation has more than doubled, with most of the gains coming from China and Hong Kong. The Gulf, starting from a negligible base, has emerged as a second source of growth. In 2024 both QS and THE rewrote their methods, which shuffled the tables more than anything the universities themselves did.",
       "shared": false,
       "minor": false,
       "quote": "\"",
-      "display": "This analysis compares a decade of QS and Times Higher Education World University Rankings to show how the balance among the world's leading universities has shifted. Since these rankings began in 2004, institutions in North America and Europe have dominated both tables. In 2016 they held 85 places in Times Higher Education's top 100; in 2027 they hold 73. The places they ceded went to Asia, whose representation has more than doubled, with most of the gains coming from China and Hong Kong. The Gulf, starting from a negligible base, has emerged as a second source of growth. In 2024 both QS and THE rewrote their methods, which shuffled the tables more than anything the universities themselves did.",
+      "display": "This analysis compares a decade of QS and Times Higher Education World University Rankings to show how the balance among the world's leading universities has shifted. Since these rankings began in 2004, institutions in North America and Europe have dominated both tables. In 2016 they held 85 places in Times Higher Education's Top 100; in 2027 they hold 73. The places they ceded went to Asia, whose representation has more than doubled, with most of the gains coming from China and Hong Kong. The Gulf, starting from a negligible base, has emerged as a second source of growth. In 2024 both QS and THE rewrote their methods, which shuffled the tables more than anything the universities themselves did.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
@@ -5686,11 +5686,11 @@
       "kind": "prose",
       "path": "02 The global landscape > <p>",
       "sectionId": "landscape",
-      "text": "\n<strong>The ranking tables themselves have grown over the last decade.</strong> Times Higher Education ranked 980 universities in its 2017 edition and 2,297 in 2027; QS's table grew from 916 to 1,504. Most of this growth has come further down the tables: between its 2020 and 2026 editions, 919 universities joined THE's table and 124 withdrew, and only 45 of the newcomers were ranked in the top 500.\n",
+      "text": "\n<strong>The ranking tables themselves have grown over the last decade.</strong> Times Higher Education ranked 980 universities in its 2017 edition and 2,297 in 2027; QS's table grew from 916 to 1,504. Most of this growth has come further down the tables: between its 2020 and 2026 editions, 919 universities joined THE's table and 124 withdrew, and only 45 of the newcomers were ranked in the Top 500.\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>The ranking tables themselves have grown over the last decade.</strong> Times Higher Education ranked 980 universities in its 2017 edition and 2,297 in 2027; QS's table grew from 916 to 1,504. Most of this growth has come further down the tables: between its 2020 and 2026 editions, 919 universities joined THE's table and 124 withdrew, and only 45 of the newcomers were ranked in the top 500.",
+      "display": "<strong>The ranking tables themselves have grown over the last decade.</strong> Times Higher Education ranked 980 universities in its 2017 edition and 2,297 in 2027; QS's table grew from 916 to 1,504. Most of this growth has come further down the tables: between its 2020 and 2026 editions, 919 universities joined THE's table and 124 withdrew, and only 45 of the newcomers were ranked in the Top 500.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
@@ -5950,11 +5950,11 @@
       "kind": "prose",
       "path": "02 The global landscape > <li>",
       "sectionId": "landscape",
-      "text": "<strong>The US is still the largest single-country cohort in both rankings, but its number of universities in THE's Top 500 fell from 122 to 96 between 2016 and 2027.</strong> Most of those that dropped out are public universities that were not in the top 100. Harvard, MIT and Stanford have barely moved. Even among the elite privates there are some exceptions: Princeton drifted from 11th to 27th on QS while climbing to 3rd on THE, and Brown and Dartmouth fell on QS, from 49th to 66th and from 158th to 270th.",
+      "text": "<strong>The US is still the largest single-country cohort in both rankings, but its number of universities in THE's Top 500 fell from 122 to 96 between 2016 and 2027.</strong> Most of those that dropped out are public universities that were not in the Top 100. Harvard, MIT and Stanford have barely moved. Even among the elite privates there are some exceptions: Princeton drifted from 11th to 27th on QS while climbing to 3rd on THE, and Brown and Dartmouth fell on QS, from 49th to 66th and from 158th to 270th.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>The US is still the largest single-country cohort in both rankings, but its number of universities in THE's Top 500 fell from 122 to 96 between 2016 and 2027.</strong> Most of those that dropped out are public universities that were not in the top 100. Harvard, MIT and Stanford have barely moved. Even among the elite privates there are some exceptions: Princeton drifted from 11th to 27th on QS while climbing to 3rd on THE, and Brown and Dartmouth fell on QS, from 49th to 66th and from 158th to 270th.",
+      "display": "<strong>The US is still the largest single-country cohort in both rankings, but its number of universities in THE's Top 500 fell from 122 to 96 between 2016 and 2027.</strong> Most of those that dropped out are public universities that were not in the Top 100. Harvard, MIT and Stanford have barely moved. Even among the elite privates there are some exceptions: Princeton drifted from 11th to 27th on QS while climbing to 3rd on THE, and Brown and Dartmouth fell on QS, from 49th to 66th and from 158th to 270th.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
