@@ -103,7 +103,7 @@ export const risers = [
   { label: 'Tongji University', fromRank: 124, toRank: 185, flag: 'China' },
 ];
 
-/** Top 15 by THE 2027 Top-500 count (ties broken by QS count), then the rest of the GCC. */
+/** Top 15 by THE 2027 Top-500 count (ties broken by QS count), then the UAE. */
 export const countryTableRows = [
   { country: 'United States', qs17: 97, qs27: 68, qsD: { value: '-29', tone: 'neg' as const }, the16: 122, the27: 96, theD: { value: '-26', tone: 'neg' as const } },
   { country: 'United Kingdom', qs17: 51, qs27: 48, qsD: { value: '-3', tone: 'neg' as const }, the16: 58, the27: 49, theD: { value: '-9', tone: 'neg' as const } },
@@ -120,12 +120,7 @@ export const countryTableRows = [
   { country: 'Austria', qs17: 4, qs27: 6, qsD: { value: '+2', tone: 'pos' as const }, the16: 7, the27: 9, theD: { value: '+2', tone: 'pos' as const } },
   { country: 'Saudi Arabia', qs17: 3, qs27: 6, qsD: { value: '+3', tone: 'pos' as const }, the16: 1, the27: 9, theD: { value: '+8', tone: 'pos' as const } },
   { country: 'Malaysia', qs17: 5, qs27: 10, qsD: { value: '+5', tone: 'pos' as const }, the16: 1, the27: 8, theD: { value: '+7', tone: 'pos' as const } },
-  { groupLabel: 'Rest of the GCC' },
   { country: 'United Arab Emirates', qs17: 3, qs27: 6, qsD: { value: '+3', tone: 'pos' as const }, the16: 0, the27: 6, theD: { value: '+6', tone: 'pos' as const } },
-  { country: 'Qatar', qs17: 1, qs27: 2, qsD: { value: '+1', tone: 'pos' as const }, the16: 0, the27: 2, theD: { value: '+2', tone: 'pos' as const } },
-  { country: 'Bahrain', qs17: 1, qs27: 0, qsD: { value: '-1', tone: 'neg' as const }, the16: 0, the27: 2, theD: { value: '+2', tone: 'pos' as const } },
-  { country: 'Kuwait', qs17: 0, qs27: 0, qsD: '+0', the16: 0, the27: 1, theD: { value: '+1', tone: 'pos' as const } },
-  { country: 'Oman', qs17: 1, qs27: 1, qsD: '+0', the16: 0, the27: 0, theD: '+0' },
 ];
 
 /** Short display labels for the country table, where the full name doesn't fit on one line. */
