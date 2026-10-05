@@ -13,8 +13,8 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 427,
-  "sharedCount": 36,
+  "blockCount": 426,
+  "sharedCount": 35,
   "blocks": [
     {
       "id": "A-001",
@@ -1136,8 +1136,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33580,
-          "end": 33592,
+          "start": 33565,
+          "end": 33577,
           "line": 537
         }
       ]
@@ -1161,8 +1161,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33645,
-          "end": 33657,
+          "start": 33630,
+          "end": 33642,
           "line": 538
         }
       ]
@@ -1186,8 +1186,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33710,
-          "end": 33725,
+          "start": 33695,
+          "end": 33710,
           "line": 539
         }
       ]
@@ -1211,8 +1211,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33778,
-          "end": 33785,
+          "start": 33763,
+          "end": 33770,
           "line": 540
         }
       ]
@@ -1332,12 +1332,12 @@
       ]
     },
     {
-      "id": "S-008",
+      "id": "A-061",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > tag",
       "sectionId": "systems",
       "text": "THE · WUR 3.0 (2024)",
-      "shared": true,
+      "shared": false,
       "minor": true,
       "quote": "'",
       "display": "THE · WUR 3.0 (2024)",
@@ -1347,17 +1347,11 @@
           "start": 10344,
           "end": 10364,
           "line": 166
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34931,
-          "end": 34951,
-          "line": 560
         }
       ]
     },
     {
-      "id": "A-061",
+      "id": "A-062",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > title",
       "sectionId": "systems",
@@ -1376,7 +1370,7 @@
       ]
     },
     {
-      "id": "A-062",
+      "id": "A-063",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > body",
       "sectionId": "systems",
@@ -1395,7 +1389,7 @@
       ]
     },
     {
-      "id": "S-009",
+      "id": "S-008",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1413,20 +1407,20 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35436,
-          "end": 35444,
+          "start": 35404,
+          "end": 35412,
           "line": 564
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35785,
-          "end": 35793,
+          "start": 35753,
+          "end": 35761,
           "line": 571
         }
       ]
     },
     {
-      "id": "S-010",
+      "id": "S-009",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1444,14 +1438,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35499,
-          "end": 35511,
+          "start": 35467,
+          "end": 35479,
           "line": 565
         }
       ]
     },
     {
-      "id": "S-011",
+      "id": "S-010",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1469,14 +1463,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35564,
-          "end": 35577,
+          "start": 35532,
+          "end": 35545,
           "line": 566
         }
       ]
     },
     {
-      "id": "S-012",
+      "id": "S-011",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1494,14 +1488,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35630,
-          "end": 35633,
+          "start": 35598,
+          "end": 35601,
           "line": 567
         }
       ]
     },
     {
-      "id": "S-013",
+      "id": "S-012",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1519,14 +1513,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35685,
-          "end": 35689,
+          "start": 35653,
+          "end": 35657,
           "line": 568
         }
       ]
     },
     {
-      "id": "A-063",
+      "id": "A-064",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1545,7 +1539,7 @@
       ]
     },
     {
-      "id": "A-064",
+      "id": "A-065",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1564,7 +1558,7 @@
       ]
     },
     {
-      "id": "A-065",
+      "id": "A-066",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1583,7 +1577,7 @@
       ]
     },
     {
-      "id": "A-066",
+      "id": "A-067",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1602,7 +1596,7 @@
       ]
     },
     {
-      "id": "A-067",
+      "id": "A-068",
       "kind": "prop",
       "path": "02 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -1621,7 +1615,7 @@
       ]
     },
     {
-      "id": "A-068",
+      "id": "A-069",
       "kind": "prose",
       "path": "02 Why the systems disagree > <h3>",
       "sectionId": "systems",
@@ -1640,7 +1634,7 @@
       ]
     },
     {
-      "id": "A-069",
+      "id": "A-070",
       "kind": "prose",
       "path": "02 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -1659,7 +1653,7 @@
       ]
     },
     {
-      "id": "S-014",
+      "id": "S-013",
       "kind": "prop",
       "path": "02 Why the systems disagree > Exhibit > title",
       "sectionId": "systems",
@@ -1677,14 +1671,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 38008,
-          "end": 38070,
+          "start": 37976,
+          "end": 38038,
           "line": 593
         }
       ]
     },
     {
-      "id": "A-070",
+      "id": "A-071",
       "kind": "prop",
       "path": "02 Why the systems disagree > Exhibit > sub",
       "sectionId": "systems",
@@ -1703,7 +1697,7 @@
       ]
     },
     {
-      "id": "A-071",
+      "id": "A-072",
       "kind": "prop",
       "path": "02 Why the systems disagree > Exhibit > source",
       "sectionId": "systems",
@@ -1722,7 +1716,7 @@
       ]
     },
     {
-      "id": "S-015",
+      "id": "S-014",
       "kind": "prop",
       "path": "02 Why the systems disagree > SVGScatter > diagonalLabel",
       "sectionId": "systems",
@@ -1740,14 +1734,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39123,
-          "end": 39161,
+          "start": 39091,
+          "end": 39129,
           "line": 604
         }
       ]
     },
     {
-      "id": "A-072",
+      "id": "A-073",
       "kind": "prop",
       "path": "02 Why the systems disagree > SVGScatter > xAxisLabel",
       "sectionId": "systems",
@@ -1766,7 +1760,7 @@
       ]
     },
     {
-      "id": "A-073",
+      "id": "A-074",
       "kind": "prop",
       "path": "02 Why the systems disagree > SVGScatter > yAxisLabel",
       "sectionId": "systems",
@@ -1785,7 +1779,7 @@
       ]
     },
     {
-      "id": "A-074",
+      "id": "A-075",
       "kind": "prose",
       "path": "02 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -1804,7 +1798,7 @@
       ]
     },
     {
-      "id": "A-075",
+      "id": "A-076",
       "kind": "prose",
       "path": "02 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -1823,7 +1817,7 @@
       ]
     },
     {
-      "id": "S-016",
+      "id": "S-015",
       "kind": "prop",
       "path": "03 The global landscape > SectionHeader > kicker",
       "sectionId": "landscape",
@@ -1848,7 +1842,7 @@
       ]
     },
     {
-      "id": "A-076",
+      "id": "A-077",
       "kind": "prop",
       "path": "03 The global landscape > SectionHeader > title",
       "sectionId": "landscape",
@@ -1867,7 +1861,7 @@
       ]
     },
     {
-      "id": "A-077",
+      "id": "A-078",
       "kind": "prose",
       "path": "03 The global landscape > <p>",
       "sectionId": "landscape",
@@ -1886,7 +1880,7 @@
       ]
     },
     {
-      "id": "A-078",
+      "id": "A-079",
       "kind": "prose",
       "path": "03 The global landscape > <h3>",
       "sectionId": "landscape",
@@ -1905,7 +1899,7 @@
       ]
     },
     {
-      "id": "A-079",
+      "id": "A-080",
       "kind": "prose",
       "path": "03 The global landscape > <p>",
       "sectionId": "landscape",
@@ -1924,7 +1918,7 @@
       ]
     },
     {
-      "id": "A-080",
+      "id": "A-081",
       "kind": "prose",
       "path": "03 The global landscape > <p>",
       "sectionId": "landscape",
@@ -1943,7 +1937,7 @@
       ]
     },
     {
-      "id": "A-081",
+      "id": "A-082",
       "kind": "prose",
       "path": "03 The global landscape > <p>",
       "sectionId": "landscape",
@@ -1962,7 +1956,7 @@
       ]
     },
     {
-      "id": "A-082",
+      "id": "A-083",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > caption",
       "sectionId": "landscape",
@@ -1981,7 +1975,7 @@
       ]
     },
     {
-      "id": "S-017",
+      "id": "S-016",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2012,7 +2006,7 @@
       ]
     },
     {
-      "id": "A-083",
+      "id": "A-084",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2031,7 +2025,7 @@
       ]
     },
     {
-      "id": "A-084",
+      "id": "A-085",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2050,7 +2044,7 @@
       ]
     },
     {
-      "id": "A-085",
+      "id": "A-086",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2069,7 +2063,7 @@
       ]
     },
     {
-      "id": "A-086",
+      "id": "A-087",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2088,7 +2082,7 @@
       ]
     },
     {
-      "id": "A-087",
+      "id": "A-088",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2107,7 +2101,7 @@
       ]
     },
     {
-      "id": "A-088",
+      "id": "A-089",
       "kind": "prop",
       "path": "03 The global landscape > DataTable > label",
       "sectionId": "landscape",
@@ -2126,7 +2120,7 @@
       ]
     },
     {
-      "id": "A-089",
+      "id": "A-090",
       "kind": "prose",
       "path": "03 The global landscape > <h3>",
       "sectionId": "landscape",
@@ -2145,7 +2139,7 @@
       ]
     },
     {
-      "id": "A-090",
+      "id": "A-091",
       "kind": "prose",
       "path": "03 The global landscape > <p>",
       "sectionId": "landscape",
@@ -2164,7 +2158,7 @@
       ]
     },
     {
-      "id": "A-091",
+      "id": "A-092",
       "kind": "prop",
       "path": "03 The global landscape > Exhibit > title",
       "sectionId": "landscape",
@@ -2183,7 +2177,7 @@
       ]
     },
     {
-      "id": "A-092",
+      "id": "A-093",
       "kind": "prop",
       "path": "03 The global landscape > Exhibit > sub",
       "sectionId": "landscape",
@@ -2202,7 +2196,7 @@
       ]
     },
     {
-      "id": "A-093",
+      "id": "A-094",
       "kind": "prop",
       "path": "03 The global landscape > Exhibit > source",
       "sectionId": "landscape",
@@ -2221,7 +2215,7 @@
       ]
     },
     {
-      "id": "A-094",
+      "id": "A-095",
       "kind": "prop",
       "path": "04 The 2024 break > SectionHeader > kicker",
       "sectionId": "break",
@@ -2240,7 +2234,7 @@
       ]
     },
     {
-      "id": "A-095",
+      "id": "A-096",
       "kind": "prop",
       "path": "04 The 2024 break > SectionHeader > title",
       "sectionId": "break",
@@ -2259,7 +2253,7 @@
       ]
     },
     {
-      "id": "A-096",
+      "id": "A-097",
       "kind": "prose",
       "path": "04 The 2024 break > <p>",
       "sectionId": "break",
@@ -2278,7 +2272,7 @@
       ]
     },
     {
-      "id": "S-018",
+      "id": "S-017",
       "kind": "prop",
       "path": "04 The 2024 break > StakeholderGrid > title",
       "sectionId": "break",
@@ -2296,14 +2290,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39834,
-          "end": 39846,
+          "start": 39802,
+          "end": 39814,
           "line": 633
         }
       ]
     },
     {
-      "id": "A-097",
+      "id": "A-098",
       "kind": "prop",
       "path": "04 The 2024 break > StakeholderGrid > body",
       "sectionId": "break",
@@ -2322,7 +2316,7 @@
       ]
     },
     {
-      "id": "S-019",
+      "id": "S-018",
       "kind": "prop",
       "path": "04 The 2024 break > StakeholderGrid > title",
       "sectionId": "break",
@@ -2340,14 +2334,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 40279,
-          "end": 40296,
+          "start": 40247,
+          "end": 40264,
           "line": 637
         }
       ]
     },
     {
-      "id": "A-098",
+      "id": "A-099",
       "kind": "prop",
       "path": "04 The 2024 break > StakeholderGrid > body",
       "sectionId": "break",
@@ -2366,7 +2360,7 @@
       ]
     },
     {
-      "id": "A-099",
+      "id": "A-100",
       "kind": "prose",
       "path": "04 The 2024 break > <p>",
       "sectionId": "break",
@@ -2385,7 +2379,7 @@
       ]
     },
     {
-      "id": "A-100",
+      "id": "A-101",
       "kind": "prop",
       "path": "04 The 2024 break > PullQuote > cite",
       "sectionId": "break",
@@ -2404,7 +2398,7 @@
       ]
     },
     {
-      "id": "A-101",
+      "id": "A-102",
       "kind": "prose",
       "path": "04 The 2024 break > <PullQuote>",
       "sectionId": "break",
@@ -2423,7 +2417,7 @@
       ]
     },
     {
-      "id": "A-102",
+      "id": "A-103",
       "kind": "prop",
       "path": "05 Pillar decomposition > SectionHeader > kicker",
       "sectionId": "pillars",
@@ -2442,7 +2436,7 @@
       ]
     },
     {
-      "id": "A-103",
+      "id": "A-104",
       "kind": "prop",
       "path": "05 Pillar decomposition > SectionHeader > title",
       "sectionId": "pillars",
@@ -2461,7 +2455,7 @@
       ]
     },
     {
-      "id": "A-104",
+      "id": "A-105",
       "kind": "prose",
       "path": "05 Pillar decomposition > <p>",
       "sectionId": "pillars",
@@ -2480,7 +2474,7 @@
       ]
     },
     {
-      "id": "A-105",
+      "id": "A-106",
       "kind": "prop",
       "path": "05 Pillar decomposition > Exhibit > title",
       "sectionId": "pillars",
@@ -2499,7 +2493,7 @@
       ]
     },
     {
-      "id": "A-106",
+      "id": "A-107",
       "kind": "prop",
       "path": "05 Pillar decomposition > Exhibit > sub",
       "sectionId": "pillars",
@@ -2518,7 +2512,7 @@
       ]
     },
     {
-      "id": "A-107",
+      "id": "A-108",
       "kind": "prop",
       "path": "05 Pillar decomposition > Exhibit > source",
       "sectionId": "pillars",
@@ -2537,7 +2531,7 @@
       ]
     },
     {
-      "id": "A-108",
+      "id": "A-109",
       "kind": "prop",
       "path": "05 Pillar decomposition > Heatmap > label",
       "sectionId": "pillars",
@@ -2556,7 +2550,7 @@
       ]
     },
     {
-      "id": "A-109",
+      "id": "A-110",
       "kind": "prose",
       "path": "05 Pillar decomposition > <p>",
       "sectionId": "pillars",
@@ -2575,7 +2569,7 @@
       ]
     },
     {
-      "id": "A-110",
+      "id": "A-111",
       "kind": "prose",
       "path": "05 Pillar decomposition > <p>",
       "sectionId": "pillars",
@@ -2594,7 +2588,7 @@
       ]
     },
     {
-      "id": "A-111",
+      "id": "A-112",
       "kind": "prose",
       "path": "05 Pillar decomposition > <p>",
       "sectionId": "pillars",
@@ -2613,7 +2607,7 @@
       ]
     },
     {
-      "id": "A-112",
+      "id": "A-113",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > SectionHeader > kicker",
       "sectionId": "uae",
@@ -2632,7 +2626,7 @@
       ]
     },
     {
-      "id": "A-113",
+      "id": "A-114",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > SectionHeader > title",
       "sectionId": "uae",
@@ -2651,7 +2645,7 @@
       ]
     },
     {
-      "id": "A-114",
+      "id": "A-115",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <p>",
       "sectionId": "uae",
@@ -2670,7 +2664,7 @@
       ]
     },
     {
-      "id": "A-115",
+      "id": "A-116",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > title",
       "sectionId": "uae",
@@ -2689,7 +2683,7 @@
       ]
     },
     {
-      "id": "A-116",
+      "id": "A-117",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > body",
       "sectionId": "uae",
@@ -2708,7 +2702,7 @@
       ]
     },
     {
-      "id": "A-117",
+      "id": "A-118",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2727,7 +2721,7 @@
       ]
     },
     {
-      "id": "A-118",
+      "id": "A-119",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2746,7 +2740,7 @@
       ]
     },
     {
-      "id": "A-119",
+      "id": "A-120",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2765,7 +2759,7 @@
       ]
     },
     {
-      "id": "A-120",
+      "id": "A-121",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2784,7 +2778,7 @@
       ]
     },
     {
-      "id": "A-121",
+      "id": "A-122",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > title",
       "sectionId": "uae",
@@ -2803,7 +2797,7 @@
       ]
     },
     {
-      "id": "S-020",
+      "id": "S-019",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2834,7 +2828,7 @@
       ]
     },
     {
-      "id": "S-021",
+      "id": "S-020",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2865,7 +2859,7 @@
       ]
     },
     {
-      "id": "S-022",
+      "id": "S-021",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2890,7 +2884,7 @@
       ]
     },
     {
-      "id": "S-023",
+      "id": "S-022",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2921,7 +2915,7 @@
       ]
     },
     {
-      "id": "S-024",
+      "id": "S-023",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2952,7 +2946,7 @@
       ]
     },
     {
-      "id": "S-025",
+      "id": "S-024",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > UAEFootprint > name",
       "sectionId": "uae",
@@ -2983,7 +2977,7 @@
       ]
     },
     {
-      "id": "A-122",
+      "id": "A-123",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <h3>",
       "sectionId": "uae",
@@ -3002,7 +2996,7 @@
       ]
     },
     {
-      "id": "A-123",
+      "id": "A-124",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <p>",
       "sectionId": "uae",
@@ -3021,7 +3015,7 @@
       ]
     },
     {
-      "id": "A-124",
+      "id": "A-125",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <p>",
       "sectionId": "uae",
@@ -3040,7 +3034,7 @@
       ]
     },
     {
-      "id": "A-125",
+      "id": "A-126",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <p>",
       "sectionId": "uae",
@@ -3059,7 +3053,7 @@
       ]
     },
     {
-      "id": "A-126",
+      "id": "A-127",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > PullQuote > cite",
       "sectionId": "uae",
@@ -3078,7 +3072,7 @@
       ]
     },
     {
-      "id": "A-127",
+      "id": "A-128",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <PullQuote>",
       "sectionId": "uae",
@@ -3097,7 +3091,7 @@
       ]
     },
     {
-      "id": "A-128",
+      "id": "A-129",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <h3>",
       "sectionId": "uae",
@@ -3116,7 +3110,7 @@
       ]
     },
     {
-      "id": "A-129",
+      "id": "A-130",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <p>",
       "sectionId": "uae",
@@ -3135,7 +3129,7 @@
       ]
     },
     {
-      "id": "A-130",
+      "id": "A-131",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > DataTable > label",
       "sectionId": "uae",
@@ -3154,7 +3148,7 @@
       ]
     },
     {
-      "id": "A-131",
+      "id": "A-132",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > DataTable > label",
       "sectionId": "uae",
@@ -3173,7 +3167,7 @@
       ]
     },
     {
-      "id": "A-132",
+      "id": "A-133",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <h3>",
       "sectionId": "uae",
@@ -3192,7 +3186,7 @@
       ]
     },
     {
-      "id": "A-133",
+      "id": "A-134",
       "kind": "prose",
       "path": "06 Spotlight · United Arab Emirates > <p>",
       "sectionId": "uae",
@@ -3211,7 +3205,7 @@
       ]
     },
     {
-      "id": "A-134",
+      "id": "A-135",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > title",
       "sectionId": "uae",
@@ -3230,7 +3224,7 @@
       ]
     },
     {
-      "id": "A-135",
+      "id": "A-136",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 1",
       "sectionId": "uae",
@@ -3249,7 +3243,7 @@
       ]
     },
     {
-      "id": "A-136",
+      "id": "A-137",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 2",
       "sectionId": "uae",
@@ -3268,7 +3262,7 @@
       ]
     },
     {
-      "id": "A-137",
+      "id": "A-138",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 3",
       "sectionId": "uae",
@@ -3287,7 +3281,7 @@
       ]
     },
     {
-      "id": "A-138",
+      "id": "A-139",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 4",
       "sectionId": "uae",
@@ -3306,7 +3300,7 @@
       ]
     },
     {
-      "id": "A-139",
+      "id": "A-140",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > title",
       "sectionId": "uae",
@@ -3331,7 +3325,7 @@
       ]
     },
     {
-      "id": "A-140",
+      "id": "A-141",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 1",
       "sectionId": "uae",
@@ -3350,7 +3344,7 @@
       ]
     },
     {
-      "id": "A-141",
+      "id": "A-142",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 2",
       "sectionId": "uae",
@@ -3369,7 +3363,7 @@
       ]
     },
     {
-      "id": "A-142",
+      "id": "A-143",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 3",
       "sectionId": "uae",
@@ -3388,7 +3382,7 @@
       ]
     },
     {
-      "id": "A-143",
+      "id": "A-144",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 4",
       "sectionId": "uae",
@@ -3407,7 +3401,7 @@
       ]
     },
     {
-      "id": "A-144",
+      "id": "A-145",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > title",
       "sectionId": "uae",
@@ -3426,7 +3420,7 @@
       ]
     },
     {
-      "id": "A-145",
+      "id": "A-146",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 1",
       "sectionId": "uae",
@@ -3445,7 +3439,7 @@
       ]
     },
     {
-      "id": "A-146",
+      "id": "A-147",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 2",
       "sectionId": "uae",
@@ -3464,7 +3458,7 @@
       ]
     },
     {
-      "id": "A-147",
+      "id": "A-148",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 3",
       "sectionId": "uae",
@@ -3483,7 +3477,7 @@
       ]
     },
     {
-      "id": "A-148",
+      "id": "A-149",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 4",
       "sectionId": "uae",
@@ -3502,7 +3496,7 @@
       ]
     },
     {
-      "id": "A-149",
+      "id": "A-150",
       "kind": "prop",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > title",
       "sectionId": "uae",
@@ -3521,7 +3515,7 @@
       ]
     },
     {
-      "id": "A-150",
+      "id": "A-151",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 1",
       "sectionId": "uae",
@@ -3546,7 +3540,7 @@
       ]
     },
     {
-      "id": "A-151",
+      "id": "A-152",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 2",
       "sectionId": "uae",
@@ -3565,7 +3559,7 @@
       ]
     },
     {
-      "id": "A-152",
+      "id": "A-153",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 3",
       "sectionId": "uae",
@@ -3584,7 +3578,7 @@
       ]
     },
     {
-      "id": "A-153",
+      "id": "A-154",
       "kind": "bullet",
       "path": "06 Spotlight · United Arab Emirates > StakeholderGrid > bullet 4",
       "sectionId": "uae",
@@ -3603,7 +3597,7 @@
       ]
     },
     {
-      "id": "A-154",
+      "id": "A-155",
       "kind": "prop",
       "path": "07 Movers and shakers > SectionHeader > kicker",
       "sectionId": "movers",
@@ -3622,7 +3616,7 @@
       ]
     },
     {
-      "id": "A-155",
+      "id": "A-156",
       "kind": "prop",
       "path": "07 Movers and shakers > SectionHeader > title",
       "sectionId": "movers",
@@ -3641,7 +3635,7 @@
       ]
     },
     {
-      "id": "A-156",
+      "id": "A-157",
       "kind": "prose",
       "path": "07 Movers and shakers > <p>",
       "sectionId": "movers",
@@ -3660,7 +3654,7 @@
       ]
     },
     {
-      "id": "A-157",
+      "id": "A-158",
       "kind": "prop",
       "path": "07 Movers and shakers > Exhibit > title",
       "sectionId": "movers",
@@ -3679,7 +3673,7 @@
       ]
     },
     {
-      "id": "A-158",
+      "id": "A-159",
       "kind": "prop",
       "path": "07 Movers and shakers > Exhibit > sub",
       "sectionId": "movers",
@@ -3698,7 +3692,7 @@
       ]
     },
     {
-      "id": "A-159",
+      "id": "A-160",
       "kind": "prop",
       "path": "07 Movers and shakers > Exhibit > source",
       "sectionId": "movers",
@@ -3717,7 +3711,7 @@
       ]
     },
     {
-      "id": "S-026",
+      "id": "S-025",
       "kind": "prop",
       "path": "07 Movers and shakers > Exhibit > title",
       "sectionId": "movers",
@@ -3742,7 +3736,7 @@
       ]
     },
     {
-      "id": "A-160",
+      "id": "A-161",
       "kind": "prop",
       "path": "07 Movers and shakers > Exhibit > sub",
       "sectionId": "movers",
@@ -3761,7 +3755,7 @@
       ]
     },
     {
-      "id": "A-161",
+      "id": "A-162",
       "kind": "prop",
       "path": "07 Movers and shakers > Exhibit > source",
       "sectionId": "movers",
@@ -3780,7 +3774,7 @@
       ]
     },
     {
-      "id": "A-162",
+      "id": "A-163",
       "kind": "prose",
       "path": "07 Movers and shakers > <p>",
       "sectionId": "movers",
@@ -3799,7 +3793,7 @@
       ]
     },
     {
-      "id": "A-163",
+      "id": "A-164",
       "kind": "prose",
       "path": "07 Movers and shakers > <p>",
       "sectionId": "movers",
@@ -3818,7 +3812,7 @@
       ]
     },
     {
-      "id": "S-027",
+      "id": "S-026",
       "kind": "prop",
       "path": "08 Implications > SectionHeader > kicker",
       "sectionId": "implications",
@@ -3836,14 +3830,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49260,
-          "end": 49272,
+          "start": 49228,
+          "end": 49240,
           "line": 728
         }
       ]
     },
     {
-      "id": "A-164",
+      "id": "A-165",
       "kind": "prop",
       "path": "08 Implications > SectionHeader > title",
       "sectionId": "implications",
@@ -3862,7 +3856,7 @@
       ]
     },
     {
-      "id": "A-165",
+      "id": "A-166",
       "kind": "prose",
       "path": "08 Implications > <p>",
       "sectionId": "implications",
@@ -3881,7 +3875,7 @@
       ]
     },
     {
-      "id": "A-166",
+      "id": "A-167",
       "kind": "prop",
       "path": "08 Implications > StakeholderGrid > title",
       "sectionId": "implications",
@@ -3900,7 +3894,7 @@
       ]
     },
     {
-      "id": "A-167",
+      "id": "A-168",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 1",
       "sectionId": "implications",
@@ -3919,7 +3913,7 @@
       ]
     },
     {
-      "id": "A-168",
+      "id": "A-169",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 2",
       "sectionId": "implications",
@@ -3938,7 +3932,7 @@
       ]
     },
     {
-      "id": "A-169",
+      "id": "A-170",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 3",
       "sectionId": "implications",
@@ -3957,7 +3951,7 @@
       ]
     },
     {
-      "id": "A-170",
+      "id": "A-171",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 1",
       "sectionId": "implications",
@@ -3976,7 +3970,7 @@
       ]
     },
     {
-      "id": "A-171",
+      "id": "A-172",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 2",
       "sectionId": "implications",
@@ -3995,7 +3989,7 @@
       ]
     },
     {
-      "id": "A-172",
+      "id": "A-173",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 3",
       "sectionId": "implications",
@@ -4014,7 +4008,7 @@
       ]
     },
     {
-      "id": "A-173",
+      "id": "A-174",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 4",
       "sectionId": "implications",
@@ -4033,7 +4027,7 @@
       ]
     },
     {
-      "id": "A-174",
+      "id": "A-175",
       "kind": "prop",
       "path": "08 Implications > StakeholderGrid > title",
       "sectionId": "implications",
@@ -4052,7 +4046,7 @@
       ]
     },
     {
-      "id": "A-175",
+      "id": "A-176",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 2",
       "sectionId": "implications",
@@ -4071,7 +4065,7 @@
       ]
     },
     {
-      "id": "A-176",
+      "id": "A-177",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 3",
       "sectionId": "implications",
@@ -4090,7 +4084,7 @@
       ]
     },
     {
-      "id": "A-177",
+      "id": "A-178",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 4",
       "sectionId": "implications",
@@ -4109,7 +4103,7 @@
       ]
     },
     {
-      "id": "A-178",
+      "id": "A-179",
       "kind": "prop",
       "path": "08 Implications > StakeholderGrid > title",
       "sectionId": "implications",
@@ -4128,7 +4122,7 @@
       ]
     },
     {
-      "id": "A-179",
+      "id": "A-180",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 1",
       "sectionId": "implications",
@@ -4147,7 +4141,7 @@
       ]
     },
     {
-      "id": "A-180",
+      "id": "A-181",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 2",
       "sectionId": "implications",
@@ -4166,7 +4160,7 @@
       ]
     },
     {
-      "id": "A-181",
+      "id": "A-182",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 3",
       "sectionId": "implications",
@@ -4185,7 +4179,7 @@
       ]
     },
     {
-      "id": "A-182",
+      "id": "A-183",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 4",
       "sectionId": "implications",
@@ -4204,7 +4198,7 @@
       ]
     },
     {
-      "id": "A-183",
+      "id": "A-184",
       "kind": "prop",
       "path": "08 Implications > StakeholderGrid > title",
       "sectionId": "implications",
@@ -4223,7 +4217,7 @@
       ]
     },
     {
-      "id": "A-184",
+      "id": "A-185",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 1",
       "sectionId": "implications",
@@ -4242,7 +4236,7 @@
       ]
     },
     {
-      "id": "A-185",
+      "id": "A-186",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 2",
       "sectionId": "implications",
@@ -4261,7 +4255,7 @@
       ]
     },
     {
-      "id": "A-186",
+      "id": "A-187",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 3",
       "sectionId": "implications",
@@ -4280,7 +4274,7 @@
       ]
     },
     {
-      "id": "A-187",
+      "id": "A-188",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 4",
       "sectionId": "implications",
@@ -4299,7 +4293,7 @@
       ]
     },
     {
-      "id": "A-188",
+      "id": "A-189",
       "kind": "prop",
       "path": "08 Implications > StakeholderGrid > title",
       "sectionId": "implications",
@@ -4318,7 +4312,7 @@
       ]
     },
     {
-      "id": "A-189",
+      "id": "A-190",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 1",
       "sectionId": "implications",
@@ -4337,7 +4331,7 @@
       ]
     },
     {
-      "id": "A-190",
+      "id": "A-191",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 2",
       "sectionId": "implications",
@@ -4356,7 +4350,7 @@
       ]
     },
     {
-      "id": "A-191",
+      "id": "A-192",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 3",
       "sectionId": "implications",
@@ -4375,7 +4369,7 @@
       ]
     },
     {
-      "id": "A-192",
+      "id": "A-193",
       "kind": "bullet",
       "path": "08 Implications > StakeholderGrid > bullet 4",
       "sectionId": "implications",
@@ -4394,7 +4388,7 @@
       ]
     },
     {
-      "id": "S-028",
+      "id": "S-027",
       "kind": "prop",
       "path": "09 Outlook to 2030 > SectionHeader > kicker",
       "sectionId": "outlook",
@@ -4412,14 +4406,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43637,
-          "end": 43652,
+          "start": 43605,
+          "end": 43620,
           "line": 673
         }
       ]
     },
     {
-      "id": "A-193",
+      "id": "A-194",
       "kind": "prop",
       "path": "09 Outlook to 2030 > SectionHeader > title",
       "sectionId": "outlook",
@@ -4438,7 +4432,7 @@
       ]
     },
     {
-      "id": "A-194",
+      "id": "A-195",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -4457,7 +4451,7 @@
       ]
     },
     {
-      "id": "A-195",
+      "id": "A-196",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > prob",
       "sectionId": "outlook",
@@ -4476,7 +4470,7 @@
       ]
     },
     {
-      "id": "A-196",
+      "id": "A-197",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > name",
       "sectionId": "outlook",
@@ -4495,7 +4489,7 @@
       ]
     },
     {
-      "id": "A-197",
+      "id": "A-198",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > body",
       "sectionId": "outlook",
@@ -4514,7 +4508,7 @@
       ]
     },
     {
-      "id": "A-198",
+      "id": "A-199",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > prob",
       "sectionId": "outlook",
@@ -4539,7 +4533,7 @@
       ]
     },
     {
-      "id": "A-199",
+      "id": "A-200",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > name",
       "sectionId": "outlook",
@@ -4558,7 +4552,7 @@
       ]
     },
     {
-      "id": "A-200",
+      "id": "A-201",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > body",
       "sectionId": "outlook",
@@ -4577,7 +4571,7 @@
       ]
     },
     {
-      "id": "A-201",
+      "id": "A-202",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > name",
       "sectionId": "outlook",
@@ -4596,7 +4590,7 @@
       ]
     },
     {
-      "id": "A-202",
+      "id": "A-203",
       "kind": "prop",
       "path": "09 Outlook to 2030 > ScenarioGrid > body",
       "sectionId": "outlook",
@@ -4615,7 +4609,7 @@
       ]
     },
     {
-      "id": "A-203",
+      "id": "A-204",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <h3>",
       "sectionId": "outlook",
@@ -4634,7 +4628,7 @@
       ]
     },
     {
-      "id": "A-204",
+      "id": "A-205",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -4653,7 +4647,7 @@
       ]
     },
     {
-      "id": "A-205",
+      "id": "A-206",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -4672,7 +4666,7 @@
       ]
     },
     {
-      "id": "A-206",
+      "id": "A-207",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -4691,7 +4685,7 @@
       ]
     },
     {
-      "id": "A-207",
+      "id": "A-208",
       "kind": "prop",
       "path": "09 Outlook to 2030 > Callout > label",
       "sectionId": "outlook",
@@ -4716,7 +4710,7 @@
       ]
     },
     {
-      "id": "A-208",
+      "id": "A-209",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <Callout>",
       "sectionId": "outlook",
@@ -4735,7 +4729,7 @@
       ]
     },
     {
-      "id": "A-209",
+      "id": "A-210",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <Callout>",
       "sectionId": "outlook",
@@ -4754,7 +4748,7 @@
       ]
     },
     {
-      "id": "A-210",
+      "id": "A-211",
       "kind": "prop",
       "path": "09 Outlook to 2030 > PullQuote > cite",
       "sectionId": "outlook",
@@ -4773,7 +4767,7 @@
       ]
     },
     {
-      "id": "A-211",
+      "id": "A-212",
       "kind": "prose",
       "path": "09 Outlook to 2030 > <PullQuote>",
       "sectionId": "outlook",
@@ -4792,7 +4786,7 @@
       ]
     },
     {
-      "id": "S-029",
+      "id": "S-028",
       "kind": "prop",
       "path": "10 Methodology & sources > SectionHeader > kicker",
       "sectionId": "methodology",
@@ -4810,14 +4804,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53076,
-          "end": 53097,
+          "start": 53044,
+          "end": 53065,
           "line": 755
         }
       ]
     },
     {
-      "id": "S-030",
+      "id": "S-029",
       "kind": "prop",
       "path": "10 Methodology & sources > SectionHeader > title",
       "sectionId": "methodology",
@@ -4835,14 +4829,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53108,
-          "end": 53133,
+          "start": 53076,
+          "end": 53101,
           "line": 756
         }
       ]
     },
     {
-      "id": "A-212",
+      "id": "A-213",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4861,7 +4855,7 @@
       ]
     },
     {
-      "id": "A-213",
+      "id": "A-214",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4880,7 +4874,7 @@
       ]
     },
     {
-      "id": "A-214",
+      "id": "A-215",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4899,7 +4893,7 @@
       ]
     },
     {
-      "id": "A-215",
+      "id": "A-216",
       "kind": "prose",
       "path": "10 Methodology & sources > <h4>",
       "sectionId": "methodology",
@@ -4918,7 +4912,7 @@
       ]
     },
     {
-      "id": "A-216",
+      "id": "A-217",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4937,7 +4931,7 @@
       ]
     },
     {
-      "id": "A-217",
+      "id": "A-218",
       "kind": "prose",
       "path": "10 Methodology & sources > <h4>",
       "sectionId": "methodology",
@@ -4956,7 +4950,7 @@
       ]
     },
     {
-      "id": "A-218",
+      "id": "A-219",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4975,7 +4969,7 @@
       ]
     },
     {
-      "id": "S-031",
+      "id": "S-030",
       "kind": "prose",
       "path": "10 Methodology & sources > <h3>",
       "sectionId": "methodology",
@@ -4993,14 +4987,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54797,
-          "end": 54804,
+          "start": 54765,
+          "end": 54772,
           "line": 770
         }
       ]
     },
     {
-      "id": "S-032",
+      "id": "S-031",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5018,14 +5012,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54949,
-          "end": 55073,
+          "start": 54917,
+          "end": 55041,
           "line": 772
         }
       ]
     },
     {
-      "id": "S-033",
+      "id": "S-032",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5043,14 +5037,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55163,
-          "end": 55286,
+          "start": 55131,
+          "end": 55254,
           "line": 773
         }
       ]
     },
     {
-      "id": "A-219",
+      "id": "A-220",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5069,7 +5063,7 @@
       ]
     },
     {
-      "id": "S-034",
+      "id": "S-033",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5087,14 +5081,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55809,
-          "end": 55963,
+          "start": 55777,
+          "end": 55931,
           "line": 775
         }
       ]
     },
     {
-      "id": "S-035",
+      "id": "S-034",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5112,14 +5106,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56053,
-          "end": 56148,
+          "start": 56021,
+          "end": 56116,
           "line": 776
         }
       ]
     },
     {
-      "id": "S-036",
+      "id": "S-035",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5137,14 +5131,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56238,
-          "end": 56362,
+          "start": 56206,
+          "end": 56330,
           "line": 777
         }
       ]
     },
     {
-      "id": "A-220",
+      "id": "A-221",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5163,7 +5157,7 @@
       ]
     },
     {
-      "id": "A-221",
+      "id": "A-222",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5182,7 +5176,7 @@
       ]
     },
     {
-      "id": "A-222",
+      "id": "A-223",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5624,8 +5618,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48927,
-          "end": 49146,
+          "start": 48895,
+          "end": 49114,
           "line": 718
         }
       ]
@@ -5734,6 +5728,12 @@
           "start": 14319,
           "end": 14321,
           "line": 228
+        },
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 33204,
+          "end": 33206,
+          "line": 533
         }
       ]
     },
@@ -5765,6 +5765,12 @@
           "start": 14636,
           "end": 14639,
           "line": 237
+        },
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 34916,
+          "end": 34919,
+          "line": 560
         }
       ]
     },
@@ -7003,25 +7009,6 @@
     {
       "id": "B-091",
       "kind": "prop",
-      "path": "04 Why the systems disagree > PillarGrid > tag",
-      "sectionId": "systems",
-      "text": "QS · 2024 scoring",
-      "shared": false,
-      "minor": true,
-      "quote": "'",
-      "display": "QS · 2024 scoring",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33204,
-          "end": 33221,
-          "line": 533
-        }
-      ]
-    },
-    {
-      "id": "B-092",
-      "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > title",
       "sectionId": "systems",
       "text": "Reputation-led, with a 15% internationalisation layer.",
@@ -7032,14 +7019,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33238,
-          "end": 33292,
+          "start": 33223,
+          "end": 33277,
           "line": 534
         }
       ]
     },
     {
-      "id": "B-093",
+      "id": "B-092",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > body",
       "sectionId": "systems",
@@ -7051,14 +7038,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33308,
-          "end": 33541,
+          "start": 33293,
+          "end": 33526,
           "line": 535
         }
       ]
     },
     {
-      "id": "B-094",
+      "id": "B-093",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7070,14 +7057,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33838,
-          "end": 33850,
+          "start": 33823,
+          "end": 33835,
           "line": 541
         }
       ]
     },
     {
-      "id": "B-095",
+      "id": "B-094",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7089,14 +7076,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33936,
-          "end": 33949,
+          "start": 33921,
+          "end": 33934,
           "line": 542
         }
       ]
     },
     {
-      "id": "B-096",
+      "id": "B-095",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7108,14 +7095,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34035,
-          "end": 34048,
+          "start": 34020,
+          "end": 34033,
           "line": 543
         }
       ]
     },
     {
-      "id": "B-097",
+      "id": "B-096",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7127,14 +7114,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34134,
-          "end": 34144,
+          "start": 34119,
+          "end": 34129,
           "line": 544
         }
       ]
     },
     {
-      "id": "B-098",
+      "id": "B-097",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7146,14 +7133,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34231,
-          "end": 34245,
+          "start": 34216,
+          "end": 34230,
           "line": 545
         }
       ]
     },
     {
-      "id": "B-099",
+      "id": "B-098",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7165,14 +7152,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34357,
-          "end": 34376,
+          "start": 34342,
+          "end": 34361,
           "line": 548
         }
       ]
     },
     {
-      "id": "B-100",
+      "id": "B-099",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7184,14 +7171,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34417,
-          "end": 34436,
+          "start": 34402,
+          "end": 34421,
           "line": 549
         }
       ]
     },
     {
-      "id": "B-101",
+      "id": "B-100",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7203,14 +7190,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34477,
-          "end": 34498,
+          "start": 34462,
+          "end": 34483,
           "line": 550
         }
       ]
     },
     {
-      "id": "B-102",
+      "id": "B-101",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7222,14 +7209,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34539,
-          "end": 34554,
+          "start": 34524,
+          "end": 34539,
           "line": 551
         }
       ]
     },
     {
-      "id": "B-103",
+      "id": "B-102",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7241,14 +7228,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34595,
-          "end": 34618,
+          "start": 34580,
+          "end": 34603,
           "line": 552
         }
       ]
     },
     {
-      "id": "B-104",
+      "id": "B-103",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7260,14 +7247,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34659,
-          "end": 34682,
+          "start": 34644,
+          "end": 34667,
           "line": 553
         }
       ]
     },
     {
-      "id": "B-105",
+      "id": "B-104",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7279,14 +7266,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34723,
-          "end": 34749,
+          "start": 34708,
+          "end": 34734,
           "line": 554
         }
       ]
     },
     {
-      "id": "B-106",
+      "id": "B-105",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7298,14 +7285,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34790,
-          "end": 34814,
+          "start": 34775,
+          "end": 34799,
           "line": 555
         }
       ]
     },
     {
-      "id": "B-107",
+      "id": "B-106",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7317,14 +7304,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34855,
-          "end": 34874,
+          "start": 34840,
+          "end": 34859,
           "line": 556
         }
       ]
     },
     {
-      "id": "B-108",
+      "id": "B-107",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > title",
       "sectionId": "systems",
@@ -7336,14 +7323,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34968,
-          "end": 35020,
+          "start": 34936,
+          "end": 34988,
           "line": 561
         }
       ]
     },
     {
-      "id": "B-109",
+      "id": "B-108",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > body",
       "sectionId": "systems",
@@ -7355,14 +7342,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35036,
-          "end": 35397,
+          "start": 35004,
+          "end": 35365,
           "line": 562
         }
       ]
     },
     {
-      "id": "B-110",
+      "id": "B-109",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7374,14 +7361,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35834,
-          "end": 35854,
+          "start": 35802,
+          "end": 35822,
           "line": 572
         }
       ]
     },
     {
-      "id": "B-111",
+      "id": "B-110",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7393,14 +7380,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35895,
-          "end": 35911,
+          "start": 35863,
+          "end": 35879,
           "line": 573
         }
       ]
     },
     {
-      "id": "B-112",
+      "id": "B-111",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7412,14 +7399,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35952,
-          "end": 35960,
+          "start": 35920,
+          "end": 35928,
           "line": 574
         }
       ]
     },
     {
-      "id": "B-113",
+      "id": "B-112",
       "kind": "prop",
       "path": "04 Why the systems disagree > PillarGrid > label",
       "sectionId": "systems",
@@ -7431,14 +7418,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 36001,
-          "end": 36022,
+          "start": 35969,
+          "end": 35990,
           "line": 575
         }
       ]
     },
     {
-      "id": "B-114",
+      "id": "B-113",
       "kind": "prose",
       "path": "04 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -7450,14 +7437,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 36115,
-          "end": 36186,
+          "start": 36083,
+          "end": 36154,
           "line": 581
         }
       ]
     },
     {
-      "id": "B-115",
+      "id": "B-114",
       "kind": "prose",
       "path": "04 Why the systems disagree > <li>",
       "sectionId": "systems",
@@ -7469,14 +7456,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 36203,
-          "end": 36642,
+          "start": 36171,
+          "end": 36610,
           "line": 584
         }
       ]
     },
     {
-      "id": "B-116",
+      "id": "B-115",
       "kind": "prose",
       "path": "04 Why the systems disagree > <li>",
       "sectionId": "systems",
@@ -7488,14 +7475,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 36654,
-          "end": 36979,
+          "start": 36622,
+          "end": 36947,
           "line": 585
         }
       ]
     },
     {
-      "id": "B-117",
+      "id": "B-116",
       "kind": "prose",
       "path": "04 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -7507,14 +7494,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 36995,
-          "end": 37521,
+          "start": 36963,
+          "end": 37489,
           "line": 588
         }
       ]
     },
     {
-      "id": "B-118",
+      "id": "B-117",
       "kind": "prose",
       "path": "04 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -7526,14 +7513,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 37530,
-          "end": 37984,
+          "start": 37498,
+          "end": 37952,
           "line": 590
         }
       ]
     },
     {
-      "id": "B-119",
+      "id": "B-118",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > sub",
       "sectionId": "systems",
@@ -7545,14 +7532,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 38079,
-          "end": 38323,
+          "start": 38047,
+          "end": 38291,
           "line": 594
         }
       ]
     },
     {
-      "id": "B-120",
+      "id": "B-119",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > source",
       "sectionId": "systems",
@@ -7564,14 +7551,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 38335,
-          "end": 38920,
+          "start": 38303,
+          "end": 38888,
           "line": 595
         }
       ]
     },
     {
-      "id": "B-121",
+      "id": "B-120",
       "kind": "prop",
       "path": "04 Why the systems disagree > SVGScatter > xAxisLabel",
       "sectionId": "systems",
@@ -7583,14 +7570,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39303,
-          "end": 39328,
+          "start": 39271,
+          "end": 39296,
           "line": 610
         }
       ]
     },
     {
-      "id": "B-122",
+      "id": "B-121",
       "kind": "prop",
       "path": "04 Why the systems disagree > SVGScatter > yAxisLabel",
       "sectionId": "systems",
@@ -7602,14 +7589,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39346,
-          "end": 39372,
+          "start": 39314,
+          "end": 39340,
           "line": 611
         }
       ]
     },
     {
-      "id": "B-123",
+      "id": "B-122",
       "kind": "prose",
       "path": "04 Why the systems disagree > <h3>",
       "sectionId": "systems",
@@ -7621,14 +7608,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39629,
-          "end": 39677,
+          "start": 39597,
+          "end": 39645,
           "line": 623
         }
       ]
     },
     {
-      "id": "B-124",
+      "id": "B-123",
       "kind": "prose",
       "path": "04 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -7640,14 +7627,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39704,
-          "end": 39769,
+          "start": 39672,
+          "end": 39737,
           "line": 625
         }
       ]
     },
     {
-      "id": "B-125",
+      "id": "B-124",
       "kind": "prop",
       "path": "04 Why the systems disagree > StakeholderGrid > body",
       "sectionId": "systems",
@@ -7659,14 +7646,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 39862,
-          "end": 40249,
+          "start": 39830,
+          "end": 40217,
           "line": 634
         }
       ]
     },
     {
-      "id": "B-126",
+      "id": "B-125",
       "kind": "prop",
       "path": "04 Why the systems disagree > StakeholderGrid > body",
       "sectionId": "systems",
@@ -7678,14 +7665,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 40312,
-          "end": 40629,
+          "start": 40280,
+          "end": 40597,
           "line": 638
         }
       ]
     },
     {
-      "id": "B-127",
+      "id": "B-126",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > title",
       "sectionId": "systems",
@@ -7697,14 +7684,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 40666,
-          "end": 40751,
+          "start": 40634,
+          "end": 40719,
           "line": 644
         }
       ]
     },
     {
-      "id": "B-128",
+      "id": "B-127",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > sub",
       "sectionId": "systems",
@@ -7716,14 +7703,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 40760,
-          "end": 41070,
+          "start": 40728,
+          "end": 41038,
           "line": 645
         }
       ]
     },
     {
-      "id": "B-129",
+      "id": "B-128",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > source",
       "sectionId": "systems",
@@ -7735,14 +7722,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 41082,
-          "end": 41195,
+          "start": 41050,
+          "end": 41163,
           "line": 646
         }
       ]
     },
     {
-      "id": "B-130",
+      "id": "B-129",
       "kind": "prop",
       "path": "04 Why the systems disagree > VolatilityChart > caveat",
       "sectionId": "systems",
@@ -7754,14 +7741,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 41255,
-          "end": 41707,
+          "start": 41223,
+          "end": 41675,
           "line": 648
         }
       ]
     },
     {
-      "id": "B-131",
+      "id": "B-130",
       "kind": "prose",
       "path": "04 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -7773,14 +7760,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 41753,
-          "end": 42008,
+          "start": 41721,
+          "end": 41976,
           "line": 651
         }
       ]
     },
     {
-      "id": "B-132",
+      "id": "B-131",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > title",
       "sectionId": "systems",
@@ -7792,14 +7779,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 42032,
-          "end": 42091,
+          "start": 42000,
+          "end": 42059,
           "line": 656
         }
       ]
     },
     {
-      "id": "B-133",
+      "id": "B-132",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > sub",
       "sectionId": "systems",
@@ -7811,14 +7798,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 42100,
-          "end": 42309,
+          "start": 42068,
+          "end": 42277,
           "line": 657
         }
       ]
     },
     {
-      "id": "B-134",
+      "id": "B-133",
       "kind": "prop",
       "path": "04 Why the systems disagree > Exhibit > source",
       "sectionId": "systems",
@@ -7830,14 +7817,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 42321,
-          "end": 42493,
+          "start": 42289,
+          "end": 42461,
           "line": 658
         }
       ]
     },
     {
-      "id": "B-135",
+      "id": "B-134",
       "kind": "prose",
       "path": "04 Why the systems disagree > <p>",
       "sectionId": "systems",
@@ -7849,14 +7836,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 42582,
-          "end": 43527,
+          "start": 42550,
+          "end": 43495,
           "line": 663
         }
       ]
     },
     {
-      "id": "B-136",
+      "id": "B-135",
       "kind": "prop",
       "path": "05 Outlook to 2030 > SectionHeader > title",
       "sectionId": "outlook",
@@ -7868,14 +7855,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43663,
-          "end": 43718,
+          "start": 43631,
+          "end": 43686,
           "line": 674
         }
       ]
     },
     {
-      "id": "B-137",
+      "id": "B-136",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -7887,14 +7874,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43770,
-          "end": 44046,
+          "start": 43738,
+          "end": 44014,
           "line": 679
         }
       ]
     },
     {
-      "id": "B-138",
+      "id": "B-137",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <h3>",
       "sectionId": "outlook",
@@ -7906,14 +7893,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44056,
-          "end": 44121,
+          "start": 44024,
+          "end": 44089,
           "line": 683
         }
       ]
     },
     {
-      "id": "B-139",
+      "id": "B-138",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -7925,14 +7912,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44130,
-          "end": 44694,
+          "start": 44098,
+          "end": 44662,
           "line": 684
         }
       ]
     },
     {
-      "id": "B-140",
+      "id": "B-139",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -7944,14 +7931,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44729,
-          "end": 45405,
+          "start": 44697,
+          "end": 45373,
           "line": 688
         }
       ]
     },
     {
-      "id": "B-141",
+      "id": "B-140",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -7963,14 +7950,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45440,
-          "end": 45634,
+          "start": 45408,
+          "end": 45602,
           "line": 692
         }
       ]
     },
     {
-      "id": "B-142",
+      "id": "B-141",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <h3>",
       "sectionId": "outlook",
@@ -7982,14 +7969,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45644,
-          "end": 45689,
+          "start": 45612,
+          "end": 45657,
           "line": 696
         }
       ]
     },
     {
-      "id": "B-143",
+      "id": "B-142",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -8001,14 +7988,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45698,
-          "end": 46261,
+          "start": 45666,
+          "end": 46229,
           "line": 697
         }
       ]
     },
     {
-      "id": "B-144",
+      "id": "B-143",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <h3>",
       "sectionId": "outlook",
@@ -8020,14 +8007,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46271,
-          "end": 46330,
+          "start": 46239,
+          "end": 46298,
           "line": 701
         }
       ]
     },
     {
-      "id": "B-145",
+      "id": "B-144",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -8039,14 +8026,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46339,
-          "end": 46858,
+          "start": 46307,
+          "end": 46826,
           "line": 702
         }
       ]
     },
     {
-      "id": "B-146",
+      "id": "B-145",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <h3>",
       "sectionId": "outlook",
@@ -8058,14 +8045,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46868,
-          "end": 46927,
+          "start": 46836,
+          "end": 46895,
           "line": 706
         }
       ]
     },
     {
-      "id": "B-147",
+      "id": "B-146",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -8077,14 +8064,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46936,
-          "end": 47587,
+          "start": 46904,
+          "end": 47555,
           "line": 707
         }
       ]
     },
     {
-      "id": "B-148",
+      "id": "B-147",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <h3>",
       "sectionId": "outlook",
@@ -8096,14 +8083,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47597,
-          "end": 47653,
+          "start": 47565,
+          "end": 47621,
           "line": 711
         }
       ]
     },
     {
-      "id": "B-149",
+      "id": "B-148",
       "kind": "prose",
       "path": "05 Outlook to 2030 > <p>",
       "sectionId": "outlook",
@@ -8115,14 +8102,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47662,
-          "end": 48765,
+          "start": 47630,
+          "end": 48733,
           "line": 712
         }
       ]
     },
     {
-      "id": "B-150",
+      "id": "B-149",
       "kind": "prop",
       "path": "06 Implications > SectionHeader > title",
       "sectionId": "implications",
@@ -8134,14 +8121,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49283,
-          "end": 49335,
+          "start": 49251,
+          "end": 49303,
           "line": 729
         }
       ]
     },
     {
-      "id": "B-151",
+      "id": "B-150",
       "kind": "prose",
       "path": "06 Implications > <p>",
       "sectionId": "implications",
@@ -8153,14 +8140,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49361,
-          "end": 49651,
+          "start": 49329,
+          "end": 49619,
           "line": 732
         }
       ]
     },
     {
-      "id": "B-152",
+      "id": "B-151",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8172,14 +8159,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49668,
-          "end": 50130,
+          "start": 49636,
+          "end": 50098,
           "line": 737
         }
       ]
     },
     {
-      "id": "B-153",
+      "id": "B-152",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8191,14 +8178,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50142,
-          "end": 50577,
+          "start": 50110,
+          "end": 50545,
           "line": 738
         }
       ]
     },
     {
-      "id": "B-154",
+      "id": "B-153",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8210,14 +8197,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50589,
-          "end": 50956,
+          "start": 50557,
+          "end": 50924,
           "line": 739
         }
       ]
     },
     {
-      "id": "B-155",
+      "id": "B-154",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8229,14 +8216,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50968,
-          "end": 51635,
+          "start": 50936,
+          "end": 51603,
           "line": 740
         }
       ]
     },
     {
-      "id": "B-156",
+      "id": "B-155",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8248,14 +8235,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51647,
-          "end": 52182,
+          "start": 51615,
+          "end": 52150,
           "line": 741
         }
       ]
     },
     {
-      "id": "B-157",
+      "id": "B-156",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8267,14 +8254,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52194,
-          "end": 52843,
+          "start": 52162,
+          "end": 52811,
           "line": 742
         }
       ]
     },
     {
-      "id": "B-158",
+      "id": "B-157",
       "kind": "prose",
       "path": "06 Implications > <p>",
       "sectionId": "implications",
@@ -8286,14 +8273,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52885,
-          "end": 52963,
+          "start": 52853,
+          "end": 52931,
           "line": 745
         }
       ]
     },
     {
-      "id": "B-159",
+      "id": "B-158",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8305,14 +8292,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53150,
-          "end": 53363,
+          "start": 53118,
+          "end": 53331,
           "line": 760
         }
       ]
     },
     {
-      "id": "B-160",
+      "id": "B-159",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8324,14 +8311,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53375,
-          "end": 53812,
+          "start": 53343,
+          "end": 53780,
           "line": 761
         }
       ]
     },
     {
-      "id": "B-161",
+      "id": "B-160",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8343,14 +8330,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53824,
-          "end": 54102,
+          "start": 53792,
+          "end": 54070,
           "line": 762
         }
       ]
     },
     {
-      "id": "B-162",
+      "id": "B-161",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8362,14 +8349,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54114,
-          "end": 54344,
+          "start": 54082,
+          "end": 54312,
           "line": 763
         }
       ]
     },
     {
-      "id": "B-163",
+      "id": "B-162",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8381,14 +8368,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54356,
-          "end": 54626,
+          "start": 54324,
+          "end": 54594,
           "line": 764
         }
       ]
     },
     {
-      "id": "B-164",
+      "id": "B-163",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8400,14 +8387,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55376,
-          "end": 55719,
+          "start": 55344,
+          "end": 55687,
           "line": 774
         }
       ]
     },
     {
-      "id": "B-165",
+      "id": "B-164",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8419,14 +8406,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56452,
-          "end": 56511,
+          "start": 56420,
+          "end": 56479,
           "line": 778
         }
       ]
     },
     {
-      "id": "B-166",
+      "id": "B-165",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8438,14 +8425,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56601,
-          "end": 56681,
+          "start": 56569,
+          "end": 56649,
           "line": 779
         }
       ]
     },
     {
-      "id": "B-167",
+      "id": "B-166",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8457,14 +8444,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 56771,
-          "end": 57022,
+          "start": 56739,
+          "end": 56990,
           "line": 780
         }
       ]
     },
     {
-      "id": "B-168",
+      "id": "B-167",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8476,14 +8463,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 57112,
-          "end": 57288,
+          "start": 57080,
+          "end": 57256,
           "line": 781
         }
       ]
     },
     {
-      "id": "B-169",
+      "id": "B-168",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8495,8 +8482,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 57378,
-          "end": 57527,
+          "start": 57346,
+          "end": 57495,
           "line": 782
         }
       ]
