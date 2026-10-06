@@ -13,7 +13,7 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 423,
+  "blockCount": 422,
   "sharedCount": 34,
   "blocks": [
     {
@@ -3830,9 +3830,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47248,
-          "end": 47260,
-          "line": 719
+          "start": 47212,
+          "end": 47224,
+          "line": 715
         }
       ]
     },
@@ -4798,9 +4798,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51064,
-          "end": 51085,
-          "line": 746
+          "start": 51028,
+          "end": 51049,
+          "line": 742
         }
       ]
     },
@@ -4823,9 +4823,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51096,
-          "end": 51121,
-          "line": 747
+          "start": 51060,
+          "end": 51085,
+          "line": 743
         }
       ]
     },
@@ -4981,9 +4981,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52785,
-          "end": 52792,
-          "line": 761
+          "start": 52749,
+          "end": 52756,
+          "line": 757
         }
       ]
     },
@@ -5006,9 +5006,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52937,
-          "end": 53061,
-          "line": 763
+          "start": 52901,
+          "end": 53025,
+          "line": 759
         }
       ]
     },
@@ -5031,9 +5031,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53151,
-          "end": 53274,
-          "line": 764
+          "start": 53115,
+          "end": 53238,
+          "line": 760
         }
       ]
     },
@@ -5075,9 +5075,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53797,
-          "end": 53951,
-          "line": 766
+          "start": 53761,
+          "end": 53915,
+          "line": 762
         }
       ]
     },
@@ -5100,9 +5100,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54041,
-          "end": 54136,
-          "line": 767
+          "start": 54005,
+          "end": 54100,
+          "line": 763
         }
       ]
     },
@@ -5125,9 +5125,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54226,
-          "end": 54350,
-          "line": 768
+          "start": 54190,
+          "end": 54314,
+          "line": 764
         }
       ]
     },
@@ -5612,9 +5612,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46915,
-          "end": 47134,
-          "line": 709
+          "start": 46879,
+          "end": 47098,
+          "line": 705
         }
       ]
     },
@@ -7841,16 +7841,16 @@
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
-      "text": "\nAI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most.\n",
+      "text": "\nAI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most. Generative AI makes it cheap to mass-produce low-quality research papers. Journals now catch and retract about ten times as many as they did a decade ago.\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "AI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most.",
+      "display": "AI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most. Generative AI makes it cheap to mass-produce low-quality research papers. Journals now catch and retract about ten times as many as they did a decade ago.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 42410,
-          "end": 42834,
+          "end": 42989,
           "line": 675
         }
       ]
@@ -7868,33 +7868,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 42869,
-          "end": 43431,
+          "start": 43024,
+          "end": 43586,
           "line": 679
         }
       ]
     },
     {
       "id": "B-137",
-      "kind": "prose",
-      "path": "05 The next decade > <p>",
-      "sectionId": "outlook",
-      "text": "\nGenerative AI makes it cheap to mass-produce low-quality research papers. Journals now catch and retract about ten times as many as they did a decade ago.\n",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "Generative AI makes it cheap to mass-produce low-quality research papers. Journals now catch and retract about ten times as many as they did a decade ago.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43466,
-          "end": 43622,
-          "line": 683
-        }
-      ]
-    },
-    {
-      "id": "B-138",
       "kind": "prose",
       "path": "05 The next decade > <h3>",
       "sectionId": "outlook",
@@ -7906,14 +7887,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43632,
-          "end": 43677,
-          "line": 687
+          "start": 43596,
+          "end": 43641,
+          "line": 683
         }
       ]
     },
     {
-      "id": "B-139",
+      "id": "B-138",
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
@@ -7925,14 +7906,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43686,
-          "end": 44249,
-          "line": 688
+          "start": 43650,
+          "end": 44213,
+          "line": 684
         }
       ]
     },
     {
-      "id": "B-140",
+      "id": "B-139",
       "kind": "prose",
       "path": "05 The next decade > <h3>",
       "sectionId": "outlook",
@@ -7944,14 +7925,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44259,
-          "end": 44318,
-          "line": 692
+          "start": 44223,
+          "end": 44282,
+          "line": 688
         }
       ]
     },
     {
-      "id": "B-141",
+      "id": "B-140",
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
@@ -7963,14 +7944,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44327,
-          "end": 44846,
-          "line": 693
+          "start": 44291,
+          "end": 44810,
+          "line": 689
         }
       ]
     },
     {
-      "id": "B-142",
+      "id": "B-141",
       "kind": "prose",
       "path": "05 The next decade > <h3>",
       "sectionId": "outlook",
@@ -7982,14 +7963,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44856,
-          "end": 44915,
-          "line": 697
+          "start": 44820,
+          "end": 44879,
+          "line": 693
         }
       ]
     },
     {
-      "id": "B-143",
+      "id": "B-142",
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
@@ -8001,14 +7982,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44924,
-          "end": 45575,
-          "line": 698
+          "start": 44888,
+          "end": 45539,
+          "line": 694
         }
       ]
     },
     {
-      "id": "B-144",
+      "id": "B-143",
       "kind": "prose",
       "path": "05 The next decade > <h3>",
       "sectionId": "outlook",
@@ -8020,14 +8001,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45585,
-          "end": 45641,
-          "line": 702
+          "start": 45549,
+          "end": 45605,
+          "line": 698
         }
       ]
     },
     {
-      "id": "B-145",
+      "id": "B-144",
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
@@ -8039,14 +8020,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45650,
-          "end": 46753,
-          "line": 703
+          "start": 45614,
+          "end": 46717,
+          "line": 699
         }
       ]
     },
     {
-      "id": "B-146",
+      "id": "B-145",
       "kind": "prop",
       "path": "06 Implications > SectionHeader > title",
       "sectionId": "implications",
@@ -8058,14 +8039,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47271,
-          "end": 47323,
-          "line": 720
+          "start": 47235,
+          "end": 47287,
+          "line": 716
         }
       ]
     },
     {
-      "id": "B-147",
+      "id": "B-146",
       "kind": "prose",
       "path": "06 Implications > <p>",
       "sectionId": "implications",
@@ -8077,14 +8058,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47349,
-          "end": 47639,
-          "line": 723
+          "start": 47313,
+          "end": 47603,
+          "line": 719
         }
       ]
     },
     {
-      "id": "B-148",
+      "id": "B-147",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8096,14 +8077,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47656,
-          "end": 48118,
-          "line": 728
+          "start": 47620,
+          "end": 48082,
+          "line": 724
         }
       ]
     },
     {
-      "id": "B-149",
+      "id": "B-148",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8115,14 +8096,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48130,
-          "end": 48565,
-          "line": 729
+          "start": 48094,
+          "end": 48529,
+          "line": 725
         }
       ]
     },
     {
-      "id": "B-150",
+      "id": "B-149",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8134,14 +8115,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48577,
-          "end": 48944,
-          "line": 730
+          "start": 48541,
+          "end": 48908,
+          "line": 726
         }
       ]
     },
     {
-      "id": "B-151",
+      "id": "B-150",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8153,14 +8134,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48956,
-          "end": 49623,
-          "line": 731
+          "start": 48920,
+          "end": 49587,
+          "line": 727
         }
       ]
     },
     {
-      "id": "B-152",
+      "id": "B-151",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8172,14 +8153,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49635,
-          "end": 50170,
-          "line": 732
+          "start": 49599,
+          "end": 50134,
+          "line": 728
         }
       ]
     },
     {
-      "id": "B-153",
+      "id": "B-152",
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
@@ -8191,14 +8172,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50182,
-          "end": 50831,
-          "line": 733
+          "start": 50146,
+          "end": 50795,
+          "line": 729
         }
       ]
     },
     {
-      "id": "B-154",
+      "id": "B-153",
       "kind": "prose",
       "path": "06 Implications > <p>",
       "sectionId": "implications",
@@ -8210,14 +8191,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50873,
-          "end": 50951,
-          "line": 736
+          "start": 50837,
+          "end": 50915,
+          "line": 732
         }
       ]
     },
     {
-      "id": "B-155",
+      "id": "B-154",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8229,14 +8210,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51138,
-          "end": 51351,
-          "line": 751
+          "start": 51102,
+          "end": 51315,
+          "line": 747
         }
       ]
     },
     {
-      "id": "B-156",
+      "id": "B-155",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8248,14 +8229,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51363,
-          "end": 51800,
-          "line": 752
+          "start": 51327,
+          "end": 51764,
+          "line": 748
         }
       ]
     },
     {
-      "id": "B-157",
+      "id": "B-156",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8267,14 +8248,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51812,
-          "end": 52090,
-          "line": 753
+          "start": 51776,
+          "end": 52054,
+          "line": 749
         }
       ]
     },
     {
-      "id": "B-158",
+      "id": "B-157",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8286,14 +8267,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52102,
-          "end": 52332,
-          "line": 754
+          "start": 52066,
+          "end": 52296,
+          "line": 750
         }
       ]
     },
     {
-      "id": "B-159",
+      "id": "B-158",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8305,14 +8286,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52344,
-          "end": 52614,
-          "line": 755
+          "start": 52308,
+          "end": 52578,
+          "line": 751
         }
       ]
     },
     {
-      "id": "B-160",
+      "id": "B-159",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8324,14 +8305,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53364,
-          "end": 53707,
-          "line": 765
+          "start": 53328,
+          "end": 53671,
+          "line": 761
         }
       ]
     },
     {
-      "id": "B-161",
+      "id": "B-160",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8343,14 +8324,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54440,
-          "end": 54499,
-          "line": 769
+          "start": 54404,
+          "end": 54463,
+          "line": 765
         }
       ]
     },
     {
-      "id": "B-162",
+      "id": "B-161",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8362,14 +8343,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54589,
-          "end": 54669,
-          "line": 770
+          "start": 54553,
+          "end": 54633,
+          "line": 766
         }
       ]
     },
     {
-      "id": "B-163",
+      "id": "B-162",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8381,14 +8362,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54759,
-          "end": 55010,
-          "line": 771
+          "start": 54723,
+          "end": 54974,
+          "line": 767
         }
       ]
     },
     {
-      "id": "B-164",
+      "id": "B-163",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8400,14 +8381,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55100,
-          "end": 55276,
-          "line": 772
+          "start": 55064,
+          "end": 55240,
+          "line": 768
         }
       ]
     },
     {
-      "id": "B-165",
+      "id": "B-164",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8419,9 +8400,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55366,
-          "end": 55515,
-          "line": 773
+          "start": 55330,
+          "end": 55479,
+          "line": 769
         }
       ]
     }
