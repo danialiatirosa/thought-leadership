@@ -5680,11 +5680,11 @@
       "kind": "prop",
       "path": "02 The global landscape > DataTable > caption",
       "sectionId": "landscape",
-      "text": "Top-15 countries by 2027 WUR Top-500 count, plus the UAE, both ranking systems (ordered by THE count)",
+      "text": "Top-15 countries by 2027 WUR Top 500 count, plus the UAE, both ranking systems (ordered by THE count)",
       "shared": false,
       "minor": false,
       "quote": "\"",
-      "display": "Top-15 countries by 2027 WUR Top-500 count, plus the UAE, both ranking systems (ordered by THE count)",
+      "display": "Top-15 countries by 2027 WUR Top 500 count, plus the UAE, both ranking systems (ordered by THE count)",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
