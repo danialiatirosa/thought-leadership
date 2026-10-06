@@ -4798,8 +4798,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50266,
-          "end": 50287,
+          "start": 50234,
+          "end": 50255,
           "line": 741
         }
       ]
@@ -4823,8 +4823,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50298,
-          "end": 50323,
+          "start": 50266,
+          "end": 50291,
           "line": 742
         }
       ]
@@ -4981,8 +4981,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51987,
-          "end": 51994,
+          "start": 51955,
+          "end": 51962,
           "line": 756
         }
       ]
@@ -5006,8 +5006,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52139,
-          "end": 52263,
+          "start": 52107,
+          "end": 52231,
           "line": 758
         }
       ]
@@ -5031,8 +5031,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52353,
-          "end": 52476,
+          "start": 52321,
+          "end": 52444,
           "line": 759
         }
       ]
@@ -5075,8 +5075,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52999,
-          "end": 53153,
+          "start": 52967,
+          "end": 53121,
           "line": 761
         }
       ]
@@ -5100,8 +5100,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53243,
-          "end": 53338,
+          "start": 53211,
+          "end": 53306,
           "line": 762
         }
       ]
@@ -5125,8 +5125,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53428,
-          "end": 53552,
+          "start": 53396,
+          "end": 53520,
           "line": 763
         }
       ]
@@ -8107,16 +8107,16 @@
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
-      "text": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years, when a new minister or board arrives, is a common, costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
+      "text": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years is a costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years, when a new minister or board arrives, is a common, costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
+      "display": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years is a costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 48146,
-          "end": 48825,
+          "end": 48778,
           "line": 726
         }
       ]
@@ -8126,16 +8126,16 @@
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
-      "text": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay co-author papers that compound into citation scores over five to ten years. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments. That's exactly the kind of open channel geopolitical fragmentation would close first.",
+      "text": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over five to ten years. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments. That's exactly the kind of open channel geopolitical fragmentation would close first.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay co-author papers that compound into citation scores over five to ten years. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments. That's exactly the kind of open channel geopolitical fragmentation would close first.",
+      "display": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over five to ten years. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments. That's exactly the kind of open channel geopolitical fragmentation would close first.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48837,
-          "end": 49372,
+          "start": 48790,
+          "end": 49340,
           "line": 727
         }
       ]
@@ -8153,8 +8153,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49384,
-          "end": 50033,
+          "start": 49352,
+          "end": 50001,
           "line": 728
         }
       ]
@@ -8172,8 +8172,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50075,
-          "end": 50153,
+          "start": 50043,
+          "end": 50121,
           "line": 731
         }
       ]
@@ -8191,8 +8191,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50340,
-          "end": 50553,
+          "start": 50308,
+          "end": 50521,
           "line": 746
         }
       ]
@@ -8210,8 +8210,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50565,
-          "end": 51002,
+          "start": 50533,
+          "end": 50970,
           "line": 747
         }
       ]
@@ -8229,8 +8229,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51014,
-          "end": 51292,
+          "start": 50982,
+          "end": 51260,
           "line": 748
         }
       ]
@@ -8248,8 +8248,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51304,
-          "end": 51534,
+          "start": 51272,
+          "end": 51502,
           "line": 749
         }
       ]
@@ -8267,8 +8267,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51546,
-          "end": 51816,
+          "start": 51514,
+          "end": 51784,
           "line": 750
         }
       ]
@@ -8286,8 +8286,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52566,
-          "end": 52909,
+          "start": 52534,
+          "end": 52877,
           "line": 760
         }
       ]
@@ -8305,8 +8305,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53642,
-          "end": 53701,
+          "start": 53610,
+          "end": 53669,
           "line": 764
         }
       ]
@@ -8324,8 +8324,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53791,
-          "end": 53871,
+          "start": 53759,
+          "end": 53839,
           "line": 765
         }
       ]
@@ -8343,8 +8343,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53961,
-          "end": 54212,
+          "start": 53929,
+          "end": 54180,
           "line": 766
         }
       ]
@@ -8362,8 +8362,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54302,
-          "end": 54478,
+          "start": 54270,
+          "end": 54446,
           "line": 767
         }
       ]
@@ -8381,8 +8381,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54568,
-          "end": 54717,
+          "start": 54536,
+          "end": 54685,
           "line": 768
         }
       ]
