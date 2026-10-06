@@ -3830,8 +3830,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47559,
-          "end": 47571,
+          "start": 47396,
+          "end": 47408,
           "line": 719
         }
       ]
@@ -4798,8 +4798,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51375,
-          "end": 51396,
+          "start": 51212,
+          "end": 51233,
           "line": 746
         }
       ]
@@ -4823,8 +4823,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51407,
-          "end": 51432,
+          "start": 51244,
+          "end": 51269,
           "line": 747
         }
       ]
@@ -4981,8 +4981,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53096,
-          "end": 53103,
+          "start": 52933,
+          "end": 52940,
           "line": 761
         }
       ]
@@ -5006,8 +5006,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53248,
-          "end": 53372,
+          "start": 53085,
+          "end": 53209,
           "line": 763
         }
       ]
@@ -5031,8 +5031,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53462,
-          "end": 53585,
+          "start": 53299,
+          "end": 53422,
           "line": 764
         }
       ]
@@ -5075,8 +5075,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54108,
-          "end": 54262,
+          "start": 53945,
+          "end": 54099,
           "line": 766
         }
       ]
@@ -5100,8 +5100,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54352,
-          "end": 54447,
+          "start": 54189,
+          "end": 54284,
           "line": 767
         }
       ]
@@ -5125,8 +5125,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54537,
-          "end": 54661,
+          "start": 54374,
+          "end": 54498,
           "line": 768
         }
       ]
@@ -5612,8 +5612,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47226,
-          "end": 47445,
+          "start": 47063,
+          "end": 47282,
           "line": 709
         }
       ]
@@ -7822,16 +7822,16 @@
       "kind": "prose",
       "path": "05 The next decade > <h3>",
       "sectionId": "outlook",
-      "text": "AI-augmented research is the biggest variable. It cuts both ways.",
+      "text": "AI-augmented research is the biggest variable.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "AI-augmented research is the biggest variable. It cuts both ways.",
+      "display": "AI-augmented research is the biggest variable.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 42355,
-          "end": 42420,
+          "end": 42401,
           "line": 674
         }
       ]
@@ -7841,16 +7841,16 @@
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
-      "text": "\nAI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most. Smaller specialist institutions will fall behind. Expect a sharper split between the global Top 30 and the rest of the WUR Top 100 by 2030.\n",
+      "text": "\nAI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most.\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "AI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most. Smaller specialist institutions will fall behind. Expect a sharper split between the global Top 30 and the rest of the WUR Top 100 by 2030.",
+      "display": "AI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 42429,
-          "end": 42993,
+          "start": 42410,
+          "end": 42834,
           "line": 675
         }
       ]
@@ -7860,16 +7860,16 @@
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
-      "text": "\nSo far, that's AI reviewing and speeding up research humans still do. The bigger shift is AI producing research on its own. In September 2026, OpenAI said its model proved that the three-dimensional Navier-Stokes equations, which describe how fluids flow, can develop a singularity in finite time. That question had been open for centuries. Days earlier, two mathematicians using Anthropic's models claimed a related result on the simpler Euler equations. Neither claim has been peer-reviewed. The two teams dispute whether OpenAI's work drew on leaked details of the other's. This is what AI-generated research looks like at the frontier now, not just AI-assisted research.\n",
+      "text": "\nSo far, AI is reviewing and speeding up research humans still do. The bigger shift is AI producing research on its own. In September 2026, OpenAI said its model proved that the three-dimensional Navier-Stokes equations, which describe how fluids flow, can develop a singularity in finite time. That question had been open for centuries. Days earlier, two mathematicians using Anthropic's models claimed a related result on the simpler Euler equations. Neither claim has been peer-reviewed. The two teams dispute whether OpenAI's work drew on leaked details of the other's. This is what AI-generated research looks like at the frontier now, not just AI-assisted research.\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "So far, that's AI reviewing and speeding up research humans still do. The bigger shift is AI producing research on its own. In September 2026, OpenAI said its model proved that the three-dimensional Navier-Stokes equations, which describe how fluids flow, can develop a singularity in finite time. That question had been open for centuries. Days earlier, two mathematicians using Anthropic's models claimed a related result on the simpler Euler equations. Neither claim has been peer-reviewed. The two teams dispute whether OpenAI's work drew on leaked details of the other's. This is what AI-generated research looks like at the frontier now, not just AI-assisted research.",
+      "display": "So far, AI is reviewing and speeding up research humans still do. The bigger shift is AI producing research on its own. In September 2026, OpenAI said its model proved that the three-dimensional Navier-Stokes equations, which describe how fluids flow, can develop a singularity in finite time. That question had been open for centuries. Days earlier, two mathematicians using Anthropic's models claimed a related result on the simpler Euler equations. Neither claim has been peer-reviewed. The two teams dispute whether OpenAI's work drew on leaked details of the other's. This is what AI-generated research looks like at the frontier now, not just AI-assisted research.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43028,
-          "end": 43704,
+          "start": 42869,
+          "end": 43541,
           "line": 679
         }
       ]
@@ -7887,8 +7887,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43739,
-          "end": 43933,
+          "start": 43576,
+          "end": 43770,
           "line": 683
         }
       ]
@@ -7906,8 +7906,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43943,
-          "end": 43988,
+          "start": 43780,
+          "end": 43825,
           "line": 687
         }
       ]
@@ -7925,8 +7925,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 43997,
-          "end": 44560,
+          "start": 43834,
+          "end": 44397,
           "line": 688
         }
       ]
@@ -7944,8 +7944,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44570,
-          "end": 44629,
+          "start": 44407,
+          "end": 44466,
           "line": 692
         }
       ]
@@ -7963,8 +7963,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44638,
-          "end": 45157,
+          "start": 44475,
+          "end": 44994,
           "line": 693
         }
       ]
@@ -7982,8 +7982,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45167,
-          "end": 45226,
+          "start": 45004,
+          "end": 45063,
           "line": 697
         }
       ]
@@ -8001,8 +8001,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45235,
-          "end": 45886,
+          "start": 45072,
+          "end": 45723,
           "line": 698
         }
       ]
@@ -8020,8 +8020,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45896,
-          "end": 45952,
+          "start": 45733,
+          "end": 45789,
           "line": 702
         }
       ]
@@ -8039,8 +8039,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45961,
-          "end": 47064,
+          "start": 45798,
+          "end": 46901,
           "line": 703
         }
       ]
@@ -8058,8 +8058,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47582,
-          "end": 47634,
+          "start": 47419,
+          "end": 47471,
           "line": 720
         }
       ]
@@ -8077,8 +8077,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47660,
-          "end": 47950,
+          "start": 47497,
+          "end": 47787,
           "line": 723
         }
       ]
@@ -8096,8 +8096,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47967,
-          "end": 48429,
+          "start": 47804,
+          "end": 48266,
           "line": 728
         }
       ]
@@ -8115,8 +8115,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48441,
-          "end": 48876,
+          "start": 48278,
+          "end": 48713,
           "line": 729
         }
       ]
@@ -8134,8 +8134,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48888,
-          "end": 49255,
+          "start": 48725,
+          "end": 49092,
           "line": 730
         }
       ]
@@ -8153,8 +8153,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49267,
-          "end": 49934,
+          "start": 49104,
+          "end": 49771,
           "line": 731
         }
       ]
@@ -8172,8 +8172,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49946,
-          "end": 50481,
+          "start": 49783,
+          "end": 50318,
           "line": 732
         }
       ]
@@ -8191,8 +8191,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50493,
-          "end": 51142,
+          "start": 50330,
+          "end": 50979,
           "line": 733
         }
       ]
@@ -8210,8 +8210,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51184,
-          "end": 51262,
+          "start": 51021,
+          "end": 51099,
           "line": 736
         }
       ]
@@ -8229,8 +8229,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51449,
-          "end": 51662,
+          "start": 51286,
+          "end": 51499,
           "line": 751
         }
       ]
@@ -8248,8 +8248,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51674,
-          "end": 52111,
+          "start": 51511,
+          "end": 51948,
           "line": 752
         }
       ]
@@ -8267,8 +8267,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52123,
-          "end": 52401,
+          "start": 51960,
+          "end": 52238,
           "line": 753
         }
       ]
@@ -8286,8 +8286,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52413,
-          "end": 52643,
+          "start": 52250,
+          "end": 52480,
           "line": 754
         }
       ]
@@ -8305,8 +8305,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52655,
-          "end": 52925,
+          "start": 52492,
+          "end": 52762,
           "line": 755
         }
       ]
@@ -8324,8 +8324,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53675,
-          "end": 54018,
+          "start": 53512,
+          "end": 53855,
           "line": 765
         }
       ]
@@ -8343,8 +8343,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54751,
-          "end": 54810,
+          "start": 54588,
+          "end": 54647,
           "line": 769
         }
       ]
@@ -8362,8 +8362,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54900,
-          "end": 54980,
+          "start": 54737,
+          "end": 54817,
           "line": 770
         }
       ]
@@ -8381,8 +8381,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55070,
-          "end": 55321,
+          "start": 54907,
+          "end": 55158,
           "line": 771
         }
       ]
@@ -8400,8 +8400,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55411,
-          "end": 55587,
+          "start": 55248,
+          "end": 55424,
           "line": 772
         }
       ]
@@ -8419,8 +8419,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55677,
-          "end": 55826,
+          "start": 55514,
+          "end": 55663,
           "line": 773
         }
       ]
