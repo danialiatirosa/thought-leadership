@@ -13,7 +13,7 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 421,
+  "blockCount": 420,
   "sharedCount": 34,
   "blocks": [
     {
@@ -4798,9 +4798,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50234,
-          "end": 50255,
-          "line": 741
+          "start": 49920,
+          "end": 49941,
+          "line": 737
         }
       ]
     },
@@ -4823,9 +4823,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50266,
-          "end": 50291,
-          "line": 742
+          "start": 49952,
+          "end": 49977,
+          "line": 738
         }
       ]
     },
@@ -4981,9 +4981,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51955,
-          "end": 51962,
-          "line": 756
+          "start": 51641,
+          "end": 51648,
+          "line": 752
         }
       ]
     },
@@ -5006,9 +5006,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52107,
-          "end": 52231,
-          "line": 758
+          "start": 51793,
+          "end": 51917,
+          "line": 754
         }
       ]
     },
@@ -5031,9 +5031,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52321,
-          "end": 52444,
-          "line": 759
+          "start": 52007,
+          "end": 52130,
+          "line": 755
         }
       ]
     },
@@ -5075,9 +5075,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52967,
-          "end": 53121,
-          "line": 761
+          "start": 52653,
+          "end": 52807,
+          "line": 757
         }
       ]
     },
@@ -5100,9 +5100,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53211,
-          "end": 53306,
-          "line": 762
+          "start": 52897,
+          "end": 52992,
+          "line": 758
         }
       ]
     },
@@ -5125,9 +5125,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53396,
-          "end": 53520,
-          "line": 763
+          "start": 53082,
+          "end": 53206,
+          "line": 759
         }
       ]
     },
@@ -8126,16 +8126,16 @@
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
-      "text": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over five to ten years. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments. That's exactly the kind of open channel geopolitical fragmentation would close first.",
+      "text": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over time. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over five to ten years. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments. That's exactly the kind of open channel geopolitical fragmentation would close first.",
+      "display": "<strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over time. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 48790,
-          "end": 49340,
+          "end": 49241,
           "line": 727
         }
       ]
@@ -8145,41 +8145,22 @@
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
-      "text": "<strong>A hosted branch campus almost never earns a rank of its own. Judge it by what it does for your other universities, not by a climb it can't make.</strong> Its researchers co-author with your home-grown institutions. That lifts those universities' international-network and co-authorship scores, whether or not the branch campus itself ever appears in a league table. Qatar's Education City, which hosts branch campuses of Georgetown, Northwestern, Cornell, and others, is the clearest example. None of those campuses shows up as a separate Qatari entry in either ranking. Yet the model still does real work for the country's research profile.",
+      "text": "<strong>A hosted branch campus almost never earns a rank of its own. Judge it by what it does for your other universities.</strong> Its researchers co-author with your home-grown institutions. That lifts those universities' international-network and co-authorship scores. Qatar's Education City, which hosts branch campuses of Georgetown, Northwestern, Cornell, and others, is the clearest example. None of those campuses shows up as a separate Qatari entry in either ranking. Yet the model still does real work for the country's research profile.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>A hosted branch campus almost never earns a rank of its own. Judge it by what it does for your other universities, not by a climb it can't make.</strong> Its researchers co-author with your home-grown institutions. That lifts those universities' international-network and co-authorship scores, whether or not the branch campus itself ever appears in a league table. Qatar's Education City, which hosts branch campuses of Georgetown, Northwestern, Cornell, and others, is the clearest example. None of those campuses shows up as a separate Qatari entry in either ranking. Yet the model still does real work for the country's research profile.",
+      "display": "<strong>A hosted branch campus almost never earns a rank of its own. Judge it by what it does for your other universities.</strong> Its researchers co-author with your home-grown institutions. That lifts those universities' international-network and co-authorship scores. Qatar's Education City, which hosts branch campuses of Georgetown, Northwestern, Cornell, and others, is the clearest example. None of those campuses shows up as a separate Qatari entry in either ranking. Yet the model still does real work for the country's research profile.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49352,
-          "end": 50001,
+          "start": 49253,
+          "end": 49800,
           "line": 728
         }
       ]
     },
     {
       "id": "B-152",
-      "kind": "prose",
-      "path": "06 Implications > <p>",
-      "sectionId": "implications",
-      "text": "\nNone of this changes what already happened. It only changes what to do next.\n",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "None of this changes what already happened. It only changes what to do next.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50043,
-          "end": 50121,
-          "line": 731
-        }
-      ]
-    },
-    {
-      "id": "B-153",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8191,14 +8172,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50308,
-          "end": 50521,
-          "line": 746
+          "start": 49994,
+          "end": 50207,
+          "line": 742
         }
       ]
     },
     {
-      "id": "B-154",
+      "id": "B-153",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8210,14 +8191,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50533,
-          "end": 50970,
-          "line": 747
+          "start": 50219,
+          "end": 50656,
+          "line": 743
         }
       ]
     },
     {
-      "id": "B-155",
+      "id": "B-154",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8229,14 +8210,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50982,
-          "end": 51260,
-          "line": 748
+          "start": 50668,
+          "end": 50946,
+          "line": 744
         }
       ]
     },
     {
-      "id": "B-156",
+      "id": "B-155",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8248,14 +8229,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51272,
-          "end": 51502,
-          "line": 749
+          "start": 50958,
+          "end": 51188,
+          "line": 745
         }
       ]
     },
     {
-      "id": "B-157",
+      "id": "B-156",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8267,14 +8248,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51514,
-          "end": 51784,
-          "line": 750
+          "start": 51200,
+          "end": 51470,
+          "line": 746
         }
       ]
     },
     {
-      "id": "B-158",
+      "id": "B-157",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8286,14 +8267,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52534,
-          "end": 52877,
-          "line": 760
+          "start": 52220,
+          "end": 52563,
+          "line": 756
         }
       ]
     },
     {
-      "id": "B-159",
+      "id": "B-158",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8305,14 +8286,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53610,
-          "end": 53669,
-          "line": 764
+          "start": 53296,
+          "end": 53355,
+          "line": 760
         }
       ]
     },
     {
-      "id": "B-160",
+      "id": "B-159",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8324,14 +8305,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53759,
-          "end": 53839,
-          "line": 765
+          "start": 53445,
+          "end": 53525,
+          "line": 761
         }
       ]
     },
     {
-      "id": "B-161",
+      "id": "B-160",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8343,14 +8324,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53929,
-          "end": 54180,
-          "line": 766
+          "start": 53615,
+          "end": 53866,
+          "line": 762
         }
       ]
     },
     {
-      "id": "B-162",
+      "id": "B-161",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8362,14 +8343,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54270,
-          "end": 54446,
-          "line": 767
+          "start": 53956,
+          "end": 54132,
+          "line": 763
         }
       ]
     },
     {
-      "id": "B-163",
+      "id": "B-162",
       "kind": "prose",
       "path": "07 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -8381,9 +8362,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54536,
-          "end": 54685,
-          "line": 768
+          "start": 54222,
+          "end": 54371,
+          "line": 764
         }
       ]
     }
