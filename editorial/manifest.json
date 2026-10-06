@@ -3830,8 +3830,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47232,
-          "end": 47244,
+          "start": 46934,
+          "end": 46946,
           "line": 715
         }
       ]
@@ -4798,8 +4798,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51048,
-          "end": 51069,
+          "start": 50750,
+          "end": 50771,
           "line": 742
         }
       ]
@@ -4823,8 +4823,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51080,
-          "end": 51105,
+          "start": 50782,
+          "end": 50807,
           "line": 743
         }
       ]
@@ -4981,8 +4981,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52769,
-          "end": 52776,
+          "start": 52471,
+          "end": 52478,
           "line": 757
         }
       ]
@@ -5006,8 +5006,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52921,
-          "end": 53045,
+          "start": 52623,
+          "end": 52747,
           "line": 759
         }
       ]
@@ -5031,8 +5031,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53135,
-          "end": 53258,
+          "start": 52837,
+          "end": 52960,
           "line": 760
         }
       ]
@@ -5075,8 +5075,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53781,
-          "end": 53935,
+          "start": 53483,
+          "end": 53637,
           "line": 762
         }
       ]
@@ -5100,8 +5100,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54025,
-          "end": 54120,
+          "start": 53727,
+          "end": 53822,
           "line": 763
         }
       ]
@@ -5125,8 +5125,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54210,
-          "end": 54334,
+          "start": 53912,
+          "end": 54036,
           "line": 764
         }
       ]
@@ -5612,8 +5612,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46899,
-          "end": 47118,
+          "start": 46601,
+          "end": 46820,
           "line": 705
         }
       ]
@@ -8012,16 +8012,16 @@
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
-      "text": "\nThis one is speculation, not documented fact like the other four, but the pattern behind it is real. <strong>Neither publisher has gone long without a major methodology change.</strong> QS added Sustainability and International Research Network in 2023, then International Student Diversity in 2025. THE shipped its WUR 3.0 rewrite in 2024. It responded to the same citation-engineering this report documents at King Abdulaziz University in Section 03. AI now makes that kind of gaming cheaper and easier to scale. <strong>Our best guess: the next rule change will target research-integrity screening directly.</strong> It would catch retracted-paper citations, AI-generated output, or undisclosed AI use before they inflate a score, instead of years later through retractions. We could be wrong about the mechanism. But the direction is hard to bet against: another rewrite is coming. <strong>Research integrity, not teaching quality or reputation, is the most exposed part of either methodology today.</strong> Any five-year ranking strategy that doesn't plan for more rule changes is a fragile bet.\n",
+      "text": "\n<strong>Neither publisher has gone long without a major methodology change.</strong> QS added Sustainability and International Research Network in 2023, then International Student Diversity in 2025. THE shipped its WUR 3.0 rewrite in 2024. It responded to the same citation-engineering this report documents at King Abdulaziz University in Section 03. AI now makes that kind of gaming cheaper and easier to scale. <strong>Our best guess: the next rule change will target research-integrity screening directly.</strong> It would catch retracted-paper citations, AI-generated output, or undisclosed AI use before they inflate a score, instead of years later through retractions. <strong>Research integrity, not teaching quality or reputation, is the most exposed part of either methodology today.</strong>\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "This one is speculation, not documented fact like the other four, but the pattern behind it is real. <strong>Neither publisher has gone long without a major methodology change.</strong> QS added Sustainability and International Research Network in 2023, then International Student Diversity in 2025. THE shipped its WUR 3.0 rewrite in 2024. It responded to the same citation-engineering this report documents at King Abdulaziz University in Section 03. AI now makes that kind of gaming cheaper and easier to scale. <strong>Our best guess: the next rule change will target research-integrity screening directly.</strong> It would catch retracted-paper citations, AI-generated output, or undisclosed AI use before they inflate a score, instead of years later through retractions. We could be wrong about the mechanism. But the direction is hard to bet against: another rewrite is coming. <strong>Research integrity, not teaching quality or reputation, is the most exposed part of either methodology today.</strong> Any five-year ranking strategy that doesn't plan for more rule changes is a fragile bet.",
+      "display": "<strong>Neither publisher has gone long without a major methodology change.</strong> QS added Sustainability and International Research Network in 2023, then International Student Diversity in 2025. THE shipped its WUR 3.0 rewrite in 2024. It responded to the same citation-engineering this report documents at King Abdulaziz University in Section 03. AI now makes that kind of gaming cheaper and easier to scale. <strong>Our best guess: the next rule change will target research-integrity screening directly.</strong> It would catch retracted-paper citations, AI-generated output, or undisclosed AI use before they inflate a score, instead of years later through retractions. <strong>Research integrity, not teaching quality or reputation, is the most exposed part of either methodology today.</strong>",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 45634,
-          "end": 46737,
+          "end": 46439,
           "line": 699
         }
       ]
@@ -8039,8 +8039,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47255,
-          "end": 47307,
+          "start": 46957,
+          "end": 47009,
           "line": 716
         }
       ]
@@ -8058,8 +8058,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47333,
-          "end": 47623,
+          "start": 47035,
+          "end": 47325,
           "line": 719
         }
       ]
@@ -8077,8 +8077,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47640,
-          "end": 48102,
+          "start": 47342,
+          "end": 47804,
           "line": 724
         }
       ]
@@ -8096,8 +8096,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48114,
-          "end": 48549,
+          "start": 47816,
+          "end": 48251,
           "line": 725
         }
       ]
@@ -8115,8 +8115,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48561,
-          "end": 48928,
+          "start": 48263,
+          "end": 48630,
           "line": 726
         }
       ]
@@ -8134,8 +8134,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48940,
-          "end": 49607,
+          "start": 48642,
+          "end": 49309,
           "line": 727
         }
       ]
@@ -8153,8 +8153,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49619,
-          "end": 50154,
+          "start": 49321,
+          "end": 49856,
           "line": 728
         }
       ]
@@ -8172,8 +8172,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50166,
-          "end": 50815,
+          "start": 49868,
+          "end": 50517,
           "line": 729
         }
       ]
@@ -8191,8 +8191,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50857,
-          "end": 50935,
+          "start": 50559,
+          "end": 50637,
           "line": 732
         }
       ]
@@ -8210,8 +8210,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51122,
-          "end": 51335,
+          "start": 50824,
+          "end": 51037,
           "line": 747
         }
       ]
@@ -8229,8 +8229,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51347,
-          "end": 51784,
+          "start": 51049,
+          "end": 51486,
           "line": 748
         }
       ]
@@ -8248,8 +8248,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51796,
-          "end": 52074,
+          "start": 51498,
+          "end": 51776,
           "line": 749
         }
       ]
@@ -8267,8 +8267,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52086,
-          "end": 52316,
+          "start": 51788,
+          "end": 52018,
           "line": 750
         }
       ]
@@ -8286,8 +8286,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52328,
-          "end": 52598,
+          "start": 52030,
+          "end": 52300,
           "line": 751
         }
       ]
@@ -8305,8 +8305,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53348,
-          "end": 53691,
+          "start": 53050,
+          "end": 53393,
           "line": 761
         }
       ]
@@ -8324,8 +8324,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54424,
-          "end": 54483,
+          "start": 54126,
+          "end": 54185,
           "line": 765
         }
       ]
@@ -8343,8 +8343,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54573,
-          "end": 54653,
+          "start": 54275,
+          "end": 54355,
           "line": 766
         }
       ]
@@ -8362,8 +8362,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54743,
-          "end": 54994,
+          "start": 54445,
+          "end": 54696,
           "line": 767
         }
       ]
@@ -8381,8 +8381,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55084,
-          "end": 55260,
+          "start": 54786,
+          "end": 54962,
           "line": 768
         }
       ]
@@ -8400,8 +8400,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55350,
-          "end": 55499,
+          "start": 55052,
+          "end": 55201,
           "line": 769
         }
       ]
