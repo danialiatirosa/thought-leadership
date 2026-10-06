@@ -3830,8 +3830,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46895,
-          "end": 46907,
+          "start": 46878,
+          "end": 46890,
           "line": 715
         }
       ]
@@ -4798,8 +4798,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49881,
-          "end": 49902,
+          "start": 49864,
+          "end": 49885,
           "line": 737
         }
       ]
@@ -4823,8 +4823,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49913,
-          "end": 49938,
+          "start": 49896,
+          "end": 49921,
           "line": 738
         }
       ]
@@ -4981,8 +4981,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51602,
-          "end": 51609,
+          "start": 51585,
+          "end": 51592,
           "line": 752
         }
       ]
@@ -5006,8 +5006,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51754,
-          "end": 51878,
+          "start": 51737,
+          "end": 51861,
           "line": 754
         }
       ]
@@ -5031,8 +5031,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51968,
-          "end": 52091,
+          "start": 51951,
+          "end": 52074,
           "line": 755
         }
       ]
@@ -5075,8 +5075,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52614,
-          "end": 52768,
+          "start": 52597,
+          "end": 52751,
           "line": 757
         }
       ]
@@ -5100,8 +5100,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52858,
-          "end": 52953,
+          "start": 52841,
+          "end": 52936,
           "line": 758
         }
       ]
@@ -5125,8 +5125,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53043,
-          "end": 53167,
+          "start": 53026,
+          "end": 53150,
           "line": 759
         }
       ]
@@ -5612,8 +5612,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46562,
-          "end": 46781,
+          "start": 46545,
+          "end": 46764,
           "line": 705
         }
       ]
@@ -7917,16 +7917,16 @@
       "kind": "prose",
       "path": "05 The next decade > <h3>",
       "sectionId": "outlook",
-      "text": "Demographics will tighten Western higher-education margins.",
+      "text": "Demographics will tighten Western margins.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Demographics will tighten Western higher-education margins.",
+      "display": "Demographics will tighten Western margins.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 44222,
-          "end": 44281,
+          "end": 44264,
           "line": 688
         }
       ]
@@ -7944,8 +7944,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44290,
-          "end": 44807,
+          "start": 44273,
+          "end": 44790,
           "line": 689
         }
       ]
@@ -7963,8 +7963,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44817,
-          "end": 44876,
+          "start": 44800,
+          "end": 44859,
           "line": 693
         }
       ]
@@ -7982,8 +7982,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44885,
-          "end": 45535,
+          "start": 44868,
+          "end": 45518,
           "line": 694
         }
       ]
@@ -8001,8 +8001,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45545,
-          "end": 45586,
+          "start": 45528,
+          "end": 45569,
           "line": 698
         }
       ]
@@ -8020,8 +8020,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45595,
-          "end": 46400,
+          "start": 45578,
+          "end": 46383,
           "line": 699
         }
       ]
@@ -8039,8 +8039,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46918,
-          "end": 46935,
+          "start": 46901,
+          "end": 46918,
           "line": 716
         }
       ]
@@ -8058,8 +8058,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46961,
-          "end": 47251,
+          "start": 46944,
+          "end": 47234,
           "line": 719
         }
       ]
@@ -8077,8 +8077,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47268,
-          "end": 47748,
+          "start": 47251,
+          "end": 47731,
           "line": 724
         }
       ]
@@ -8096,8 +8096,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47760,
-          "end": 48095,
+          "start": 47743,
+          "end": 48078,
           "line": 725
         }
       ]
@@ -8115,8 +8115,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48107,
-          "end": 48739,
+          "start": 48090,
+          "end": 48722,
           "line": 726
         }
       ]
@@ -8134,8 +8134,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48751,
-          "end": 49202,
+          "start": 48734,
+          "end": 49185,
           "line": 727
         }
       ]
@@ -8153,8 +8153,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49214,
-          "end": 49761,
+          "start": 49197,
+          "end": 49744,
           "line": 728
         }
       ]
@@ -8172,8 +8172,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49955,
-          "end": 50168,
+          "start": 49938,
+          "end": 50151,
           "line": 742
         }
       ]
@@ -8191,8 +8191,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50180,
-          "end": 50617,
+          "start": 50163,
+          "end": 50600,
           "line": 743
         }
       ]
@@ -8210,8 +8210,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50629,
-          "end": 50907,
+          "start": 50612,
+          "end": 50890,
           "line": 744
         }
       ]
@@ -8229,8 +8229,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50919,
-          "end": 51149,
+          "start": 50902,
+          "end": 51132,
           "line": 745
         }
       ]
@@ -8248,8 +8248,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51161,
-          "end": 51431,
+          "start": 51144,
+          "end": 51414,
           "line": 746
         }
       ]
@@ -8267,8 +8267,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52181,
-          "end": 52524,
+          "start": 52164,
+          "end": 52507,
           "line": 756
         }
       ]
@@ -8286,8 +8286,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53257,
-          "end": 53316,
+          "start": 53240,
+          "end": 53299,
           "line": 760
         }
       ]
@@ -8305,8 +8305,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53406,
-          "end": 53486,
+          "start": 53389,
+          "end": 53469,
           "line": 761
         }
       ]
@@ -8324,8 +8324,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53576,
-          "end": 53827,
+          "start": 53559,
+          "end": 53810,
           "line": 762
         }
       ]
@@ -8343,8 +8343,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53917,
-          "end": 54093,
+          "start": 53900,
+          "end": 54076,
           "line": 763
         }
       ]
@@ -8362,8 +8362,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54183,
-          "end": 54332,
+          "start": 54166,
+          "end": 54315,
           "line": 764
         }
       ]
