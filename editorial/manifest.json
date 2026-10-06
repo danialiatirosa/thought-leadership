@@ -3830,8 +3830,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47250,
-          "end": 47262,
+          "start": 47248,
+          "end": 47260,
           "line": 715
         }
       ]
@@ -4798,8 +4798,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51066,
-          "end": 51087,
+          "start": 51064,
+          "end": 51085,
           "line": 742
         }
       ]
@@ -4823,8 +4823,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51098,
-          "end": 51123,
+          "start": 51096,
+          "end": 51121,
           "line": 743
         }
       ]
@@ -4981,8 +4981,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52787,
-          "end": 52794,
+          "start": 52785,
+          "end": 52792,
           "line": 757
         }
       ]
@@ -5006,8 +5006,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52939,
-          "end": 53063,
+          "start": 52937,
+          "end": 53061,
           "line": 759
         }
       ]
@@ -5031,8 +5031,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53153,
-          "end": 53276,
+          "start": 53151,
+          "end": 53274,
           "line": 760
         }
       ]
@@ -5075,8 +5075,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53799,
-          "end": 53953,
+          "start": 53797,
+          "end": 53951,
           "line": 762
         }
       ]
@@ -5100,8 +5100,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54043,
-          "end": 54138,
+          "start": 54041,
+          "end": 54136,
           "line": 763
         }
       ]
@@ -5125,8 +5125,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54228,
-          "end": 54352,
+          "start": 54226,
+          "end": 54350,
           "line": 764
         }
       ]
@@ -5612,8 +5612,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 46917,
-          "end": 47136,
+          "start": 46915,
+          "end": 47134,
           "line": 705
         }
       ]
@@ -7936,16 +7936,16 @@
       "kind": "prose",
       "path": "05 The next decade > <p>",
       "sectionId": "outlook",
-      "text": "\n<strong>18-year-old populations are shrinking across North America, Western Europe, and East Asia</strong>, especially South Korea and Japan. That will tighten margins at tuition-dependent universities. India, Southeast Asia, and Sub-Saharan Africa have growing young populations. But that won't produce new WUR Top-500 universities for at least 15 years. New universities need that long to build research depth, reputation, and faculty. The next decade's changes will run through existing institutions, not new ones.\n",
+      "text": "\n<strong>18-year-old populations are shrinking across North America, Western Europe, and East Asia</strong>, especially in South Korea and Japan. That will tighten margins at tuition-dependent universities. India, Southeast Asia, and Sub-Saharan Africa have growing young populations. But that won't produce new WUR Top-500 universities for at least 15 years. New universities need time to build research depth, reputation, and faculty. The next decade's changes will run through existing institutions, not new ones.\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>18-year-old populations are shrinking across North America, Western Europe, and East Asia</strong>, especially South Korea and Japan. That will tighten margins at tuition-dependent universities. India, Southeast Asia, and Sub-Saharan Africa have growing young populations. But that won't produce new WUR Top-500 universities for at least 15 years. New universities need that long to build research depth, reputation, and faculty. The next decade's changes will run through existing institutions, not new ones.",
+      "display": "<strong>18-year-old populations are shrinking across North America, Western Europe, and East Asia</strong>, especially in South Korea and Japan. That will tighten margins at tuition-dependent universities. India, Southeast Asia, and Sub-Saharan Africa have growing young populations. But that won't produce new WUR Top-500 universities for at least 15 years. New universities need time to build research depth, reputation, and faculty. The next decade's changes will run through existing institutions, not new ones.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 44329,
-          "end": 44848,
+          "end": 44846,
           "line": 689
         }
       ]
@@ -7963,8 +7963,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44858,
-          "end": 44917,
+          "start": 44856,
+          "end": 44915,
           "line": 693
         }
       ]
@@ -7982,8 +7982,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 44926,
-          "end": 45577,
+          "start": 44924,
+          "end": 45575,
           "line": 694
         }
       ]
@@ -8001,8 +8001,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45587,
-          "end": 45643,
+          "start": 45585,
+          "end": 45641,
           "line": 698
         }
       ]
@@ -8020,8 +8020,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 45652,
-          "end": 46755,
+          "start": 45650,
+          "end": 46753,
           "line": 699
         }
       ]
@@ -8039,8 +8039,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47273,
-          "end": 47325,
+          "start": 47271,
+          "end": 47323,
           "line": 716
         }
       ]
@@ -8058,8 +8058,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47351,
-          "end": 47641,
+          "start": 47349,
+          "end": 47639,
           "line": 719
         }
       ]
@@ -8077,8 +8077,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 47658,
-          "end": 48120,
+          "start": 47656,
+          "end": 48118,
           "line": 724
         }
       ]
@@ -8096,8 +8096,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48132,
-          "end": 48567,
+          "start": 48130,
+          "end": 48565,
           "line": 725
         }
       ]
@@ -8115,8 +8115,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48579,
-          "end": 48946,
+          "start": 48577,
+          "end": 48944,
           "line": 726
         }
       ]
@@ -8134,8 +8134,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48958,
-          "end": 49625,
+          "start": 48956,
+          "end": 49623,
           "line": 727
         }
       ]
@@ -8153,8 +8153,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49637,
-          "end": 50172,
+          "start": 49635,
+          "end": 50170,
           "line": 728
         }
       ]
@@ -8172,8 +8172,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50184,
-          "end": 50833,
+          "start": 50182,
+          "end": 50831,
           "line": 729
         }
       ]
@@ -8191,8 +8191,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50875,
-          "end": 50953,
+          "start": 50873,
+          "end": 50951,
           "line": 732
         }
       ]
@@ -8210,8 +8210,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51140,
-          "end": 51353,
+          "start": 51138,
+          "end": 51351,
           "line": 747
         }
       ]
@@ -8229,8 +8229,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51365,
-          "end": 51802,
+          "start": 51363,
+          "end": 51800,
           "line": 748
         }
       ]
@@ -8248,8 +8248,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51814,
-          "end": 52092,
+          "start": 51812,
+          "end": 52090,
           "line": 749
         }
       ]
@@ -8267,8 +8267,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52104,
-          "end": 52334,
+          "start": 52102,
+          "end": 52332,
           "line": 750
         }
       ]
@@ -8286,8 +8286,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52346,
-          "end": 52616,
+          "start": 52344,
+          "end": 52614,
           "line": 751
         }
       ]
@@ -8305,8 +8305,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53366,
-          "end": 53709,
+          "start": 53364,
+          "end": 53707,
           "line": 761
         }
       ]
@@ -8324,8 +8324,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54442,
-          "end": 54501,
+          "start": 54440,
+          "end": 54499,
           "line": 765
         }
       ]
@@ -8343,8 +8343,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54591,
-          "end": 54671,
+          "start": 54589,
+          "end": 54669,
           "line": 766
         }
       ]
@@ -8362,8 +8362,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54761,
-          "end": 55012,
+          "start": 54759,
+          "end": 55010,
           "line": 767
         }
       ]
@@ -8381,8 +8381,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55102,
-          "end": 55278,
+          "start": 55100,
+          "end": 55276,
           "line": 768
         }
       ]
@@ -8400,8 +8400,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 55368,
-          "end": 55517,
+          "start": 55366,
+          "end": 55515,
           "line": 769
         }
       ]
