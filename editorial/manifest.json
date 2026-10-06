@@ -4798,8 +4798,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50254,
-          "end": 50275,
+          "start": 50266,
+          "end": 50287,
           "line": 741
         }
       ]
@@ -4823,8 +4823,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50286,
-          "end": 50311,
+          "start": 50298,
+          "end": 50323,
           "line": 742
         }
       ]
@@ -4981,8 +4981,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51975,
-          "end": 51982,
+          "start": 51987,
+          "end": 51994,
           "line": 756
         }
       ]
@@ -5006,8 +5006,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52127,
-          "end": 52251,
+          "start": 52139,
+          "end": 52263,
           "line": 758
         }
       ]
@@ -5031,8 +5031,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52341,
-          "end": 52464,
+          "start": 52353,
+          "end": 52476,
           "line": 759
         }
       ]
@@ -5075,8 +5075,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52987,
-          "end": 53141,
+          "start": 52999,
+          "end": 53153,
           "line": 761
         }
       ]
@@ -5100,8 +5100,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53231,
-          "end": 53326,
+          "start": 53243,
+          "end": 53338,
           "line": 762
         }
       ]
@@ -5125,8 +5125,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53416,
-          "end": 53540,
+          "start": 53428,
+          "end": 53552,
           "line": 763
         }
       ]
@@ -8107,16 +8107,16 @@
       "kind": "prose",
       "path": "06 Implications > <li>",
       "sectionId": "implications",
-      "text": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university harder (China's Double First-Class, Khalifa after 2017) shows up in five to seven years. Both work. Changing strategy after three years, when a new minister or board arrives, is a common, costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
+      "text": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years, when a new minister or board arrives, is a common, costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university harder (China's Double First-Class, Khalifa after 2017) shows up in five to seven years. Both work. Changing strategy after three years, when a new minister or board arrives, is a common, costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
+      "display": "<strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years, when a new minister or board arrives, is a common, costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 48146,
-          "end": 48813,
+          "end": 48825,
           "line": 726
         }
       ]
@@ -8134,8 +8134,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 48825,
-          "end": 49360,
+          "start": 48837,
+          "end": 49372,
           "line": 727
         }
       ]
@@ -8153,8 +8153,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 49372,
-          "end": 50021,
+          "start": 49384,
+          "end": 50033,
           "line": 728
         }
       ]
@@ -8172,8 +8172,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50063,
-          "end": 50141,
+          "start": 50075,
+          "end": 50153,
           "line": 731
         }
       ]
@@ -8191,8 +8191,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50328,
-          "end": 50541,
+          "start": 50340,
+          "end": 50553,
           "line": 746
         }
       ]
@@ -8210,8 +8210,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 50553,
-          "end": 50990,
+          "start": 50565,
+          "end": 51002,
           "line": 747
         }
       ]
@@ -8229,8 +8229,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51002,
-          "end": 51280,
+          "start": 51014,
+          "end": 51292,
           "line": 748
         }
       ]
@@ -8248,8 +8248,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51292,
-          "end": 51522,
+          "start": 51304,
+          "end": 51534,
           "line": 749
         }
       ]
@@ -8267,8 +8267,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 51534,
-          "end": 51804,
+          "start": 51546,
+          "end": 51816,
           "line": 750
         }
       ]
@@ -8286,8 +8286,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 52554,
-          "end": 52897,
+          "start": 52566,
+          "end": 52909,
           "line": 760
         }
       ]
@@ -8305,8 +8305,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53630,
-          "end": 53689,
+          "start": 53642,
+          "end": 53701,
           "line": 764
         }
       ]
@@ -8324,8 +8324,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53779,
-          "end": 53859,
+          "start": 53791,
+          "end": 53871,
           "line": 765
         }
       ]
@@ -8343,8 +8343,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 53949,
-          "end": 54200,
+          "start": 53961,
+          "end": 54212,
           "line": 766
         }
       ]
@@ -8362,8 +8362,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54290,
-          "end": 54466,
+          "start": 54302,
+          "end": 54478,
           "line": 767
         }
       ]
@@ -8381,8 +8381,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 54556,
-          "end": 54705,
+          "start": 54568,
+          "end": 54717,
           "line": 768
         }
       ]
