@@ -5541,11 +5541,11 @@
       "kind": "prop",
       "path": "01 The brief > Finding > title",
       "sectionId": "brief",
-      "text": "QS and THE often disagree by 100 places or more",
+      "text": "QS and THE might disagree by 100 places or more",
       "shared": false,
       "minor": false,
       "quote": "\"",
-      "display": "QS and THE often disagree by 100 places or more",
+      "display": "QS and THE might disagree by 100 places or more",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
