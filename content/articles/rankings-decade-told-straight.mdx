@@ -29,8 +29,6 @@ import {
 } from './rankings-decade-told-straight.data';
 
 import top20ByYear from '@/content/data/the-top20-by-year.json';
-import qsTheScatter2027 from '@/content/data/qs-the-scatter-2027.json';
-import qsTheYoyMovement2027 from '@/content/data/qs-the-yoy-movement-2027.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
 
@@ -100,11 +98,7 @@ Saudi Arabia's Vision 2030 set a clear goal: at least five institutions in the g
 THE added three research-quality measures (Research Strength, Excellence and Influence) alongside its citation score; QS added Sustainability, Employment Outcomes and International Research Network, and gave employer views more weight. The typical university moved 15 places on THE and 23 on QS, far more than in any other year of the decade. The top barely changed, but lower down some universities swung by more than 100 places, including King Abdulaziz University on THE and four Russian universities on QS. Read any rank change between 2023 and 2024 as a rule change first, and an institutional change second.
 </Finding>
 
-<Finding index={8} num=">100" unit="places" title="QS and THE often disagree by 100 places or more">
-For dozens of universities in 2027, the QS rank and the THE rank sit more than 100 places apart. QS rewards reputation. THE rewards research output. A university that looks elite on one list and average on the other is being measured by two different frameworks.
-</Finding>
-
-<Finding index={9} num="14%" trend="up" title="AI is already reshaping how research gets done">
+<Finding index={8} num="14%" trend="up" title="AI is already reshaping how research gets done">
 Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-language-model writing<sup>†</sup>. Disclosure lags actual use. AI is no longer just assisting research. In September 2026 an AI model reportedly proved a result on the Navier-Stokes equations, an early sign that AI can produce real research on its own.
 </Finding>
 
@@ -118,7 +112,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
 
 </ArticleSection>
 
-<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 07</FullDivider>
+<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 06</FullDivider>
 
 <ArticleSection id="landscape">
 
@@ -517,150 +511,10 @@ Qatar's footprint is small, though two facts make it look smaller than it is. It
 
 </ArticleSection>
 
-<ArticleSection id="systems" variant="alt">
-
-<SectionHeader
-  number="04"
-  kicker="Why the systems disagree"
-  title="QS and THE measure different things. A 100-place gap is usually signal, not noise."
-  italic="signal, not noise"
-/>
-
-<PillarGrid
-  cards={[
-    {
-      tag: 'QS',
-      title: 'Reputation-led, with a 15% internationalisation layer.',
-      body: 'QS combines two reputation surveys (totalling 45% of the score), citations per faculty (20%), and faculty-to-student ratio (10%). The remaining 25% splits into five indicators at 5% each. Three of those are about internationalisation.',
-      segments: [
-        { label: 'Academic Rep', weight: 30, color: '#1D383F' },
-        { label: 'Employer Rep', weight: 15, color: '#2E5B66' },
-        { label: 'Citations / Fac', weight: 20, color: '#A7B241' },
-        { label: 'Fac/Stu', weight: 10, color: '#6C6864' },
-        { label: 'Intl Faculty', weight: 5, color: '#3F6367', textLight: true, hideLabel: true },
-        { label: 'Intl Students', weight: 5, color: '#557E82', textLight: true, hideLabel: true },
-        { label: 'Intl Research', weight: 5, color: '#6B8B8E', textLight: true, hideLabel: true },
-        { label: 'Employment', weight: 5, color: '#83A0A3', textLight: false, hideLabel: true },
-        { label: 'Sustainability', weight: 5, color: '#9DB6B8', textLight: false, hideLabel: true },
-      ],
-      legend: [
-        { label: 'Academic Reputation', color: '#1D383F' },
-        { label: 'Employer Reputation', color: '#2E5B66' },
-        { label: 'Citations per Faculty', color: '#A7B241' },
-        { label: 'Faculty/Student', color: '#6C6864' },
-        { label: 'Intl Faculty Ratio (5%)', color: '#3F6367' },
-        { label: 'Intl Student Ratio (5%)', color: '#557E82' },
-        { label: 'Intl Research Network (5%)', color: '#6B8B8E' },
-        { label: 'Employment Outcomes (5%)', color: '#83A0A3' },
-        { label: 'Sustainability (5%)', color: '#9DB6B8' },
-      ],
-    },
-    {
-      tag: 'THE',
-      title: 'Research-quality led, but a third is reputation too.',
-      body: "THE's overall score uses 18 indicators across five pillars. Two of those are reputation surveys: Teaching Reputation (15%) and Research Reputation (18%). Both are folded into the Teaching and Research Environment pillars, not shown as their own line. Together they're 33% of the total score, against QS's 45%. Only Research Quality (30%) is purely bibliometric.",
-      segments: [
-        { label: 'Teaching', weight: 29.5, color: '#1D383F' },
-        { label: 'Research Env', weight: 29, color: '#2E5B66' },
-        { label: 'Research Qual', weight: 30, color: '#A7B241' },
-        { label: 'Ind', weight: 4, color: '#6C6864' },
-        { label: 'Intl', weight: 7.5, color: '#6B8B8E', textLight: true },
-      ],
-      legend: [
-        { label: 'Teaching', color: '#1D383F' },
-        { label: 'Research Environment', color: '#2E5B66' },
-        { label: 'Research Quality', color: '#A7B241' },
-        { label: 'Industry', color: '#6C6864' },
-        { label: 'International Outlook', color: '#6B8B8E' },
-      ],
-    },
-  ]}
-/>
-
-<p style={{ marginTop: 8, marginBottom: 8 }}><strong>Two mechanisms explain almost every rank-gap surprise.</strong></p>
-
-<ul>
-  <li><strong>Reputation lags reality.</strong> QS asks tens of thousands of academics and employers what they think of universities, which accounts for 45% of its score. THE runs its own academic teaching and research reputation survey too, for 33% of its score. Reputation views update slowly. A university that improved five years ago is still being judged on its older work. A university that slipped five years ago still benefits from its old reputation.</li>
-  <li><strong>Research output moves faster.</strong> A university whose papers are cited more climbs the research side of the rankings within a few years. THE rewards this more than QS does: 30% of the THE score sits in citation-based Research Quality indicators, against 20% for QS's Citations per Faculty.</li>
-</ul>
-
-<p><strong>These mechanisms sort universities into two types.</strong> Take the University of Science and Technology of China (QS 134, THE 51). It rose on citation output, so it typically ranks higher on THE. That's the research-speed mechanism: THE weights research quality 30% against QS's 20% for citations. Now take Cornell (QS 16, THE 21), a long-established American university with a deep reputation footprint. It typically ranks higher on QS. That's the reputation-lag mechanism: QS weights reputation 45% against THE's 33%.</p>
-
-<p>The same two mechanisms explain wider gaps too. University of California, Santa Cruz (QS 458, THE 201) is a public research campus with a profile that shows up well across THE's research metrics. But it lacks the global reputation-survey visibility and the strong faculty-to-student ratio that QS's heavier 55% reputation-plus-ratio weighting rewards. Neither ranking is wrong. They're weighing different things.</p>
-
-<Exhibit
-  title="QS and THE often disagree, and the disagreement is structural."
-  sub="Institution-level QS rank vs THE rank, 2027 edition: all 338 institutions that appear in both WUR Top 500 lists. Hollow dots are banded on THE's axis (e.g., the 401–500 tier). Hover any dot for the institution and both ranks; outliers labelled."
-  source="Source: QS World University Rankings 2027; THE World University Rankings 2027; authors’ analysis. 334 unlabelled institutions plus 4 labelled outliers, matched by canonicalised name across both systems. QS ranks individually to 500; THE ranks individually only to 300, then bands institutions in tiers (301–325, 326–350, 351–375, 376–400, 401–450, 451–500) rather than giving exact positions. Banded points are placed at the position within their true band closest to perfect agreement with their QS rank, not the band midpoint, so a genuine gap wider than the band itself still shows."
->
-  <SVGScatter
-    points={qsTheScatter2027.points}
-    outliers={qsTheScatter2027.outliers}
-    pointRadius={2.25}
-    pointOpacity={0.8}
-    bandedPointOpacity={0.9}
-    diagonal
-    diagonalLabel="QS rank = THE rank (perfect agreement)"
-    diagonalLabelX={600}
-    diagonalLabelY={-18}
-    diagonalLabelArrowToX={600}
-    diagonalLabelArrowToY={86}
-    legend
-    xAxisLabel="QS rank (lower is better)"
-    yAxisLabel="THE rank (lower is better)"
-    yTicks={[
-      { y: 320, label: '1' },
-      { y: 256, label: '100' },
-      { y: 192, label: '200' },
-      { y: 128, label: '300' },
-      { y: 64, label: '400' },
-      { y: 0, label: '500' },
-    ]}
-  />
-</Exhibit>
-
-<h3 style={{ marginTop: 32 }}>The 2024 rule change reset both systems at once.</h3>
-
-<p className="lead">
-Both publishers shipped material rewrites for the 2024 edition.
-</p>
-
-<StakeholderGrid
-  cols={2}
-  items={[
-    {
-      title: 'THE: WUR 3.0',
-      body: 'The old Citations pillar (30% of the score) was broken into four sub-measures inside a new Research Quality category. Citation Impact keeps half that weight (15%). Three new indicators, Research Strength, Excellence, and Influence, split the remaining 15%. Universities whose strength was pure citation count now compete on three additional, differently-calculated citation measures too.',
-    },
-    {
-      title: 'QS: 2024 revision',
-      body: 'Three new indicators (Sustainability, Employment Outcomes, International Research Network), each at 5%. Employer Reputation lifted from 10% to 15%. Universities with strong employer reputations benefited. Universities that had been climbing on citations-per-faculty saw less of that gain translate into rank movement.',
-    },
-  ]}
-/>
-
-<Exhibit
-  title="The 2023-to-2024 transition moved rankings further than any other year of the decade."
-  sub="Median absolute year-over-year rank change, both systems, 2017 to 2027."
-  source="Source: QS World University Rankings 2017 to 2027; THE World University Rankings 2016 to 2027; authors’ analysis. Includes banded ranks (mapped to band midpoints)."
->
-  <VolatilityChart tiers={qsTheYoyMovement2027} />
-</Exhibit>
-
-<p style={{ marginTop: 32 }}>
-<strong>Between 2023 and 2024, universities moved on the rankings about three times as much as they did in any other year of the decade.</strong> That is too big to come from anything the universities themselves did. Almost all of it is the rule change.
-</p>
-
-<p style={{ marginTop: 32 }}>
-<strong>A score that once secured a top-100 place no longer does.</strong> Both publishers convert each university's results into scores relative to the other universities ranked that year, so a score shows where a university stands in that edition rather than a fixed level of performance. On THE, the score at 100th place rose steadily from 58.0 in 2016 to 63.4 in 2023, before any rule change, then jumped to 66.7 with THE's 2024 rewrite; it stood at 66.6 in 2027. On QS, it stayed between 58 and 65 from 2017 to 2025, then rose to 68.5 in 2026. A university can therefore keep the same score and still slip down the table, without its own performance having declined.
-</p>
-
-</ArticleSection>
-
 <ArticleSection id="outlook" variant="dark">
 
 <SectionHeader
-  number="05"
+  number="04"
   kicker="The next decade"
   title="Five forces will reshape the rankings."
   italic="reshape"
@@ -711,7 +565,7 @@ QS and THE already run regional and specialist rankings alongside their flagship
 <ArticleSection id="implications" variant="alt">
 
 <SectionHeader
-  number="06"
+  number="05"
   kicker="Implications"
   title="Fund with intent."
 />
@@ -733,7 +587,7 @@ This decade's data speaks most directly to governments and sovereign funders. Th
 <ArticleSection id="methodology" variant="alt">
 
 <SectionHeader
-  number="07"
+  number="06"
   kicker="Methodology & sources"
   title="How we built the dataset."
 />
