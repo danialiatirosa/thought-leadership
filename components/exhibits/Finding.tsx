@@ -9,7 +9,7 @@ interface FindingProps {
   unit?: string;
   tone?: 'pos' | 'neg' | 'default';
   trend?: 'up' | 'down' | 'flat';
-  title: string;
+  title?: string;
   children: ReactNode;
 }
 
@@ -45,13 +45,15 @@ export function Finding({ index, num, unit, tone, trend, title, children }: Find
         )}
       </div>
       <div>
-        <div
-          role="heading"
-          aria-level={4}
-          className="m-0 mb-2 font-serif text-[22px] font-semibold normal-case tracking-[-0.1px] text-green leading-[1.05]"
-        >
-          {title}
-        </div>
+        {title ? (
+          <div
+            role="heading"
+            aria-level={4}
+            className="m-0 mb-2 font-serif text-[22px] font-semibold normal-case tracking-[-0.1px] text-green leading-[1.05]"
+          >
+            {title}
+          </div>
+        ) : null}
         <div className="[&>p]:m-0 text-[15px] leading-[1.55] text-ink/85 max-w-none">{children}</div>
       </div>
     </div>
