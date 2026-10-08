@@ -13,7 +13,7 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 353,
+  "blockCount": 354,
   "sharedCount": 16,
   "blocks": [
     {
@@ -4867,9 +4867,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30668,
-          "end": 30675,
-          "line": 517
+          "start": 30648,
+          "end": 30655,
+          "line": 516
         }
       ]
     },
@@ -4892,9 +4892,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31255,
-          "end": 31379,
-          "line": 525
+          "start": 31235,
+          "end": 31359,
+          "line": 524
         }
       ]
     },
@@ -4917,9 +4917,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31470,
-          "end": 31593,
-          "line": 526
+          "start": 31450,
+          "end": 31573,
+          "line": 525
         }
       ]
     },
@@ -4961,9 +4961,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32118,
-          "end": 32272,
-          "line": 528
+          "start": 32098,
+          "end": 32252,
+          "line": 527
         }
       ]
     },
@@ -4986,9 +4986,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32363,
-          "end": 32458,
-          "line": 529
+          "start": 32343,
+          "end": 32438,
+          "line": 528
         }
       ]
     },
@@ -5011,9 +5011,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32549,
-          "end": 32673,
-          "line": 530
+          "start": 32529,
+          "end": 32653,
+          "line": 529
         }
       ]
     },
@@ -6543,38 +6543,38 @@
     {
       "id": "B-075",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>Saudi Arabia spread its funding across a broad base of public universities in Riyadh, Jeddah and the Eastern Province.</strong> Vision 2030 set a clear target: at least five institutions in the global Top 200. The THE WUR Top 500 count went from 1 to 9. The QS count went from 3 to 6.\r\n",
+      "text": "<strong>Saudi Arabia spread its funding across a broad base of public universities</strong> in Riyadh, Jeddah and the Eastern Province. Its THE WUR Top 500 count went from 1 to 9, and its QS count from 3 to 6.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Saudi Arabia spread its funding across a broad base of public universities in Riyadh, Jeddah and the Eastern Province.</strong> Vision 2030 set a clear target: at least five institutions in the global Top 200. The THE WUR Top 500 count went from 1 to 9. The QS count went from 3 to 6.",
+      "display": "<strong>Saudi Arabia spread its funding across a broad base of public universities</strong> in Riyadh, Jeddah and the Eastern Province. Its THE WUR Top 500 count went from 1 to 9, and its QS count from 3 to 6.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20942,
-          "end": 21238,
-          "line": 424
+          "start": 20951,
+          "end": 21160,
+          "line": 425
         }
       ]
     },
     {
       "id": "B-076",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63, the first Arab university to break into the QS Top 100.</strong> It became independent from the government in 2020. Its president, Dr. Muhammad Al-Saggaf, came the same year from KAPSARC and drove the change:\r\n",
+      "text": "\r\n    <strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63</strong>, the first Arab university to break into the QS Top 100.\r\n    <ul>\r\n      <li>It became independent from the government in 2020, the same year its president, Dr. Muhammad Al-Saggaf, arrived from KAPSARC.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63, the first Arab university to break into the QS Top 100.</strong> It became independent from the government in 2020. Its president, Dr. Muhammad Al-Saggaf, came the same year from KAPSARC and drove the change:",
+      "display": "<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63</strong>, the first Arab university to break into the QS Top 100.\r\n    <ul>\r\n      <li>It became independent from the government in 2020, the same year its president, Dr. Muhammad Al-Saggaf, arrived from KAPSARC.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21249,
-          "end": 21550,
-          "line": 428
+          "start": 21173,
+          "end": 21479,
+          "line": 426
         }
       ]
     },
@@ -6583,17 +6583,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "Built 20 new research centres.",
+      "text": "He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Built 20 new research centres.",
+      "display": "He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21570,
-          "end": 21600,
-          "line": 433
+          "start": 21496,
+          "end": 21637,
+          "line": 430
         }
       ]
     },
@@ -6602,17 +6602,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "Added 43 undergraduate concentrations.",
+      "text": "The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Added 43 undergraduate concentrations.",
+      "display": "The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21613,
-          "end": 21651,
-          "line": 434
+          "start": 21654,
+          "end": 21730,
+          "line": 431
         }
       ]
     },
@@ -6621,79 +6621,98 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "Grew the postdoc base roughly tenfold, toward a target of 1,500.",
+      "text": "<strong>KAUST doesn't appear in either ranking:</strong> it's graduate-only, and both systems require undergraduate teaching. Instead, it has topped THE's Arab University Rankings in the 2024 to 2026 editions, while KFUPM leads QS's equivalent regional table.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Grew the postdoc base roughly tenfold, toward a target of 1,500.",
+      "display": "<strong>KAUST doesn't appear in either ranking:</strong> it's graduate-only, and both systems require undergraduate teaching. Instead, it has topped THE's Arab University Rankings in the 2024 to 2026 editions, while KFUPM leads QS's equivalent regional table.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21664,
-          "end": 21728,
-          "line": 435
+          "start": 21763,
+          "end": 22022,
+          "line": 434
         }
       ]
     },
     {
       "id": "B-080",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\nThe rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.\r\n",
+      "text": "\r\n    <strong>King Abdulaziz University is the warning sign.</strong>\r\n    <ul>\r\n      <li>It hit an outright THE rank of 101 in 2023, then fell to the 351–400 band by 2025 and to 401–450 in 2027.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.",
+      "display": "<strong>King Abdulaziz University is the warning sign.</strong>\r\n    <ul>\r\n      <li>It hit an outright THE rank of 101 in 2023, then fell to the 351–400 band by 2025 and to 401–450 in 2027.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21747,
-          "end": 21827,
-          "line": 438
+          "start": 22035,
+          "end": 22231,
+          "line": 435
         }
       ]
     },
     {
       "id": "B-081",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>KAUST doesn't appear in either ranking</strong>: it's graduate-only, and both systems require undergraduate teaching to qualify. It has topped THE's Arab University Rankings three years running instead, in the 2024 to 2026 editions. KFUPM leads the same QS regional table.\r\n",
+      "text": "Part of that rise came from incentivising international researchers to list it as a secondary affiliation<sup>§</sup>, which inflated its citation counts without adding real research capacity.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>KAUST doesn't appear in either ranking</strong>: it's graduate-only, and both systems require undergraduate teaching to qualify. It has topped THE's Arab University Rankings three years running instead, in the 2024 to 2026 editions. KFUPM leads the same QS regional table.",
+      "display": "Part of that rise came from incentivising international researchers to list it as a secondary affiliation<sup>§</sup>, which inflated its citation counts without adding real research capacity.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21838,
-          "end": 22122,
-          "line": 442
+          "start": 22248,
+          "end": 22440,
+          "line": 439
         }
       ]
     },
     {
       "id": "B-082",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>King Abdulaziz University is the warning sign inside Saudi Arabia's broad base.</strong> It hit an outright THE rank of 101 in 2023, then fell to the 351-400 band by 2025, and to 401–450 in 2027. Part of that rise came from incentivizing international researchers to list it as a secondary affiliation<sup>§</sup>. That inflated its citation counts without adding real research capacity. When THE cut the weight of citations from 30 percent to 15 percent in its 2024 overhaul, the rank fell with it. KFUPM's climb held. <strong>A rank built on research capability and industry ties survives a methodology change. One built on citation engineering doesn't.</strong>\r\n",
+      "text": "When THE cut the weight of citation impact from 30% to 15% in its 2024 overhaul, the rank fell with it. KFUPM's climb held.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>King Abdulaziz University is the warning sign inside Saudi Arabia's broad base.</strong> It hit an outright THE rank of 101 in 2023, then fell to the 351-400 band by 2025, and to 401–450 in 2027. Part of that rise came from incentivizing international researchers to list it as a secondary affiliation<sup>§</sup>. That inflated its citation counts without adding real research capacity. When THE cut the weight of citations from 30 percent to 15 percent in its 2024 overhaul, the rank fell with it. KFUPM's climb held. <strong>A rank built on research capability and industry ties survives a methodology change. One built on citation engineering doesn't.</strong>",
+      "display": "When THE cut the weight of citation impact from 30% to 15% in its 2024 overhaul, the rank fell with it. KFUPM's climb held.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22133,
-          "end": 22809,
-          "line": 446
+          "start": 22457,
+          "end": 22580,
+          "line": 440
         }
       ]
     },
     {
       "id": "B-083",
+      "kind": "prose",
+      "path": "03 GCC Spotlight > <p>",
+      "sectionId": "uae",
+      "text": "\r\n<strong>A rank built on research capability and industry ties survives a methodology change. One built on citation engineering doesn't.</strong>\r\n",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "<strong>A rank built on research capability and industry ties survives a methodology change. One built on citation engineering doesn't.</strong>",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 22641,
+          "end": 22789,
+          "line": 445
+        }
+      ]
+    },
+    {
+      "id": "B-084",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6705,14 +6724,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22933,
-          "end": 23910,
-          "line": 452
+          "start": 22913,
+          "end": 23890,
+          "line": 451
         }
       ]
     },
     {
-      "id": "B-084",
+      "id": "B-085",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6724,14 +6743,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24036,
-          "end": 24259,
-          "line": 458
+          "start": 24016,
+          "end": 24239,
+          "line": 457
         }
       ]
     },
     {
-      "id": "B-085",
+      "id": "B-086",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6743,14 +6762,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24324,
-          "end": 24597,
-          "line": 459
+          "start": 24304,
+          "end": 24577,
+          "line": 458
         }
       ]
     },
     {
-      "id": "B-086",
+      "id": "B-087",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6762,14 +6781,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24662,
-          "end": 25089,
-          "line": 460
+          "start": 24642,
+          "end": 25069,
+          "line": 459
         }
       ]
     },
     {
-      "id": "B-087",
+      "id": "B-088",
       "kind": "prop",
       "path": "04 Learnings & Implications > SectionHeader > kicker",
       "sectionId": "implications",
@@ -6781,14 +6800,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25211,
-          "end": 25235,
-          "line": 468
+          "start": 25191,
+          "end": 25215,
+          "line": 467
         }
       ]
     },
     {
-      "id": "B-088",
+      "id": "B-089",
       "kind": "prop",
       "path": "04 Learnings & Implications > SectionHeader > title",
       "sectionId": "implications",
@@ -6800,14 +6819,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25247,
-          "end": 25271,
-          "line": 469
+          "start": 25227,
+          "end": 25251,
+          "line": 468
         }
       ]
     },
     {
-      "id": "B-089",
+      "id": "B-090",
       "kind": "prose",
       "path": "04 Learnings & Implications > <p>",
       "sectionId": "implications",
@@ -6819,14 +6838,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25300,
-          "end": 25568,
-          "line": 472
+          "start": 25280,
+          "end": 25548,
+          "line": 471
         }
       ]
     },
     {
-      "id": "B-090",
+      "id": "B-091",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6838,14 +6857,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30934,
-          "end": 30993,
-          "line": 523
+          "start": 30914,
+          "end": 30973,
+          "line": 522
         }
       ]
     },
     {
-      "id": "B-091",
+      "id": "B-092",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6857,14 +6876,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31084,
-          "end": 31164,
-          "line": 524
+          "start": 31064,
+          "end": 31144,
+          "line": 523
         }
       ]
     },
     {
-      "id": "B-092",
+      "id": "B-093",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6876,14 +6895,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31684,
-          "end": 32027,
-          "line": 527
+          "start": 31664,
+          "end": 32007,
+          "line": 526
         }
       ]
     },
     {
-      "id": "B-093",
+      "id": "B-094",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6895,14 +6914,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32764,
-          "end": 33015,
-          "line": 531
+          "start": 32744,
+          "end": 32995,
+          "line": 530
         }
       ]
     },
     {
-      "id": "B-094",
+      "id": "B-095",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6914,14 +6933,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33106,
-          "end": 33282,
-          "line": 532
+          "start": 33086,
+          "end": 33262,
+          "line": 531
         }
       ]
     },
     {
-      "id": "B-095",
+      "id": "B-096",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6933,9 +6952,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33373,
-          "end": 33522,
-          "line": 533
+          "start": 33353,
+          "end": 33502,
+          "line": 532
         }
       ]
     }
