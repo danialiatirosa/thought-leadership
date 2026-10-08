@@ -4867,9 +4867,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31048,
-          "end": 31055,
-          "line": 522
+          "start": 30668,
+          "end": 30675,
+          "line": 517
         }
       ]
     },
@@ -4892,9 +4892,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31635,
-          "end": 31759,
-          "line": 530
+          "start": 31255,
+          "end": 31379,
+          "line": 525
         }
       ]
     },
@@ -4917,9 +4917,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31850,
-          "end": 31973,
-          "line": 531
+          "start": 31470,
+          "end": 31593,
+          "line": 526
         }
       ]
     },
@@ -4961,9 +4961,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32498,
-          "end": 32652,
-          "line": 533
+          "start": 32118,
+          "end": 32272,
+          "line": 528
         }
       ]
     },
@@ -4986,9 +4986,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32743,
-          "end": 32838,
-          "line": 534
+          "start": 32363,
+          "end": 32458,
+          "line": 529
         }
       ]
     },
@@ -5011,9 +5011,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32929,
-          "end": 33053,
-          "line": 535
+          "start": 32549,
+          "end": 32673,
+          "line": 530
         }
       ]
     },
@@ -6412,16 +6412,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n    <strong>Khalifa University is the UAE's biggest riser.</strong>\r\n    <ul>\r\n      <li>Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027, a roughly 258-place gain. That's the largest of any UAE university this decade, and second in the Gulf only to Qatar University (393rd to 109th). On THE, it moved from the 501-600 band to 235.",
+      "text": "\r\n    <strong>Khalifa University is the UAE's biggest riser.</strong>\r\n    <ul>\r\n      <li>Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027, second in the Gulf only to Qatar University (393rd to 109th). On THE, it moved from the 501-600 band to 235.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Khalifa University is the UAE's biggest riser.</strong>\r\n    <ul>\r\n      <li>Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027, a roughly 258-place gain. That's the largest of any UAE university this decade, and second in the Gulf only to Qatar University (393rd to 109th). On THE, it moved from the 501-600 band to 235.",
+      "display": "<strong>Khalifa University is the UAE's biggest riser.</strong>\r\n    <ul>\r\n      <li>Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027, second in the Gulf only to Qatar University (393rd to 109th). On THE, it moved from the 501-600 band to 235.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 19272,
-          "end": 19631,
+          "end": 19547,
           "line": 402
         }
       ]
@@ -6431,16 +6431,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "Its research-output scores are well ahead of its reputation scores: it ranks 87th in the world on QS's citations per faculty, but outside the top 300 on both reputation surveys.",
+      "text": "Its research output is a particular strength: it ranks 87th in the world on QS's citations per faculty.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Its research-output scores are well ahead of its reputation scores: it ranks 87th in the world on QS's citations per faculty, but outside the top 300 on both reputation surveys.",
+      "display": "Its research output is a particular strength: it ranks 87th in the world on QS's citations per faculty.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19648,
-          "end": 19825,
+          "start": 19564,
+          "end": 19667,
           "line": 406
         }
       ]
@@ -6450,16 +6450,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "In 2017, it merged with the Petroleum Institute and the Masdar Institute by presidential decree, creating a single flagship. It's the same approach Singapore used: one or two strong universities, funded for decades.",
+      "text": "The climb followed a 2017 merger with the Petroleum Institute and the Masdar Institute, creating a single flagship.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "In 2017, it merged with the Petroleum Institute and the Masdar Institute by presidential decree, creating a single flagship. It's the same approach Singapore used: one or two strong universities, funded for decades.",
+      "display": "The climb followed a 2017 merger with the Petroleum Institute and the Masdar Institute, creating a single flagship.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19842,
-          "end": 20057,
+          "start": 19684,
+          "end": 19799,
           "line": 407
         }
       ]
@@ -6469,17 +6469,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n    <strong>The intent behind the climb is visible in how Khalifa is run.</strong>\r\n    <ul>\r\n      <li>Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
+      "text": "Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>The intent behind the climb is visible in how Khalifa is run.</strong>\r\n    <ul>\r\n      <li>Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
+      "display": "Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20090,
-          "end": 20375,
-          "line": 410
+          "start": 19816,
+          "end": 19995,
+          "line": 408
         }
       ]
     },
@@ -6496,9 +6496,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20392,
-          "end": 20591,
-          "line": 414
+          "start": 20012,
+          "end": 20211,
+          "line": 409
         }
       ]
     },
@@ -6515,9 +6515,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20624,
-          "end": 21022,
-          "line": 417
+          "start": 20244,
+          "end": 20642,
+          "line": 412
         }
       ]
     },
@@ -6534,9 +6534,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21039,
-          "end": 21154,
-          "line": 421
+          "start": 20659,
+          "end": 20774,
+          "line": 416
         }
       ]
     },
@@ -6553,9 +6553,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21322,
-          "end": 21618,
-          "line": 429
+          "start": 20942,
+          "end": 21238,
+          "line": 424
         }
       ]
     },
@@ -6572,9 +6572,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21629,
-          "end": 21930,
-          "line": 433
+          "start": 21249,
+          "end": 21550,
+          "line": 428
         }
       ]
     },
@@ -6591,9 +6591,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21950,
-          "end": 21980,
-          "line": 438
+          "start": 21570,
+          "end": 21600,
+          "line": 433
         }
       ]
     },
@@ -6610,9 +6610,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21993,
-          "end": 22031,
-          "line": 439
+          "start": 21613,
+          "end": 21651,
+          "line": 434
         }
       ]
     },
@@ -6629,9 +6629,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22044,
-          "end": 22108,
-          "line": 440
+          "start": 21664,
+          "end": 21728,
+          "line": 435
         }
       ]
     },
@@ -6648,9 +6648,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22127,
-          "end": 22207,
-          "line": 443
+          "start": 21747,
+          "end": 21827,
+          "line": 438
         }
       ]
     },
@@ -6667,9 +6667,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22218,
-          "end": 22502,
-          "line": 447
+          "start": 21838,
+          "end": 22122,
+          "line": 442
         }
       ]
     },
@@ -6686,9 +6686,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22513,
-          "end": 23189,
-          "line": 451
+          "start": 22133,
+          "end": 22809,
+          "line": 446
         }
       ]
     },
@@ -6705,9 +6705,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23313,
-          "end": 24290,
-          "line": 457
+          "start": 22933,
+          "end": 23910,
+          "line": 452
         }
       ]
     },
@@ -6724,9 +6724,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24416,
-          "end": 24639,
-          "line": 463
+          "start": 24036,
+          "end": 24259,
+          "line": 458
         }
       ]
     },
@@ -6743,9 +6743,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24704,
-          "end": 24977,
-          "line": 464
+          "start": 24324,
+          "end": 24597,
+          "line": 459
         }
       ]
     },
@@ -6762,9 +6762,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25042,
-          "end": 25469,
-          "line": 465
+          "start": 24662,
+          "end": 25089,
+          "line": 460
         }
       ]
     },
@@ -6781,9 +6781,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25591,
-          "end": 25615,
-          "line": 473
+          "start": 25211,
+          "end": 25235,
+          "line": 468
         }
       ]
     },
@@ -6800,9 +6800,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25627,
-          "end": 25651,
-          "line": 474
+          "start": 25247,
+          "end": 25271,
+          "line": 469
         }
       ]
     },
@@ -6819,9 +6819,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25680,
-          "end": 25948,
-          "line": 477
+          "start": 25300,
+          "end": 25568,
+          "line": 472
         }
       ]
     },
@@ -6838,9 +6838,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31314,
-          "end": 31373,
-          "line": 528
+          "start": 30934,
+          "end": 30993,
+          "line": 523
         }
       ]
     },
@@ -6857,9 +6857,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31464,
-          "end": 31544,
-          "line": 529
+          "start": 31084,
+          "end": 31164,
+          "line": 524
         }
       ]
     },
@@ -6876,9 +6876,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32064,
-          "end": 32407,
-          "line": 532
+          "start": 31684,
+          "end": 32027,
+          "line": 527
         }
       ]
     },
@@ -6895,9 +6895,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33144,
-          "end": 33395,
-          "line": 536
+          "start": 32764,
+          "end": 33015,
+          "line": 531
         }
       ]
     },
@@ -6914,9 +6914,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33486,
-          "end": 33662,
-          "line": 537
+          "start": 33106,
+          "end": 33282,
+          "line": 532
         }
       ]
     },
@@ -6933,9 +6933,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33753,
-          "end": 33902,
-          "line": 538
+          "start": 33373,
+          "end": 33522,
+          "line": 533
         }
       ]
     }
