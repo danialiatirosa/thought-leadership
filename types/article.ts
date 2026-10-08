@@ -33,6 +33,8 @@ export interface ArticleFrontmatter {
   dataEndYear?: number;
   /** Whether the analysis uses the World Bank R&D-as-share-of-GDP indicator. Defaults to true. */
   usesWorldBankRd?: boolean;
+  /** Hide the closing 'About this analysis' box. Defaults to false. */
+  hideClosing?: boolean;
   tags?: string[];
   status: ArticleStatus;
 }
