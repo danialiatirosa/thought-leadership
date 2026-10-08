@@ -13,8 +13,8 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 358,
-  "sharedCount": 18,
+  "blockCount": 353,
+  "sharedCount": 16,
   "blocks": [
     {
       "id": "A-001",
@@ -4678,12 +4678,12 @@
       ]
     },
     {
-      "id": "S-011",
+      "id": "A-230",
       "kind": "prop",
       "path": "10 Methodology & sources > SectionHeader > kicker",
       "sectionId": "methodology",
       "text": "Methodology & sources",
-      "shared": true,
+      "shared": false,
       "minor": true,
       "quote": "\"",
       "display": "Methodology & sources",
@@ -4693,22 +4693,16 @@
           "start": 39442,
           "end": 39463,
           "line": 604
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31026,
-          "end": 31047,
-          "line": 522
         }
       ]
     },
     {
-      "id": "S-012",
+      "id": "A-231",
       "kind": "prop",
       "path": "10 Methodology & sources > SectionHeader > title",
       "sectionId": "methodology",
       "text": "How we built the dataset.",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "\"",
       "display": "How we built the dataset.",
@@ -4718,17 +4712,11 @@
           "start": 39474,
           "end": 39499,
           "line": 605
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31059,
-          "end": 31084,
-          "line": 523
         }
       ]
     },
     {
-      "id": "A-230",
+      "id": "A-232",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4747,7 +4735,7 @@
       ]
     },
     {
-      "id": "A-231",
+      "id": "A-233",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4766,7 +4754,7 @@
       ]
     },
     {
-      "id": "A-232",
+      "id": "A-234",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4785,7 +4773,7 @@
       ]
     },
     {
-      "id": "A-233",
+      "id": "A-235",
       "kind": "prose",
       "path": "10 Methodology & sources > <h4>",
       "sectionId": "methodology",
@@ -4804,7 +4792,7 @@
       ]
     },
     {
-      "id": "A-234",
+      "id": "A-236",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4823,7 +4811,7 @@
       ]
     },
     {
-      "id": "A-235",
+      "id": "A-237",
       "kind": "prose",
       "path": "10 Methodology & sources > <h4>",
       "sectionId": "methodology",
@@ -4842,7 +4830,7 @@
       ]
     },
     {
-      "id": "A-236",
+      "id": "A-238",
       "kind": "prose",
       "path": "10 Methodology & sources > <p>",
       "sectionId": "methodology",
@@ -4861,7 +4849,7 @@
       ]
     },
     {
-      "id": "S-013",
+      "id": "S-011",
       "kind": "prose",
       "path": "10 Methodology & sources > <h3>",
       "sectionId": "methodology",
@@ -4879,14 +4867,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32762,
-          "end": 32769,
-          "line": 537
+          "start": 31026,
+          "end": 31033,
+          "line": 522
         }
       ]
     },
     {
-      "id": "S-014",
+      "id": "S-012",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -4904,14 +4892,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32916,
-          "end": 33040,
-          "line": 539
+          "start": 31292,
+          "end": 31416,
+          "line": 528
         }
       ]
     },
     {
-      "id": "S-015",
+      "id": "S-013",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -4929,14 +4917,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33131,
-          "end": 33254,
-          "line": 540
+          "start": 31507,
+          "end": 31630,
+          "line": 529
         }
       ]
     },
     {
-      "id": "A-237",
+      "id": "A-239",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -4955,7 +4943,7 @@
       ]
     },
     {
-      "id": "S-016",
+      "id": "S-014",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -4973,14 +4961,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33779,
-          "end": 33933,
-          "line": 542
+          "start": 32155,
+          "end": 32309,
+          "line": 531
         }
       ]
     },
     {
-      "id": "S-017",
+      "id": "S-015",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -4998,14 +4986,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34024,
-          "end": 34119,
-          "line": 543
+          "start": 32400,
+          "end": 32495,
+          "line": 532
         }
       ]
     },
     {
-      "id": "S-018",
+      "id": "S-016",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5023,14 +5011,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34210,
-          "end": 34334,
-          "line": 544
+          "start": 32586,
+          "end": 32710,
+          "line": 533
         }
       ]
     },
     {
-      "id": "A-238",
+      "id": "A-240",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5049,7 +5037,7 @@
       ]
     },
     {
-      "id": "A-239",
+      "id": "A-241",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5068,7 +5056,7 @@
       ]
     },
     {
-      "id": "A-240",
+      "id": "A-242",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -6840,102 +6828,7 @@
     {
       "id": "B-090",
       "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
-      "sectionId": "methodology",
-      "text": "<strong>Coverage.</strong> QS WUR Top 500, 2017–2027 (eleven editions). THE WUR Top 500, 2016–2027 (twelve editions). 1,033 distinct canonical institutions across 82 countries; 11,537 institution-year-system rows.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "<strong>Coverage.</strong> QS WUR Top 500, 2017–2027 (eleven editions). THE WUR Top 500, 2016–2027 (twelve editions). 1,033 distinct canonical institutions across 82 countries; 11,537 institution-year-system rows.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31105,
-          "end": 31318,
-          "line": 527
-        }
-      ]
-    },
-    {
-      "id": "B-091",
-      "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
-      "sectionId": "methodology",
-      "text": "<strong>Rank handling.</strong> Integer ranks pass through unchanged. Banded ranks (e.g., \"401–500\") converted to numerical midpoints with the original band retained for tier-boundary analysis. Tie markers stripped. THE's 2027 edition gives exact ranks to 300 (previously 200) and narrower bands above that (25 places to 400, then 50). 2026–2027 movement is compared like-for-like by converting 2027 ranks beyond 200 into the 2026 bands.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "<strong>Rank handling.</strong> Integer ranks pass through unchanged. Banded ranks (e.g., \"401–500\") converted to numerical midpoints with the original band retained for tier-boundary analysis. Tie markers stripped. THE's 2027 edition gives exact ranks to 300 (previously 200) and narrower bands above that (25 places to 400, then 50). 2026–2027 movement is compared like-for-like by converting 2027 ranks beyond 200 into the 2026 bands.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31331,
-          "end": 31768,
-          "line": 528
-        }
-      ]
-    },
-    {
-      "id": "B-092",
-      "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
-      "sectionId": "methodology",
-      "text": "<strong>Country normalisation.</strong> Manual aliases for Hong Kong, Macao, Taiwan, Iran, Korea, Russia, the UAE, and other commonly inconsistent entries. China is tracked as mainland China only throughout; Hong Kong, Macao and Taiwan are counted under their own country codes.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "<strong>Country normalisation.</strong> Manual aliases for Hong Kong, Macao, Taiwan, Iran, Korea, Russia, the UAE, and other commonly inconsistent entries. China is tracked as mainland China only throughout; Hong Kong, Macao and Taiwan are counted under their own country codes.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31781,
-          "end": 32059,
-          "line": 529
-        }
-      ]
-    },
-    {
-      "id": "B-093",
-      "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
-      "sectionId": "methodology",
-      "text": "<strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "<strong>Institution matching.</strong> Two rules in order: hard alias for known cases, including renames such as KFUPM, EPFL and Institute of Science Tokyo; then exact match on aggressively-normalised name within the same country.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32072,
-          "end": 32302,
-          "line": 530
-        }
-      ]
-    },
-    {
-      "id": "B-094",
-      "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
-      "sectionId": "methodology",
-      "text": "<strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "<strong>2024 rule-change flagging.</strong> Year-over-year rank changes computed only for integer-ranked rows. The 2024 changes (THE WUR 3.0; QS revision) are flagged in the data; cross-year analyses straddling the change are discussed as a rule change first throughout.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32315,
-          "end": 32585,
-          "line": 531
-        }
-      ]
-    },
-    {
-      "id": "B-095",
-      "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
+      "path": "05 Sources > <li>",
       "sectionId": "methodology",
       "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
       "shared": false,
@@ -6945,16 +6838,16 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33345,
-          "end": 33688,
-          "line": 541
+          "start": 31721,
+          "end": 32064,
+          "line": 530
         }
       ]
     },
     {
-      "id": "B-096",
+      "id": "B-091",
       "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
+      "path": "05 Sources > <li>",
       "sectionId": "methodology",
       "text": "QS World University Rankings, annual editions 2017 to 2027.",
       "shared": false,
@@ -6964,16 +6857,16 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34425,
-          "end": 34484,
-          "line": 545
+          "start": 32801,
+          "end": 32860,
+          "line": 534
         }
       ]
     },
     {
-      "id": "B-097",
+      "id": "B-092",
       "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
+      "path": "05 Sources > <li>",
       "sectionId": "methodology",
       "text": "Times Higher Education, World University Rankings, annual editions 2016 to 2027.",
       "shared": false,
@@ -6983,16 +6876,16 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34575,
-          "end": 34655,
-          "line": 546
+          "start": 32951,
+          "end": 33031,
+          "line": 535
         }
       ]
     },
     {
-      "id": "B-098",
+      "id": "B-093",
       "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
+      "path": "05 Sources > <li>",
       "sectionId": "methodology",
       "text": "Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, <em style={{ color: 'var(--color-ink)' }}>Delving into LLM-assisted writing in biomedical publications through excess vocabulary</em>, Science Advances 11, no. 27 (2025): eadt3813.",
       "shared": false,
@@ -7002,16 +6895,16 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34746,
-          "end": 34997,
-          "line": 547
+          "start": 33122,
+          "end": 33373,
+          "line": 536
         }
       ]
     },
     {
-      "id": "B-099",
+      "id": "B-094",
       "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
+      "path": "05 Sources > <li>",
       "sectionId": "methodology",
       "text": "Yudhijit Bhattacharjee, <em style={{ color: 'var(--color-ink)' }}>Saudi Universities Offer Cash in Exchange for Academic Prestige</em>, Science 334, no. 6061 (2011): 1344–1345.",
       "shared": false,
@@ -7021,16 +6914,16 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35088,
-          "end": 35264,
-          "line": 548
+          "start": 33464,
+          "end": 33640,
+          "line": 537
         }
       ]
     },
     {
-      "id": "B-100",
+      "id": "B-095",
       "kind": "prose",
-      "path": "05 Methodology & sources > <li>",
+      "path": "05 Sources > <li>",
       "sectionId": "methodology",
       "text": "<em style={{ color: 'var(--color-ink)' }}>Saudi universities lose highly cited researchers after payment schemes raise ethics concerns</em>, Science.",
       "shared": false,
@@ -7040,9 +6933,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35355,
-          "end": 35504,
-          "line": 549
+          "start": 33731,
+          "end": 33880,
+          "line": 538
         }
       ]
     }
