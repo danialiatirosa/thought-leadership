@@ -4892,9 +4892,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31292,
-          "end": 31416,
-          "line": 528
+          "start": 31613,
+          "end": 31737,
+          "line": 530
         }
       ]
     },
@@ -4917,9 +4917,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31507,
-          "end": 31630,
-          "line": 529
+          "start": 31828,
+          "end": 31951,
+          "line": 531
         }
       ]
     },
@@ -4961,9 +4961,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32155,
-          "end": 32309,
-          "line": 531
+          "start": 32476,
+          "end": 32630,
+          "line": 533
         }
       ]
     },
@@ -4986,9 +4986,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32400,
-          "end": 32495,
-          "line": 532
+          "start": 32721,
+          "end": 32816,
+          "line": 534
         }
       ]
     },
@@ -5011,9 +5011,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32586,
-          "end": 32710,
-          "line": 533
+          "start": 32907,
+          "end": 33031,
+          "line": 535
         }
       ]
     },
@@ -6830,25 +6830,6 @@
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
-      "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31721,
-          "end": 32064,
-          "line": 530
-        }
-      ]
-    },
-    {
-      "id": "B-091",
-      "kind": "prose",
-      "path": "05 Sources > <li>",
-      "sectionId": "methodology",
       "text": "QS World University Rankings, annual editions 2017 to 2027.",
       "shared": false,
       "minor": false,
@@ -6857,14 +6838,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32801,
-          "end": 32860,
-          "line": 534
+          "start": 31292,
+          "end": 31351,
+          "line": 528
         }
       ]
     },
     {
-      "id": "B-092",
+      "id": "B-091",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6876,9 +6857,28 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32951,
-          "end": 33031,
-          "line": 535
+          "start": 31442,
+          "end": 31522,
+          "line": 529
+        }
+      ]
+    },
+    {
+      "id": "B-092",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 32042,
+          "end": 32385,
+          "line": 532
         }
       ]
     },
