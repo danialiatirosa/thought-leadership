@@ -294,6 +294,15 @@ button {
   line-height: 1.65;
   color: var(--color-ink);
 }
+/* Footnotes: small sans in the same grey as exhibit source notes. */
+.prose-article p.footnote {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.5;
+  color: #9A9BA0;
+  max-width: 68ch;
+  margin-bottom: 0;
+}
 .prose-article p.wide {
   max-width: none;
 }
