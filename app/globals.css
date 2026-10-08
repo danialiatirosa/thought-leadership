@@ -411,6 +411,16 @@ button {
   left: 12px;
   color: var(--color-mute);
 }
+.prose-article li > ul {
+  margin: 10px 0 10px;
+}
+.prose-article li > ul li {
+  margin-bottom: 6px;
+  font-size: 0.93em;
+}
+.prose-article li > ul li::before {
+  content: "–";
+}
 
 /* Generic spacers (used in MDX) */
 .rule-thin {

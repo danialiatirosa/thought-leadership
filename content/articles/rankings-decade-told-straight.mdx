@@ -1,6 +1,6 @@
 ---
 title: "A decade in the rankings"
-dek: "This article analyses how the QS and Times Higher Education (THE) World University Rankings have changed over the past decade. The main story is that North America and Europe have lost some space at the top. In 2016 universities from the two regions took 85 places in THE's Top 100. In the 2027 edition they take 73. Over the same period, Asia more than doubled its presence, from 9 places to 21, with China and Hong Kong accounting for most of the increase. The Gulf has also gained, from a low base: Saudi Arabia went from one university in THE's Top 500 to nine, and the UAE from none to six. Both QS and THE revised their methodologies in 2024, so some recent year-on-year changes reflect how universities are scored rather than how they performed."
+dek: "This article analyses how the QS and Times Higher Education (THE) World University Rankings have changed over the past decade."
 emphasis: "decade"
 slug: "rankings-decade-told-straight"
 category: "rankings"
@@ -36,12 +36,14 @@ import { ArticleSection } from '@/components/ArticleLayout';
 
 <SectionHeader
   number="01"
-  kicker="The brief"
-  title="Where the decade's movement happened."
+  kicker="Exec summary"
+  title=""
   hideMarker
 />
 
-<Finding index={1} num="2×" trend="up" title="Asia's THE WUR Top 100 share more than doubled">
+<h3>Asia's share of Top 100 more than doubled, driven by China</h3>
+
+<Finding index={1} num="2×" trend="up">
 Asia's share of the THE WUR Top 100 grew from 9% in 2016 to 21% in 2027. QS shows a smaller shift, from 20% to 23%, because it leans more on reputation surveys, and reputation moves slowly.
 
 <Exhibit
@@ -60,15 +62,16 @@ Asia's share of the THE WUR Top 100 grew from 9% in 2016 to 21% in 2027. QS show
 </Exhibit>
 </Finding>
 
-<Finding index={2} num="2 → 8" trend="up" title="China quadrupled its THE WUR Top 100 footprint">
+<Finding index={2} num="2 → 8" trend="up">
 China's number of THE WUR Top 100 universities grew from 2 in 2016 to 8 in 2027. The timing lines up with China's Double First-Class programme, a state initiative funding about 140 universities and disciplines. It was announced in 2015 and started five-year funding cycles in 2016.
 </Finding>
 
-<Finding index={3} num="−2 / −26" tone="neg" trend="down" title="The US lost ground at the WUR Top 100, and far more sharply below it">
+<h3>US is losing ground, especially below the Top 100</h3>
+
+<Finding index={3} num="−2 / −26" tone="neg" trend="down">
 The US's WUR Top 100 count fell: 39 to 37 on THE, 32 to 26 on QS. The very top barely moves. Harvard, MIT, and Stanford hold almost the same ranks as a decade ago. The drop is concentrated below the Top 100, mostly among public universities. In the WUR Top 500, the drop is more noticeable: the US lost 26 institutions on net, the largest net decline of any country this decade (see chart).
 
 <Exhibit
-  title="China is the biggest gainer; the US is the biggest decliner."
   sub="Net change in THE WUR Top 500 institution count, 2016 to 2027. Top eight gainers and decliners."
   source="Source: THE World University Rankings 2016 vs 2027; authors’ analysis. Counts every listed institution, including banded ranks (e.g., 401–500), since this measures Top 500 membership, not a precise rank value."
 >
@@ -76,43 +79,25 @@ The US's WUR Top 100 count fell: 39 to 37 on THE, 32 to 26 on QS. The very top b
 </Exhibit>
 </Finding>
 
-<Finding index={4} num="+8 / +6" trend="up" title="The Gulf is the decade's second growth engine, after China">
+<h3>The Gulf is a second growth engine, after China</h3>
+
+<Finding index={4} num="+8 / +6" trend="up">
 Saudi Arabia (+8 institutions) is the next-biggest gainer in the WUR Top 500 after China, and the UAE (+6 institutions) is close behind.
 </Finding>
 
-<Finding index={5} num="258" trend="up" title="Khalifa University had the largest rise of any UAE university this decade">
+<Finding index={5} num="258" trend="up">
 Khalifa University's QS rank climbed 258 places this decade, from the 401-410 band in 2017 to rank 147 in 2027. That's the largest gain of any UAE university. The climb followed a 2017 merger that brought Khalifa University, the Petroleum Institute and the Masdar Institute together into one flagship.
 </Finding>
 
-<Finding index={6} num="63" trend="up" title="Saudi Arabia's numbered target strategy beat its own deadline">
+<Finding index={6} num="63" trend="up">
 Saudi Arabia's Vision 2030 set a clear goal: at least five institutions in the global Top 200 by 2030. King Fahd University of Petroleum and Minerals became the first Arab university to break into the QS Top 100, years ahead of that target, and now sits at rank 63.
-</Finding>
-
-<SectionHeader
-  number="01"
-  title="In 2024 publishers rewrote the rules. AI is about to rewrite them again."
-  hideMarker
-/>
-
-<Finding index={7} num="2024" title="In 2024, both publishers rewrote the rules">
-THE added three research-quality measures (Research Strength, Excellence and Influence) alongside its citation score; QS added Sustainability, Employment Outcomes and International Research Network, and gave employer views more weight. The typical university moved 15 places on THE and 23 on QS, far more than in any other year of the decade. The top barely changed, but lower down some universities swung by more than 100 places, including King Abdulaziz University on THE and four Russian universities on QS. Read any rank change between 2023 and 2024 as a rule change first, and an institutional change second.
-</Finding>
-
-<Finding index={8} num="14%" trend="up" title="AI is already reshaping how research gets done">
-Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-language-model writing<sup>†</sup>. Disclosure lags actual use. AI is no longer just assisting research. In September 2026 an AI model reportedly proved a result on the Navier-Stokes equations, an early sign that AI can produce real research on its own.
 </Finding>
 
 <Handoff href="#landscape">The detailed analysis</Handoff>
 
-<hr className="rule-thin" style={{ marginTop: 40 }} />
-
-<p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: 12 }}>
-† Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, "Delving into LLM-assisted writing in biomedical publications through excess vocabulary," <em>Science Advances</em> 11, no. 27 (2025): eadt3813.
-</p>
-
 </ArticleSection>
 
-<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 06</FullDivider>
+<FullDivider>The detailed analysis <span style={{ opacity: 0.65, margin: '0 14px' }}>·</span> Sections 02 through 05</FullDivider>
 
 <ArticleSection id="landscape">
 
@@ -170,7 +155,14 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
 </p>
 
 <ul>
-  <li><strong>China added 25 universities to the THE WUR Top 500 across the decade</strong>, and quadrupled its Top 100 cohort, from 2 to 8. China's climb traces back to one policy decision: the Double First-Class programme. It was announced in 2015 to replace the older Project 985 and Project 211<sup>†</sup>. It funds roughly 140 universities and disciplines to build "world-class" research capacity, in sustained five-year funding cycles from 2016. Most of the elite-tier gain came from institutions that were already large and established: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China. The funding built on existing strength. However, the funding isn't unconditional. Each five-year cycle includes a review mechanism. After the first one, the Ministry of Education publicly warned or revoked 16 underperforming disciplines across 15 universities.</li>
+  <li>
+    <strong>China added 25 universities to the THE WUR Top 500 across the decade</strong>, and quadrupled its Top 100 cohort, from 2 to 8. The climb traces back to one policy decision: the Double First-Class programme.
+    <ul>
+      <li>Funds roughly 140 universities and disciplines to build "world-class" research capacity, in five-year cycles since 2016.</li>
+      <li>Most of the elite-tier gain went to institutions already large and established: Tsinghua, Peking, Fudan, Shanghai Jiao Tong, Zhejiang, and the University of Science and Technology of China. The funding built on existing strength.</li>
+      <li>The funding isn't unconditional: each five-year cycle includes a review. After the first one, the Ministry of Education publicly warned or revoked 16 underperforming disciplines across 15 universities.</li>
+    </ul>
+  </li>
   <li><strong>Saudi Arabia went from one WUR Top 500 university to nine.</strong> Vision 2030 set a clear target, at least five in the global Top 200, and made rank movement a ministerial KPI. Its five highest-ranked universities on QS are King Fahd University of Petroleum and Minerals (KFUPM, 63), King Saud University (107), King Abdulaziz University (200), Prince Mohammad Bin Fahd University (421) and Imam Abdulrahman Bin Faisal University (474), so three already meet the bar. On THE, only KFUPM (176) is in the Top 200.</li>
   <li><strong>The UAE went from zero WUR Top 500 universities to six</strong>, the second-largest Gulf gain after Saudi Arabia. On THE they are Khalifa University and United Arab Emirates University (both 235), Abu Dhabi University and the University of Sharjah (both 301–325), Ajman University (376–400) and Al Ain University (401–450).</li>
   <li><strong>The US is still the largest single-country cohort in both rankings, but its number of universities in THE's Top 500 fell from 122 to 96 between 2016 and 2027.</strong> Most of those that dropped out are public universities that were not in the Top 100. Harvard, MIT and Stanford have barely moved. Even among the elite privates there are some exceptions: Princeton drifted from 11th to 27th on QS while climbing to 3rd on THE, and Brown and Dartmouth fell on QS, from 49th to 66th and from 158th to 270th.</li>
@@ -241,7 +233,7 @@ Roughly 14% of 2024 PubMed biomedical abstracts already show signs of large-lang
 </Exhibit>
 
 <p style={{ marginTop: 32 }}>
-<strong>Singapore is the counter-example: it barely grew its footprint.</strong> Its THE count held at exactly two institutions, NUS and NTU, for ten years<sup>‡</sup>, until the Singapore University of Technology and Design joined in 2027; neither NUS nor NTU appears on the risers list, because both were already elite in 2017. What moved is how elite: NUS climbed from QS 12th to 10th, and NTU's bigger move was on THE, from 54th to 28th. NUS also remains Asia's highest-ranked university on QS. Below it, two smaller universities climbed sharply in QS's 2027 edition: SUTD from 519th to 266th, and Singapore Management University from 511th to 411th.
+<strong>Singapore is the counter-example: it barely grew its footprint.</strong> Its THE count held at exactly two institutions, NUS and NTU, for ten years<sup>†</sup>, until the Singapore University of Technology and Design joined in 2027; neither NUS nor NTU appears on the risers list, because both were already elite in 2017. What moved is how elite: NUS climbed from QS 12th to 10th, and NTU's bigger move was on THE, from 54th to 28th. NUS also remains Asia's highest-ranked university on QS. Below it, two smaller universities climbed sharply in QS's 2027 edition: SUTD from 519th to 266th, and Singapore Management University from 511th to 411th.
 </p>
 
 <Exhibit
@@ -284,21 +276,13 @@ The real movement sits below this cohort, among institutions that weren't elite 
 </ul>
 
 <p style={{ marginTop: 32 }}>
-<strong>Not all of these risers are STEM specialists.</strong> A few are technical institutes or medical universities, but most are comprehensive research universities. Fudan, for instance, is known for the humanities and social sciences, not as a STEM specialist. The funding behind these climbs targets research output broadly, not STEM alone.
-</p>
-
-
-<p style={{ marginTop: 32 }}>
 One pattern holds across the entire risers list. <strong>The universities that climbed are the ones whose governments committed to sustained funding, paired with strong accountability mechanisms.</strong> The gains came with a lag: China named its first funded universities in 2017, and its biggest climbs followed from 2019 onwards. National commitment eventually shows up in the rankings, regardless of region; how quickly depends on how much infrastructure the system already had.
 </p>
 
 <hr className="rule-thin" style={{ marginTop: 40 }} />
 
 <p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: 12 }}>
-† Project 211 (1995) and Project 985 (1998) were China's earlier national university-funding projects, targeting roughly 116 and 39 universities respectively for elite-tier research investment; the 985 universities were a subset of the 211 list. Double First-Class replaced both with a single, updated list in 2017.
-</p>
-<p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: 8 }}>
-‡ On QS specifically, two further Singaporean universities appear in the WUR Top 500 without breaking into the Top 100: Singapore Management University (ranked in the 430s to 500 range, 2017–2020, and 411 in 2027) and Singapore University of Technology and Design (rank 440 in 2025, 266 in 2027). SMU has never appeared on Times Higher Education's list; SUTD entered it in 2027, in the 301–325 band.
+† On QS specifically, two further Singaporean universities appear in the WUR Top 500 without breaking into the Top 100: Singapore Management University (ranked in the 430s to 500 range, 2017–2020, and 411 in 2027) and Singapore University of Technology and Design (rank 440 in 2025, 266 in 2027). SMU has never appeared on Times Higher Education's list; SUTD entered it in 2027, in the 301–325 band.
 </p>
 
 </ArticleSection>
@@ -449,8 +433,15 @@ One pattern holds across the entire risers list. <strong>The universities that c
 </p>
 
 <p>
-<strong>Four of Abu Dhabi's government-backed universities do not appear in either ranking as UAE entries.</strong> NYU Abu Dhabi, IIT Delhi–Abu Dhabi and Sorbonne University Abu Dhabi are satellite campuses of New York University (QS 58, THE 29), IIT Delhi (QS 118; not in THE's table) and Sorbonne University in Paris (QS 73; withdrew from THE's rankings from the 2027 edition), and are not listed separately. MBZUAI is in neither table: both require undergraduate teaching, and its first undergraduates only arrived in 2025.
+<strong>Four of Abu Dhabi's government-backed universities do not appear in either ranking as UAE entries.</strong>
 </p>
+
+<ul>
+  <li><strong>NYU Abu Dhabi</strong> is a satellite campus of New York University (QS 58, THE 29) and isn't listed separately.</li>
+  <li><strong>IIT Delhi–Abu Dhabi</strong> is a satellite campus of IIT Delhi (QS 118; not in THE's table) and isn't listed separately.</li>
+  <li><strong>Sorbonne University Abu Dhabi</strong> is a satellite campus of Sorbonne University in Paris (QS 73; withdrew from THE's rankings from the 2027 edition) and isn't listed separately.</li>
+  <li><strong>MBZUAI</strong> is in neither table: both require undergraduate teaching, and its first undergraduates only arrived in 2025.</li>
+</ul>
 
 
 <h3 style={{ display: 'flex', alignItems: 'center', gap: 10 }}><Flag country="Saudi Arabia" width={24} /> Saudi Arabia</h3>
@@ -460,7 +451,17 @@ One pattern holds across the entire risers list. <strong>The universities that c
 </p>
 
 <p>
-<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63, the first Arab university to break into the QS Top 100.</strong> It became independent from the government in 2020. Its president, Dr. Muhammad Al-Saggaf, came the same year from KAPSARC. He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500. The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.
+<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63, the first Arab university to break into the QS Top 100.</strong> It became independent from the government in 2020. Its president, Dr. Muhammad Al-Saggaf, came the same year from KAPSARC and drove the change:
+</p>
+
+<ul>
+  <li>Built 20 new research centres.</li>
+  <li>Added 43 undergraduate concentrations.</li>
+  <li>Grew the postdoc base roughly tenfold, toward a target of 1,500.</li>
+</ul>
+
+<p>
+The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.
 </p>
 
 <p>
@@ -470,26 +471,6 @@ One pattern holds across the entire risers list. <strong>The universities that c
 <p>
 <strong>King Abdulaziz University is the warning sign inside Saudi Arabia's broad base.</strong> It hit an outright THE rank of 101 in 2023, then fell to the 351-400 band by 2025, and to 401–450 in 2027. Part of that rise came from incentivizing international researchers to list it as a secondary affiliation<sup>§</sup>. That inflated its citation counts without adding real research capacity. When THE cut the weight of citations from 30 percent to 15 percent in its 2024 overhaul, the rank fell with it. KFUPM's climb held. <strong>A rank built on research capability and industry ties survives a methodology change. One built on citation engineering doesn't.</strong>
 </p>
-
-<Exhibit
-  title="A spike, and a correction."
-  sub="King Abdulaziz University, Times Higher Education rank by year. 2023's outright rank of 101 was the peak; the fall since tracks THE's 2024 citation-methodology overhaul."
-  source="Source: Times Higher Education World University Rankings, annual editions 2021 to 2027; authors' analysis."
->
-  <RankTrajectory
-    peakIndex={2}
-    peakLabel="Peak, pre-methodology change"
-    points={[
-      { year: '2021', value: 225.5, display: '201–250', banded: true },
-      { year: '2022', value: 190, display: '190', banded: false },
-      { year: '2023', value: 101, display: '101', banded: false },
-      { year: '2024', value: 275.5, display: '251–300', banded: true },
-      { year: '2025', value: 375.5, display: '351–400', banded: true },
-      { year: '2026', value: 375.5, display: '351–400', banded: true },
-      { year: '2027', value: 425.5, display: '401–450', banded: true },
-    ]}
-  />
-</Exhibit>
 
 <h3 style={{ display: 'flex', alignItems: 'center', gap: 10 }}><Flag country="Qatar" width={24} /> Qatar</h3>
 
@@ -511,83 +492,59 @@ Qatar's footprint is small, though two facts make it look smaller than it is. It
 
 </ArticleSection>
 
-<ArticleSection id="outlook" variant="dark">
-
-<SectionHeader
-  number="04"
-  kicker="The next decade"
-  title="Five forces will reshape the rankings."
-  italic="reshape"
-  dark
-/>
-
-<p className="lead">
-This decade's clearest lesson: rankings move slowest at the very top. They move fastest at the bottom of the WUR Top 500. Five forces will shape the next decade.
-</p>
-
-<h3>AI-augmented research is the biggest variable.</h3>
-<p>
-AI adoption in research is already large and undisclosed. <strong>A 2025 study found that about 14% of PubMed biomedical abstracts from 2024 show signs of large-language-model writing.</strong><sup>†</sup> Disclosure lags far behind actual use. Universities that build AI into research work will see citation scores rise faster than those that don't. Large research universities with strong data systems will benefit most. Generative AI makes it cheap to mass-produce low-quality research papers. Journals now catch and retract about ten times as many research papers as they did a decade ago.
-</p>
-
-<p style={{ marginTop: 24 }}>
-So far, AI is reviewing and speeding up research humans still do. The bigger shift is AI producing research on its own. In September 2026, OpenAI said its model proved that the three-dimensional Navier-Stokes equations, which describe how fluids flow, can develop a singularity in finite time. That question had been open for centuries. Days earlier, two mathematicians using Anthropic's models claimed a related result on the simpler Euler equations. Neither claim has been peer-reviewed yet. This shows AI now taking on problems that have resisted mathematicians for generations.
-</p>
-
-<h3>Geopolitical fragmentation is a growing risk.</h3>
-<p>
-<strong>Russia's presence in both rankings has fallen sharply: it had seven universities in THE's Top 500 in 2016 and has one in 2027, and its QS count fell from 17 in 2023 to seven in 2027.</strong> That reflects its isolation from Western research networks since 2022. A similar decoupling between the US and China would matter more, as the citation networks are bigger. Cross-border research collaboration helps many WUR Top 100 universities today. If it shrinks, the elite tier will come from fewer countries. Neutral hosts, including the UAE, would benefit.
-</p>
-
-<h3>Demographics will tighten Western margins.</h3>
-<p>
-<strong>18-year-old populations are shrinking across North America, Western Europe, and East Asia</strong>, especially in South Korea and Japan. That will tighten margins at tuition-dependent universities. India, Southeast Asia, and Sub-Saharan Africa have growing young populations. But that won't produce new WUR Top 500 universities for at least 15 years. New universities need time to build research depth, reputation, and faculty. The next decade's changes will run through existing institutions, not new ones.
-</p>
-
-<h3>The single "world ranking" is splitting into many rankings.</h3>
-<p>
-QS and THE already run regional and specialist rankings alongside their flagship World University Rankings. Each has different eligibility rules and winners. KAUST can't appear in either flagship table as they require an undergraduate programme, and KAUST doesn't have one. But KAUST has topped THE's Arab University Rankings for three straight years, in the 2024 to 2026 editions. King Fahd University of Petroleum and Minerals, not KAUST, leads the same QS regional table. <strong>A university's rank depends on which list it participates in. By 2030, "how is this university ranked" will need a follow-up: which ranking, measuring what.</strong>
-</p>
-
-<h3>Publishers will keep rewriting the rules.</h3>
-<p>
-<strong>Both publishers rewrote their rules in the same year, and they will do it again.</strong> In their 2024 editions, QS added Sustainability, Employment Outcomes and International Research Network, and THE launched WUR 3.0. THE's rewrite responded to the same citation-engineering this report documents at King Abdulaziz University in Section 03. AI now makes that kind of gaming cheaper and easier to scale. <strong>Our best guess: the next rule change will target research-integrity screening directly.</strong> It would catch retracted-paper citations, AI-generated output, or undisclosed AI use before they inflate a score, instead of years later through retractions. <strong>Research integrity, not teaching quality or reputation, is the most exposed part of either methodology today.</strong>
-</p>
-
-<hr className="rule-thin" style={{ marginTop: 40 }} />
-
-<p className="font-sans text-[10px] text-mute leading-[1.5] max-w-[68ch]" style={{ marginTop: 12 }}>
-† Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, "Delving into LLM-assisted writing in biomedical publications through excess vocabulary," <em>Science Advances</em> 11, no. 27 (2025): eadt3813.
-</p>
-
-</ArticleSection>
-
 <ArticleSection id="implications" variant="alt">
 
 <SectionHeader
-  number="05"
-  kicker="Implications"
-  title="Fund with intent."
+  number="04"
+  kicker="Learnings & Implications"
+  title="Deliberate funding wins."
 />
 
 <p className="lead">
-This decade's data speaks most directly to governments and sovereign funders. They decide where the money goes. What follows rests on mechanisms covered elsewhere in this report: reputation lag, funding-to-climb lag, and how much a system concentrates effort instead of spreading it thin.
+This decade's data speaks most directly to governments and sovereign funders. They decide where the money goes. The points below turn that data into funding decisions: what to target, how to structure support, and where new risks like AI are changing the calculus.
 </p>
 
-<ul>
-  <li><strong>Be clear about what you want from rankings before you fund for them.</strong> Rankings reward research quality, internationalisation, and employment outcomes. QS weights reputation and research output most; THE leans harder into research quality and teaching. They don't measure social mobility, regional impact, or alignment with national priorities. Fund institutions to climb the rankings, and you're funding what rankings measure, not institutional quality as a whole.</li>
-  <li><strong>Set a numbered, time-bound target.</strong> Saudi Arabia did this: "at least five institutions in the Top 200 by 2030" focused ministerial effort and created accountability. It paid off early. King Fahd University of Petroleum and Minerals became the first Arab university to break into the QS Top 100, years ahead of schedule.</li>
-  <li><strong>Building from scratch and funding an existing university run on different timelines. Know which one you're signing up for.</strong> Building a new university from scratch (KAUST, MBZUAI) takes more than 15 years to reach Top-200 standing. Funding an existing university (China's Double First-Class, Khalifa after 2017) takes at least five to seven years to show results. Both work. Changing strategy after three years is a costly mistake. Patience doesn't mean no oversight: Double First-Class pairs its long cycles with real accountability, publicly warning or revoking underperforming disciplines at each five-year review.</li>
-  <li><strong>Treat international-student visa policy as research policy.</strong> International graduates who stay in the country co-author papers that compound into citation scores over time. Both major ranking systems reward this: it feeds QS's international-network indicators and THE's International Outlook pillar. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score instruments.</li>
-  <li><strong>A hosted branch campus almost never earns a rank of its own. Judge it by what it does for your other universities.</strong> Its researchers co-author with your home-grown institutions. That lifts those universities' international-network and co-authorship scores. Qatar's Education City, which hosts branch campuses of Georgetown, Northwestern, Cornell, and others, is the clearest example. None of those campuses shows up as a separate Qatari entry in either ranking. Yet the model still does real work for the country's research profile.</li>
-</ul>
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 first:pt-0 first:border-t-0 max-[640px]:grid-cols-1 max-[640px]:gap-y-2">
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">Rankings reward a narrow set of outcomes</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">Research output, internationalisation, and reputation count; social mobility, regional impact, and national priorities don't. Funding to climb the rankings means funding what they measure, not institutional quality overall.</div>
+</div>
+
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 max-[640px]:grid-cols-1 max-[640px]:gap-y-2" style={{ marginTop: 24 }}>
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">Know which ranking you're playing</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">QS and THE increasingly disagree, and both run regional and specialist tables alongside their flagship lists, each with different rules and winners. KAUST can't appear in either flagship ranking (both require an undergraduate programme), yet it has topped THE's Arab University Rankings three years running. A rank only counts for the list it's measured against.</div>
+</div>
+
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 max-[640px]:grid-cols-1 max-[640px]:gap-y-2" style={{ marginTop: 24 }}>
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">A numbered, time-bound target works</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">Saudi Arabia set one: "at least five institutions in the Top 200 by 2030." It focused ministerial effort and created accountability, and paid off early — King Fahd University of Petroleum and Minerals became the first Arab university in the QS Top 100, years ahead of schedule.</div>
+</div>
+
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 max-[640px]:grid-cols-1 max-[640px]:gap-y-2" style={{ marginTop: 24 }}>
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">Building from scratch vs. funding an existing university</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">A new university built from scratch (KAUST, MBZUAI) takes 15-plus years to reach Top-200 standing. Funding an existing one (China's Double First-Class, Khalifa after 2017) takes five to seven years. Both work; switching strategy after three years doesn't. Patience doesn't mean no oversight: Double First-Class still reviews every five years, warning or revoking underperforming disciplines.</div>
+</div>
+
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 max-[640px]:grid-cols-1 max-[640px]:gap-y-2" style={{ marginTop: 24 }}>
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">Visa policy doubles as research policy</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">Graduates who stay and keep co-authoring papers compound citation scores over time. The UAE Golden Visa, the UK Graduate Route, the German Blue Card, and the Singapore TechPass all function as citation-score tools, whether or not that's their intent.</div>
+</div>
+
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 max-[640px]:grid-cols-1 max-[640px]:gap-y-2" style={{ marginTop: 24 }}>
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">A branch campus rarely earns its own rank</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">Its researchers co-author with home-grown universities, and that's where the benefit lands. Qatar's Education City is the clearest example: Georgetown, Northwestern, Cornell and others run campuses there, none of which shows up as a separate Qatari entry. The model still does real work for the country's research profile.</div>
+</div>
+
+<div className="grid grid-cols-[minmax(180px,240px)_1fr] gap-x-8 items-start pt-6 border-t border-green/25 max-[640px]:grid-cols-1 max-[640px]:gap-y-2" style={{ marginTop: 24 }}>
+  <div className="font-serif text-[18px] font-semibold text-green leading-[1.25]">AI infrastructure matters more than AI tools</div>
+  <div className="text-[15px] leading-[1.55] text-ink/85">Universities that build AI into their research see citation scores rise faster, and the edge goes to those with strong data infrastructure already in place. AI is starting to produce research too: in September 2026, an AI model reportedly proved a result on the Navier-Stokes equations. It cuts both ways: journals now catch and retract roughly ten times as many papers as a decade ago. The upside and the integrity risk are arriving together.</div>
+</div>
 
 </ArticleSection>
 
 <ArticleSection id="methodology" variant="alt">
 
 <SectionHeader
-  number="06"
+  number="05"
   kicker="Methodology & sources"
   title="How we built the dataset."
 />
