@@ -4696,9 +4696,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31435,
-          "end": 31456,
-          "line": 516
+          "start": 31007,
+          "end": 31028,
+          "line": 522
         }
       ]
     },
@@ -4721,9 +4721,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31468,
-          "end": 31493,
-          "line": 517
+          "start": 31040,
+          "end": 31065,
+          "line": 523
         }
       ]
     },
@@ -4879,9 +4879,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33171,
-          "end": 33178,
-          "line": 531
+          "start": 32743,
+          "end": 32750,
+          "line": 537
         }
       ]
     },
@@ -4904,9 +4904,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33325,
-          "end": 33449,
-          "line": 533
+          "start": 32897,
+          "end": 33021,
+          "line": 539
         }
       ]
     },
@@ -4929,9 +4929,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33540,
-          "end": 33663,
-          "line": 534
+          "start": 33112,
+          "end": 33235,
+          "line": 540
         }
       ]
     },
@@ -4973,9 +4973,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34188,
-          "end": 34342,
-          "line": 536
+          "start": 33760,
+          "end": 33914,
+          "line": 542
         }
       ]
     },
@@ -4998,9 +4998,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34433,
-          "end": 34528,
-          "line": 537
+          "start": 34005,
+          "end": 34100,
+          "line": 543
         }
       ]
     },
@@ -5023,9 +5023,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34619,
-          "end": 34743,
-          "line": 538
+          "start": 34191,
+          "end": 34315,
+          "line": 544
         }
       ]
     },
@@ -6422,57 +6422,57 @@
     {
       "id": "B-068",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>Khalifa University is the UAE's biggest riser.</strong> Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027. That's a roughly 258-place gain, the largest of any UAE university this decade, and second in the Gulf only to Qatar University, which climbed 284 places, from 393rd in 2017 to 109th in 2027. On THE, it moved from the 501-600 band in 2017 to rank 235 in 2027. Khalifa's research-output scores are well ahead of its reputation scores: it ranks 87th in the world on QS's citations per faculty, but outside the top 300 on both reputation surveys. Reputation usually catches up a few years later. In 2017, Khalifa University merged with the Petroleum Institute and the Masdar Institute by presidential decree, creating a single flagship. It's the same approach Singapore used, one or two strong universities, funded for decades.\r\n",
+      "text": "\r\n    <strong>Khalifa University is the UAE's biggest riser.</strong>\r\n    <ul>\r\n      <li>Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027, a roughly 258-place gain. That's the largest of any UAE university this decade, and second in the Gulf only to Qatar University (393rd to 109th). On THE, it moved from the 501-600 band to 235.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Khalifa University is the UAE's biggest riser.</strong> Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027. That's a roughly 258-place gain, the largest of any UAE university this decade, and second in the Gulf only to Qatar University, which climbed 284 places, from 393rd in 2017 to 109th in 2027. On THE, it moved from the 501-600 band in 2017 to rank 235 in 2027. Khalifa's research-output scores are well ahead of its reputation scores: it ranks 87th in the world on QS's citations per faculty, but outside the top 300 on both reputation surveys. Reputation usually catches up a few years later. In 2017, Khalifa University merged with the Petroleum Institute and the Masdar Institute by presidential decree, creating a single flagship. It's the same approach Singapore used, one or two strong universities, funded for decades.",
+      "display": "<strong>Khalifa University is the UAE's biggest riser.</strong>\r\n    <ul>\r\n      <li>Its QS rank moved from the 401-410 band in 2017<sup>‡</sup> to 147 in 2027, a roughly 258-place gain. That's the largest of any UAE university this decade, and second in the Gulf only to Qatar University (393rd to 109th). On THE, it moved from the 501-600 band to 235.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19222,
-          "end": 20090,
-          "line": 401
+          "start": 19231,
+          "end": 19590,
+          "line": 402
         }
       ]
     },
     {
       "id": "B-069",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>The intent behind the climb is visible in how Khalifa is run.</strong> Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics. The university attributes its rise to strategic investment in research, talent and global partnerships, and its hiring reflects this: it ranks 12th in the world on QS's international faculty measure. When Khalifa entered the QS Top 150 in the 2027 edition, President Ebrahim Al Hajri said it \"reflects a deliberate choice to ensure the discoveries made in our laboratories reach scientists, industries, and institutions around the world.\"\r\n",
+      "text": "Its research-output scores are well ahead of its reputation scores: it ranks 87th in the world on QS's citations per faculty, but outside the top 300 on both reputation surveys.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>The intent behind the climb is visible in how Khalifa is run.</strong> Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics. The university attributes its rise to strategic investment in research, talent and global partnerships, and its hiring reflects this: it ranks 12th in the world on QS's international faculty measure. When Khalifa entered the QS Top 150 in the 2027 edition, President Ebrahim Al Hajri said it \"reflects a deliberate choice to ensure the discoveries made in our laboratories reach scientists, industries, and institutions around the world.\"",
+      "display": "Its research-output scores are well ahead of its reputation scores: it ranks 87th in the world on QS's citations per faculty, but outside the top 300 on both reputation surveys.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20101,
-          "end": 20802,
-          "line": 405
+          "start": 19607,
+          "end": 19784,
+          "line": 406
         }
       ]
     },
     {
       "id": "B-070",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n<strong>Four of Abu Dhabi's government-backed universities do not appear in either ranking as UAE entries.</strong>\r\n",
+      "text": "In 2017, it merged with the Petroleum Institute and the Masdar Institute by presidential decree, creating a single flagship. It's the same approach Singapore used: one or two strong universities, funded for decades.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Four of Abu Dhabi's government-backed universities do not appear in either ranking as UAE entries.</strong>",
+      "display": "In 2017, it merged with the Petroleum Institute and the Masdar Institute by presidential decree, creating a single flagship. It's the same approach Singapore used: one or two strong universities, funded for decades.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20813,
-          "end": 20932,
-          "line": 409
+          "start": 19801,
+          "end": 20016,
+          "line": 407
         }
       ]
     },
@@ -6481,17 +6481,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "<strong>NYU Abu Dhabi</strong> is a satellite campus of New York University (QS 58, THE 29) and isn't listed separately.",
+      "text": "\r\n    <strong>The intent behind the climb is visible in how Khalifa is run.</strong>\r\n    <ul>\r\n      <li>Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>NYU Abu Dhabi</strong> is a satellite campus of New York University (QS 58, THE 29) and isn't listed separately.",
+      "display": "<strong>The intent behind the climb is visible in how Khalifa is run.</strong>\r\n    <ul>\r\n      <li>Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20952,
-          "end": 21072,
-          "line": 414
+          "start": 20049,
+          "end": 20334,
+          "line": 410
         }
       ]
     },
@@ -6500,17 +6500,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "<strong>IIT Delhi–Abu Dhabi</strong> is a satellite campus of IIT Delhi (QS 118; not in THE's table) and isn't listed separately.",
+      "text": "The university attributes its rise to strategic investment in research, talent and global partnerships, and its hiring reflects this: it ranks 12th in the world on QS's international faculty measure.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>IIT Delhi–Abu Dhabi</strong> is a satellite campus of IIT Delhi (QS 118; not in THE's table) and isn't listed separately.",
+      "display": "The university attributes its rise to strategic investment in research, talent and global partnerships, and its hiring reflects this: it ranks 12th in the world on QS's international faculty measure.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21085,
-          "end": 21214,
-          "line": 415
+          "start": 20351,
+          "end": 20550,
+          "line": 414
         }
       ]
     },
@@ -6519,17 +6519,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "<strong>Sorbonne University Abu Dhabi</strong> is a satellite campus of Sorbonne University in Paris (QS 73; withdrew from THE's rankings from the 2027 edition) and isn't listed separately.",
+      "text": "\r\n    <strong>Four of Abu Dhabi's government-backed universities do not appear in either ranking as UAE entries.</strong>\r\n    <ul>\r\n      <li>NYU Abu Dhabi, IIT Delhi–Abu Dhabi and Sorbonne University Abu Dhabi are satellite campuses, ranked under New York University (QS 58, THE 29), IIT Delhi (QS 118; not in THE's table) and Sorbonne University (QS 73; withdrew from THE from the 2027 edition).",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Sorbonne University Abu Dhabi</strong> is a satellite campus of Sorbonne University in Paris (QS 73; withdrew from THE's rankings from the 2027 edition) and isn't listed separately.",
+      "display": "<strong>Four of Abu Dhabi's government-backed universities do not appear in either ranking as UAE entries.</strong>\r\n    <ul>\r\n      <li>NYU Abu Dhabi, IIT Delhi–Abu Dhabi and Sorbonne University Abu Dhabi are satellite campuses, ranked under New York University (QS 58, THE 29), IIT Delhi (QS 118; not in THE's table) and Sorbonne University (QS 73; withdrew from THE from the 2027 edition).",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21227,
-          "end": 21416,
-          "line": 416
+          "start": 20583,
+          "end": 20981,
+          "line": 417
         }
       ]
     },
@@ -6538,17 +6538,17 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "<strong>MBZUAI</strong> is in neither table: both require undergraduate teaching, and its first undergraduates only arrived in 2025.",
+      "text": "MBZUAI is in neither table: both require undergraduate teaching, and its first undergraduates only arrived in 2025.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>MBZUAI</strong> is in neither table: both require undergraduate teaching, and its first undergraduates only arrived in 2025.",
+      "display": "MBZUAI is in neither table: both require undergraduate teaching, and its first undergraduates only arrived in 2025.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21429,
-          "end": 21561,
-          "line": 417
+          "start": 20998,
+          "end": 21113,
+          "line": 421
         }
       ]
     },
@@ -6565,9 +6565,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21709,
-          "end": 22005,
-          "line": 423
+          "start": 21281,
+          "end": 21577,
+          "line": 429
         }
       ]
     },
@@ -6584,9 +6584,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22016,
-          "end": 22317,
-          "line": 427
+          "start": 21588,
+          "end": 21889,
+          "line": 433
         }
       ]
     },
@@ -6603,9 +6603,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22337,
-          "end": 22367,
-          "line": 432
+          "start": 21909,
+          "end": 21939,
+          "line": 438
         }
       ]
     },
@@ -6622,9 +6622,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22380,
-          "end": 22418,
-          "line": 433
+          "start": 21952,
+          "end": 21990,
+          "line": 439
         }
       ]
     },
@@ -6641,9 +6641,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22431,
-          "end": 22495,
-          "line": 434
+          "start": 22003,
+          "end": 22067,
+          "line": 440
         }
       ]
     },
@@ -6660,9 +6660,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22514,
-          "end": 22594,
-          "line": 437
+          "start": 22086,
+          "end": 22166,
+          "line": 443
         }
       ]
     },
@@ -6679,9 +6679,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22605,
-          "end": 22889,
-          "line": 441
+          "start": 22177,
+          "end": 22461,
+          "line": 447
         }
       ]
     },
@@ -6698,9 +6698,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22900,
-          "end": 23576,
-          "line": 445
+          "start": 22472,
+          "end": 23148,
+          "line": 451
         }
       ]
     },
@@ -6717,9 +6717,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23700,
-          "end": 24677,
-          "line": 451
+          "start": 23272,
+          "end": 24249,
+          "line": 457
         }
       ]
     },
@@ -6736,9 +6736,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24803,
-          "end": 25026,
-          "line": 457
+          "start": 24375,
+          "end": 24598,
+          "line": 463
         }
       ]
     },
@@ -6755,9 +6755,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25091,
-          "end": 25364,
-          "line": 458
+          "start": 24663,
+          "end": 24936,
+          "line": 464
         }
       ]
     },
@@ -6774,9 +6774,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25429,
-          "end": 25856,
-          "line": 459
+          "start": 25001,
+          "end": 25428,
+          "line": 465
         }
       ]
     },
@@ -6793,9 +6793,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25978,
-          "end": 26002,
-          "line": 467
+          "start": 25550,
+          "end": 25574,
+          "line": 473
         }
       ]
     },
@@ -6812,9 +6812,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 26014,
-          "end": 26038,
-          "line": 468
+          "start": 25586,
+          "end": 25610,
+          "line": 474
         }
       ]
     },
@@ -6831,9 +6831,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 26067,
-          "end": 26335,
-          "line": 471
+          "start": 25639,
+          "end": 25907,
+          "line": 477
         }
       ]
     },
@@ -6850,9 +6850,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31514,
-          "end": 31727,
-          "line": 521
+          "start": 31086,
+          "end": 31299,
+          "line": 527
         }
       ]
     },
@@ -6869,9 +6869,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31740,
-          "end": 32177,
-          "line": 522
+          "start": 31312,
+          "end": 31749,
+          "line": 528
         }
       ]
     },
@@ -6888,9 +6888,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32190,
-          "end": 32468,
-          "line": 523
+          "start": 31762,
+          "end": 32040,
+          "line": 529
         }
       ]
     },
@@ -6907,9 +6907,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32481,
-          "end": 32711,
-          "line": 524
+          "start": 32053,
+          "end": 32283,
+          "line": 530
         }
       ]
     },
@@ -6926,9 +6926,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32724,
-          "end": 32994,
-          "line": 525
+          "start": 32296,
+          "end": 32566,
+          "line": 531
         }
       ]
     },
@@ -6945,9 +6945,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33754,
-          "end": 34097,
-          "line": 535
+          "start": 33326,
+          "end": 33669,
+          "line": 541
         }
       ]
     },
@@ -6964,9 +6964,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34834,
-          "end": 34893,
-          "line": 539
+          "start": 34406,
+          "end": 34465,
+          "line": 545
         }
       ]
     },
@@ -6983,9 +6983,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 34984,
-          "end": 35064,
-          "line": 540
+          "start": 34556,
+          "end": 34636,
+          "line": 546
         }
       ]
     },
@@ -7002,9 +7002,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35155,
-          "end": 35406,
-          "line": 541
+          "start": 34727,
+          "end": 34978,
+          "line": 547
         }
       ]
     },
@@ -7021,9 +7021,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35497,
-          "end": 35673,
-          "line": 542
+          "start": 35069,
+          "end": 35245,
+          "line": 548
         }
       ]
     },
@@ -7040,9 +7040,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 35764,
-          "end": 35913,
-          "line": 543
+          "start": 35336,
+          "end": 35485,
+          "line": 549
         }
       ]
     }
