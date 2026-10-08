@@ -13,7 +13,7 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 353,
+  "blockCount": 356,
   "sharedCount": 16,
   "blocks": [
     {
@@ -4867,9 +4867,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30165,
-          "end": 30172,
-          "line": 528
+          "start": 30478,
+          "end": 30485,
+          "line": 539
         }
       ]
     },
@@ -4892,9 +4892,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30752,
-          "end": 30876,
-          "line": 536
+          "start": 31065,
+          "end": 31189,
+          "line": 547
         }
       ]
     },
@@ -4917,9 +4917,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30967,
-          "end": 31090,
-          "line": 537
+          "start": 31280,
+          "end": 31403,
+          "line": 548
         }
       ]
     },
@@ -4961,9 +4961,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31615,
-          "end": 31769,
-          "line": 539
+          "start": 31928,
+          "end": 32082,
+          "line": 550
         }
       ]
     },
@@ -4986,9 +4986,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31860,
-          "end": 31955,
-          "line": 540
+          "start": 32173,
+          "end": 32268,
+          "line": 551
         }
       ]
     },
@@ -5011,9 +5011,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32046,
-          "end": 32170,
-          "line": 541
+          "start": 32359,
+          "end": 32483,
+          "line": 552
         }
       ]
     },
@@ -6676,19 +6676,19 @@
     {
       "id": "B-082",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <li>",
+      "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
-      "text": "\r\n    <strong>Qatar now has the Gulf's highest-ranked university on THE.</strong> Hamad Bin Khalifa University (HBKU) debuted in 2027 at 126, ahead of every Saudi and UAE university.\r\n    <ul>\r\n      <li>Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries.",
+      "text": "\r\nQatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries. Qatar is now also building top-ranked universities of its own.\r\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Qatar now has the Gulf's highest-ranked university on THE.</strong> Hamad Bin Khalifa University (HBKU) debuted in 2027 at 126, ahead of every Saudi and UAE university.\r\n    <ul>\r\n      <li>Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries.",
+      "display": "Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries. Qatar is now also building top-ranked universities of its own.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22723,
-          "end": 23222,
-          "line": 458
+          "start": 22736,
+          "end": 23098,
+          "line": 457
         }
       ]
     },
@@ -6697,22 +6697,79 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "On QS, Qatar University is the country's top-ranked university at 109th, up from 393rd in 2017, the largest QS climb of any Gulf university.",
+      "text": "\r\n    <strong>Hamad Bin Khalifa University (HBKU) is now the Gulf's highest-ranked university on THE.</strong>\r\n    <ul>\r\n      <li>It debuted in 2027 at 126, ahead of every Saudi and UAE university.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "On QS, Qatar University is the country's top-ranked university at 109th, up from 393rd in 2017, the largest QS climb of any Gulf university.",
+      "display": "<strong>Hamad Bin Khalifa University (HBKU) is now the Gulf's highest-ranked university on THE.</strong>\r\n    <ul>\r\n      <li>It debuted in 2027 at 126, ahead of every Saudi and UAE university.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23239,
-          "end": 23379,
+          "start": 23118,
+          "end": 23317,
           "line": 462
         }
       ]
     },
     {
       "id": "B-084",
+      "kind": "prose",
+      "path": "03 GCC Spotlight > <li>",
+      "sectionId": "uae",
+      "text": "It joined QS in 2024 and sits at 213.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "It joined QS in 2024 and sits at 213.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 23334,
+          "end": 23371,
+          "line": 466
+        }
+      ]
+    },
+    {
+      "id": "B-085",
+      "kind": "prose",
+      "path": "03 GCC Spotlight > <li>",
+      "sectionId": "uae",
+      "text": "\r\n    <strong>Qatar University has made the largest QS climb of any Gulf university.</strong>\r\n    <ul>\r\n      <li>It rose from 393rd in 2017 to 109th in 2027, making it the country's top-ranked university on QS.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "<strong>Qatar University has made the largest QS climb of any Gulf university.</strong>\r\n    <ul>\r\n      <li>It rose from 393rd in 2017 to 109th in 2027, making it the country's top-ranked university on QS.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 23404,
+          "end": 23616,
+          "line": 469
+        }
+      ]
+    },
+    {
+      "id": "B-086",
+      "kind": "prose",
+      "path": "03 GCC Spotlight > <li>",
+      "sectionId": "uae",
+      "text": "On THE, it has held a Top 500 place since 2018, now at 222.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "On THE, it has held a Top 500 place since 2018, now at 222.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 23633,
+          "end": 23692,
+          "line": 473
+        }
+      ]
+    },
+    {
+      "id": "B-087",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6724,14 +6781,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23533,
-          "end": 23756,
-          "line": 469
+          "start": 23846,
+          "end": 24069,
+          "line": 480
         }
       ]
     },
     {
-      "id": "B-085",
+      "id": "B-088",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6743,14 +6800,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23821,
-          "end": 24094,
-          "line": 470
+          "start": 24134,
+          "end": 24407,
+          "line": 481
         }
       ]
     },
     {
-      "id": "B-086",
+      "id": "B-089",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6762,14 +6819,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24159,
-          "end": 24586,
-          "line": 471
+          "start": 24472,
+          "end": 24899,
+          "line": 482
         }
       ]
     },
     {
-      "id": "B-087",
+      "id": "B-090",
       "kind": "prop",
       "path": "04 Learnings & Implications > SectionHeader > kicker",
       "sectionId": "implications",
@@ -6781,14 +6838,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24708,
-          "end": 24732,
-          "line": 479
+          "start": 25021,
+          "end": 25045,
+          "line": 490
         }
       ]
     },
     {
-      "id": "B-088",
+      "id": "B-091",
       "kind": "prop",
       "path": "04 Learnings & Implications > SectionHeader > title",
       "sectionId": "implications",
@@ -6800,14 +6857,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24744,
-          "end": 24768,
-          "line": 480
+          "start": 25057,
+          "end": 25081,
+          "line": 491
         }
       ]
     },
     {
-      "id": "B-089",
+      "id": "B-092",
       "kind": "prose",
       "path": "04 Learnings & Implications > <p>",
       "sectionId": "implications",
@@ -6819,14 +6876,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24797,
-          "end": 25065,
-          "line": 483
+          "start": 25110,
+          "end": 25378,
+          "line": 494
         }
       ]
     },
     {
-      "id": "B-090",
+      "id": "B-093",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6838,14 +6895,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30431,
-          "end": 30490,
-          "line": 534
+          "start": 30744,
+          "end": 30803,
+          "line": 545
         }
       ]
     },
     {
-      "id": "B-091",
+      "id": "B-094",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6857,14 +6914,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30581,
-          "end": 30661,
-          "line": 535
+          "start": 30894,
+          "end": 30974,
+          "line": 546
         }
       ]
     },
     {
-      "id": "B-092",
+      "id": "B-095",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6876,14 +6933,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31181,
-          "end": 31524,
-          "line": 538
+          "start": 31494,
+          "end": 31837,
+          "line": 549
         }
       ]
     },
     {
-      "id": "B-093",
+      "id": "B-096",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6895,14 +6952,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32261,
-          "end": 32512,
-          "line": 542
+          "start": 32574,
+          "end": 32825,
+          "line": 553
         }
       ]
     },
     {
-      "id": "B-094",
+      "id": "B-097",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6914,14 +6971,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32603,
-          "end": 32779,
-          "line": 543
+          "start": 32916,
+          "end": 33092,
+          "line": 554
         }
       ]
     },
     {
-      "id": "B-095",
+      "id": "B-098",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6933,9 +6990,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32870,
-          "end": 33019,
-          "line": 544
+          "start": 33183,
+          "end": 33332,
+          "line": 555
         }
       ]
     }
