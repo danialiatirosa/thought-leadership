@@ -13,8 +13,8 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 356,
-  "sharedCount": 16,
+  "blockCount": 367,
+  "sharedCount": 11,
   "blocks": [
     {
       "id": "A-001",
@@ -624,8 +624,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 10069,
-          "end": 10105,
+          "start": 10037,
+          "end": 10073,
           "line": 217
         }
       ]
@@ -1751,8 +1751,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 4793,
-          "end": 4813,
+          "start": 4777,
+          "end": 4797,
           "line": 111
         }
       ]
@@ -1915,8 +1915,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5543,
-          "end": 5550,
+          "start": 5527,
+          "end": 5534,
           "line": 129
         }
       ]
@@ -2719,14 +2719,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 14768,
-          "end": 14786,
+          "start": 14736,
+          "end": 14754,
           "line": 295
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15555,
-          "end": 15573,
+          "start": 15523,
+          "end": 15541,
           "line": 312
         }
       ]
@@ -2750,14 +2750,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 14846,
-          "end": 14877,
+          "start": 14814,
+          "end": 14845,
           "line": 296
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15632,
-          "end": 15663,
+          "start": 15600,
+          "end": 15631,
           "line": 313
         }
       ]
@@ -2781,8 +2781,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15722,
-          "end": 15752,
+          "start": 15690,
+          "end": 15720,
           "line": 314
         }
       ]
@@ -2806,14 +2806,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15020,
-          "end": 15041,
+          "start": 14988,
+          "end": 15009,
           "line": 298
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15811,
-          "end": 15832,
+          "start": 15779,
+          "end": 15800,
           "line": 315
         }
       ]
@@ -2837,14 +2837,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 14937,
-          "end": 14957,
+          "start": 14905,
+          "end": 14925,
           "line": 297
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15891,
-          "end": 15911,
+          "start": 15859,
+          "end": 15879,
           "line": 316
         }
       ]
@@ -2868,14 +2868,14 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15104,
-          "end": 15120,
+          "start": 15072,
+          "end": 15088,
           "line": 299
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15970,
-          "end": 15986,
+          "start": 15938,
+          "end": 15954,
           "line": 317
         }
       ]
@@ -3633,8 +3633,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 11162,
-          "end": 11199,
+          "start": 11130,
+          "end": 11167,
           "line": 237
         }
       ]
@@ -4867,19 +4867,19 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30497,
-          "end": 30504,
+          "start": 30561,
+          "end": 30568,
           "line": 540
         }
       ]
     },
     {
-      "id": "S-012",
+      "id": "A-239",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
       "text": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>World University Rankings 2024 methodology (WUR 3.0)</em>.",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "jsx",
       "display": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>World University Rankings 2024 methodology (WUR 3.0)</em>.",
@@ -4889,22 +4889,16 @@
           "start": 41806,
           "end": 41930,
           "line": 623
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31084,
-          "end": 31208,
-          "line": 548
         }
       ]
     },
     {
-      "id": "S-013",
+      "id": "A-240",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
       "text": "QS Quacquarelli Symonds, <em style={{ color: 'var(--color-ink)' }}>World University Rankings 2024 methodology changes</em>.",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "jsx",
       "display": "QS Quacquarelli Symonds, <em style={{ color: 'var(--color-ink)' }}>World University Rankings 2024 methodology changes</em>.",
@@ -4914,17 +4908,11 @@
           "start": 42020,
           "end": 42143,
           "line": 624
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31299,
-          "end": 31422,
-          "line": 549
         }
       ]
     },
     {
-      "id": "A-239",
+      "id": "A-241",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -4943,12 +4931,12 @@
       ]
     },
     {
-      "id": "S-014",
+      "id": "A-242",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
       "text": "Deutsche Forschungsgemeinschaft (DFG), <em style={{ color: 'var(--color-ink)' }}>Excellence Strategy (ExStra)</em>, funding 2019 to 2026 and 2026 onwards.",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "jsx",
       "display": "Deutsche Forschungsgemeinschaft (DFG), <em style={{ color: 'var(--color-ink)' }}>Excellence Strategy (ExStra)</em>, funding 2019 to 2026 and 2026 onwards.",
@@ -4958,22 +4946,16 @@
           "start": 42456,
           "end": 42610,
           "line": 626
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31947,
-          "end": 32101,
-          "line": 551
         }
       ]
     },
     {
-      "id": "S-015",
+      "id": "A-243",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
       "text": "King Abdullah University of Science and Technology (KAUST), institutional and Vision 2030 page.",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "jsx",
       "display": "King Abdullah University of Science and Technology (KAUST), institutional and Vision 2030 page.",
@@ -4983,22 +4965,16 @@
           "start": 42700,
           "end": 42795,
           "line": 627
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32192,
-          "end": 32287,
-          "line": 552
         }
       ]
     },
     {
-      "id": "S-016",
+      "id": "A-244",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
       "text": "Science|Business, <em style={{ color: 'var(--color-ink)' }}>UK official association to Horizon Europe</em> (September 2023).",
-      "shared": true,
+      "shared": false,
       "minor": false,
       "quote": "jsx",
       "display": "Science|Business, <em style={{ color: 'var(--color-ink)' }}>UK official association to Horizon Europe</em> (September 2023).",
@@ -5008,17 +4984,11 @@
           "start": 42885,
           "end": 43009,
           "line": 628
-        },
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32378,
-          "end": 32502,
-          "line": 553
         }
       ]
     },
     {
-      "id": "A-240",
+      "id": "A-245",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5037,7 +5007,7 @@
       ]
     },
     {
-      "id": "A-241",
+      "id": "A-246",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5056,7 +5026,7 @@
       ]
     },
     {
-      "id": "A-242",
+      "id": "A-247",
       "kind": "prose",
       "path": "10 Methodology & sources > <li>",
       "sectionId": "methodology",
@@ -5188,8 +5158,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 10236,
-          "end": 10342,
+          "start": 10204,
+          "end": 10310,
           "line": 219
         }
       ]
@@ -5245,8 +5215,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 2440,
-          "end": 2489,
+          "start": 2424,
+          "end": 2473,
           "line": 70
         }
       ]
@@ -5264,8 +5234,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 2946,
-          "end": 3041,
+          "start": 2930,
+          "end": 3025,
           "line": 76
         }
       ]
@@ -5283,8 +5253,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 3054,
-          "end": 3197,
+          "start": 3038,
+          "end": 3181,
           "line": 77
         }
       ]
@@ -5302,8 +5272,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 3372,
-          "end": 3419,
+          "start": 3356,
+          "end": 3403,
           "line": 83
         }
       ]
@@ -5321,8 +5291,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 4527,
-          "end": 4548,
+          "start": 4511,
+          "end": 4532,
           "line": 101
         }
       ]
@@ -5340,8 +5310,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 4596,
-          "end": 4699,
+          "start": 4580,
+          "end": 4683,
           "line": 105
         }
       ]
@@ -5359,8 +5329,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 4825,
-          "end": 4869,
+          "start": 4809,
+          "end": 4853,
           "line": 112
         }
       ]
@@ -5378,8 +5348,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 4921,
-          "end": 5201,
+          "start": 4905,
+          "end": 5185,
           "line": 116
         }
       ]
@@ -5397,8 +5367,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5234,
-          "end": 5335,
+          "start": 5218,
+          "end": 5319,
           "line": 122
         }
       ]
@@ -5416,8 +5386,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5399,
-          "end": 5401,
+          "start": 5383,
+          "end": 5385,
           "line": 125
         }
       ]
@@ -5435,8 +5405,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5452,
-          "end": 5455,
+          "start": 5436,
+          "end": 5439,
           "line": 126
         }
       ]
@@ -5454,8 +5424,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5599,
-          "end": 5602,
+          "start": 5583,
+          "end": 5586,
           "line": 130
         }
       ]
@@ -5473,14 +5443,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5650,
-          "end": 5653,
+          "start": 5634,
+          "end": 5637,
           "line": 131
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5816,
-          "end": 5819,
+          "start": 5800,
+          "end": 5803,
           "line": 134
         }
       ]
@@ -5498,14 +5468,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5700,
-          "end": 5701,
+          "start": 5684,
+          "end": 5685,
           "line": 132
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5867,
-          "end": 5868,
+          "start": 5851,
+          "end": 5852,
           "line": 135
         }
       ]
@@ -5523,8 +5493,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 5764,
-          "end": 5767,
+          "start": 5748,
+          "end": 5751,
           "line": 133
         }
       ]
@@ -5542,8 +5512,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 6643,
-          "end": 6828,
+          "start": 6627,
+          "end": 6812,
           "line": 158
         }
       ]
@@ -5553,16 +5523,16 @@
       "kind": "prose",
       "path": "02 The global landscape > <li>",
       "sectionId": "landscape",
-      "text": "\r\n    <strong>China added 25 universities to the THE WUR Top 500 over the decade and quadrupled its Top 100 count, from 2 to 8.</strong> The rise lines up with the Double First-Class programme.\r\n    <ul>\r\n      <li>It funds about 140 universities and disciplines to build world-class research capacity, in five-year cycles since 2016.",
+      "text": "\r\n    <strong>China added 25 universities to the THE WUR Top 500 over the decade and quadrupled its Top 100 count, from 2 to 8.</strong> The rise lines up with the Double First-Class programme.\r\n    <ul>\r\n      <li>It funds about 140 universities to build world-class research capacity, in five-year cycles since 2016.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>China added 25 universities to the THE WUR Top 500 over the decade and quadrupled its Top 100 count, from 2 to 8.</strong> The rise lines up with the Double First-Class programme.\r\n    <ul>\r\n      <li>It funds about 140 universities and disciplines to build world-class research capacity, in five-year cycles since 2016.",
+      "display": "<strong>China added 25 universities to the THE WUR Top 500 over the decade and quadrupled its Top 100 count, from 2 to 8.</strong> The rise lines up with the Double First-Class programme.\r\n    <ul>\r\n      <li>It funds about 140 universities to build world-class research capacity, in five-year cycles since 2016.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 6848,
-          "end": 7182,
+          "start": 6832,
+          "end": 7150,
           "line": 163
         }
       ]
@@ -5580,8 +5550,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 7199,
-          "end": 7341,
+          "start": 7167,
+          "end": 7309,
           "line": 167
         }
       ]
@@ -5599,8 +5569,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 7374,
-          "end": 7710,
+          "start": 7342,
+          "end": 7678,
           "line": 170
         }
       ]
@@ -5618,8 +5588,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 7727,
-          "end": 7770,
+          "start": 7695,
+          "end": 7738,
           "line": 174
         }
       ]
@@ -5637,8 +5607,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 7803,
-          "end": 8034,
+          "start": 7771,
+          "end": 8002,
           "line": 177
         }
       ]
@@ -5656,8 +5626,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 8051,
-          "end": 8116,
+          "start": 8019,
+          "end": 8084,
           "line": 181
         }
       ]
@@ -5675,8 +5645,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 8133,
-          "end": 8191,
+          "start": 8101,
+          "end": 8159,
           "line": 182
         }
       ]
@@ -5694,8 +5664,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 8224,
-          "end": 8547,
+          "start": 8192,
+          "end": 8515,
           "line": 185
         }
       ]
@@ -5713,8 +5683,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 8564,
-          "end": 8766,
+          "start": 8532,
+          "end": 8734,
           "line": 189
         }
       ]
@@ -5732,8 +5702,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 8842,
-          "end": 9038,
+          "start": 8810,
+          "end": 9006,
           "line": 196
         }
       ]
@@ -5751,8 +5721,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 9055,
-          "end": 9216,
+          "start": 9023,
+          "end": 9184,
           "line": 200
         }
       ]
@@ -5770,8 +5740,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 9233,
-          "end": 9399,
+          "start": 9201,
+          "end": 9367,
           "line": 201
         }
       ]
@@ -5789,8 +5759,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 9473,
-          "end": 9941,
+          "start": 9441,
+          "end": 9909,
           "line": 207
         }
       ]
@@ -5808,8 +5778,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 9958,
-          "end": 10014,
+          "start": 9926,
+          "end": 9982,
           "line": 211
         }
       ]
@@ -5827,8 +5797,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 10115,
-          "end": 10223,
+          "start": 10083,
+          "end": 10191,
           "line": 218
         }
       ]
@@ -5846,8 +5816,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 10426,
-          "end": 10582,
+          "start": 10394,
+          "end": 10550,
           "line": 224
         }
       ]
@@ -5865,8 +5835,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 10641,
-          "end": 10984,
+          "start": 10609,
+          "end": 10952,
           "line": 228
         }
       ]
@@ -5884,8 +5854,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 11043,
-          "end": 11135,
+          "start": 11011,
+          "end": 11103,
           "line": 232
         }
       ]
@@ -5903,8 +5873,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 11209,
-          "end": 11337,
+          "start": 11177,
+          "end": 11305,
           "line": 238
         }
       ]
@@ -5922,8 +5892,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 11350,
-          "end": 11793,
+          "start": 11318,
+          "end": 11761,
           "line": 239
         }
       ]
@@ -5941,8 +5911,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 11887,
-          "end": 11976,
+          "start": 11855,
+          "end": 11944,
           "line": 244
         }
       ]
@@ -5960,8 +5930,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 11996,
-          "end": 12121,
+          "start": 11964,
+          "end": 12089,
           "line": 249
         }
       ]
@@ -5979,8 +5949,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 12134,
-          "end": 12309,
+          "start": 12102,
+          "end": 12277,
           "line": 250
         }
       ]
@@ -5998,8 +5968,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 12322,
-          "end": 12556,
+          "start": 12290,
+          "end": 12524,
           "line": 251
         }
       ]
@@ -6017,8 +5987,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 12569,
-          "end": 12741,
+          "start": 12537,
+          "end": 12709,
           "line": 252
         }
       ]
@@ -6036,8 +6006,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 12786,
-          "end": 13273,
+          "start": 12754,
+          "end": 13241,
           "line": 255
         }
       ]
@@ -6055,8 +6025,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 13399,
-          "end": 13798,
+          "start": 13367,
+          "end": 13766,
           "line": 261
         }
       ]
@@ -6074,8 +6044,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 13911,
-          "end": 13924,
+          "start": 13879,
+          "end": 13892,
           "line": 269
         }
       ]
@@ -6093,8 +6063,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 13936,
-          "end": 13966,
+          "start": 13904,
+          "end": 13934,
           "line": 270
         }
       ]
@@ -6112,8 +6082,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 14025,
-          "end": 14318,
+          "start": 13993,
+          "end": 14286,
           "line": 274
         }
       ]
@@ -6131,8 +6101,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 15183,
-          "end": 15200,
+          "start": 15151,
+          "end": 15168,
           "line": 300
         }
       ]
@@ -6150,14 +6120,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16440,
-          "end": 16486,
+          "start": 16408,
+          "end": 16454,
           "line": 335
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17577,
-          "end": 17623,
+          "start": 17545,
+          "end": 17591,
           "line": 355
         }
       ]
@@ -6175,14 +6145,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16546,
-          "end": 16566,
+          "start": 16514,
+          "end": 16534,
           "line": 336
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17680,
-          "end": 17700,
+          "start": 17648,
+          "end": 17668,
           "line": 356
         }
       ]
@@ -6200,8 +6170,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16625,
-          "end": 16647,
+          "start": 16593,
+          "end": 16615,
           "line": 337
         }
       ]
@@ -6219,14 +6189,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16710,
-          "end": 16734,
+          "start": 16678,
+          "end": 16702,
           "line": 338
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18034,
-          "end": 18058,
+          "start": 18002,
+          "end": 18026,
           "line": 360
         }
       ]
@@ -6244,14 +6214,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16797,
-          "end": 16822,
+          "start": 16765,
+          "end": 16790,
           "line": 339
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17759,
-          "end": 17784,
+          "start": 17727,
+          "end": 17752,
           "line": 357
         }
       ]
@@ -6269,14 +6239,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16887,
-          "end": 16922,
+          "start": 16855,
+          "end": 16890,
           "line": 340
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17843,
-          "end": 17878,
+          "start": 17811,
+          "end": 17846,
           "line": 358
         }
       ]
@@ -6294,8 +6264,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 16987,
-          "end": 17025,
+          "start": 16955,
+          "end": 16993,
           "line": 341
         }
       ]
@@ -6313,8 +6283,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17090,
-          "end": 17133,
+          "start": 17058,
+          "end": 17101,
           "line": 342
         }
       ]
@@ -6332,8 +6302,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17198,
-          "end": 17220,
+          "start": 17166,
+          "end": 17188,
           "line": 343
         }
       ]
@@ -6351,8 +6321,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17937,
-          "end": 17975,
+          "start": 17905,
+          "end": 17943,
           "line": 359
         }
       ]
@@ -6370,14 +6340,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18496,
-          "end": 18524,
+          "start": 18464,
+          "end": 18492,
           "line": 378
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19025,
-          "end": 19053,
+          "start": 18993,
+          "end": 19021,
           "line": 392
         }
       ]
@@ -6395,14 +6365,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18584,
-          "end": 18600,
+          "start": 18552,
+          "end": 18568,
           "line": 379
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18950,
-          "end": 18966,
+          "start": 18918,
+          "end": 18934,
           "line": 391
         }
       ]
@@ -6420,8 +6390,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19317,
-          "end": 19592,
+          "start": 19285,
+          "end": 19560,
           "line": 403
         }
       ]
@@ -6439,8 +6409,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19609,
-          "end": 19724,
+          "start": 19577,
+          "end": 19692,
           "line": 407
         }
       ]
@@ -6450,16 +6420,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
+      "text": "Its board is appointed by Abu Dhabi Executive Council resolution and includes executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Its board is appointed by Abu Dhabi Executive Council resolution and composed largely of executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency rather than academics.",
+      "display": "Its board is appointed by Abu Dhabi Executive Council resolution and includes executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19741,
-          "end": 19920,
+          "start": 19709,
+          "end": 19855,
           "line": 408
         }
       ]
@@ -6477,8 +6447,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19937,
-          "end": 20136,
+          "start": 19872,
+          "end": 20071,
           "line": 409
         }
       ]
@@ -6496,8 +6466,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20169,
-          "end": 20567,
+          "start": 20104,
+          "end": 20502,
           "line": 412
         }
       ]
@@ -6515,8 +6485,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20584,
-          "end": 20699,
+          "start": 20519,
+          "end": 20634,
           "line": 416
         }
       ]
@@ -6534,8 +6504,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20889,
-          "end": 21085,
+          "start": 20824,
+          "end": 21020,
           "line": 424
         }
       ]
@@ -6545,16 +6515,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\n    <strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63</strong>, the first Arab university to break into the QS Top 100.\r\n    <ul>\r\n      <li>It became independent from the government in 2020, the same year its president, Dr. Muhammad Al-Saggaf, arrived from KAPSARC.",
+      "text": "\r\n    <strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63</strong>, the first Arab university to break into the QS Top 100.\r\n    <ul>\r\n      <li>It became independent from the government in 2020, the same year its president, Dr. Muhammad Al-Saggaf, arrived from Saudi Aramco.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63</strong>, the first Arab university to break into the QS Top 100.\r\n    <ul>\r\n      <li>It became independent from the government in 2020, the same year its president, Dr. Muhammad Al-Saggaf, arrived from KAPSARC.",
+      "display": "<strong>King Fahd University of Petroleum and Minerals (KFUPM) leads the group at QS 63</strong>, the first Arab university to break into the QS Top 100.\r\n    <ul>\r\n      <li>It became independent from the government in 2020, the same year its president, Dr. Muhammad Al-Saggaf, arrived from Saudi Aramco.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21105,
-          "end": 21411,
+          "start": 21040,
+          "end": 21351,
           "line": 429
         }
       ]
@@ -6564,16 +6534,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500.",
+      "text": "He built more than 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "He built 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500.",
+      "display": "He built more than 20 new research centres, added 43 undergraduate concentrations, and grew the postdoc base roughly tenfold towards a target of 1,500.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21428,
-          "end": 21569,
+          "start": 21368,
+          "end": 21519,
           "line": 433
         }
       ]
@@ -6591,8 +6561,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21602,
-          "end": 21754,
+          "start": 21552,
+          "end": 21704,
           "line": 436
         }
       ]
@@ -6610,8 +6580,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21771,
-          "end": 21904,
+          "start": 21721,
+          "end": 21854,
           "line": 440
         }
       ]
@@ -6629,8 +6599,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21937,
-          "end": 22133,
+          "start": 21887,
+          "end": 22083,
           "line": 443
         }
       ]
@@ -6648,8 +6618,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22150,
-          "end": 22400,
+          "start": 22100,
+          "end": 22350,
           "line": 447
         }
       ]
@@ -6667,8 +6637,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22461,
-          "end": 22609,
+          "start": 22411,
+          "end": 22559,
           "line": 452
         }
       ]
@@ -6678,16 +6648,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
-      "text": "\r\nQatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries. Qatar is now also building top-ranked universities of its own.\r\n",
+      "text": "\r\nQatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Weill Cornell Medicine, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries. Qatar is now also building top-ranked universities of its own.\r\n",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries. Qatar is now also building top-ranked universities of its own.",
+      "display": "Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Weill Cornell Medicine, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries. Qatar is now also building top-ranked universities of its own.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22755,
-          "end": 23117,
+          "start": 22705,
+          "end": 23082,
           "line": 458
         }
       ]
@@ -6705,8 +6675,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23137,
-          "end": 23336,
+          "start": 23102,
+          "end": 23301,
           "line": 463
         }
       ]
@@ -6724,8 +6694,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23353,
-          "end": 23390,
+          "start": 23318,
+          "end": 23355,
           "line": 467
         }
       ]
@@ -6743,8 +6713,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23423,
-          "end": 23635,
+          "start": 23388,
+          "end": 23600,
           "line": 470
         }
       ]
@@ -6762,8 +6732,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23652,
-          "end": 23711,
+          "start": 23617,
+          "end": 23676,
           "line": 474
         }
       ]
@@ -6781,8 +6751,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 23865,
-          "end": 24088,
+          "start": 23830,
+          "end": 24053,
           "line": 481
         }
       ]
@@ -6800,8 +6770,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24153,
-          "end": 24426,
+          "start": 24118,
+          "end": 24391,
           "line": 482
         }
       ]
@@ -6819,8 +6789,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24491,
-          "end": 24918,
+          "start": 24456,
+          "end": 24883,
           "line": 483
         }
       ]
@@ -6838,8 +6808,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25040,
-          "end": 25064,
+          "start": 25005,
+          "end": 25029,
           "line": 491
         }
       ]
@@ -6857,8 +6827,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25076,
-          "end": 25100,
+          "start": 25041,
+          "end": 25065,
           "line": 492
         }
       ]
@@ -6876,8 +6846,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25129,
-          "end": 25397,
+          "start": 25094,
+          "end": 25362,
           "line": 495
         }
       ]
@@ -6895,8 +6865,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30763,
-          "end": 30822,
+          "start": 30827,
+          "end": 30886,
           "line": 546
         }
       ]
@@ -6906,16 +6876,16 @@
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
-      "text": "Times Higher Education, World University Rankings, annual editions 2016 to 2027.",
+      "text": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>World University Rankings</em>, annual editions 2016 to 2027.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Times Higher Education, World University Rankings, annual editions 2016 to 2027.",
+      "display": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>World University Rankings</em>, annual editions 2016 to 2027.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30913,
-          "end": 30993,
+          "start": 30977,
+          "end": 31104,
           "line": 547
         }
       ]
@@ -6925,17 +6895,17 @@
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
-      "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
+      "text": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>The new World University Rankings 2024 methodology (WUR 3.0)</em>, 18 April 2023.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), 11 February 2022.",
+      "display": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>The new World University Rankings 2024 methodology (WUR 3.0)</em>, 18 April 2023.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31513,
-          "end": 31856,
-          "line": 550
+          "start": 31195,
+          "end": 31342,
+          "line": 548
         }
       ]
     },
@@ -6944,22 +6914,174 @@
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
-      "text": "Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, <em style={{ color: 'var(--color-ink)' }}>Delving into LLM-assisted writing in biomedical publications through excess vocabulary</em>, Science Advances 11, no. 27 (2025): eadt3813.",
+      "text": "QS Quacquarelli Symonds, <em style={{ color: 'var(--color-ink)' }}>QS World University Rankings: methodology</em>.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Dmitry Kobak, Rita González-Márquez, Emőke-Ágnes Horvát and Jan Lause, <em style={{ color: 'var(--color-ink)' }}>Delving into LLM-assisted writing in biomedical publications through excess vocabulary</em>, Science Advances 11, no. 27 (2025): eadt3813.",
+      "display": "QS Quacquarelli Symonds, <em style={{ color: 'var(--color-ink)' }}>QS World University Rankings: methodology</em>.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32593,
-          "end": 32844,
-          "line": 554
+          "start": 31433,
+          "end": 31547,
+          "line": 549
         }
       ]
     },
     {
       "id": "B-097",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "State Council of China, <em style={{ color: 'var(--color-ink)' }}>Overall Plan for Coordinately Promoting the Construction of World-Class Universities and First-Class Disciplines</em> (Guofa [2015] No. 64), October 2015.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "State Council of China, <em style={{ color: 'var(--color-ink)' }}>Overall Plan for Coordinately Promoting the Construction of World-Class Universities and First-Class Disciplines</em> (Guofa [2015] No. 64), October 2015.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 31638,
+          "end": 31858,
+          "line": 550
+        }
+      ]
+    },
+    {
+      "id": "B-098",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), February 2022.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Ministry of Education, Ministry of Finance and National Development and Reform Commission of China, <em style={{ color: 'var(--color-ink)' }}>Notice on the Second-Round Double First-Class Universities and Disciplines</em>, including Annex 2, first-round disciplines given public warnings or revoked (Jiaoyanhan [2022] No. 1), February 2022.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 31949,
+          "end": 32289,
+          "line": 551
+        }
+      ]
+    },
+    {
+      "id": "B-099",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Deutsche Forschungsgemeinschaft and German Science Council (Wissenschaftsrat), <em style={{ color: 'var(--color-ink)' }}>Excellence Strategy</em>: Clusters of Excellence funded 2019–2025 and from 2026; Universities of Excellence 2019–2026 and 2027–2033.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Deutsche Forschungsgemeinschaft and German Science Council (Wissenschaftsrat), <em style={{ color: 'var(--color-ink)' }}>Excellence Strategy</em>: Clusters of Excellence funded 2019–2025 and from 2026; Universities of Excellence 2019–2026 and 2027–2033.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 32380,
+          "end": 32633,
+          "line": 552
+        }
+      ]
+    },
+    {
+      "id": "B-100",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "European Commission, <em style={{ color: 'var(--color-ink)' }}>Commission and UK reach political agreement on UK participation in Horizon Europe and Copernicus</em>, 7 September 2023.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "European Commission, <em style={{ color: 'var(--color-ink)' }}>Commission and UK reach political agreement on UK participation in Horizon Europe and Copernicus</em>, 7 September 2023.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 32724,
+          "end": 32907,
+          "line": 553
+        }
+      ]
+    },
+    {
+      "id": "B-101",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "ThePrint, <em style={{ color: 'var(--color-ink)' }}>7 IITs won't take part in Times world rankings this year, raise 'transparency' issue</em>, April 2020.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "ThePrint, <em style={{ color: 'var(--color-ink)' }}>7 IITs won't take part in Times world rankings this year, raise 'transparency' issue</em>, April 2020.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 32998,
+          "end": 33152,
+          "line": 554
+        }
+      ]
+    },
+    {
+      "id": "B-102",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Kingdom of Saudi Arabia, <em style={{ color: 'var(--color-ink)' }}>Saudi Vision 2030</em>, 2016.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Kingdom of Saudi Arabia, <em style={{ color: 'var(--color-ink)' }}>Saudi Vision 2030</em>, 2016.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 33243,
+          "end": 33339,
+          "line": 555
+        }
+      ]
+    },
+    {
+      "id": "B-103",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "King Fahd University of Petroleum and Minerals, <em style={{ color: 'var(--color-ink)' }}>President's Bio</em> (Dr. Muhammad Al-Saggaf).",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "King Fahd University of Petroleum and Minerals, <em style={{ color: 'var(--color-ink)' }}>President's Bio</em> (Dr. Muhammad Al-Saggaf).",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 33430,
+          "end": 33566,
+          "line": 556
+        }
+      ]
+    },
+    {
+      "id": "B-104",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>Arab University Rankings 2026: out now</em>, November 2025.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Times Higher Education, <em style={{ color: 'var(--color-ink)' }}>Arab University Rankings 2026: out now</em>, November 2025.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 33657,
+          "end": 33782,
+          "line": 557
+        }
+      ]
+    },
+    {
+      "id": "B-105",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6971,28 +7093,85 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32935,
-          "end": 33111,
-          "line": 555
+          "start": 33873,
+          "end": 34049,
+          "line": 558
         }
       ]
     },
     {
-      "id": "B-098",
+      "id": "B-106",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
-      "text": "<em style={{ color: 'var(--color-ink)' }}>Saudi universities lose highly cited researchers after payment schemes raise ethics concerns</em>, Science.",
+      "text": "Michele Catanzaro, <em style={{ color: 'var(--color-ink)' }}>Saudi universities lose highly cited researchers after payment schemes raise ethics concerns</em>, Science, 27 November 2023.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<em style={{ color: 'var(--color-ink)' }}>Saudi universities lose highly cited researchers after payment schemes raise ethics concerns</em>, Science.",
+      "display": "Michele Catanzaro, <em style={{ color: 'var(--color-ink)' }}>Saudi universities lose highly cited researchers after payment schemes raise ethics concerns</em>, Science, 27 November 2023.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33202,
-          "end": 33351,
-          "line": 556
+          "start": 34140,
+          "end": 34326,
+          "line": 559
+        }
+      ]
+    },
+    {
+      "id": "B-107",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Abu Dhabi Media Office, <em style={{ color: 'var(--color-ink)' }}>Khalifa University climbs to 147th spot globally out of 1,500 institutions in QS World University Rankings 2027</em>, 18 June 2026.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Abu Dhabi Media Office, <em style={{ color: 'var(--color-ink)' }}>Khalifa University climbs to 147th spot globally out of 1,500 institutions in QS World University Rankings 2027</em>, 18 June 2026.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 34417,
+          "end": 34614,
+          "line": 560
+        }
+      ]
+    },
+    {
+      "id": "B-108",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Richard Van Noorden, <em style={{ color: 'var(--color-ink)' }}>More than 10,000 research papers were retracted in 2023 — a new record</em>, Nature 624 (2023): 479–481.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Richard Van Noorden, <em style={{ color: 'var(--color-ink)' }}>More than 10,000 research papers were retracted in 2023 — a new record</em>, Nature 624 (2023): 479–481.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 34705,
+          "end": 34872,
+          "line": 561
+        }
+      ]
+    },
+    {
+      "id": "B-109",
+      "kind": "prose",
+      "path": "05 Sources > <li>",
+      "sectionId": "methodology",
+      "text": "Joseph Howlett, <em style={{ color: 'var(--color-ink)' }}>OpenAI claims blockbuster math breakthrough amid swirl of controversy</em>, Scientific American, 8 September 2026.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "Joseph Howlett, <em style={{ color: 'var(--color-ink)' }}>OpenAI claims blockbuster math breakthrough amid swirl of controversy</em>, Scientific American, 8 September 2026.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 34963,
+          "end": 35135,
+          "line": 562
         }
       ]
     }
