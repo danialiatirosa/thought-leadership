@@ -4867,9 +4867,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30648,
-          "end": 30655,
-          "line": 516
+          "start": 30271,
+          "end": 30278,
+          "line": 521
         }
       ]
     },
@@ -4892,9 +4892,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31235,
-          "end": 31359,
-          "line": 524
+          "start": 30858,
+          "end": 30982,
+          "line": 529
         }
       ]
     },
@@ -4917,9 +4917,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31450,
-          "end": 31573,
-          "line": 525
+          "start": 31073,
+          "end": 31196,
+          "line": 530
         }
       ]
     },
@@ -4961,9 +4961,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32098,
-          "end": 32252,
-          "line": 527
+          "start": 31721,
+          "end": 31875,
+          "line": 532
         }
       ]
     },
@@ -4986,9 +4986,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32343,
-          "end": 32438,
-          "line": 528
+          "start": 31966,
+          "end": 32061,
+          "line": 533
         }
       ]
     },
@@ -5011,9 +5011,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32529,
-          "end": 32653,
-          "line": 529
+          "start": 32152,
+          "end": 32276,
+          "line": 534
         }
       ]
     },
@@ -6602,25 +6602,6 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "The rank barely moved until 2023, then jumped from 160 to 101 to 63 by 2027.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21654,
-          "end": 21730,
-          "line": 431
-        }
-      ]
-    },
-    {
-      "id": "B-079",
-      "kind": "prose",
-      "path": "03 GCC Spotlight > <li>",
-      "sectionId": "uae",
       "text": "<strong>KAUST doesn't appear in either ranking:</strong> it's graduate-only, and both systems require undergraduate teaching. Instead, it has topped THE's Arab University Rankings in the 2024 to 2026 editions, while KFUPM leads QS's equivalent regional table.",
       "shared": false,
       "minor": false,
@@ -6629,14 +6610,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21763,
-          "end": 22022,
-          "line": 434
+          "start": 21670,
+          "end": 21929,
+          "line": 433
         }
       ]
     },
     {
-      "id": "B-080",
+      "id": "B-079",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6648,14 +6629,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22035,
-          "end": 22231,
-          "line": 435
+          "start": 21942,
+          "end": 22138,
+          "line": 434
         }
       ]
     },
     {
-      "id": "B-081",
+      "id": "B-080",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6667,14 +6648,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22248,
-          "end": 22440,
-          "line": 439
+          "start": 22155,
+          "end": 22347,
+          "line": 438
         }
       ]
     },
     {
-      "id": "B-082",
+      "id": "B-081",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6686,14 +6667,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22457,
-          "end": 22580,
-          "line": 440
+          "start": 22364,
+          "end": 22487,
+          "line": 439
         }
       ]
     },
     {
-      "id": "B-083",
+      "id": "B-082",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6705,28 +6686,47 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22641,
-          "end": 22789,
-          "line": 445
+          "start": 22548,
+          "end": 22696,
+          "line": 444
+        }
+      ]
+    },
+    {
+      "id": "B-083",
+      "kind": "prose",
+      "path": "03 GCC Spotlight > <li>",
+      "sectionId": "uae",
+      "text": "\r\n    <strong>Qatar now has the Gulf's highest-ranked university on THE.</strong> Hamad Bin Khalifa University (HBKU) debuted in 2027 at 126, ahead of every Saudi and UAE university.\r\n    <ul>\r\n      <li>Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries.",
+      "shared": false,
+      "minor": false,
+      "quote": "jsx",
+      "display": "<strong>Qatar now has the Gulf's highest-ranked university on THE.</strong> Hamad Bin Khalifa University (HBKU) debuted in 2027 at 126, ahead of every Saudi and UAE university.\r\n    <ul>\r\n      <li>Qatar's first bet was branch campuses, rather than a flagship or broad funding. Education City hosts Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris, all ranked under their home institutions rather than as Qatari entries.",
+      "locations": [
+        {
+          "file": "content/articles/rankings-decade-told-straight.mdx",
+          "start": 22829,
+          "end": 23328,
+          "line": 451
         }
       ]
     },
     {
       "id": "B-084",
       "kind": "prose",
-      "path": "03 GCC Spotlight > <p>",
+      "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "\r\nQatar's footprint is small, though two facts make it look smaller than it is. Its population is under three million, the smallest in the GCC. And its biggest investment doesn't show up in a country count at all. Education City runs branch campuses of Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris. Those campuses are ranked under their home institutions, not as Qatari entries. The visible count is just two local universities. Qatar University has held a THE WUR Top 500 seat since 2018, now at 222. Hamad Bin Khalifa University (HBKU) joined QS in 2024 (now 213), and debuted on THE in 2027 at 126, currently the highest THE rank of any Gulf university. <strong>Qatar's main bet was neither the UAE's flagship-led approach nor Saudi Arabia's broad funding, but borrowing prestige through branch campuses. HBKU's 2027 debut suggests it is now building a ranked university of its own too.</strong>\r\n",
+      "text": "On QS, Qatar University is the country's top-ranked university at 109th, up from 393rd in 2017, the largest QS climb of any Gulf university.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "Qatar's footprint is small, though two facts make it look smaller than it is. Its population is under three million, the smallest in the GCC. And its biggest investment doesn't show up in a country count at all. Education City runs branch campuses of Georgetown, Northwestern, Cornell, Texas A&M<sup>†</sup>, Carnegie Mellon, Virginia Commonwealth University and HEC Paris. Those campuses are ranked under their home institutions, not as Qatari entries. The visible count is just two local universities. Qatar University has held a THE WUR Top 500 seat since 2018, now at 222. Hamad Bin Khalifa University (HBKU) joined QS in 2024 (now 213), and debuted on THE in 2027 at 126, currently the highest THE rank of any Gulf university. <strong>Qatar's main bet was neither the UAE's flagship-led approach nor Saudi Arabia's broad funding, but borrowing prestige through branch campuses. HBKU's 2027 debut suggests it is now building a ranked university of its own too.</strong>",
+      "display": "On QS, Qatar University is the country's top-ranked university at 109th, up from 393rd in 2017, the largest QS climb of any Gulf university.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22913,
-          "end": 23890,
-          "line": 451
+          "start": 23345,
+          "end": 23485,
+          "line": 455
         }
       ]
     },
@@ -6743,9 +6743,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24016,
-          "end": 24239,
-          "line": 457
+          "start": 23639,
+          "end": 23862,
+          "line": 462
         }
       ]
     },
@@ -6762,9 +6762,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24304,
-          "end": 24577,
-          "line": 458
+          "start": 23927,
+          "end": 24200,
+          "line": 463
         }
       ]
     },
@@ -6781,9 +6781,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 24642,
-          "end": 25069,
-          "line": 459
+          "start": 24265,
+          "end": 24692,
+          "line": 464
         }
       ]
     },
@@ -6800,9 +6800,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25191,
-          "end": 25215,
-          "line": 467
+          "start": 24814,
+          "end": 24838,
+          "line": 472
         }
       ]
     },
@@ -6819,9 +6819,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25227,
-          "end": 25251,
-          "line": 468
+          "start": 24850,
+          "end": 24874,
+          "line": 473
         }
       ]
     },
@@ -6838,9 +6838,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 25280,
-          "end": 25548,
-          "line": 471
+          "start": 24903,
+          "end": 25171,
+          "line": 476
         }
       ]
     },
@@ -6857,9 +6857,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30914,
-          "end": 30973,
-          "line": 522
+          "start": 30537,
+          "end": 30596,
+          "line": 527
         }
       ]
     },
@@ -6876,9 +6876,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31064,
-          "end": 31144,
-          "line": 523
+          "start": 30687,
+          "end": 30767,
+          "line": 528
         }
       ]
     },
@@ -6895,9 +6895,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31664,
-          "end": 32007,
-          "line": 526
+          "start": 31287,
+          "end": 31630,
+          "line": 531
         }
       ]
     },
@@ -6914,9 +6914,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32744,
-          "end": 32995,
-          "line": 530
+          "start": 32367,
+          "end": 32618,
+          "line": 535
         }
       ]
     },
@@ -6933,9 +6933,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33086,
-          "end": 33262,
-          "line": 531
+          "start": 32709,
+          "end": 32885,
+          "line": 536
         }
       ]
     },
@@ -6952,9 +6952,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 33353,
-          "end": 33502,
-          "line": 532
+          "start": 32976,
+          "end": 33125,
+          "line": 537
         }
       ]
     }
