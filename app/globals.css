@@ -420,6 +420,10 @@ button {
   left: 12px;
   color: var(--color-mute);
 }
+/* A list item's lead line can be wrapped in <p> by MDX; keep it flush with the sub-list. */
+.prose-article li > p {
+  margin: 0;
+}
 .prose-article li > ul {
   margin: 10px 0 10px;
 }
