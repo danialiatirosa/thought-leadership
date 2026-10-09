@@ -66,7 +66,7 @@ export default async function ArticlePage({ params }: PageProps) {
   return (
     <>
       <ProgressBar />
-      <Masthead articleSections={article.sections} />
+      <Masthead articleSections={article.sections} showWordmark={!article.hideWordmark} />
       <main id="main-content">
         <ArticleHero article={article} />
         <ArticleLayout>
@@ -74,7 +74,7 @@ export default async function ArticlePage({ params }: PageProps) {
           {!article.hideClosing && <ArticleClosing article={article} />}
         </ArticleLayout>
       </main>
-      <Footer />
+      <Footer showWordmark={!article.hideWordmark} />
       <EditLayer slug={slug} />
       <script
         type="application/ld+json"

@@ -35,6 +35,8 @@ export interface ArticleFrontmatter {
   usesWorldBankRd?: boolean;
   /** Hide the closing 'About this analysis' box. Defaults to false. */
   hideClosing?: boolean;
+  /** Hide 'The Index' wordmark in the masthead and footer. Defaults to false. */
+  hideWordmark?: boolean;
   tags?: string[];
   status: ArticleStatus;
 }
