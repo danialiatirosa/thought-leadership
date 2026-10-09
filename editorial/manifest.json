@@ -13,7 +13,7 @@
       "file": "content/articles/rankings-decade-told-straight.mdx"
     }
   ],
-  "blockCount": 360,
+  "blockCount": 359,
   "sharedCount": 11,
   "blocks": [
     {
@@ -4867,9 +4867,9 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28309,
-          "end": 28316,
-          "line": 530
+          "start": 28146,
+          "end": 28153,
+          "line": 529
         }
       ]
     },
@@ -6363,25 +6363,6 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "Its board is appointed by Abu Dhabi Executive Council resolution and includes executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency.",
-      "shared": false,
-      "minor": false,
-      "quote": "jsx",
-      "display": "Its board is appointed by Abu Dhabi Executive Council resolution and includes executives from Mubadala, ADNOC, ADQ, ADIA and the UAE Space Agency.",
-      "locations": [
-        {
-          "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17643,
-          "end": 17789,
-          "line": 396
-        }
-      ]
-    },
-    {
-      "id": "B-068",
-      "kind": "prose",
-      "path": "03 GCC Spotlight > <li>",
-      "sectionId": "uae",
       "text": "The university attributes its rise to strategic investment in research, talent and global partnerships, and its hiring reflects this: it ranks 12th in the world on QS's international faculty measure.",
       "shared": false,
       "minor": false,
@@ -6390,14 +6371,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 17806,
-          "end": 18005,
-          "line": 397
+          "start": 17643,
+          "end": 17842,
+          "line": 396
         }
       ]
     },
     {
-      "id": "B-069",
+      "id": "B-068",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6409,14 +6390,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18038,
-          "end": 18436,
-          "line": 400
+          "start": 17875,
+          "end": 18273,
+          "line": 399
         }
       ]
     },
     {
-      "id": "B-070",
+      "id": "B-069",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6428,14 +6409,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18453,
-          "end": 18568,
-          "line": 404
+          "start": 18290,
+          "end": 18405,
+          "line": 403
         }
       ]
     },
     {
-      "id": "B-071",
+      "id": "B-070",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6447,14 +6428,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18758,
-          "end": 18954,
-          "line": 412
+          "start": 18595,
+          "end": 18791,
+          "line": 411
         }
       ]
     },
     {
-      "id": "B-072",
+      "id": "B-071",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6466,14 +6447,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 18974,
-          "end": 19376,
-          "line": 417
+          "start": 18811,
+          "end": 19213,
+          "line": 416
         }
       ]
     },
     {
-      "id": "B-073",
+      "id": "B-072",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6485,14 +6466,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19409,
-          "end": 19561,
-          "line": 423
+          "start": 19246,
+          "end": 19398,
+          "line": 422
         }
       ]
     },
     {
-      "id": "B-074",
+      "id": "B-073",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6504,14 +6485,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19578,
-          "end": 19711,
-          "line": 427
+          "start": 19415,
+          "end": 19548,
+          "line": 426
         }
       ]
     },
     {
-      "id": "B-075",
+      "id": "B-074",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6523,14 +6504,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19744,
-          "end": 19940,
-          "line": 430
+          "start": 19581,
+          "end": 19777,
+          "line": 429
         }
       ]
     },
     {
-      "id": "B-076",
+      "id": "B-075",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6542,14 +6523,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 19957,
-          "end": 20207,
-          "line": 434
+          "start": 19794,
+          "end": 20044,
+          "line": 433
         }
       ]
     },
     {
-      "id": "B-077",
+      "id": "B-076",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6561,14 +6542,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20268,
-          "end": 20416,
-          "line": 439
+          "start": 20105,
+          "end": 20253,
+          "line": 438
         }
       ]
     },
     {
-      "id": "B-078",
+      "id": "B-077",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6580,14 +6561,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20562,
-          "end": 20939,
-          "line": 445
+          "start": 20399,
+          "end": 20776,
+          "line": 444
         }
       ]
     },
     {
-      "id": "B-079",
+      "id": "B-078",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6599,14 +6580,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 20959,
-          "end": 21158,
-          "line": 450
+          "start": 20796,
+          "end": 20995,
+          "line": 449
         }
       ]
     },
     {
-      "id": "B-080",
+      "id": "B-079",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6618,14 +6599,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21175,
-          "end": 21212,
-          "line": 454
+          "start": 21012,
+          "end": 21049,
+          "line": 453
         }
       ]
     },
     {
-      "id": "B-081",
+      "id": "B-080",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6637,14 +6618,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21245,
-          "end": 21457,
-          "line": 457
+          "start": 21082,
+          "end": 21294,
+          "line": 456
         }
       ]
     },
     {
-      "id": "B-082",
+      "id": "B-081",
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
@@ -6656,14 +6637,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21474,
-          "end": 21533,
-          "line": 461
+          "start": 21311,
+          "end": 21370,
+          "line": 460
         }
       ]
     },
     {
-      "id": "B-083",
+      "id": "B-082",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6675,14 +6656,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21687,
-          "end": 22114,
-          "line": 468
+          "start": 21524,
+          "end": 21951,
+          "line": 467
         }
       ]
     },
     {
-      "id": "B-084",
+      "id": "B-083",
       "kind": "prose",
       "path": "03 GCC Spotlight > <p>",
       "sectionId": "uae",
@@ -6694,14 +6675,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22179,
-          "end": 22402,
-          "line": 469
+          "start": 22016,
+          "end": 22239,
+          "line": 468
         }
       ]
     },
     {
-      "id": "B-085",
+      "id": "B-084",
       "kind": "prop",
       "path": "04 Learnings & Implications > SectionHeader > kicker",
       "sectionId": "implications",
@@ -6713,14 +6694,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22581,
-          "end": 22605,
-          "line": 479
+          "start": 22418,
+          "end": 22442,
+          "line": 478
         }
       ]
     },
     {
-      "id": "B-086",
+      "id": "B-085",
       "kind": "prop",
       "path": "04 Learnings & Implications > SectionHeader > title",
       "sectionId": "implications",
@@ -6732,14 +6713,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22617,
-          "end": 22648,
-          "line": 480
+          "start": 22454,
+          "end": 22485,
+          "line": 479
         }
       ]
     },
     {
-      "id": "B-087",
+      "id": "B-086",
       "kind": "prose",
       "path": "04 Learnings & Implications > <p>",
       "sectionId": "implications",
@@ -6751,14 +6732,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22677,
-          "end": 22947,
-          "line": 483
+          "start": 22514,
+          "end": 22784,
+          "line": 482
         }
       ]
     },
     {
-      "id": "B-088",
+      "id": "B-087",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6770,14 +6751,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28575,
-          "end": 28634,
-          "line": 536
+          "start": 28412,
+          "end": 28471,
+          "line": 535
         }
       ]
     },
     {
-      "id": "B-089",
+      "id": "B-088",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6789,14 +6770,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28725,
-          "end": 28852,
-          "line": 537
+          "start": 28562,
+          "end": 28689,
+          "line": 536
         }
       ]
     },
     {
-      "id": "B-090",
+      "id": "B-089",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6808,14 +6789,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28943,
-          "end": 29090,
-          "line": 538
+          "start": 28780,
+          "end": 28927,
+          "line": 537
         }
       ]
     },
     {
-      "id": "B-091",
+      "id": "B-090",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6827,14 +6808,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29181,
-          "end": 29295,
-          "line": 539
+          "start": 29018,
+          "end": 29132,
+          "line": 538
         }
       ]
     },
     {
-      "id": "B-092",
+      "id": "B-091",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6846,14 +6827,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29386,
-          "end": 29606,
-          "line": 540
+          "start": 29223,
+          "end": 29443,
+          "line": 539
         }
       ]
     },
     {
-      "id": "B-093",
+      "id": "B-092",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6865,14 +6846,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29697,
-          "end": 30037,
-          "line": 541
+          "start": 29534,
+          "end": 29874,
+          "line": 540
         }
       ]
     },
     {
-      "id": "B-094",
+      "id": "B-093",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6884,14 +6865,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30128,
-          "end": 30381,
-          "line": 542
+          "start": 29965,
+          "end": 30218,
+          "line": 541
         }
       ]
     },
     {
-      "id": "B-095",
+      "id": "B-094",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6903,14 +6884,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30472,
-          "end": 30626,
-          "line": 543
+          "start": 30309,
+          "end": 30463,
+          "line": 542
         }
       ]
     },
     {
-      "id": "B-096",
+      "id": "B-095",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6922,14 +6903,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30717,
-          "end": 30813,
-          "line": 544
+          "start": 30554,
+          "end": 30650,
+          "line": 543
         }
       ]
     },
     {
-      "id": "B-097",
+      "id": "B-096",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6941,14 +6922,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30904,
-          "end": 31040,
-          "line": 545
+          "start": 30741,
+          "end": 30877,
+          "line": 544
         }
       ]
     },
     {
-      "id": "B-098",
+      "id": "B-097",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6960,14 +6941,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31131,
-          "end": 31256,
-          "line": 546
+          "start": 30968,
+          "end": 31093,
+          "line": 545
         }
       ]
     },
     {
-      "id": "B-099",
+      "id": "B-098",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6979,14 +6960,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31347,
-          "end": 31523,
-          "line": 547
+          "start": 31184,
+          "end": 31360,
+          "line": 546
         }
       ]
     },
     {
-      "id": "B-100",
+      "id": "B-099",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -6998,14 +6979,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31614,
-          "end": 31800,
-          "line": 548
+          "start": 31451,
+          "end": 31637,
+          "line": 547
         }
       ]
     },
     {
-      "id": "B-101",
+      "id": "B-100",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -7017,14 +6998,14 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 31891,
-          "end": 32088,
-          "line": 549
+          "start": 31728,
+          "end": 31925,
+          "line": 548
         }
       ]
     },
     {
-      "id": "B-102",
+      "id": "B-101",
       "kind": "prose",
       "path": "05 Sources > <li>",
       "sectionId": "methodology",
@@ -7036,9 +7017,9 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 32179,
-          "end": 32351,
-          "line": 550
+          "start": 32016,
+          "end": 32188,
+          "line": 549
         }
       ]
     }
