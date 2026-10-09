@@ -4867,8 +4867,8 @@
         },
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 26750,
-          "end": 26757,
+          "start": 26768,
+          "end": 26775,
           "line": 488
         }
       ]
@@ -6572,16 +6572,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "<strong>Hamad Bin Khalifa University (HBKU) is now the Gulf's highest-ranked university on THE.</strong> It debuted in 2027 at 126, ahead of every Saudi and UAE university (QS: 213).",
+      "text": "<strong>Hamad Bin Khalifa University (HBKU) is now the Gulf's highest-ranked university on THE.</strong> It debuted in 2027 at 126 (QS 213), ahead of every Saudi and UAE university in the THE rankings.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Hamad Bin Khalifa University (HBKU) is now the Gulf's highest-ranked university on THE.</strong> It debuted in 2027 at 126, ahead of every Saudi and UAE university (QS: 213).",
+      "display": "<strong>Hamad Bin Khalifa University (HBKU) is now the Gulf's highest-ranked university on THE.</strong> It debuted in 2027 at 126 (QS 213), ahead of every Saudi and UAE university in the THE rankings.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
           "start": 21037,
-          "end": 21219,
+          "end": 21238,
           "line": 429
         }
       ]
@@ -6591,16 +6591,16 @@
       "kind": "prose",
       "path": "03 GCC Spotlight > <li>",
       "sectionId": "uae",
-      "text": "<strong>Qatar University has made the largest QS climb of any Gulf university.</strong> It rose from 393rd in 2017 to 109th in 2027 (THE: 222), making it the country's top-ranked university on QS.",
+      "text": "<strong>Qatar University has made the largest QS climb of any Gulf university.</strong> It rose from 393rd in 2017 to 109th in 2027 (THE 222), making it the country's top-ranked university on QS.",
       "shared": false,
       "minor": false,
       "quote": "jsx",
-      "display": "<strong>Qatar University has made the largest QS climb of any Gulf university.</strong> It rose from 393rd in 2017 to 109th in 2027 (THE: 222), making it the country's top-ranked university on QS.",
+      "display": "<strong>Qatar University has made the largest QS climb of any Gulf university.</strong> It rose from 393rd in 2017 to 109th in 2027 (THE 222), making it the country's top-ranked university on QS.",
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21232,
-          "end": 21428,
+          "start": 21251,
+          "end": 21446,
           "line": 430
         }
       ]
@@ -6618,8 +6618,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 21562,
-          "end": 21989,
+          "start": 21580,
+          "end": 22007,
           "line": 435
         }
       ]
@@ -6637,8 +6637,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22054,
-          "end": 22277,
+          "start": 22072,
+          "end": 22295,
           "line": 436
         }
       ]
@@ -6656,8 +6656,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22456,
-          "end": 22480,
+          "start": 22474,
+          "end": 22498,
           "line": 446
         }
       ]
@@ -6675,8 +6675,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 22492,
-          "end": 22535,
+          "start": 22510,
+          "end": 22553,
           "line": 447
         }
       ]
@@ -6694,8 +6694,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 27016,
-          "end": 27075,
+          "start": 27034,
+          "end": 27093,
           "line": 494
         }
       ]
@@ -6713,8 +6713,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 27166,
-          "end": 27293,
+          "start": 27184,
+          "end": 27311,
           "line": 495
         }
       ]
@@ -6732,8 +6732,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 27384,
-          "end": 27531,
+          "start": 27402,
+          "end": 27549,
           "line": 496
         }
       ]
@@ -6751,8 +6751,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 27622,
-          "end": 27736,
+          "start": 27640,
+          "end": 27754,
           "line": 497
         }
       ]
@@ -6770,8 +6770,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 27827,
-          "end": 28047,
+          "start": 27845,
+          "end": 28065,
           "line": 498
         }
       ]
@@ -6789,8 +6789,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28138,
-          "end": 28478,
+          "start": 28156,
+          "end": 28496,
           "line": 499
         }
       ]
@@ -6808,8 +6808,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28569,
-          "end": 28822,
+          "start": 28587,
+          "end": 28840,
           "line": 500
         }
       ]
@@ -6827,8 +6827,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 28913,
-          "end": 29067,
+          "start": 28931,
+          "end": 29085,
           "line": 501
         }
       ]
@@ -6846,8 +6846,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29158,
-          "end": 29254,
+          "start": 29176,
+          "end": 29272,
           "line": 502
         }
       ]
@@ -6865,8 +6865,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29345,
-          "end": 29481,
+          "start": 29363,
+          "end": 29499,
           "line": 503
         }
       ]
@@ -6884,8 +6884,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29572,
-          "end": 29697,
+          "start": 29590,
+          "end": 29715,
           "line": 504
         }
       ]
@@ -6903,8 +6903,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 29788,
-          "end": 29964,
+          "start": 29806,
+          "end": 29982,
           "line": 505
         }
       ]
@@ -6922,8 +6922,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30055,
-          "end": 30241,
+          "start": 30073,
+          "end": 30259,
           "line": 506
         }
       ]
@@ -6941,8 +6941,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30332,
-          "end": 30529,
+          "start": 30350,
+          "end": 30547,
           "line": 507
         }
       ]
@@ -6960,8 +6960,8 @@
       "locations": [
         {
           "file": "content/articles/rankings-decade-told-straight.mdx",
-          "start": 30620,
-          "end": 30792,
+          "start": 30638,
+          "end": 30810,
           "line": 508
         }
       ]
