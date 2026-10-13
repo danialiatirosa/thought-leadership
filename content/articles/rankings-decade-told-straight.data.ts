@@ -103,24 +103,24 @@ export const risers = [
   { label: 'Tongji University', fromRank: 124, toRank: 185, flag: 'China' },
 ];
 
-/** Top 15 by THE 2027 Top-500 count (ties broken by QS count), then the UAE. */
+/** Top 15 by THE 2027 Top-500 count, plus the UAE; ordered by change in THE count (ties broken by change in QS count). */
 export const countryTableRows = [
-  { country: 'United States', qs17: 97, qs27: 68, qsD: { value: '-29', tone: 'neg' as const }, the16: 122, the27: 96, theD: { value: '-26', tone: 'neg' as const } },
-  { country: 'United Kingdom', qs17: 51, qs27: 48, qsD: { value: '-3', tone: 'neg' as const }, the16: 58, the27: 49, theD: { value: '-9', tone: 'neg' as const } },
-  { country: 'Germany', qs17: 31, qs27: 28, qsD: { value: '-3', tone: 'neg' as const }, the16: 36, the27: 42, theD: { value: '+6', tone: 'pos' as const } },
   { country: 'China', qs17: 24, qs27: 38, qsD: { value: '+14', tone: 'pos' as const }, the16: 11, the27: 36, theD: { value: '+25', tone: 'pos' as const } },
-  { country: 'Australia', qs17: 23, qs27: 27, qsD: { value: '+4', tone: 'pos' as const }, the16: 27, the27: 31, theD: { value: '+4', tone: 'pos' as const } },
-  { country: 'Italy', qs17: 12, qs27: 15, qsD: { value: '+3', tone: 'pos' as const }, the16: 33, the27: 27, theD: { value: '-6', tone: 'neg' as const } },
-  { country: 'Canada', qs17: 18, qs27: 17, qsD: { value: '-1', tone: 'neg' as const }, the16: 21, the27: 18, theD: { value: '-3', tone: 'neg' as const } },
-  { country: 'Korea, Republic of', qs17: 16, qs27: 17, qsD: { value: '+1', tone: 'pos' as const }, the16: 11, the27: 15, theD: { value: '+4', tone: 'pos' as const } },
-  { country: 'Netherlands', qs17: 13, qs27: 13, qsD: '+0', the16: 13, the27: 12, theD: { value: '-1', tone: 'neg' as const } },
-  { country: 'France', qs17: 20, qs27: 13, qsD: { value: '-7', tone: 'neg' as const }, the16: 20, the27: 10, theD: { value: '-10', tone: 'neg' as const } },
-  { country: 'Sweden', qs17: 8, qs27: 8, qsD: '+0', the16: 11, the27: 10, theD: { value: '-1', tone: 'neg' as const } },
-  { country: 'Japan', qs17: 17, qs27: 12, qsD: { value: '-5', tone: 'neg' as const }, the16: 11, the27: 9, theD: { value: '-2', tone: 'neg' as const } },
-  { country: 'Austria', qs17: 4, qs27: 6, qsD: { value: '+2', tone: 'pos' as const }, the16: 7, the27: 9, theD: { value: '+2', tone: 'pos' as const } },
   { country: 'Saudi Arabia', qs17: 3, qs27: 6, qsD: { value: '+3', tone: 'pos' as const }, the16: 1, the27: 9, theD: { value: '+8', tone: 'pos' as const } },
   { country: 'Malaysia', qs17: 5, qs27: 10, qsD: { value: '+5', tone: 'pos' as const }, the16: 1, the27: 8, theD: { value: '+7', tone: 'pos' as const } },
   { country: 'United Arab Emirates', qs17: 3, qs27: 6, qsD: { value: '+3', tone: 'pos' as const }, the16: 0, the27: 6, theD: { value: '+6', tone: 'pos' as const } },
+  { country: 'Germany', qs17: 31, qs27: 28, qsD: { value: '-3', tone: 'neg' as const }, the16: 36, the27: 42, theD: { value: '+6', tone: 'pos' as const } },
+  { country: 'Australia', qs17: 23, qs27: 27, qsD: { value: '+4', tone: 'pos' as const }, the16: 27, the27: 31, theD: { value: '+4', tone: 'pos' as const } },
+  { country: 'Korea, Republic of', qs17: 16, qs27: 17, qsD: { value: '+1', tone: 'pos' as const }, the16: 11, the27: 15, theD: { value: '+4', tone: 'pos' as const } },
+  { country: 'Austria', qs17: 4, qs27: 6, qsD: { value: '+2', tone: 'pos' as const }, the16: 7, the27: 9, theD: { value: '+2', tone: 'pos' as const } },
+  { country: 'Sweden', qs17: 8, qs27: 8, qsD: '+0', the16: 11, the27: 10, theD: { value: '-1', tone: 'neg' as const } },
+  { country: 'Netherlands', qs17: 13, qs27: 13, qsD: '+0', the16: 13, the27: 12, theD: { value: '-1', tone: 'neg' as const } },
+  { country: 'Japan', qs17: 17, qs27: 12, qsD: { value: '-5', tone: 'neg' as const }, the16: 11, the27: 9, theD: { value: '-2', tone: 'neg' as const } },
+  { country: 'Canada', qs17: 18, qs27: 17, qsD: { value: '-1', tone: 'neg' as const }, the16: 21, the27: 18, theD: { value: '-3', tone: 'neg' as const } },
+  { country: 'Italy', qs17: 12, qs27: 15, qsD: { value: '+3', tone: 'pos' as const }, the16: 33, the27: 27, theD: { value: '-6', tone: 'neg' as const } },
+  { country: 'United Kingdom', qs17: 51, qs27: 48, qsD: { value: '-3', tone: 'neg' as const }, the16: 58, the27: 49, theD: { value: '-9', tone: 'neg' as const } },
+  { country: 'France', qs17: 20, qs27: 13, qsD: { value: '-7', tone: 'neg' as const }, the16: 20, the27: 10, theD: { value: '-10', tone: 'neg' as const } },
+  { country: 'United States', qs17: 97, qs27: 68, qsD: { value: '-29', tone: 'neg' as const }, the16: 122, the27: 96, theD: { value: '-26', tone: 'neg' as const } },
 ];
 
 /** Short display labels for the country table, where the full name doesn't fit on one line. */
