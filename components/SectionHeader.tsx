@@ -3,6 +3,7 @@ import { ScrollReveal } from './ScrollReveal';
 
 interface SectionHeaderProps {
   id?: string;
+  /** Empty for unnumbered parts (Executive summary, Sources): the marker then shows only the kicker. */
   number: string;
   kicker?: string;
   title: string;
@@ -31,16 +32,24 @@ export function SectionHeader({ id, number, kicker, title, italic, children, hid
       {hideMarker ? null : (
         <ScrollReveal className="flex items-center gap-3 mb-4">
           <span aria-hidden className="block h-px w-8 bg-lime" />
-          <div className="ui-caps font-sans text-[13px] tracking-[2px] uppercase font-semibold text-green">
-            Section {number}
-          </div>
-          {kicker ? (
+          {number ? (
+            <div className="ui-caps font-sans text-[13px] tracking-[2px] uppercase font-semibold text-green">
+              Section {number}
+            </div>
+          ) : null}
+          {number && kicker ? (
             <>
               <span aria-hidden className="block h-px w-3 bg-lime/70" />
               <div className="ui-caps font-sans text-[13px] tracking-[1.6px] uppercase text-mute font-medium">
                 {kicker}
               </div>
             </>
+          ) : null}
+          {/* Unnumbered parts (e.g. Sources) show just their name, in the number's place and style. */}
+          {!number && kicker ? (
+            <div className="ui-caps font-sans text-[13px] tracking-[2px] uppercase font-semibold text-green">
+              {kicker}
+            </div>
           ) : null}
         </ScrollReveal>
       )}

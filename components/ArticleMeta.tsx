@@ -19,7 +19,8 @@ export function ArticleMeta({ article }: ArticleMetaProps) {
         {article.sections?.[0] ? (
           <>
             <span className="text-green font-semibold tracking-[2px]">
-              Section {article.sections[0].number} — {article.sections[0].label}
+              {article.sections[0].number ? `Section ${article.sections[0].number} — ` : null}
+              {article.sections[0].label}
             </span>
             <span className="text-mute/60 mx-2.5">·</span>
           </>
