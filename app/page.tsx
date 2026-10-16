@@ -8,7 +8,7 @@ import { formatLongDate } from '@/lib/format';
 export const metadata: Metadata = {
   title: 'The Index',
   description:
-    'Long-form, data-driven analysis on policy, capability, and strategy. Published monthly. Filed independently from Abu Dhabi.',
+    'Long-form, data-driven analysis on policy, capability, and strategy.',
   alternates: { canonical: '/' },
 };
 
@@ -54,8 +54,7 @@ export default function HomePage() {
       <main id="main-content" className="mx-auto max-w-[1240px] px-8 max-[640px]:px-5">
         <section className="py-16 max-w-[820px] max-[640px]:py-10">
           <p className="font-serif italic text-[22px] leading-[1.5] text-mute m-0 mb-12 max-w-[56ch] max-[640px]:text-[18px]">
-            Long-form, data-driven analysis on policy, capability, and strategy. Published
-            monthly. Filed independently from Abu Dhabi.
+            Long-form, data-driven analysis on policy, capability, and strategy.
           </p>
 
           <ol className="list-none m-0 p-0">
