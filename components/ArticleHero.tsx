@@ -1,5 +1,4 @@
 import type { Article } from '@/types/article';
-import { formatLongDate } from '@/lib/format';
 import { ScrollReveal } from './ScrollReveal';
 
 interface ArticleHeroProps {
@@ -45,7 +44,7 @@ export function ArticleHero({ article }: ArticleHeroProps) {
 
           <ScrollReveal
             delayMs={200}
-            className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium mb-8"
+            className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium"
           >
             By{' '}
             <span className="text-ink font-semibold">
@@ -57,24 +56,6 @@ export function ArticleHero({ article }: ArticleHeroProps) {
                 Filed from {article.filedFrom}
               </>
             ) : null}
-          </ScrollReveal>
-
-          {/* Hairline + small-caps line: lead section, date, reading time. */}
-          <ScrollReveal delayMs={280} className="flex items-center gap-4 flex-wrap">
-            <span aria-hidden className="block h-px w-10 bg-green-light" />
-            <div className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-mute font-medium">
-              {article.sections?.[0] ? (
-                <>
-                  <span className="text-green font-semibold tracking-[2px]">
-                    Section {article.sections[0].number} — {article.sections[0].label}
-                  </span>
-                  <span className="text-mute/60 mx-2.5">·</span>
-                </>
-              ) : null}
-              {formatLongDate(article.publishedAt)}
-              <span className="text-mute/60 mx-2.5">·</span>
-              {article.readingTimeMinutes} min read
-            </div>
           </ScrollReveal>
         </div>
       </div>

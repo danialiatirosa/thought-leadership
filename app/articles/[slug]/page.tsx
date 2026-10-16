@@ -70,7 +70,7 @@ export default async function ArticlePage({ params }: PageProps) {
       <main id="main-content">
         <ArticleHero article={article} />
         <ArticleLayout>
-          <Body />
+          <Body article={article} />
           {!article.hideClosing && <ArticleClosing article={article} />}
         </ArticleLayout>
       </main>

@@ -32,6 +32,7 @@ import {
 import top20ByYear from '@/content/data/the-top20-by-year.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
+import { ArticleMeta } from '@/components/ArticleMeta';
 
 <ArticleSection id="brief">
 
@@ -41,6 +42,8 @@ import { ArticleSection } from '@/components/ArticleLayout';
   title=""
   hideMarker
 />
+
+<ArticleMeta article={props.article} />
 
 <h3>Asia's share of Top 100 in the World University Rankings more than doubled, driven by Greater China</h3>
 
