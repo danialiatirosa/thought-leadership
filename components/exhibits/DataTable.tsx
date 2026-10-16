@@ -65,7 +65,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
       at += g.span;
     });
   }
-  const rule = (ci: number) => (groupStarts.has(ci) ? 'border-l border-l-ink' : '');
+  const rule = (ci: number) => (groupStarts.has(ci) ? 'border-l-2 border-l-ink' : '');
   return (
     <div className="my-10">
       <table
@@ -77,6 +77,13 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
             {caption}
           </caption>
         ) : null}
+        {/* With table-layout: fixed the first row sets column widths; a group
+            header row has spanning cells, so widths must come from <col>. */}
+        <colgroup>
+          {columns.map((c) => (
+            <col key={c.key} style={c.width ? { width: c.width } : undefined} />
+          ))}
+        </colgroup>
         <thead>
           {groupHeader ? (
             <tr>
@@ -87,7 +94,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
                   scope="colgroup"
                   className={`px-2.5 pt-2 pb-2 font-sans font-semibold text-[13px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[11px] ${
                     g.label ? 'border-b border-rule-soft' : ''
-                  } ${i > 0 ? 'border-l border-l-ink' : ''}`}
+                  }`}
                 >
                   {g.logo ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -105,7 +112,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
               ))}
             </tr>
           ) : null}
-          <tr className="border-y border-ink">
+          <tr className={groupHeader ? 'border-t-2 border-b border-ink' : 'border-y border-ink'}>
             {columns.map((c, ci) => (
               <th
                 key={c.key}
