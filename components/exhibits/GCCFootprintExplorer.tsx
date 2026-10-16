@@ -58,10 +58,9 @@ export function GCCFootprintExplorer({ groups, defaultIndex = 1, toYear = '2026'
   return (
     <div className="my-2 grid grid-cols-[1.15fr_1fr] gap-x-10 max-[760px]:grid-cols-1 max-[760px]:gap-y-8">
       <div className="pt-5 border-t border-green/25">
-        <div className="m-0 mb-1 font-sans text-[15px] font-semibold text-ink normal-case tracking-normal" style={{ fontSize: 15, textTransform: 'none', letterSpacing: 'normal', color: 'var(--color-ink)' }}>
+        <div className="m-0 mb-4 font-sans text-[15px] font-semibold text-ink normal-case tracking-normal" style={{ fontSize: 15, textTransform: 'none', letterSpacing: 'normal', color: 'var(--color-ink)' }}>
           Footprint: number of universities in the WUR Top 500, 2016 to {toYear}
         </div>
-        <p className="m-0 mb-4 font-sans text-[11px] italic text-mute">Hover or tap a row to see its institutions</p>
 
         <div className="flex items-center justify-between mb-2 px-1">
           <span className="font-sans text-[12px] tracking-[0.5px] uppercase text-mute">From 2016/2017 ↓</span>
