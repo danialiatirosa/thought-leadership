@@ -10,6 +10,8 @@ interface FindingProps {
   tone?: 'pos' | 'neg' | 'default';
   trend?: 'up' | 'down' | 'flat';
   title?: string;
+  /** Drop the left stat / kicker column and run the text full width. */
+  plain?: boolean;
   children: ReactNode;
 }
 
@@ -20,7 +22,14 @@ interface FindingProps {
  * <KpiStrip>); a finding with no natural number falls back to a small
  * "Finding 0N" kicker in its place.
  */
-export function Finding({ index, num, unit, tone, trend, title, children }: FindingProps) {
+export function Finding({ index, num, unit, tone, trend, title, plain, children }: FindingProps) {
+  if (plain) {
+    return (
+      <div className="my-10 pt-8 border-t border-green/25 first:pt-0 first:border-t-0">
+        <div className="[&>p]:m-0 text-[15px] leading-[1.55] text-ink/85 max-w-none">{children}</div>
+      </div>
+    );
+  }
   return (
     <div className="my-10 grid grid-cols-[minmax(88px,168px)_1fr] gap-x-8 items-start pt-8 border-t border-green/25 first:pt-0 first:border-t-0 max-[640px]:grid-cols-1 max-[640px]:gap-y-3">
       <div className="min-w-0">
