@@ -54,13 +54,17 @@ function Kicker({ children }: { children: ReactNode }) {
   );
 }
 
+
 /**
- * Front page, newspaper-style: the latest brief as a lead story (picture,
- * headline, standfirst) with an "In this brief" contents rail beside it, and
- * any earlier briefs in a ruled row of cards below.
+ * Front page, newspaper-style. The newest brief is the lead story (headline
+ * and standfirst beside its chart); the next three sit in a ruled row of
+ * cards below; anything older drops into a compact list. Slots only render
+ * when there are articles to fill them.
  */
 export default function HomePage() {
   const [lead, ...rest] = getAllArticles();
+  const secondary = rest.slice(0, 3);
+  const older = rest.slice(3);
   const hero = lead?.heroExhibit ? HERO_EXHIBITS[lead.heroExhibit] : null;
 
   return (
@@ -72,76 +76,74 @@ export default function HomePage() {
         </p>
 
         {lead ? (
-          <section className="grid grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-x-10 py-10 border-b border-ink/70 max-[900px]:grid-cols-1 max-[900px]:gap-y-10 max-[640px]:py-7">
-            <Link
-              href={`/articles/${lead.slug}`}
-              className="block group no-underline border-none min-w-0"
-            >
+          <Link
+            href={`/articles/${lead.slug}`}
+            className={`group no-underline border-none py-10 border-b border-ink/70 grid gap-x-10 max-[900px]:grid-cols-1 max-[900px]:gap-y-6 max-[640px]:py-7 ${
+              hero ? 'grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' : 'grid-cols-1'
+            }`}
+            style={{ display: 'grid' }}
+          >
+            <div className="min-w-0 self-center">
               <div className="mb-4">
                 <Kicker>{CATEGORY_LABELS[lead.category]?.short ?? 'Latest brief'}</Kicker>
               </div>
-              {hero ? <div className="mb-6">{hero}</div> : null}
-              <h2 className="font-serif font-medium text-green text-[44px] leading-[1.1] -tracking-[0.5px] m-0 mb-3 group-hover:text-green-mid transition-colors max-[640px]:text-[30px]">
+              <h2 className="font-serif font-medium text-green text-[44px] leading-[1.1] -tracking-[0.5px] m-0 mb-4 group-hover:text-green-mid transition-colors max-[640px]:text-[30px]">
                 {lead.title}
               </h2>
-              <p className="font-serif italic text-[19px] leading-[1.5] text-ink/85 m-0 mb-4 max-w-[60ch] max-[640px]:text-[17px]">
+              <p className="font-serif italic text-[19px] leading-[1.5] text-ink/85 m-0 mb-5 max-w-[60ch] max-[640px]:text-[17px]">
                 {lead.dek}
               </p>
               <Byline article={lead} />
-            </Link>
+            </div>
+            {hero ? <div className="min-w-0 max-[900px]:order-first">{hero}</div> : null}
+          </Link>
+        ) : null}
 
-            <aside className="border-l border-rule pl-10 min-w-0 max-[900px]:border-l-0 max-[900px]:pl-0 max-[900px]:border-t max-[900px]:pt-8">
-              <div className="pb-3 border-b-2 border-ink">
-                <Kicker>In this brief</Kicker>
-              </div>
-              <ol className="list-none m-0 p-0">
-                {lead.sections.map((s) => (
-                  <li key={s.id} className="border-b border-rule">
-                    <Link
-                      href={`/articles/${lead.slug}#${s.id}`}
-                      className="block py-4 group no-underline border-none"
-                    >
-                      {s.number ? (
-                        <div className="ui-caps font-sans text-[10.5px] tracking-[1.6px] uppercase text-mute font-medium mb-1">
-                          Section {s.number}
-                        </div>
-                      ) : null}
-                      <div className="font-serif text-[19px] leading-[1.3] text-green group-hover:text-green-mid transition-colors">
-                        {s.label}
-                      </div>
-                      {s.title && s.title !== s.label ? (
-                        <div className="font-serif text-[15px] leading-[1.45] text-ink/75 mt-1">
-                          {s.title}
-                        </div>
-                      ) : null}
-                    </Link>
-                  </li>
-                ))}
-              </ol>
-            </aside>
+        {secondary.length > 0 ? (
+          <section className="grid grid-cols-3 py-8 border-b border-ink/70 max-[900px]:grid-cols-1">
+            {secondary.map((a, i) => (
+              <Link
+                key={a.slug}
+                href={`/articles/${a.slug}`}
+                className={`block group no-underline border-none px-6 first:pl-0 last:pr-0 max-[900px]:px-0 max-[900px]:py-6 ${
+                  i > 0 ? 'border-l border-rule max-[900px]:border-l-0 max-[900px]:border-t' : ''
+                }`}
+              >
+                <div className="mb-2">
+                  <Kicker>{CATEGORY_LABELS[a.category]?.short ?? 'Brief'}</Kicker>
+                </div>
+                <h3 className="font-serif font-medium text-green text-[24px] leading-[1.2] m-0 mb-2 group-hover:text-green-mid transition-colors">
+                  {a.title}
+                </h3>
+                <p className="font-serif text-[16px] leading-[1.5] text-ink/80 m-0 mb-3">{a.dek}</p>
+                <Byline article={a} />
+              </Link>
+            ))}
           </section>
         ) : null}
 
-        {rest.length > 0 ? (
-          <section className="py-10 border-b border-ink/70">
-            <div className="mb-6">
+        {older.length > 0 ? (
+          <section className="py-8 border-b border-ink/70">
+            <div className="pb-3 mb-1 border-b-2 border-ink">
               <Kicker>More from The Index</Kicker>
             </div>
-            <div className="grid grid-cols-3 gap-x-10 max-[900px]:grid-cols-1 max-[900px]:gap-y-8">
-              {rest.map((a) => (
-                <Link
-                  key={a.slug}
-                  href={`/articles/${a.slug}`}
-                  className="block group no-underline border-none border-t border-rule pt-5"
-                >
-                  <h3 className="font-serif font-medium text-green text-[24px] leading-[1.2] m-0 mb-2 group-hover:text-green-mid transition-colors">
-                    {a.title}
-                  </h3>
-                  <p className="font-serif text-[16px] leading-[1.5] text-ink/80 m-0 mb-3">{a.dek}</p>
-                  <Byline article={a} />
-                </Link>
+            <ol className="list-none m-0 p-0">
+              {older.map((a) => (
+                <li key={a.slug} className="border-b border-rule last:border-b-0">
+                  <Link
+                    href={`/articles/${a.slug}`}
+                    className="flex items-baseline justify-between gap-6 py-4 group no-underline border-none max-[640px]:flex-col max-[640px]:gap-1"
+                  >
+                    <span className="font-serif text-[20px] leading-[1.3] text-green group-hover:text-green-mid transition-colors">
+                      {a.title}
+                    </span>
+                    <span className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute whitespace-nowrap">
+                      {formatLongDate(a.publishedAt)}
+                    </span>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ol>
           </section>
         ) : null}
       </main>
