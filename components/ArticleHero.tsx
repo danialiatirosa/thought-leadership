@@ -1,4 +1,5 @@
 import type { Article } from '@/types/article';
+import { formatLongDate } from '@/lib/format';
 import { ScrollReveal } from './ScrollReveal';
 
 interface ArticleHeroProps {
@@ -56,6 +57,10 @@ export function ArticleHero({ article }: ArticleHeroProps) {
                 Filed from {article.filedFrom}
               </>
             ) : null}
+            <span className="text-mute/60 mx-2.5">·</span>
+            {formatLongDate(article.publishedAt)}
+            <span className="text-mute/60 mx-2.5">·</span>
+            {article.readingTimeMinutes} min read
           </ScrollReveal>
         </div>
       </div>
