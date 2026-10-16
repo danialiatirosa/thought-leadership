@@ -346,9 +346,6 @@ export function BarRace({ years, topN = 20, msPerYear = 700 }: BarRaceProps) {
           {yearLabel}
         </div>
       </div>
-      <div className="ui-caps font-sans text-[12px] tracking-[1.5px] uppercase text-mute mt-3">
-        Arrow keys step year by year.
-      </div>
     </div>
   );
 }
