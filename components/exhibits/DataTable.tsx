@@ -55,6 +55,17 @@ function renderCell(col: Column, row: DataTableRow): ReactNode {
  * Numerics right-aligned, labels left-aligned.
  */
 export function DataTable({ caption, groupHeader, columns, rows, cellRender }: DataTableProps) {
+  // Column indexes where a new group starts (after the first): these get a dark
+  // vertical rule, e.g. between the country column and QS, and between QS and THE.
+  const groupStarts = new Set<number>();
+  if (groupHeader) {
+    let at = 0;
+    groupHeader.forEach((g, i) => {
+      if (i > 0) groupStarts.add(at);
+      at += g.span;
+    });
+  }
+  const rule = (ci: number) => (groupStarts.has(ci) ? 'border-l border-l-ink' : '');
   return (
     <div className="my-10">
       <table
@@ -76,7 +87,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
                   scope="colgroup"
                   className={`px-2.5 pt-2 pb-2 font-sans font-semibold text-[13px] tracking-[1.2px] uppercase text-mute text-center max-[640px]:px-1.5 max-[640px]:text-[11px] ${
                     g.label ? 'border-b border-rule-soft' : ''
-                  }`}
+                  } ${i > 0 ? 'border-l border-l-ink' : ''}`}
                 >
                   {g.logo ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -95,13 +106,13 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
             </tr>
           ) : null}
           <tr className="border-y border-ink">
-            {columns.map((c) => (
+            {columns.map((c, ci) => (
               <th
                 key={c.key}
                 scope="col"
                 className={`px-2.5 py-3 font-sans font-semibold text-[14px] tracking-[1.2px] uppercase text-ink align-bottom max-[640px]:px-1.5 max-[640px]:py-2 max-[640px]:text-[12px] max-[640px]:tracking-[1px] ${
                   c.numeric || c.align === 'right' ? 'text-right' : 'text-left'
-                } ${c.shaded ? 'bg-ink/[0.05]' : ''}`}
+                } ${c.shaded ? 'bg-ink/[0.05]' : ''} ${rule(ci)}`}
                 style={c.width ? { width: c.width } : undefined}
               >
                 {c.label}
@@ -123,7 +134,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
               </tr>
             ) : (
             <tr key={ri}>
-              {columns.map((c) => (
+              {columns.map((c, ci) => (
                 <td
                   key={c.key}
                   className={`px-2.5 py-2.5 border-b border-rule text-ink/90 align-top max-[640px]:px-1.5 max-[640px]:py-2 ${
@@ -132,7 +143,7 @@ export function DataTable({ caption, groupHeader, columns, rows, cellRender }: D
                       : c.align === 'right'
                         ? 'text-right'
                         : ''
-                  } ${c.shaded ? 'bg-ink/[0.05]' : ''}`}
+                  } ${c.shaded ? 'bg-ink/[0.05]' : ''} ${rule(ci)}`}
                   style={c.numeric ? { fontVariantNumeric: 'tabular-nums' } : undefined}
                 >
                   {cellRender ? cellRender(c, r) : renderCell(c, r)}
