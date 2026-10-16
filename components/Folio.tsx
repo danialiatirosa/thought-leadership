@@ -6,7 +6,7 @@ import { formatLongDate } from '@/lib/format';
 interface FolioProps {
   /** ISO date for the right-hand line. Pass for editorial datelines (e.g. an article publication date). When omitted, the dateline tracks the viewer's local "today". */
   date?: string;
-  /** City of filing for the right-hand line. Defaults to Abu Dhabi. */
+  /** Optional city of filing, shown after the date. None by default. */
   city?: string;
 }
 
@@ -24,7 +24,7 @@ function localTodayIso(): string {
  * "today" — refreshed at hydration and again at the next local midnight,
  * so a long-cached or long-idle page doesn't show a stale dateline.
  */
-export function Folio({ date, city = 'Abu Dhabi' }: FolioProps) {
+export function Folio({ date, city }: FolioProps) {
   const [today, setToday] = useState(() => date ?? localTodayIso());
 
   useEffect(() => {
@@ -59,7 +59,13 @@ export function Folio({ date, city = 'Abu Dhabi' }: FolioProps) {
           className="ui-caps font-sans text-[11px] tracking-[1.6px] uppercase text-ink/85 text-right whitespace-nowrap max-[640px]:text-[10px] max-[640px]:tracking-[1.2px]"
           suppressHydrationWarning
         >
-          {formatLongDate(today)} <span className="text-ink/50 mx-2">·</span> {city}
+          {formatLongDate(today)}
+          {city ? (
+            <>
+              {' '}
+              <span className="text-ink/50 mx-2">·</span> {city}
+            </>
+          ) : null}
         </span>
       </div>
     </div>
