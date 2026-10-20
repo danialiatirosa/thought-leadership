@@ -20,19 +20,21 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-/** Lead-story pictures, keyed by an article's `heroExhibit` frontmatter. Each
- *  carries its own title and source so the chart reads on its own. */
-const HERO_EXHIBITS: Record<string, ReactNode> = {
-  'regional-composition': (
-    <figure className="m-0">
-      <figcaption className="mb-3">
-        <div className="font-sans text-[15px] font-semibold text-ink leading-[1.3]">
-          Asia&rsquo;s share of the Top 100 more than doubled, from 9% to 21%
-        </div>
-        <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">
-          Composition of the Times Higher Education WUR Top 100 by region, 2016 to 2027 (% share)
-        </div>
-      </figcaption>
+interface HeroExhibit {
+  heading: string;
+  sub: string;
+  source: string;
+  chart: ReactNode;
+}
+
+/** Front-page pictures, keyed by an article's `heroExhibit` frontmatter. Each
+ *  carries its own heading and source so the chart reads on its own. */
+const HERO_EXHIBITS: Record<string, HeroExhibit> = {
+  'regional-composition': {
+    heading: 'Asia’s share of the Top 100 more than doubled, from 9% to 21%',
+    sub: 'Composition of the Times Higher Education WUR Top 100 by region, 2016 to 2027 (% share)',
+    source: 'Source: Times Higher Education World University Rankings, 2016 to 2027',
+    chart: (
       <SVGStackedArea
         title="Composition of the THE WUR Top 100 by region, 2016 to 2027"
         paths={stackedAreaPaths}
@@ -40,22 +42,14 @@ const HERO_EXHIBITS: Record<string, ReactNode> = {
         years={stackedAreaYears}
         inlineLabels={stackedAreaInlineLabels}
       />
-      <div className="font-sans text-[11px] text-mute mt-2">
-        Source: Times Higher Education World University Rankings, 2016 to 2027
-      </div>
-    </figure>
-  ),
-  'pisa-trend': (
-    <figure className="m-0">
-      <figcaption className="mb-3">
-        <div className="font-sans text-[15px] font-semibold text-ink leading-[1.3]">
-          UAE scores are still below OECD average but improved in all subjects
-        </div>
-        <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">
-          UAE and OECD average performance in PISA, 2012 to 2025
-        </div>
-      </figcaption>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
+    ),
+  },
+  'pisa-trend': {
+    heading: 'UAE scores are still below OECD average but improved in all subjects',
+    sub: 'UAE and OECD average performance in PISA, 2012 to 2025',
+    source: 'Source: OECD, PISA 2012 to 2025',
+    chart: (
+      // eslint-disable-next-line @next/next/no-img-element
       <img
         src="/articles/pisa-2025/uae-oecd-trend-2012-2025.png"
         alt="Line charts of UAE and OECD average PISA scores in science, mathematics and reading, 2012 to 2025"
@@ -63,10 +57,33 @@ const HERO_EXHIBITS: Record<string, ReactNode> = {
         height={690}
         className="block w-full h-auto mix-blend-multiply"
       />
-      <div className="font-sans text-[11px] text-mute mt-2">Source: OECD, PISA 2012 to 2025</div>
-    </figure>
-  ),
+    ),
+  },
 };
+
+/** Chart with its heading; `compact` (secondary cards) drops the subtitle and source. */
+function HeroFigure({ exhibit, compact = false }: { exhibit: HeroExhibit; compact?: boolean }) {
+  return (
+    <figure className="m-0">
+      <figcaption className={compact ? 'mb-2' : 'mb-3'}>
+        <div
+          className={`font-sans font-semibold text-ink leading-[1.3] ${compact ? 'text-[13px]' : 'text-[15px]'}`}
+        >
+          {exhibit.heading}
+        </div>
+        {compact ? null : (
+          <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">{exhibit.sub}</div>
+        )}
+      </figcaption>
+      {exhibit.chart}
+      {compact ? null : <div className="font-sans text-[11px] text-mute mt-2">{exhibit.source}</div>}
+    </figure>
+  );
+}
+
+function heroFor(article: Article): HeroExhibit | null {
+  return article.heroExhibit ? (HERO_EXHIBITS[article.heroExhibit] ?? null) : null;
+}
 
 /** Date and reading time. No author: every brief is by Tamkeen Policy and Strategy. */
 function Byline({ article }: { article: Article }) {
@@ -98,7 +115,7 @@ export default function HomePage() {
   const [lead, ...rest] = getAllArticles();
   const secondary = rest.slice(0, 3);
   const older = rest.slice(3);
-  const hero = lead?.heroExhibit ? HERO_EXHIBITS[lead.heroExhibit] : null;
+  const hero = lead ? heroFor(lead) : null;
 
   return (
     <>
@@ -129,7 +146,11 @@ export default function HomePage() {
               </p>
               <Byline article={lead} />
             </div>
-            {hero ? <div className="min-w-0 max-[900px]:order-first">{hero}</div> : null}
+            {hero ? (
+              <div className="min-w-0 max-[900px]:order-first">
+                <HeroFigure exhibit={hero} />
+              </div>
+            ) : null}
           </Link>
         ) : null}
 
@@ -140,25 +161,49 @@ export default function HomePage() {
               ['', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3'][secondary.length]
             }`}
           >
-            {secondary.map((a, i) => (
-              <Link
-                key={a.slug}
-                href={`/articles/${a.slug}`}
-                style={{ borderBottom: 'none' }}
-                className={`block group no-underline border-none px-6 first:pl-0 last:pr-0 max-[900px]:px-0 max-[900px]:py-6 ${
-                  i > 0 ? 'border-l border-rule max-[900px]:border-l-0 max-[900px]:border-t' : ''
-                }`}
-              >
-                <div className="mb-2">
-                  <Kicker>{CATEGORY_LABELS[a.category]?.short ?? 'Brief'}</Kicker>
-                </div>
-                <h3 className="font-serif font-medium text-green text-[24px] leading-[1.2] m-0 mb-2 group-hover:text-green-mid transition-colors">
-                  {a.title}
-                </h3>
-                <p className="font-serif text-[16px] leading-[1.5] text-ink/80 m-0 mb-3">{a.dek}</p>
-                <Byline article={a} />
-              </Link>
-            ))}
+            {secondary.map((a, i) => {
+              const pic = heroFor(a);
+              // A lone card sits text-left, chart-right; in a row of two or three
+              // the chart tops each card.
+              const solo = secondary.length === 1;
+              return (
+                <Link
+                  key={a.slug}
+                  href={`/articles/${a.slug}`}
+                  style={{ borderBottom: 'none' }}
+                  className={`group no-underline border-none px-6 first:pl-0 last:pr-0 max-[900px]:px-0 max-[900px]:py-6 ${
+                    i > 0 ? 'border-l border-rule max-[900px]:border-l-0 max-[900px]:border-t' : ''
+                  } ${
+                    solo && pic
+                      ? 'grid grid-cols-[minmax(0,7fr)_minmax(0,5fr)] gap-x-10 items-center max-[900px]:grid-cols-1 max-[900px]:gap-y-4'
+                      : 'block'
+                  }`}
+                >
+                  {pic && !solo ? (
+                    <div className="mb-4">
+                      <HeroFigure exhibit={pic} compact />
+                    </div>
+                  ) : null}
+                  <div className="min-w-0">
+                    <div className="mb-2">
+                      <Kicker>{CATEGORY_LABELS[a.category]?.short ?? 'Brief'}</Kicker>
+                    </div>
+                    <h3 className="font-serif font-medium text-green text-[28px] leading-[1.2] m-0 mb-2 [text-wrap:balance] group-hover:text-green-mid transition-colors max-[640px]:text-[24px]">
+                      {a.title}
+                    </h3>
+                    <p className="font-serif italic text-[17px] leading-[1.5] text-ink/80 m-0 mb-3 max-w-[56ch]">
+                      {a.dek}
+                    </p>
+                    <Byline article={a} />
+                  </div>
+                  {pic && solo ? (
+                    <div className="min-w-0 max-[900px]:order-first">
+                      <HeroFigure exhibit={pic} compact />
+                    </div>
+                  ) : null}
+                </Link>
+              );
+            })}
           </section>
         ) : null}
 
