@@ -135,7 +135,7 @@ const UPCOMING: { title: string; dek: string; category: string; exhibit: HeroExh
     dek: 'UAE outlook for research commercialization, what best-in-class ecosystems are doing and the way forward for UAE',
     category: 'Research',
     exhibit: {
-      heading: 'The ‘valley of death’: where UAE funding is missing (TRL 4–6), illustrative',
+      heading: 'The ‘valley of death’: UAE funding runs dry between lab and market (TRL 4–6)',
       sub: 'Funding across Technology Readiness Levels 1 to 9 (illustrative)',
       source: 'Illustrative',
       chart: <ValleyOfDeathSketch />,
