@@ -269,11 +269,8 @@ export default function HomePage() {
 
   return (
     <>
-      <Masthead />
-      <main id="main-content" className="mx-auto max-w-[1240px] px-8 max-[640px]:px-5">
-        <p className="m-0 py-4 font-serif italic text-[16px] text-mute text-center max-[640px]:text-[14px]">
-          Long-form, data-driven analysis on policy, capability, and strategy.
-        </p>
+      <Masthead tagline="Long-form, data-driven analysis on policy, capability, and strategy." />
+      <main id="main-content" className="mx-auto max-w-[1240px] px-8 pt-8 max-[640px]:px-5">
 
         <div className={`grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] pt-2 pb-10 max-[900px]:grid-cols-1 ${row.length > 0 ? 'border-b border-ink/70' : ''}`}>
           {lead ? (

@@ -9,6 +9,8 @@ interface MastheadProps {
   articleSections?: ArticleSection[];
   /** Show the "The Index" wordmark row. Defaults to true. */
   showWordmark?: boolean;
+  /** Optional line set under the wordmark (home page). */
+  tagline?: string;
 }
 
 /**
@@ -16,13 +18,13 @@ interface MastheadProps {
  * underneath, then on article pages the in-page section nav. No tab nav,
  * no search, no edition meta.
  */
-export function Masthead({ date, articleSections, showWordmark = true }: MastheadProps) {
+export function Masthead({ date, articleSections, showWordmark = true, tagline }: MastheadProps) {
   return (
     <header className="sticky top-0 z-40 bg-paper">
       <Folio date={date} />
       {showWordmark ? (
       <div className="border-b border-green/20 bg-paper">
-        <div className="mx-auto max-w-[1240px] px-8 py-5 flex items-center justify-center max-[640px]:px-5 max-[640px]:py-4">
+        <div className="mx-auto max-w-[1240px] px-8 py-5 flex flex-col items-center justify-center max-[640px]:px-5 max-[640px]:py-4">
           <Link
             href="/"
             style={{ borderBottom: 'none' }}
@@ -30,6 +32,9 @@ export function Masthead({ date, articleSections, showWordmark = true }: Masthea
           >
             The Index
           </Link>
+          {tagline ? (
+            <p className="m-0 mt-2 font-serif italic text-[16px] text-mute text-center max-[640px]:text-[14px]">{tagline}</p>
+          ) : null}
         </div>
       </div>
       ) : null}
