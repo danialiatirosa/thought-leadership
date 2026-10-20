@@ -168,8 +168,8 @@ const DEK = 'font-serif text-[17px] leading-[1.45] text-ink/85 m-0 mb-3';
 const NO_UNDERLINE = { borderBottom: 'none' } as const;
 
 /**
- * Front page on a newspaper grid (after The Economist): the lead story with
- * a large chart on top on the left; on the right, the next briefs stacked,
+ * Front page on a newspaper grid (after The Economist): the lead story, headline
+ * first with a large chart below it, on the left; on the right, the next briefs stacked,
  * each headline beside its chart, with upcoming briefs (unlinked) after the
  * published ones. Anything older drops into a row of small cards below.
  */
@@ -224,15 +224,15 @@ export default function HomePage() {
               style={NO_UNDERLINE}
               className="group block no-underline pr-8 border-r border-rule max-[900px]:pr-0 max-[900px]:border-r-0 max-[900px]:pb-8 max-[900px]:border-b"
             >
-              {leadPic ? (
-                <div className="mb-5">
-                  <HeroFigure exhibit={leadPic} />
-                </div>
-              ) : null}
               <Kicker>{categoryOf(lead)}</Kicker>
               <h2 className={`${HEADLINE.lead} group-hover:text-green-mid transition-colors`}>{lead.title}</h2>
               <p className={DEK}>{lead.dek}</p>
               <Meta>{lead.readingTimeMinutes} min read</Meta>
+              {leadPic ? (
+                <div className="mt-7">
+                  <HeroFigure exhibit={leadPic} />
+                </div>
+              ) : null}
             </Link>
           ) : null}
 
