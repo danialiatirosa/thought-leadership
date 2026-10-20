@@ -4,6 +4,7 @@ import type { ReactNode } from 'react';
 import { Masthead } from '@/components/Masthead';
 import { Footer } from '@/components/Footer';
 import { SVGStackedArea } from '@/components/exhibits/SVGStackedArea';
+import { PisaScoresDot } from '@/components/exhibits/PisaScoresDot';
 import { getAllArticles } from '@/lib/articles';
 import { CATEGORY_LABELS, type Article } from '@/types/article';
 import {
@@ -43,20 +44,11 @@ const HERO_EXHIBITS: Record<string, HeroExhibit> = {
       />
     ),
   },
-  'pisa-trend': {
+  'pisa-scores': {
     heading: 'UAE scores are still below OECD average but improved in all subjects',
-    sub: 'UAE and OECD average performance in PISA, 2012 to 2025',
-    source: 'Source: OECD, PISA 2012 to 2025',
-    chart: (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src="/articles/pisa-2025/uae-oecd-trend-2012-2025.png"
-        alt="Line charts of UAE and OECD average PISA scores in science, mathematics and reading, 2012 to 2025"
-        width={2040}
-        height={690}
-        className="block w-full h-auto mix-blend-multiply"
-      />
-    ),
+    sub: 'UAE performance in PISA 2025 against 2022, Dubai 2025 and the OECD average',
+    source: 'Source: OECD, PISA 2022 and 2025',
+    chart: <PisaScoresDot />,
   },
 };
 
@@ -211,7 +203,7 @@ export default function HomePage() {
       </div>
       {pic ? (
         <div className="min-w-0 pt-1 max-[640px]:order-first">
-          <HeroFigure exhibit={pic} variant="thumb" />
+          <HeroFigure exhibit={pic} variant="card" />
         </div>
       ) : null}
     </div>
@@ -221,11 +213,11 @@ export default function HomePage() {
     <>
       <Masthead />
       <main id="main-content" className="mx-auto max-w-[1240px] px-8 max-[640px]:px-5">
-        <p className="m-0 py-4 border-b border-ink/70 font-serif italic text-[16px] text-mute text-center max-[640px]:text-[14px]">
+        <p className="m-0 py-4 font-serif italic text-[16px] text-mute text-center max-[640px]:text-[14px]">
           Long-form, data-driven analysis on policy, capability, and strategy.
         </p>
 
-        <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] py-8 border-b border-ink/70 max-[900px]:grid-cols-1">
+        <div className={`grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] pt-2 pb-10 max-[900px]:grid-cols-1 ${row.length > 0 ? 'border-b border-ink/70' : ''}`}>
           {lead ? (
             <Link
               href={`/articles/${lead.slug}`}
