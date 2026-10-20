@@ -4,12 +4,21 @@
  * Scores are from the brief; each 2022 dot sits at the 2025 score minus the
  * reported gain.
  */
-const ROWS = [
+interface Row {
+  subject: string;
+  uae: number;
+  gain?: number;
+  oecd: number;
+  dubai?: number;
+  note?: string;
+}
+
+const ROWS: Row[] = [
   { subject: 'Science', uae: 458, gain: 26, oecd: 482, dubai: 506 },
   { subject: 'Mathematics', uae: 453, gain: 21, oecd: 463, dubai: 496 },
   { subject: 'Reading', uae: 433, gain: 15, oecd: 461, dubai: 484 },
   { subject: 'Computational problem-solving', uae: 476, oecd: 500, note: 'new in 2025' },
-] as const;
+];
 
 const MIN = 400;
 const MAX = 520;
@@ -44,7 +53,7 @@ export function PisaScoresDot() {
 
       {ROWS.map((r, i) => {
         const y = TOP + i * ROW_H;
-        const from = 'gain' in r ? r.uae - r.gain : null;
+        const from = r.gain !== undefined ? r.uae - r.gain : null;
         return (
           <g key={r.subject}>
             <text x={X0 - 18} y={y + 5} textAnchor="end" fontSize={14} fill="var(--color-ink)">
@@ -69,14 +78,14 @@ export function PisaScoresDot() {
               </>
             ) : (
               <text x={(x(r.uae) + x(r.oecd)) / 2} y={y - 14} textAnchor="middle" fontSize={12} fontStyle="italic" fill={muted}>
-                {'note' in r ? r.note : ''}
+                {r.note ?? ''}
               </text>
             )}
             <rect x={x(r.oecd) - 1.5} y={y - 11} width={3} height={22} fill="var(--color-ink)" />
             <text x={x(r.oecd)} y={y + 27} textAnchor="middle" fontSize={12.5} fill={muted}>
               {r.oecd}
             </text>
-            {'dubai' in r ? (
+            {r.dubai !== undefined ? (
               <>
                 <rect x={x(r.dubai) - 6} y={y - 6} width={12} height={12} fill="var(--color-lime)" transform={`rotate(45 ${x(r.dubai)} ${y})`} />
                 <text x={x(r.dubai)} y={y + 27} textAnchor="middle" fontSize={12.5} fill={muted}>
