@@ -61,7 +61,7 @@ const HERO_EXHIBITS: Record<string, ReactNode> = {
         alt="Line charts of UAE and OECD average PISA scores in science, mathematics and reading, 2012 to 2025"
         width={2040}
         height={690}
-        className="block w-full h-auto"
+        className="block w-full h-auto mix-blend-multiply"
       />
       <div className="font-sans text-[11px] text-mute mt-2">Source: OECD, PISA 2012 to 2025</div>
     </figure>
@@ -111,6 +111,8 @@ export default function HomePage() {
         {lead ? (
           <Link
             href={`/articles/${lead.slug}`}
+            // Inline because the global a { border-bottom } rule is unlayered and beats Tailwind's border utilities.
+            style={{ borderBottom: '1px solid color-mix(in srgb, var(--color-ink) 70%, transparent)' }}
             className={`group no-underline border-none py-10 border-b border-ink/70 grid gap-x-10 max-[900px]:grid-cols-1 max-[900px]:gap-y-6 max-[640px]:py-7 ${
               hero ? 'grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' : 'grid-cols-1'
             }`}
@@ -142,6 +144,7 @@ export default function HomePage() {
               <Link
                 key={a.slug}
                 href={`/articles/${a.slug}`}
+                style={{ borderBottom: 'none' }}
                 className={`block group no-underline border-none px-6 first:pl-0 last:pr-0 max-[900px]:px-0 max-[900px]:py-6 ${
                   i > 0 ? 'border-l border-rule max-[900px]:border-l-0 max-[900px]:border-t' : ''
                 }`}
@@ -169,6 +172,7 @@ export default function HomePage() {
                 <li key={a.slug} className="border-b border-rule last:border-b-0">
                   <Link
                     href={`/articles/${a.slug}`}
+                    style={{ borderBottom: 'none' }}
                     className="flex items-baseline justify-between gap-6 py-4 group no-underline border-none max-[640px]:flex-col max-[640px]:gap-1"
                   >
                     <span className="font-serif text-[20px] leading-[1.3] text-green group-hover:text-green-mid transition-colors">
