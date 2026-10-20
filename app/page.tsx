@@ -177,7 +177,7 @@ const NO_UNDERLINE = { borderBottom: 'none' } as const;
 
 /**
  * Front page on a newspaper grid (after The Economist): the lead story with
- * its chart on top, the next briefs as text beside a chart thumbnail, and a
+ * its chart on top, the next briefs (chart above headline), and a
  * "Coming up" rail. Anything older drops into a row of small cards below.
  */
 export default function HomePage() {
@@ -221,21 +221,19 @@ export default function HomePage() {
                   key={a.slug}
                   href={`/articles/${a.slug}`}
                   style={NO_UNDERLINE}
-                  className={`group grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-x-5 items-start no-underline ${
-                    i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''
-                  }`}
+                  className={`group block no-underline ${i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''}`}
                 >
+                  {pic ? (
+                    <div className="mb-4">
+                      <HeroFigure exhibit={pic} variant="card" />
+                    </div>
+                  ) : null}
                   <div className="min-w-0">
                     <Kicker>{categoryOf(a)}</Kicker>
                     <h3 className={`${HEADLINE.side} group-hover:text-green-mid transition-colors`}>{a.title}</h3>
                     <p className={DEK}>{a.dek}</p>
                     <Meta>{a.readingTimeMinutes} min read</Meta>
                   </div>
-                  {pic ? (
-                    <div className="min-w-0 pt-1">
-                      <HeroFigure exhibit={pic} variant="thumb" />
-                    </div>
-                  ) : null}
                 </Link>
               );
             })}
