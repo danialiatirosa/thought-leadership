@@ -94,6 +94,7 @@ function ValleyOfDeathSketch() {
   const x = (trl: number) => 40 + (trl - 1) * 65;
   return (
     <svg viewBox="0 0 600 250" role="img" aria-label="Illustrative valley of death curve across TRL 1 to 9, with a funding gap at TRL 4 to 6" className="block w-full h-auto font-sans">
+      <text x={14} y={130} transform="rotate(-90 14 130)" textAnchor="middle" fontSize={13} fill="var(--color-ink-soft)">Funding</text>
       <rect x={x(4) - 20} y={20} width={x(6) - x(4) + 40} height={180} fill="var(--color-lime)" opacity={0.22} />
       <text x={(x(4) + x(6)) / 2} y={40} textAnchor="middle" fontSize={15} fontWeight={600} fill="var(--color-ink)">
         UAE funding gap
@@ -124,7 +125,7 @@ const UPCOMING: { title: string; dek: string; category: string; exhibit: HeroExh
     dek: 'UAE outlook for research commercialization, what best-in-class ecosystems are doing and the way forward for UAE',
     category: 'Research',
     exhibit: {
-      heading: 'The ‘valley of death’: where UAE funding is missing (TRL 4–6)',
+      heading: 'The ‘valley of death’: where UAE funding is missing (TRL 4–6), illustrative',
       sub: 'Funding across Technology Readiness Levels 1 to 9 (illustrative)',
       source: 'Illustrative',
       chart: <ValleyOfDeathSketch />,
