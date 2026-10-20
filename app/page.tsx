@@ -111,7 +111,12 @@ export default function HomePage() {
         ) : null}
 
         {secondary.length > 0 ? (
-          <section className="grid grid-cols-3 py-8 border-b border-ink/70 max-[900px]:grid-cols-1">
+          <section
+            // As many columns as there are cards (up to three), so two briefs share the row evenly.
+            className={`grid py-8 border-b border-ink/70 max-[900px]:grid-cols-1 ${
+              ['', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3'][secondary.length]
+            }`}
+          >
             {secondary.map((a, i) => (
               <Link
                 key={a.slug}
