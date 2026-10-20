@@ -177,14 +177,45 @@ const NO_UNDERLINE = { borderBottom: 'none' } as const;
 
 /**
  * Front page on a newspaper grid (after The Economist): the lead story with
- * its chart on top, the next briefs (chart above headline), and a
- * "Coming up" rail. Anything older drops into a row of small cards below.
+ * a large chart on top on the left; on the right, the next briefs stacked,
+ * each headline beside its chart, with upcoming briefs (unlinked) after the
+ * published ones. Anything older drops into a row of small cards below.
  */
 export default function HomePage() {
   const [lead, ...rest] = getAllArticles();
-  const middle = rest.slice(0, 2);
-  const row = rest.slice(2, 6);
+  const side = rest.slice(0, 3);
+  const upcoming = UPCOMING.slice(0, Math.max(0, 3 - side.length));
+  const row = rest.slice(3, 7);
   const leadPic = lead ? heroFor(lead) : null;
+
+  const sideItem = (
+    key: string,
+    i: number,
+    kicker: ReactNode,
+    title: string,
+    dek: string,
+    meta: string,
+    pic: HeroExhibit | null,
+  ) => (
+    <div
+      key={key}
+      className={`grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-x-6 items-start max-[640px]:grid-cols-1 max-[640px]:gap-y-3 ${
+        i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''
+      }`}
+    >
+      <div className="min-w-0">
+        <Kicker>{kicker}</Kicker>
+        <h3 className={`${HEADLINE.side} group-hover:text-green-mid transition-colors`}>{title}</h3>
+        <p className={DEK}>{dek}</p>
+        <Meta>{meta}</Meta>
+      </div>
+      {pic ? (
+        <div className="min-w-0 pt-1 max-[640px]:order-first">
+          <HeroFigure exhibit={pic} variant="thumb" />
+        </div>
+      ) : null}
+    </div>
+  );
 
   return (
     <>
@@ -194,12 +225,12 @@ export default function HomePage() {
           Long-form, data-driven analysis on policy, capability, and strategy.
         </p>
 
-        <div className="grid grid-cols-[minmax(0,5fr)_minmax(0,4fr)_minmax(0,3fr)] py-8 border-b border-ink/70 max-[1000px]:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] max-[640px]:grid-cols-1">
+        <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] py-8 border-b border-ink/70 max-[900px]:grid-cols-1">
           {lead ? (
             <Link
               href={`/articles/${lead.slug}`}
               style={NO_UNDERLINE}
-              className="group block no-underline pr-8 border-r border-rule max-[640px]:pr-0 max-[640px]:border-r-0 max-[640px]:pb-8 max-[640px]:border-b"
+              className="group block no-underline pr-8 border-r border-rule max-[900px]:pr-0 max-[900px]:border-r-0 max-[900px]:pb-8 max-[900px]:border-b"
             >
               {leadPic ? (
                 <div className="mb-5">
@@ -213,49 +244,27 @@ export default function HomePage() {
             </Link>
           ) : null}
 
-          <div className="px-8 border-r border-rule min-w-0 max-[1000px]:border-r-0 max-[1000px]:pr-0 max-[640px]:px-0 max-[640px]:pt-8">
-            {middle.map((a, i) => {
-              const pic = heroFor(a);
-              return (
-                <Link
-                  key={a.slug}
-                  href={`/articles/${a.slug}`}
-                  style={NO_UNDERLINE}
-                  className={`group block no-underline ${i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''}`}
-                >
-                  {pic ? (
-                    <div className="mb-4">
-                      <HeroFigure exhibit={pic} variant="card" />
-                    </div>
-                  ) : null}
-                  <div className="min-w-0">
-                    <Kicker>{categoryOf(a)}</Kicker>
-                    <h3 className={`${HEADLINE.side} group-hover:text-green-mid transition-colors`}>{a.title}</h3>
-                    <p className={DEK}>{a.dek}</p>
-                    <Meta>{a.readingTimeMinutes} min read</Meta>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-
-          <aside className="pl-8 min-w-0 max-[1000px]:col-span-2 max-[1000px]:pl-0 max-[1000px]:mt-8 max-[1000px]:pt-8 max-[1000px]:border-t max-[1000px]:border-rule max-[640px]:col-span-1">
-            <div className="pb-2 mb-4 border-b-2 border-ink font-sans text-[13px] font-semibold uppercase tracking-[1.5px] text-ink">
-              Coming up
-            </div>
-            {UPCOMING.map((u, i) => (
-              // Not a link: the brief is not published yet.
-              <div key={u.title} className={i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''}>
-                <div className="mb-3">
-                  <HeroFigure exhibit={u.exhibit} variant="card" />
-                </div>
-                <Kicker>{u.category}</Kicker>
-                <h3 className={HEADLINE.small}>{u.title}</h3>
-                <p className={DEK}>{u.dek}</p>
-                <Meta>In preparation</Meta>
-              </div>
+          <div className="pl-8 min-w-0 max-[900px]:pl-0 max-[900px]:pt-8">
+            {side.map((a, i) => (
+              <Link key={a.slug} href={`/articles/${a.slug}`} style={NO_UNDERLINE} className="group block no-underline">
+                {sideItem(a.slug, i, categoryOf(a), a.title, a.dek, `${a.readingTimeMinutes} min read`, heroFor(a))}
+              </Link>
             ))}
-          </aside>
+            {upcoming.map((u, j) =>
+              // Not a link: the brief is not published yet.
+              sideItem(
+                u.title,
+                side.length + j,
+                <>
+                  Coming up <span className="text-mute/60 mx-1">·</span> {u.category}
+                </>,
+                u.title,
+                u.dek,
+                'In preparation',
+                u.exhibit,
+              ),
+            )}
+          </div>
         </div>
 
         {row.length > 0 ? (
