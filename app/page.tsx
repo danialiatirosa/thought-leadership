@@ -20,28 +20,40 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-/** Lead-story pictures, keyed by an article's `heroExhibit` frontmatter. */
+/** Lead-story pictures, keyed by an article's `heroExhibit` frontmatter. Each
+ *  carries its own title and source so the chart reads on its own. */
 const HERO_EXHIBITS: Record<string, ReactNode> = {
   'regional-composition': (
-    <SVGStackedArea
-      title="Composition of the THE WUR Top 100 by region, 2016 to 2027"
-      paths={stackedAreaPaths}
-      legend={stackedAreaLegend}
-      years={stackedAreaYears}
-      inlineLabels={stackedAreaInlineLabels}
-    />
+    <figure className="m-0">
+      <figcaption className="mb-3">
+        <div className="font-sans text-[15px] font-semibold text-ink leading-[1.3]">
+          Asia&rsquo;s share of the Top 100 more than doubled, from 9% to 21%
+        </div>
+        <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">
+          Composition of the Times Higher Education WUR Top 100 by region, 2016 to 2027 (% share)
+        </div>
+      </figcaption>
+      <SVGStackedArea
+        title="Composition of the THE WUR Top 100 by region, 2016 to 2027"
+        paths={stackedAreaPaths}
+        legend={stackedAreaLegend}
+        years={stackedAreaYears}
+        inlineLabels={stackedAreaInlineLabels}
+      />
+      <div className="font-sans text-[11px] text-mute mt-2">
+        Source: Times Higher Education World University Rankings, 2016 to 2027
+      </div>
+    </figure>
   ),
 };
 
+/** Date and reading time. No author: every brief is by Tamkeen Policy and Strategy. */
 function Byline({ article }: { article: Article }) {
   return (
     <div className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute font-medium">
-      By{' '}
-      <span className="text-ink">{article.resolvedAuthors.map((a) => a.name).join(', ')}</span>
+      <span className="whitespace-nowrap">{formatLongDate(article.publishedAt)}</span>
       <span className="text-mute/60 mx-2.5">·</span>
-      {formatLongDate(article.publishedAt)}
-      <span className="text-mute/60 mx-2.5">·</span>
-      {article.readingTimeMinutes} min read
+      <span className="whitespace-nowrap">{article.readingTimeMinutes} min read</span>
     </div>
   );
 }
@@ -81,7 +93,6 @@ export default function HomePage() {
             className={`group no-underline border-none py-10 border-b border-ink/70 grid gap-x-10 max-[900px]:grid-cols-1 max-[900px]:gap-y-6 max-[640px]:py-7 ${
               hero ? 'grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' : 'grid-cols-1'
             }`}
-            style={{ display: 'grid' }}
           >
             <div className="min-w-0 self-center">
               <div className="mb-4">
