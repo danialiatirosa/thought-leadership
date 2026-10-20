@@ -4,6 +4,7 @@ export type CategoryId =
   | 'overall'
   | 'research'
   | 'students'
+  | 'schools'
   | 'teaching'
   | 'rankings'
   | 'policy'
@@ -74,6 +75,11 @@ export const CATEGORY_LABELS: Record<
     short: 'Students',
     blurb: 'Access, retention, mobility, outcomes.',
   },
+  schools: {
+    label: 'School Education',
+    short: 'School Education',
+    blurb: 'Learning outcomes, assessment and the systems that shape them.',
+  },
   teaching: {
     label: 'Teaching & Learning',
     short: 'Teaching',
@@ -105,6 +111,7 @@ export const CATEGORY_KEYS: CategoryId[] = [
   'overall',
   'research',
   'students',
+  'schools',
   'teaching',
   'rankings',
   'policy',
@@ -136,6 +143,12 @@ export const CATEGORY_HEADLINES: Record<CategoryId, CategoryHeadline> = {
     italic: 'why it matters',
     standfirst:
       'Access, retention, mobility, and the outcomes that define a system’s social return.',
+  },
+  schools: {
+    text: 'What students learn, and how we know.',
+    italic: 'how we know',
+    standfirst:
+      'Learning outcomes, international assessments such as PISA, and the policies that move them.',
   },
   teaching: {
     text: 'The classroom, reconsidered.',

@@ -25,6 +25,7 @@ export function Masthead({ date, articleSections, showWordmark = true }: Masthea
         <div className="mx-auto max-w-[1240px] px-8 py-5 flex items-center justify-center max-[640px]:px-5 max-[640px]:py-4">
           <Link
             href="/"
+            style={{ borderBottom: 'none' }}
             className="font-serif font-medium text-green text-[44px] leading-none -tracking-[0.8px] no-underline border-none max-[760px]:text-[34px] max-[640px]:text-[28px]"
           >
             The Index

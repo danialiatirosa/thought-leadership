@@ -67,7 +67,7 @@ function HeroFigure({ exhibit, compact = false }: { exhibit: HeroExhibit; compac
     <figure className="m-0">
       <figcaption className={compact ? 'mb-2' : 'mb-3'}>
         <div
-          className={`font-sans font-semibold text-ink leading-[1.3] ${compact ? 'text-[13px]' : 'text-[15px]'}`}
+          className="font-sans font-semibold text-ink leading-[1.3] text-[14px]"
         >
           {exhibit.heading}
         </div>
@@ -91,29 +91,41 @@ function heroFor(article: Article): HeroExhibit | null {
  * UAE's funding is missing. Illustrative shape, not data.
  */
 function ValleyOfDeathSketch() {
-  const x = (trl: number) => 40 + (trl - 1) * 65;
+  // Drawn on the same 1000 x 434 canvas, type sizes and greys as the
+  // stacked-area chart so the two cards read as one set.
+  const x = (trl: number) => 90 + (trl - 1) * 102.5;
+  const base = 304;
+  const tick = { fontSize: 19, fill: 'var(--color-ink-soft)' } as const;
   return (
-    <svg viewBox="0 0 600 250" role="img" aria-label="Illustrative valley of death curve across TRL 1 to 9, with a funding gap at TRL 4 to 6" className="block w-full h-auto font-sans">
-      <text x={14} y={130} transform="rotate(-90 14 130)" textAnchor="middle" fontSize={13} fill="var(--color-ink-soft)">Funding</text>
-      <rect x={x(4) - 20} y={20} width={x(6) - x(4) + 40} height={180} fill="var(--color-lime)" opacity={0.22} />
-      <text x={(x(4) + x(6)) / 2} y={40} textAnchor="middle" fontSize={15} fontWeight={600} fill="var(--color-ink)">
+    <svg
+      viewBox="0 0 1000 434"
+      role="img"
+      aria-label="Illustrative valley of death curve across TRL 1 to 9, with a funding gap at TRL 4 to 6"
+      className="block w-full h-auto font-sans"
+      fontFamily="Inter, sans-serif"
+    >
+      <rect x={x(3.6)} y={4} width={x(6.4) - x(3.6)} height={base - 4} fill="var(--color-lime)" opacity={0.3} />
+      <text x={(x(4) + x(6)) / 2} y={34} textAnchor="middle" fontSize={19} fontWeight={600} fill="var(--color-ink)">
         UAE funding gap
       </text>
       <path
-        d={`M${x(1)},60 C${x(2)},60 ${x(3)},75 ${x(4)},140 C${x(4.6)},178 ${x(5.4)},178 ${x(6)},140 C${x(7)},75 ${x(8)},60 ${x(9)},60`}
+        d={`M${x(1)},70 C${x(2)},70 ${x(3)},90 ${x(4)},190 C${x(4.6)},250 ${x(5.4)},250 ${x(6)},190 C${x(7)},90 ${x(8)},70 ${x(9)},70`}
         fill="none"
         stroke="var(--color-green)"
-        strokeWidth={4}
+        strokeWidth={5}
       />
-      <line x1={x(1)} x2={x(9)} y1={200} y2={200} stroke="var(--color-ink)" strokeOpacity={0.5} />
+      <line x1={x(1)} x2={x(9)} y1={base} y2={base} stroke="var(--color-ink-soft)" strokeWidth={1.5} />
+      <text x={30} y={base / 2} transform={`rotate(-90 30 ${base / 2})`} textAnchor="middle" {...tick}>
+        Funding
+      </text>
       {Array.from({ length: 9 }, (_, i) => (
-        <text key={i} x={x(i + 1)} y={222} textAnchor="middle" fontSize={15} fill="var(--color-ink-soft)">
+        <text key={i} x={x(i + 1)} y={base + 30} textAnchor="middle" {...tick}>
           {i + 1}
         </text>
       ))}
-      <text x={x(1)} y={246} fontSize={13} fill="var(--color-ink-soft)">Research</text>
-      <text x={(x(1) + x(9)) / 2} y={246} textAnchor="middle" fontSize={13} fill="var(--color-ink-soft)">Technology Readiness Level</text>
-      <text x={x(9)} y={246} textAnchor="end" fontSize={13} fill="var(--color-ink-soft)">Market</text>
+      <text x={x(1)} y={base + 72} {...tick}>Research</text>
+      <text x={x(5)} y={base + 72} textAnchor="middle" {...tick}>Technology Readiness Level</text>
+      <text x={x(9)} y={base + 72} textAnchor="end" {...tick}>Market</text>
     </svg>
   );
 }
@@ -270,10 +282,11 @@ export default function HomePage() {
                     Upcoming <span className="text-mute/60 mx-1.5">·</span> {u.category}
                   </Kicker>
                 </div>
-                <h3 className="font-serif font-medium text-ink/75 text-[28px] leading-[1.2] m-0 mb-2 [text-wrap:balance] max-[640px]:text-[24px]">
+                <h3 className="font-serif font-medium text-green text-[28px] leading-[1.2] m-0 mb-2 [text-wrap:balance] max-[640px]:text-[24px]">
                   {u.title}
                 </h3>
-                <p className="font-serif italic text-[17px] leading-[1.5] text-ink/70 m-0 max-w-[56ch]">{u.dek}</p>
+                <p className="font-serif italic text-[17px] leading-[1.5] text-ink/80 m-0 mb-3 max-w-[56ch]">{u.dek}</p>
+                <div className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute font-medium">In preparation</div>
               </div>
             ))}
           </section>
