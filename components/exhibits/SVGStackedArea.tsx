@@ -109,7 +109,11 @@ export function SVGStackedArea({
 
       <g transform="translate(70,420)" fontSize={19} fontFamily="Inter, sans-serif">
         {legend.map((l, i) => {
-          const x = i * 195;
+          // Even gaps between items: advance by swatch + estimated label width
+          // (Inter at 19px averages ~10.5px a character) + a fixed 44px gap.
+          const x = legend
+            .slice(0, i)
+            .reduce((acc, prev) => acc + 25 + prev.label.length * 10.5 + 44, 0);
           return (
             <g key={l.label}>
               <rect x={x} y={-15} width={17} height={17} fill={l.color} />

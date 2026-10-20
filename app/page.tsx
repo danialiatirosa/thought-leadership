@@ -98,7 +98,7 @@ export default function HomePage() {
               <div className="mb-4">
                 <Kicker>{CATEGORY_LABELS[lead.category]?.short ?? 'Latest brief'}</Kicker>
               </div>
-              <h2 className="font-serif font-medium text-green text-[44px] leading-[1.1] -tracking-[0.5px] m-0 mb-4 group-hover:text-green-mid transition-colors max-[640px]:text-[30px]">
+              <h2 className="font-serif font-medium text-green text-[38px] leading-[1.12] -tracking-[0.4px] [text-wrap:balance] m-0 mb-4 group-hover:text-green-mid transition-colors max-[640px]:text-[30px]">
                 {lead.title}
               </h2>
               <p className="font-serif italic text-[19px] leading-[1.5] text-ink/85 m-0 mb-5 max-w-[60ch] max-[640px]:text-[17px]">
