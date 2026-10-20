@@ -15,8 +15,7 @@ export const metadata: Metadata = {
  * magazine's issue page (Foreign Affairs, The Atlantic, the FT's Big Read).
  * Each brief is a full-width row: number, then label, headline and
  * standfirst, then its chart on the right, all hung from one top line. Calm,
- * and it scales to any number
- * of briefs without a lead to re-balance.
+ * and it scales to any number of briefs without a lead to re-balance.
  */
 export default function RuledListOption() {
   const stories = frontPageStories(getAllArticles());
