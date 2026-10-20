@@ -14,7 +14,8 @@ export const metadata: Metadata = {
  * Layout option C: a numbered, ruled contents list in the manner of a
  * magazine's issue page (Foreign Affairs, The Atlantic, the FT's Big Read).
  * Each brief is a full-width row: number, then label, headline and
- * standfirst, then its chart on the right. Calm, and it scales to any number
+ * standfirst, then its chart on the right, all hung from one top line. Calm,
+ * and it scales to any number
  * of briefs without a lead to re-balance.
  */
 export default function RuledListOption() {
@@ -22,10 +23,10 @@ export default function RuledListOption() {
 
   const row = (s: Story, i: number) => (
     <>
-      <div className="font-serif text-[44px] leading-none text-green-light/60 tabular-nums max-[760px]:hidden">
+      <div className="font-serif text-[40px] leading-[0.8] -mt-px text-green-light/60 tabular-nums max-[760px]:hidden">
         {String(i + 1).padStart(2, '0')}
       </div>
-      <div className="min-w-0 self-center">
+      <div className="min-w-0">
         <Kicker>{s.kicker}</Kicker>
         <h2 className="font-serif font-normal text-green text-[34px] leading-[1.12] [text-wrap:balance] m-0 mb-3 group-hover:text-green-mid transition-colors max-[640px]:text-[26px]">
           {s.title}
@@ -33,7 +34,7 @@ export default function RuledListOption() {
         <p className={`${DEK} max-w-[52ch]`}>{s.dek}</p>
         <Meta>{s.meta}</Meta>
       </div>
-      <div className="min-w-0 self-center max-[760px]:order-first">
+      <div className="min-w-0 max-[760px]:order-first">
         {s.pic ? <HeroFigure exhibit={s.pic} variant="card" /> : null}
       </div>
     </>
