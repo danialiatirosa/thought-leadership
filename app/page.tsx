@@ -5,7 +5,6 @@ import { Masthead } from '@/components/Masthead';
 import { Footer } from '@/components/Footer';
 import { SVGStackedArea } from '@/components/exhibits/SVGStackedArea';
 import { getAllArticles } from '@/lib/articles';
-import { formatLongDate } from '@/lib/format';
 import { CATEGORY_LABELS, type Article } from '@/types/article';
 import {
   stackedAreaPaths,
@@ -61,22 +60,29 @@ const HERO_EXHIBITS: Record<string, HeroExhibit> = {
   },
 };
 
-/** Chart with its heading; `compact` (secondary cards) drops the subtitle and source. */
-function HeroFigure({ exhibit, compact = false }: { exhibit: HeroExhibit; compact?: boolean }) {
+/**
+ * Chart with its heading. `full` (lead story) adds the subtitle and source;
+ * `card` keeps only the heading; `thumb` is the bare chart, used like a
+ * thumbnail picture beside a headline.
+ */
+function HeroFigure({
+  exhibit,
+  variant = 'full',
+}: {
+  exhibit: HeroExhibit;
+  variant?: 'full' | 'card' | 'thumb';
+}) {
+  if (variant === 'thumb') return <figure className="m-0">{exhibit.chart}</figure>;
   return (
     <figure className="m-0">
-      <figcaption className={compact ? 'mb-2' : 'mb-3'}>
-        <div
-          className="font-sans font-semibold text-ink leading-[1.3] text-[14px]"
-        >
-          {exhibit.heading}
-        </div>
-        {compact ? null : (
+      <figcaption className="mb-2">
+        <div className="font-sans font-semibold text-ink leading-[1.3] text-[14px]">{exhibit.heading}</div>
+        {variant === 'full' ? (
           <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">{exhibit.sub}</div>
-        )}
+        ) : null}
       </figcaption>
       {exhibit.chart}
-      {compact ? null : <div className="font-sans text-[11px] text-mute mt-2">{exhibit.source}</div>}
+      {variant === 'full' ? <div className="font-sans text-[11px] text-mute mt-2">{exhibit.source}</div> : null}
     </figure>
   );
 }
@@ -145,39 +151,40 @@ const UPCOMING: { title: string; dek: string; category: string; exhibit: HeroExh
   },
 ];
 
-/** Date and reading time. No author: every brief is by Tamkeen Policy and Strategy. */
-function Byline({ article }: { article: Article }) {
-  return (
-    <div className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute font-medium">
-      <span className="whitespace-nowrap">{formatLongDate(article.publishedAt)}</span>
-      <span className="text-mute/60 mx-2.5">·</span>
-      <span className="whitespace-nowrap">{article.readingTimeMinutes} min read</span>
-    </div>
-  );
+/** Reading time only, as on a newspaper front page; every brief is by Tamkeen Policy and Strategy. */
+function Meta({ children }: { children: ReactNode }) {
+  return <div className="font-sans text-[13px] text-mute">{children}</div>;
 }
 
+/** Section label above a headline: small, sentence case, in the accent colour. */
 function Kicker({ children }: { children: ReactNode }) {
-  return (
-    <div className="ui-caps font-sans text-[11px] tracking-[2px] uppercase text-green font-semibold">
-      {children}
-    </div>
-  );
+  return <div className="font-sans text-[14px] font-medium text-green mb-1.5">{children}</div>;
 }
 
+function categoryOf(a: Article): string {
+  return CATEGORY_LABELS[a.category]?.short ?? 'Brief';
+}
+
+/** Headline sizes: one per tier, used everywhere. */
+const HEADLINE = {
+  lead: 'font-serif font-normal text-green text-[38px] leading-[1.12] -tracking-[0.3px] [text-wrap:balance] m-0 mb-3 max-[640px]:text-[30px]',
+  side: 'font-serif font-normal text-green text-[26px] leading-[1.18] [text-wrap:balance] m-0 mb-2',
+  small: 'font-serif font-normal text-green text-[20px] leading-[1.25] [text-wrap:balance] m-0 mb-2',
+};
+const DEK = 'font-serif text-[17px] leading-[1.45] text-ink/85 m-0 mb-3';
+// The global a { border-bottom } rule is unlayered and beats Tailwind's border utilities.
+const NO_UNDERLINE = { borderBottom: 'none' } as const;
 
 /**
- * Front page, newspaper-style. The newest brief is the lead story (headline
- * and standfirst beside its chart); the next three sit in a ruled row of
- * cards below; anything older drops into a compact list. Slots only render
- * when there are articles to fill them.
+ * Front page on a newspaper grid (after The Economist): the lead story with
+ * its chart on top, the next briefs as text beside a chart thumbnail, and a
+ * "Coming up" rail. Anything older drops into a row of small cards below.
  */
 export default function HomePage() {
   const [lead, ...rest] = getAllArticles();
-  const secondary = rest.slice(0, 3);
-  const older = rest.slice(3);
-  const upcoming = UPCOMING.slice(0, Math.max(0, 3 - secondary.length));
-  const cardCount = secondary.length + upcoming.length;
-  const hero = lead ? heroFor(lead) : null;
+  const middle = rest.slice(0, 2);
+  const row = rest.slice(2, 6);
+  const leadPic = lead ? heroFor(lead) : null;
 
   return (
     <>
@@ -187,134 +194,96 @@ export default function HomePage() {
           Long-form, data-driven analysis on policy, capability, and strategy.
         </p>
 
-        {lead ? (
-          <Link
-            href={`/articles/${lead.slug}`}
-            // Inline because the global a { border-bottom } rule is unlayered and beats Tailwind's border utilities.
-            style={{ borderBottom: '1px solid color-mix(in srgb, var(--color-ink) 70%, transparent)' }}
-            className={`group no-underline border-none py-10 border-b border-ink/70 grid gap-x-10 max-[900px]:grid-cols-1 max-[900px]:gap-y-6 max-[640px]:py-7 ${
-              hero ? 'grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' : 'grid-cols-1'
-            }`}
-          >
-            <div className="min-w-0 self-center">
-              <div className="mb-4">
-                <Kicker>{CATEGORY_LABELS[lead.category]?.short ?? 'Latest brief'}</Kicker>
-              </div>
-              <h2 className="font-serif font-medium text-green text-[38px] leading-[1.12] -tracking-[0.4px] [text-wrap:balance] m-0 mb-4 group-hover:text-green-mid transition-colors max-[640px]:text-[30px]">
-                {lead.title}
-              </h2>
-              <p className="font-serif italic text-[19px] leading-[1.5] text-ink/85 m-0 mb-5 max-w-[60ch] max-[640px]:text-[17px]">
-                {lead.dek}
-              </p>
-              <Byline article={lead} />
-            </div>
-            {hero ? (
-              <div className="min-w-0 max-[900px]:order-first">
-                <HeroFigure exhibit={hero} />
-              </div>
-            ) : null}
-          </Link>
-        ) : null}
+        <div className="grid grid-cols-[minmax(0,5fr)_minmax(0,4fr)_minmax(0,3fr)] py-8 border-b border-ink/70 max-[1000px]:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] max-[640px]:grid-cols-1">
+          {lead ? (
+            <Link
+              href={`/articles/${lead.slug}`}
+              style={NO_UNDERLINE}
+              className="group block no-underline pr-8 border-r border-rule max-[640px]:pr-0 max-[640px]:border-r-0 max-[640px]:pb-8 max-[640px]:border-b"
+            >
+              {leadPic ? (
+                <div className="mb-5">
+                  <HeroFigure exhibit={leadPic} />
+                </div>
+              ) : null}
+              <Kicker>{categoryOf(lead)}</Kicker>
+              <h2 className={`${HEADLINE.lead} group-hover:text-green-mid transition-colors`}>{lead.title}</h2>
+              <p className={DEK}>{lead.dek}</p>
+              <Meta>{lead.readingTimeMinutes} min read</Meta>
+            </Link>
+          ) : null}
 
-        {cardCount > 0 ? (
-          <section
-            // As many columns as there are cards (up to three), so two briefs share the row evenly.
-            className={`grid py-8 border-b border-ink/70 max-[900px]:grid-cols-1 ${
-              ['', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3'][cardCount]
-            }`}
-          >
-            {secondary.map((a, i) => {
+          <div className="px-8 border-r border-rule min-w-0 max-[1000px]:border-r-0 max-[1000px]:pr-0 max-[640px]:px-0 max-[640px]:pt-8">
+            {middle.map((a, i) => {
               const pic = heroFor(a);
-              // A lone card sits text-left, chart-right; in a row of two or three
-              // the chart tops each card.
-              const solo = cardCount === 1;
               return (
                 <Link
                   key={a.slug}
                   href={`/articles/${a.slug}`}
-                  style={{ borderBottom: 'none' }}
-                  className={`group no-underline border-none px-6 first:pl-0 last:pr-0 max-[900px]:px-0 max-[900px]:py-6 ${
-                    i > 0 ? 'border-l border-rule max-[900px]:border-l-0 max-[900px]:border-t' : ''
-                  } ${
-                    solo && pic
-                      ? 'grid grid-cols-[minmax(0,7fr)_minmax(0,5fr)] gap-x-10 items-center max-[900px]:grid-cols-1 max-[900px]:gap-y-4'
-                      : 'block'
+                  style={NO_UNDERLINE}
+                  className={`group grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-x-5 items-start no-underline ${
+                    i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''
                   }`}
                 >
-                  {pic && !solo ? (
-                    <div className="mb-4">
-                      <HeroFigure exhibit={pic} compact />
-                    </div>
-                  ) : null}
                   <div className="min-w-0">
-                    <div className="mb-2">
-                      <Kicker>{CATEGORY_LABELS[a.category]?.short ?? 'Brief'}</Kicker>
-                    </div>
-                    <h3 className="font-serif font-medium text-green text-[28px] leading-[1.2] m-0 mb-2 [text-wrap:balance] group-hover:text-green-mid transition-colors max-[640px]:text-[24px]">
-                      {a.title}
-                    </h3>
-                    <p className="font-serif italic text-[17px] leading-[1.5] text-ink/80 m-0 mb-3 max-w-[56ch]">
-                      {a.dek}
-                    </p>
-                    <Byline article={a} />
+                    <Kicker>{categoryOf(a)}</Kicker>
+                    <h3 className={`${HEADLINE.side} group-hover:text-green-mid transition-colors`}>{a.title}</h3>
+                    <p className={DEK}>{a.dek}</p>
+                    <Meta>{a.readingTimeMinutes} min read</Meta>
                   </div>
-                  {pic && solo ? (
-                    <div className="min-w-0 max-[900px]:order-first">
-                      <HeroFigure exhibit={pic} compact />
+                  {pic ? (
+                    <div className="min-w-0 pt-1">
+                      <HeroFigure exhibit={pic} variant="thumb" />
                     </div>
                   ) : null}
                 </Link>
               );
             })}
-            {upcoming.map((u, j) => (
+          </div>
+
+          <aside className="pl-8 min-w-0 max-[1000px]:col-span-2 max-[1000px]:pl-0 max-[1000px]:mt-8 max-[1000px]:pt-8 max-[1000px]:border-t max-[1000px]:border-rule max-[640px]:col-span-1">
+            <div className="pb-2 mb-4 border-b-2 border-ink font-sans text-[13px] font-semibold uppercase tracking-[1.5px] text-ink">
+              Coming up
+            </div>
+            {UPCOMING.map((u, i) => (
               // Not a link: the brief is not published yet.
-              <div
-                key={u.title}
-                className={`block px-6 first:pl-0 last:pr-0 max-[900px]:px-0 max-[900px]:py-6 ${
-                  secondary.length + j > 0 ? 'border-l border-rule max-[900px]:border-l-0 max-[900px]:border-t' : ''
-                }`}
-              >
-                <div className="mb-4">
-                  <HeroFigure exhibit={u.exhibit} compact />
+              <div key={u.title} className={i > 0 ? 'mt-6 pt-6 border-t border-rule' : ''}>
+                <div className="mb-3">
+                  <HeroFigure exhibit={u.exhibit} variant="card" />
                 </div>
-                <div className="mb-2">
-                  <Kicker>
-                    Upcoming <span className="text-mute/60 mx-1.5">·</span> {u.category}
-                  </Kicker>
-                </div>
-                <h3 className="font-serif font-medium text-green text-[28px] leading-[1.2] m-0 mb-2 [text-wrap:balance] max-[640px]:text-[24px]">
-                  {u.title}
-                </h3>
-                <p className="font-serif italic text-[17px] leading-[1.5] text-ink/80 m-0 mb-3 max-w-[56ch]">{u.dek}</p>
-                <div className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute font-medium">In preparation</div>
+                <Kicker>{u.category}</Kicker>
+                <h3 className={HEADLINE.small}>{u.title}</h3>
+                <p className={DEK}>{u.dek}</p>
+                <Meta>In preparation</Meta>
               </div>
             ))}
-          </section>
-        ) : null}
+          </aside>
+        </div>
 
-        {older.length > 0 ? (
-          <section className="py-8 border-b border-ink/70">
-            <div className="pb-3 mb-1 border-b-2 border-ink">
-              <Kicker>More from The Index</Kicker>
-            </div>
-            <ol className="list-none m-0 p-0">
-              {older.map((a) => (
-                <li key={a.slug} className="border-b border-rule last:border-b-0">
-                  <Link
-                    href={`/articles/${a.slug}`}
-                    style={{ borderBottom: 'none' }}
-                    className="flex items-baseline justify-between gap-6 py-4 group no-underline border-none max-[640px]:flex-col max-[640px]:gap-1"
-                  >
-                    <span className="font-serif text-[20px] leading-[1.3] text-green group-hover:text-green-mid transition-colors">
-                      {a.title}
-                    </span>
-                    <span className="ui-caps font-sans text-[11px] tracking-[1.5px] uppercase text-mute whitespace-nowrap">
-                      {formatLongDate(a.publishedAt)}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ol>
+        {row.length > 0 ? (
+          <section className="grid grid-cols-4 py-8 border-b border-ink/70 max-[1000px]:grid-cols-2 max-[640px]:grid-cols-1 max-[640px]:gap-y-6">
+            {row.map((a, i) => {
+              const pic = heroFor(a);
+              return (
+                <Link
+                  key={a.slug}
+                  href={`/articles/${a.slug}`}
+                  style={NO_UNDERLINE}
+                  className={`group block no-underline px-5 first:pl-0 last:pr-0 max-[640px]:px-0 ${
+                    i > 0 ? 'border-l border-rule max-[640px]:border-l-0' : ''
+                  }`}
+                >
+                  {pic ? (
+                    <div className="mb-3">
+                      <HeroFigure exhibit={pic} variant="thumb" />
+                    </div>
+                  ) : null}
+                  <Kicker>{categoryOf(a)}</Kicker>
+                  <h3 className={`${HEADLINE.small} group-hover:text-green-mid transition-colors`}>{a.title}</h3>
+                  <Meta>{a.readingTimeMinutes} min read</Meta>
+                </Link>
+              );
+            })}
           </section>
         ) : null}
       </main>
