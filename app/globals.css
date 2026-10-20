@@ -86,6 +86,8 @@
    * chart code; both resolve to the same lime.
    */
   --color-lime: #A7B241;
+  /* Theme labels above headlines: a deep olive from the lime family, 5.1:1 on paper. */
+  --color-olive: #66701C;
   --color-copper: #A7B241;
 
   --color-ink: #494642;

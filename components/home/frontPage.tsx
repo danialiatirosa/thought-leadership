@@ -184,7 +184,7 @@ export const UPCOMING: { title: string; dek: string; category: string; exhibit: 
   {
     title: 'Research Commercialization in the UAE',
     dek: 'UAE outlook for research commercialization, what best-in-class ecosystems are doing and the way forward for UAE',
-    category: 'Research',
+    category: CATEGORY_LABELS.research.short,
     exhibit: {
       heading: 'The ‘valley of death’: UAE funding runs dry between lab and market (TRL 4–6)',
       sub: 'Funding across Technology Readiness Levels 1 to 9 (illustrative)',
@@ -202,7 +202,7 @@ export function Meta({ children }: { children: ReactNode }) {
 
 /** Section label above a headline: small, sentence case, in the accent colour. */
 export function Kicker({ children }: { children: ReactNode }) {
-  return <div className="font-sans text-[14px] font-medium text-green mb-1.5">{children}</div>;
+  return <div className="font-sans text-[14px] font-semibold text-olive mb-1.5">{children}</div>;
 }
 
 export function categoryOf(a: Article): string {

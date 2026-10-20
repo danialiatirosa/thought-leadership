@@ -1,15 +1,10 @@
 export type ArticleStatus = 'draft' | 'published';
 
-export type CategoryId =
-  | 'overall'
-  | 'research'
-  | 'students'
-  | 'schools'
-  | 'teaching'
-  | 'rankings'
-  | 'policy'
-  | 'global'
-  | 'industry';
+/**
+ * The publication's five themes. Every brief is filed under exactly one; the
+ * theme name is the label shown above its headline.
+ */
+export type CategoryId = 'schools' | 'higher-education' | 'research' | 'ai-in-education' | 'skills';
 
 export interface Author {
   id: string;
@@ -56,68 +51,35 @@ export interface Article extends ArticleFrontmatter {
   resolvedAuthors: Author[];
 }
 
-export const CATEGORY_LABELS: Record<
-  CategoryId,
-  { label: string; short: string; blurb: string }
-> = {
-  overall: {
-    label: 'Overall',
-    short: 'Overall',
-    blurb: 'The system at a glance.',
+export const CATEGORY_LABELS: Record<CategoryId, { label: string; short: string; blurb: string }> = {
+  schools: {
+    label: 'Schools',
+    short: 'Schools',
+    blurb: 'Learning outcomes, assessment and the school systems that shape them.',
+  },
+  'higher-education': {
+    label: 'Higher Education',
+    short: 'Higher Education',
+    blurb: 'Universities, rankings, access and the strategies behind them.',
   },
   research: {
-    label: 'Research',
-    short: 'Research',
-    blurb: 'Output, citations, and the architecture of discovery.',
+    label: 'Research & Innovation',
+    short: 'Research & Innovation',
+    blurb: 'Research output, funding and the path from lab to market.',
   },
-  students: {
-    label: 'Students',
-    short: 'Students',
-    blurb: 'Access, retention, mobility, outcomes.',
+  'ai-in-education': {
+    label: 'AI in Education',
+    short: 'AI in Education',
+    blurb: 'How AI is changing teaching, learning and assessment.',
   },
-  schools: {
-    label: 'School Education',
-    short: 'School Education',
-    blurb: 'Learning outcomes, assessment and the systems that shape them.',
-  },
-  teaching: {
-    label: 'Teaching & Learning',
-    short: 'Teaching',
-    blurb: 'Pedagogy, assessment, the classroom under change.',
-  },
-  rankings: {
-    label: 'Rankings & Strategy',
-    short: 'Rankings',
-    blurb: 'How the leagues are scored, and what they reward.',
-  },
-  policy: {
-    label: 'Policy & Funding',
-    short: 'Policy',
-    blurb: 'Regulation, finance, and the levers of reform.',
-  },
-  global: {
-    label: 'Global / International',
-    short: 'Global',
-    blurb: 'Mobility, partnerships, the cross-border footprint.',
-  },
-  industry: {
-    label: 'Industry & Employability',
-    short: 'Industry',
-    blurb: 'From lecture hall to labour market.',
+  skills: {
+    label: 'Skills & Workforce',
+    short: 'Skills & Workforce',
+    blurb: 'Graduate outcomes, talent and the labour market.',
   },
 };
 
-export const CATEGORY_KEYS: CategoryId[] = [
-  'overall',
-  'research',
-  'students',
-  'schools',
-  'teaching',
-  'rankings',
-  'policy',
-  'global',
-  'industry',
-];
+export const CATEGORY_KEYS: CategoryId[] = ['schools', 'higher-education', 'research', 'ai-in-education', 'skills'];
 
 export interface CategoryHeadline {
   text: string;
@@ -126,58 +88,29 @@ export interface CategoryHeadline {
 }
 
 export const CATEGORY_HEADLINES: Record<CategoryId, CategoryHeadline> = {
-  overall: {
-    text: 'An independent publication on schools and universities.',
-    italic: 'independent',
-    standfirst:
-      'Eight categories, one editorial standard. The annual review collects the year’s briefs and the patterns across them.',
-  },
-  research: {
-    text: 'The architecture of discovery.',
-    italic: 'discovery',
-    standfirst:
-      'Output, citations, infrastructure, and the funding regimes that shape what universities know.',
-  },
-  students: {
-    text: 'Who studies, where, and why it matters.',
-    italic: 'why it matters',
-    standfirst:
-      'Access, retention, mobility, and the outcomes that define a system’s social return.',
-  },
   schools: {
     text: 'What students learn, and how we know.',
     italic: 'how we know',
-    standfirst:
-      'Learning outcomes, international assessments such as PISA, and the policies that move them.',
+    standfirst: 'Learning outcomes, international assessments such as PISA, and the policies that move them.',
   },
-  teaching: {
-    text: 'The classroom, reconsidered.',
-    italic: 'reconsidered',
-    standfirst:
-      'Pedagogy, assessment, and the technologies pressing the lecture hall to evolve.',
+  'higher-education': {
+    text: 'How universities compete, and what it rewards.',
+    italic: 'what it rewards',
+    standfirst: 'Rankings, research strength, access and the national strategies behind them.',
   },
-  rankings: {
-    text: 'How the leagues are scored, and what they reward.',
-    italic: 'scored',
-    standfirst:
-      'A standing watch on QS, THE, ARWU, and the methodology choices that shape the global picture of higher education.',
+  research: {
+    text: 'From discovery to market.',
+    italic: 'to market',
+    standfirst: 'Research output, funding and the commercialization that turns it into value.',
   },
-  policy: {
-    text: 'The levers of reform.',
-    italic: 'reform',
-    standfirst:
-      'Regulation, finance, accreditation, and the political economy of system change.',
+  'ai-in-education': {
+    text: 'Learning alongside machines.',
+    italic: 'alongside machines',
+    standfirst: 'AI in classrooms and universities: what helps, what harms and what to measure.',
   },
-  global: {
-    text: 'The cross-border footprint.',
-    italic: 'footprint',
-    standfirst:
-      'Mobility, partnerships, branch campuses, and the diplomatic geography of universities.',
-  },
-  industry: {
-    text: 'From lecture hall to labour market.',
-    italic: 'labour market',
-    standfirst:
-      'Skills mismatch, graduate outcomes, and the institutions that bridge the gap.',
+  skills: {
+    text: 'From education to work.',
+    italic: 'to work',
+    standfirst: 'Graduate outcomes, talent pipelines and the skills the economy needs.',
   },
 };
