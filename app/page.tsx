@@ -45,6 +45,27 @@ const HERO_EXHIBITS: Record<string, ReactNode> = {
       </div>
     </figure>
   ),
+  'pisa-trend': (
+    <figure className="m-0">
+      <figcaption className="mb-3">
+        <div className="font-sans text-[15px] font-semibold text-ink leading-[1.3]">
+          UAE scores are still below OECD average but improved in all subjects
+        </div>
+        <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">
+          UAE and OECD average performance in PISA, 2012 to 2025
+        </div>
+      </figcaption>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/articles/pisa-2025/uae-oecd-trend-2012-2025.png"
+        alt="Line charts of UAE and OECD average PISA scores in science, mathematics and reading, 2012 to 2025"
+        width={2040}
+        height={690}
+        className="block w-full h-auto"
+      />
+      <div className="font-sans text-[11px] text-mute mt-2">Source: OECD, PISA 2012 to 2025</div>
+    </figure>
+  ),
 };
 
 /** Date and reading time. No author: every brief is by Tamkeen Policy and Strategy. */
