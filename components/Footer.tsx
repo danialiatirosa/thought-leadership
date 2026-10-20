@@ -1,7 +1,7 @@
 /**
  * Minimalist footer. Wordmark + copyright. No utility nav links.
  */
-export function Footer({ showWordmark = true }: { showWordmark?: boolean } = {}) {
+export function Footer({ showWordmark = false }: { showWordmark?: boolean } = {}) {
   return (
     <footer className="mt-24 border-t border-green/30">
       <div className="mx-auto max-w-[1240px] px-8 py-10 flex flex-col gap-5 max-[640px]:px-5 max-[640px]:py-8">
