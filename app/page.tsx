@@ -25,6 +25,8 @@ interface HeroExhibit {
   sub: string;
   source: string;
   chart: ReactNode;
+  /** Simplified version for small slots (big labels, no legend); falls back to `chart`. */
+  thumb?: ReactNode;
 }
 
 /** Front-page pictures, keyed by an article's `heroExhibit` frontmatter. Each
@@ -43,6 +45,7 @@ const HERO_EXHIBITS: Record<string, HeroExhibit> = {
         inlineLabels={stackedAreaInlineLabels}
       />
     ),
+    thumb: <RegionShareThumb />,
   },
   'pisa-scores': {
     heading: 'UAE scores are still below OECD average but improved in all subjects',
@@ -64,7 +67,7 @@ function HeroFigure({
   exhibit: HeroExhibit;
   variant?: 'full' | 'card' | 'thumb';
 }) {
-  if (variant === 'thumb') return <figure className="m-0">{exhibit.chart}</figure>;
+  if (variant === 'thumb') return <figure className="m-0">{exhibit.thumb ?? exhibit.chart}</figure>;
   return (
     <figure className="m-0">
       <figcaption className="mb-2">
@@ -73,7 +76,7 @@ function HeroFigure({
           <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">{exhibit.sub}</div>
         ) : null}
       </figcaption>
-      {exhibit.chart}
+      {variant === 'card' ? (exhibit.thumb ?? exhibit.chart) : exhibit.chart}
       {variant === 'full' ? <div className="font-sans text-[11px] text-mute mt-2">{exhibit.source}</div> : null}
     </figure>
   );
@@ -128,6 +131,60 @@ function ValleyOfDeathSketch() {
   );
 }
 
+/*
+ * Small-slot chart versions. A full chart shrunk to a third of its width
+ * leaves 6px type, so these are drawn for the slot instead: big labels set
+ * inside the shapes, start and end only, no legend or gridlines.
+ */
+const THUMB_LABEL = { fontFamily: 'Inter, sans-serif', fontWeight: 600 } as const;
+
+/** Share of the THE Top 100 by region, 2016 to 2027 (same paths as the article's chart). */
+function RegionShareThumb() {
+  return (
+    <div>
+      <svg viewBox="0 -4 820 308" role="img" aria-label="Share of the THE Top 100 by region, 2016 to 2027: Asia's band widens while North America and Europe narrow" className="block w-full h-auto">
+        {stackedAreaPaths.map((p, i) => (
+          <path key={i} d={p.d} fill={p.fill} />
+        ))}
+        <text x={24} y={250} fontSize={46} fill="var(--color-paper)" {...THUMB_LABEL}>North America</text>
+        <text x={24} y={125} fontSize={46} fill="var(--color-paper)" {...THUMB_LABEL}>Europe</text>
+        <text x={800} y={62} fontSize={40} textAnchor="end" fill="var(--color-ink)" {...THUMB_LABEL}>Asia</text>
+      </svg>
+      <div className="flex justify-between font-sans text-[12px] text-mute mt-1">
+        <span>2016</span>
+        <span>2027</span>
+      </div>
+    </div>
+  );
+}
+
+/** Funding across TRL 1 to 9, dipping at TRL 4 to 6. Illustrative shape. */
+function ValleyOfDeathThumb() {
+  const x = (trl: number) => 20 + (trl - 1) * 70;
+  return (
+    <div>
+      <svg viewBox="0 0 600 230" role="img" aria-label="Funding across Technology Readiness Levels 1 to 9, dipping at TRL 4 to 6 where UAE funding is missing" className="block w-full h-auto">
+        <rect x={x(3.6)} y={0} width={x(6.4) - x(3.6)} height={220} fill="var(--color-lime)" opacity={0.3} />
+        <text x={x(5)} y={40} fontSize={30} textAnchor="middle" fill="var(--color-ink)" {...THUMB_LABEL}>
+          Funding gap
+        </text>
+        <path
+          d={`M${x(1)},60 C${x(2)},60 ${x(3)},80 ${x(4)},150 C${x(4.6)},195 ${x(5.4)},195 ${x(6)},150 C${x(7)},80 ${x(8)},60 ${x(9)},60`}
+          fill="none"
+          stroke="var(--color-green)"
+          strokeWidth={6}
+        />
+        <line x1={x(1)} x2={x(9)} y1={220} y2={220} stroke="var(--color-ink-soft)" strokeWidth={2} />
+      </svg>
+      <div className="flex justify-between font-sans text-[12px] text-mute mt-1">
+        <span>TRL 1 · Research</span>
+        <span>TRL 4–6</span>
+        <span>TRL 9 · Market</span>
+      </div>
+    </div>
+  );
+}
+
 /** Briefs in preparation: shown as unlinked cards after the published ones. */
 const UPCOMING: { title: string; dek: string; category: string; exhibit: HeroExhibit }[] = [
   {
@@ -139,6 +196,7 @@ const UPCOMING: { title: string; dek: string; category: string; exhibit: HeroExh
       sub: 'Funding across Technology Readiness Levels 1 to 9 (illustrative)',
       source: 'Illustrative',
       chart: <ValleyOfDeathSketch />,
+      thumb: <ValleyOfDeathThumb />,
     },
   },
 ];
