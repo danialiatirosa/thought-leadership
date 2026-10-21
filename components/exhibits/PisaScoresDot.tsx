@@ -2,8 +2,8 @@
  * UAE PISA 2025 against 2022 and the OECD average, one row per subject
  * (redrawn from the brief's Word chart in the site's palette). Scores are
  * from the brief; each 2022 dot sits at the 2025 score minus the reported
- * gain and carries the gain rather than its own score. Markers are labelled
- * directly on the first row, so there is no legend or axis.
+ * gain and carries the gain rather than its own score. A key sits above the
+ * rows, matching the brief's chart; there is no axis.
  */
 interface Row {
   subject: string;
@@ -37,22 +37,19 @@ export function PisaScoresDot() {
       className="block w-full h-auto font-sans"
       fontFamily="Inter, sans-serif"
     >
+      <g fontSize={12.5} fill={muted}>
+        <circle cx={X0 + 6} cy={18} r={6} fill="var(--color-rule)" />
+        <text x={X0 + 19} y={22.5}>UAE 2022</text>
+        <circle cx={X0 + 110} cy={18} r={8} fill="var(--color-green)" />
+        <text x={X0 + 125} y={22.5}>UAE 2025</text>
+        <rect x={X0 + 212.5} y={7} width={3} height={22} fill="var(--color-ink)" />
+        <text x={X0 + 225} y={22.5}>OECD average 2025</text>
+      </g>
       {ROWS.map((r, i) => {
         const y = TOP + i * ROW_H;
         const from = r.uae - r.gain;
-        const first = i === 0;
         return (
           <g key={r.subject}>
-            {first ? (
-              <g fontSize={12} fill={muted} textAnchor="middle">
-                <text x={x(from)} y={y - 34}>UAE 2022</text>
-                <text x={x(r.uae)} y={y - 34} fill="var(--color-green)" fontWeight={600}>
-                  UAE 2025
-                </text>
-                <text x={x(r.oecd)} y={y - 34}>OECD average</text>
-              </g>
-            ) : null}
-
             <text x={X0 - 16} y={y + 5} textAnchor="end" fontSize={14} fill="var(--color-ink)">
               {r.subject}
             </text>

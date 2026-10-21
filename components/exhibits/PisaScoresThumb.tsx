@@ -25,11 +25,11 @@ export function PisaScoresThumb() {
     >
       <g fontSize={12} fill="var(--color-ink-soft)">
         <circle cx={X0 + 4} cy={12} r={4} fill="var(--color-rule)" />
-        <text x={X0 + 12} y={16}>2022</text>
-        <circle cx={X0 + 52} cy={12} r={5} fill="var(--color-green)" />
-        <text x={X0 + 61} y={16}>2025</text>
-        <rect x={X0 + 104} y={4} width={2.5} height={16} fill="var(--color-ink)" />
-        <text x={X0 + 112} y={16}>OECD average</text>
+        <text x={X0 + 12} y={16}>UAE 2022</text>
+        <circle cx={X0 + 77} cy={12} r={5} fill="var(--color-green)" />
+        <text x={X0 + 86} y={16}>UAE 2025</text>
+        <rect x={X0 + 152} y={4} width={2.5} height={16} fill="var(--color-ink)" />
+        <text x={X0 + 160} y={16}>OECD average 2025</text>
       </g>
       {ROWS.map((r, i) => {
         const y = 56 + i * 50;
