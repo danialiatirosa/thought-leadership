@@ -41,8 +41,8 @@ export const HERO_EXHIBITS: Record<string, HeroExhibit> = {
     thumb: <RegionShareThumb />,
   },
   'pisa-scores': {
-    sub: 'UAE performance in PISA 2025 against the OECD average',
-    source: 'Source: OECD, PISA 2025',
+    sub: 'UAE performance in PISA 2025 against 2022 and the OECD average',
+    source: 'Source: OECD, PISA 2022 and 2025',
     chart: <PisaScoresDot />,
     thumb: <PisaScoresThumb />,
   },
