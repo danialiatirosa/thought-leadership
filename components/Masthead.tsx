@@ -24,16 +24,16 @@ export function Masthead({ date, articleSections, showWordmark = true, tagline }
       <Folio date={date} />
       {showWordmark ? (
       <div className="border-b border-green/20 bg-paper">
-        <div className="mx-auto max-w-[1240px] px-8 py-5 flex flex-col items-center justify-center max-[640px]:px-5 max-[640px]:py-4">
+        <div className="mx-auto max-w-[1240px] px-8 py-3 flex flex-col items-center justify-center max-[640px]:px-5 max-[640px]:py-2.5">
           <Link
             href="/"
             style={{ borderBottom: 'none' }}
-            className="font-serif font-medium text-green text-[44px] leading-none -tracking-[0.8px] no-underline border-none max-[760px]:text-[34px] max-[640px]:text-[28px]"
+            className="font-serif font-medium text-green text-[36px] leading-none -tracking-[0.8px] no-underline border-none max-[760px]:text-[30px] max-[640px]:text-[26px]"
           >
             The Index
           </Link>
           {tagline ? (
-            <p className="m-0 mt-2 font-serif italic text-[16px] text-mute text-center max-[640px]:text-[14px]">{tagline}</p>
+            <p className="m-0 mt-1 font-serif italic text-[15px] text-mute text-center max-[640px]:text-[14px]">{tagline}</p>
           ) : null}
         </div>
       </div>
