@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'The Index',
-  description: 'Long-form, data-driven analysis on policy, capability, and strategy.',
+  description: 'Evidence-led analysis of education, research and talent, in the UAE and globally.',
   alternates: { canonical: '/' },
 };
 
@@ -67,7 +67,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Masthead tagline="Long-form, data-driven analysis on policy, capability, and strategy." />
+      <Masthead tagline="Evidence-led analysis of education, research and talent, in the UAE and globally." />
       <main id="main-content" className="mx-auto max-w-[1240px] px-8 pt-8 max-[640px]:px-5">
 
         <div className={`grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] pt-2 pb-10 max-[900px]:grid-cols-1 ${row.length > 0 ? 'border-b border-ink/70' : ''}`}>
