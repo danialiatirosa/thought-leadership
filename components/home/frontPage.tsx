@@ -14,7 +14,7 @@ import {
 /* Shared building blocks for the front page and its layout options. */
 
 export interface HeroExhibit {
-  heading: string;
+  heading?: string;
   sub: string;
   source: string;
   chart: ReactNode;
@@ -41,7 +41,6 @@ export const HERO_EXHIBITS: Record<string, HeroExhibit> = {
     thumb: <RegionShareThumb />,
   },
   'pisa-scores': {
-    heading: 'UAE scores are still below OECD average but improved in all subjects',
     sub: 'UAE performance in PISA 2025 against 2022, Dubai 2025 and the OECD average',
     source: 'Source: OECD, PISA 2022 and 2025',
     chart: <PisaScoresDot />,
@@ -65,7 +64,9 @@ export function HeroFigure({
   return (
     <figure className="m-0">
       <figcaption className="mb-2">
-        <div className="font-sans font-semibold text-ink leading-[1.3] text-[14px]">{exhibit.heading}</div>
+        {exhibit.heading ? (
+          <div className="font-sans font-semibold text-ink leading-[1.3] text-[14px]">{exhibit.heading}</div>
+        ) : null}
         {variant === 'full' ? (
           <div className="font-sans text-[13px] text-mute leading-[1.4] mt-0.5">{exhibit.sub}</div>
         ) : null}
