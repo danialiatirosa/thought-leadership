@@ -1,12 +1,11 @@
 import type { MetadataRoute } from 'next';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tamkeen-thought-leadership.vercel.app';
-
 export default function robots(): MetadataRoute.Robots {
   return {
-    // /edit and its API are publicly reachable by design (the password is the
-    // control), but there is no reason to advertise them to crawlers.
+    // The site is link-only: every page sends noindex (layout metadata and the
+    // X-Robots-Tag header in next.config.mjs). Crawling stays allowed so search
+    // engines can read that noindex; a Disallow would hide it and a blocked URL
+    // can still be listed from links elsewhere. No sitemap is advertised.
     rules: [{ userAgent: '*', allow: '/', disallow: ['/edit', '/api/'] }],
-    sitemap: `${BASE_URL}/sitemap.xml`,
   };
 }

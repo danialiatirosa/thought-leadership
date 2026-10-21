@@ -5,6 +5,16 @@ import remarkFrontmatter from 'remark-frontmatter';
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
   reactStrictMode: true,
+  async headers() {
+    return [
+      // Link-only site: tell search engines not to index anything, including
+      // images and PDFs that the page metadata doesn't cover.
+      {
+        source: '/:path*',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive' }],
+      },
+    ];
+  },
   async redirects() {
     return [
       // The category taxonomy was removed. Anything still pointing at

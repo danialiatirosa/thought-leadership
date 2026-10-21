@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     locale: 'en_GB',
   },
   twitter: { card: 'summary_large_image' },
+  // Link-only site: keep every page out of search engines.
+  robots: { index: false, follow: false, nocache: true },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
