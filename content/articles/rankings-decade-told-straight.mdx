@@ -30,6 +30,7 @@ import {
 } from './rankings-decade-told-straight.data';
 
 import top20ByYear from '@/content/data/the-top20-by-year.json';
+import scoreThresholds from '@/content/data/score-thresholds.json';
 
 import { ArticleSection } from '@/components/ArticleLayout';
 import { ArticleMeta } from '@/components/ArticleMeta';
@@ -236,6 +237,18 @@ Qatar's Hamad Bin Khalifa University, which debuted on THE in 2027 at rank 126, 
 
 <p style={{ marginTop: 32 }}>
 <strong>The universities that climbed are the ones whose governments committed to sustained funding, paired with strong accountability mechanisms.</strong>
+</p>
+
+<Exhibit
+  title="The score needed for a given rank has risen on both tables."
+  sub="Overall score of the university at a given rank, QS and Times Higher Education, 2016 to 2027. Choose a rank, or enter a score to see where it would have ranked each year. Dashed lines mark methodology changes."
+  source="Source: QS World University Rankings 2017 to 2027; THE World University Rankings 2016 to 2027; authors’ analysis. THE publishes exact scores to 200th place (300th in 2027)."
+>
+  <ScoreThreshold data={scoreThresholds} />
+</Exhibit>
+
+<p style={{ marginTop: 32 }}>
+<strong>A score that once secured a top-100 place no longer does.</strong> Both publishers convert each university's results into scores relative to the other universities ranked that year, so a score shows where a university stands in that edition rather than a fixed level of performance. On THE, the score at 100th place rose steadily from 58.0 in 2016 to 63.4 in 2023, before any rule change, then jumped to 66.7 with THE's 2024 rewrite; it stood at 66.6 in 2027. On QS, it stayed between 58 and 65 from 2017 to 2025, then rose to 68.5 in 2026, when QS changed how it normalises scores, even though rankings themselves moved no more than usual that year. A university can therefore keep the same score and still slip down the table, without its own performance having declined. The rise alone does not show that universities improved; scores are measured against the field ranked each year, and both the methods and the field have changed.
 </p>
 
 </ArticleSection>
